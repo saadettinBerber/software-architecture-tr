@@ -9,7 +9,7 @@ window.TOC = {
   },
   "bookTotalPages": 399,
   "pdfOffset": 20,
-  "lastTranslatedPage": 24,
+  "lastTranslatedPage": 27,
   "chapters": [
     {
       "num": 1,
@@ -450,6 +450,39 @@ window.TOC = {
     },
     "22": {
       "blank": true
+    },
+    "25": {
+      "title": {
+        "en": "Technical Breadth",
+        "tr": "Teknik Genişlik"
+      },
+      "section": {
+        "en": "Technical Breadth",
+        "tr": "Teknik Genişlik"
+      },
+      "chapter": 2
+    },
+    "26": {
+      "title": {
+        "en": "The Knowledge Pyramid",
+        "tr": "Bilgi Piramidi"
+      },
+      "section": {
+        "en": "Technical Breadth",
+        "tr": "Teknik Genişlik"
+      },
+      "chapter": 2
+    },
+    "27": {
+      "title": {
+        "en": "Technical Depth and Expertise",
+        "tr": "Teknik Derinlik ve Uzmanlık"
+      },
+      "section": {
+        "en": "Technical Breadth",
+        "tr": "Teknik Genişlik"
+      },
+      "chapter": 2
     }
   }
 };

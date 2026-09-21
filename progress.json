@@ -26,7 +26,7 @@
     "header_at_bottom": true,
     "chapter_label_pattern": "^CHAPTER (\\d+)$"
   },
-  "last_translated_page": 24,
+  "last_translated_page": 27,
   "chapters": [
     {
       "num": 1,
@@ -373,6 +373,30 @@
     "22": {
       "blank": true,
       "pdf_page": 42
+    },
+    "25": {
+      "pdf_page": 45,
+      "chapter": 2,
+      "title_en": "Technical Breadth",
+      "title_tr": "Teknik Genişlik",
+      "section_en": "Technical Breadth",
+      "section_tr": "Teknik Genişlik"
+    },
+    "26": {
+      "pdf_page": 46,
+      "chapter": 2,
+      "title_en": "The Knowledge Pyramid",
+      "title_tr": "Bilgi Piramidi",
+      "section_en": "Technical Breadth",
+      "section_tr": "Teknik Genişlik"
+    },
+    "27": {
+      "pdf_page": 47,
+      "chapter": 2,
+      "title_en": "Technical Depth and Expertise",
+      "title_tr": "Teknik Derinlik ve Uzmanlık",
+      "section_en": "Technical Breadth",
+      "section_tr": "Teknik Genişlik"
     }
   }
 }

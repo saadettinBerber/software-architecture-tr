@@ -230,6 +230,11 @@ window.GLOSSARY = [
     "note": ""
   },
   {
+    "en": "collaboration",
+    "tr": "iş birliği",
+    "note": "mimar ile geliştirme ekibi arasındaki yakın çalışma"
+  },
+  {
     "en": "comfort zone",
     "tr": "konfor alanı",
     "note": "beceri/sorumluluk bağlamında"
@@ -405,6 +410,11 @@ window.GLOSSARY = [
     "note": "Doğal evrim süreçlerinden esinlenen hesaplama alanı."
   },
   {
+    "en": "expertise",
+    "tr": "uzmanlık",
+    "note": "Bir konudaki derin bilgi ve beceri; piramidin tepesindeki bilgi düzeyi."
+  },
+  {
     "en": "external data storage",
     "tr": "harici veri depolama",
     "note": "Uygulama dışında barındırılan veri deposu (veritabanı vb.)."
@@ -510,6 +520,11 @@ window.GLOSSARY = [
     "note": "mimarlardan beklenen iletişim ve iş birliği becerileri; 'possess interpersonal skills' beklentisi"
   },
   {
+    "en": "iteration",
+    "tr": "yineleme",
+    "note": "bir projenin tekrarlanan geliştirme çevrimi"
+  },
+  {
     "en": "iterative",
     "tr": "yinelemeli",
     "note": ""
@@ -523,6 +538,16 @@ window.GLOSSARY = [
     "en": "iterative process",
     "tr": "yinelemeli süreç",
     "note": "Her adımda geri bildirim alarak art arda ilerleyen süreç."
+  },
+  {
+    "en": "knowledge pyramid",
+    "tr": "bilgi piramidi",
+    "note": "bilgiyi; bilinen, bilinmediği bilinen ve bilinmediği bilinmeyen olarak ayıran model; Şekil 2-3"
+  },
+  {
+    "en": "knowledge triangle",
+    "tr": "bilgi üçgeni",
+    "note": "bilgiyi üç bölüme ayıran kavram; sayfada knowledge pyramid (bilgi piramidi) ile aynı anlamda kullanılır"
   },
   {
     "en": "known knowns",
@@ -875,6 +900,11 @@ window.GLOSSARY = [
     "note": "Mimarinin en görünür parçası; mimari stili ve bileşen düzenini kapsar."
   },
   {
+    "en": "stuff you know you don’t know",
+    "tr": "bildiğini bilmediğin şeyler",
+    "note": "Varlığından haberdar olunan ama uzmanlık gerektiren bilgi düzeyi; known unknowns (bilinen bilinmeyenler) ile ilişkilidir."
+  },
+  {
     "en": "success criteria",
     "tr": "başarı kriterleri",
     "note": "Sistemin başarılı sayılması için karşılanması gereken ölçütler"
@@ -903,6 +933,11 @@ window.GLOSSARY = [
     "en": "technical leader",
     "tr": "teknik lider",
     "note": "Ekibin mühendislik kararlarını yönlendiren kişi."
+  },
+  {
+    "en": "technologist",
+    "tr": "teknoloji uzmanı",
+    "note": "teknolojik bilgiyi kullanan, geliştirici veya mimar gibi teknik profesyonel"
   },
   {
     "en": "test-first development",
@@ -960,6 +995,11 @@ window.GLOSSARY = [
     "note": "Bir özelliğin veya parçanın durumunu otomatik olarak doğrulayan mekanizma."
   },
   {
+    "en": "waterfall",
+    "tr": "şelale",
+    "note": "şelale (waterfall) modeli; eski, sıralı yazılım geliştirme yaklaşımı"
+  },
+  {
     "en": "whitepaper",
     "tr": "teknik rapor",
     "note": "Beyaz rapor; teknik belge türü."
@@ -968,5 +1008,10 @@ window.GLOSSARY = [
     "en": "workflow",
     "tr": "iş akışı",
     "note": "İşlerin yapılandırılmış akışı."
+  },
+  {
+    "en": "working knowledge",
+    "tr": "çalışma bilgisi",
+    "note": "Bir konuyu pratikte kullanabilecek düzeyde bilme."
   }
 ];

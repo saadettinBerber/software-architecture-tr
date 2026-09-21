@@ -55,6 +55,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | class diagram | sınıf diyagramı | her bileşen için oluşturulan, sınıfları ve ilişkilerini gösteren diyagram. |
 | coaching | koçluk | mimarın geliştiricilere yönelik birebir yönlendirmesi. |
 | code base | kod tabanı |  |
+| collaboration | iş birliği | mimar ile geliştirme ekibi arasındaki yakın çalışma |
 | comfort zone | konfor alanı | beceri/sorumluluk bağlamında |
 | communication protocol | iletişim protokolü | servisler arası iletişimde kullanılan protokol (REST, gRPC gibi) |
 | compliance | uyum | mimari kararlara uygun davranma; 'ensure compliance with decisions' beklentisi |
@@ -90,6 +91,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | estimation | tahmin | Proje tahmini bağlamında. |
 | evolutionary architecture | evrimsel mimari | Zamanla değişime uyum sağlayan mimari. |
 | evolutionary computing | evrimsel hesaplama | Doğal evrim süreçlerinden esinlenen hesaplama alanı. |
+| expertise | uzmanlık | Bir konudaki derin bilgi ve beceri; piramidin tepesindeki bilgi düzeyi. |
 | external data storage | harici veri depolama | Uygulama dışında barındırılan veri deposu (veritabanı vb.). |
 | Extreme Programming (XP) | Extreme Programming (XP) | Yerleşmiş terim; Türkçe karşılığı yaygın değildir, İngilizce hâliyle kullanılır. |
 | facilitation | kolaylaştırıcılık | toplantı/çalışma yürütme becerisi |
@@ -111,9 +113,12 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | infrastructure | altyapı | Sistemin üzerinde çalıştığı donanım ve ağ hizmetleri. |
 | integrity assessment | bütünlük değerlendirmesi | Bir özelliğin veya parçanın durumunun nesnel olarak ölçülüp değerlendirilmesi. |
 | interpersonal skills | kişilerarası beceriler | mimarlardan beklenen iletişim ve iş birliği becerileri; 'possess interpersonal skills' beklentisi |
+| iteration | yineleme | bir projenin tekrarlanan geliştirme çevrimi |
 | iterative | yinelemeli |  |
 | iterative development | yinelemeli geliştirme | Küçük ve tekrarlı adımlarla ilerleyen geliştirme biçimi |
 | iterative process | yinelemeli süreç | Her adımda geri bildirim alarak art arda ilerleyen süreç. |
+| knowledge pyramid | bilgi piramidi | bilgiyi; bilinen, bilinmediği bilinen ve bilinmediği bilinmeyen olarak ayıran model; Şekil 2-3 |
+| knowledge triangle | bilgi üçgeni | bilgiyi üç bölüme ayıran kavram; sayfada knowledge pyramid (bilgi piramidi) ile aynı anlamda kullanılır |
 | known knowns | bilinen bilinenler | Rumsfeld'ın bilgi modelindeki terim. |
 | known unknowns | bilinen bilinmeyenler |  |
 | latest trends | güncel trendler | teknoloji ve sektör trendlerini takip etme; 'keep current with latest trends' beklentisi |
@@ -184,12 +189,14 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | structural decay | yapısal çürüme | Geliştiricilerin kodlama/tasarım değişiklikleri sonucu mimari özelliklerin bozulması. |
 | structure | yapı | Sistemin mimari stil türüyle ilgili yapısı |
 | structure of the system | sistemin yapısı | Mimarinin en görünür parçası; mimari stili ve bileşen düzenini kapsar. |
+| stuff you know you don’t know | bildiğini bilmediğin şeyler | Varlığından haberdar olunan ama uzmanlık gerektiren bilgi düzeyi; known unknowns (bilinen bilinmeyenler) ile ilişkilidir. |
 | success criteria | başarı kriterleri | Sistemin başarılı sayılması için karşılanması gereken ölçütler |
 | symbiotic relationship | simbiyotik ilişki | Birbirini tamamlayan ve destekleyen karşılıklı ilişki. |
 | teamwork | takım çalışması |  |
 | technical breadth | teknik genişlik |  |
 | technical depth | teknik derinlik |  |
 | technical leader | teknik lider | Ekibin mühendislik kararlarını yönlendiren kişi. |
+| technologist | teknoloji uzmanı | teknolojik bilgiyi kullanan, geliştirici veya mimar gibi teknik profesyonel |
 | test-first development | önce test geliştirme | Kod yazılmadan önce testin yazıldığı geliştirme yaklaşımı. |
 | testing environment | test ortamı | Değişikliklerin test edildiği ortam. |
 | topology | topoloji | Sistem bileşenlerinin bağlantı ve dağılım yapısı. |
@@ -201,5 +208,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | variance | sapma | bir standarda veya mimari karara incelenip onaylanan istisna/muafiyet |
 | variance model | sapma modeli | sapma talep sürecini biçimlendiren kurumsal model |
 | verification mechanism | doğrulama mekanizması | Bir özelliğin veya parçanın durumunu otomatik olarak doğrulayan mekanizma. |
+| waterfall | şelale | şelale (waterfall) modeli; eski, sıralı yazılım geliştirme yaklaşımı |
 | whitepaper | teknik rapor | Beyaz rapor; teknik belge türü. |
 | workflow | iş akışı | İşlerin yapılandırılmış akışı. |
+| working knowledge | çalışma bilgisi | Bir konuyu pratikte kullanabilecek düzeyde bilme. |
