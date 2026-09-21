@@ -185,6 +185,11 @@ window.GLOSSARY = [
     "note": "Kitabın ödünleşim örneğindeki gibi, eşyaların açık artırmayla satıldığı sistem."
   },
   {
+    "en": "auditability",
+    "tr": "denetlenebilirlik",
+    "note": "İşlem ve olayların izlenip denetlenebilmesi; bu sayfada gün sonu fon fiyatlamasının doğruluğu bağlamında geçer."
+  },
+  {
     "en": "authentication",
     "tr": "kimlik doğrulama",
     "note": "Kullanıcıların gerçekten kendileri olduklarını doğrulamaya yönelik güvenlik gereksinimi; yapısal mimari özellik."
@@ -435,6 +440,11 @@ window.GLOSSARY = [
     "note": "ISO 25010 özelliği; aynı ortamı paylaşırken bilgi alışverişi ve işlev görme derecesi."
   },
   {
+    "en": "competitive advantage",
+    "tr": "rekabet avantajı",
+    "note": ""
+  },
+  {
     "en": "compliance",
     "tr": "uyum",
     "note": "mimari kararlara uygun davranma; 'ensure compliance with decisions' beklentisi"
@@ -635,6 +645,11 @@ window.GLOSSARY = [
     "note": "Bir kısıtlama veya en kötü senaryo etrafında yapılan korumacı tasarım."
   },
   {
+    "en": "deployability",
+    "tr": "dağıtılabilirlik",
+    "note": "Yazılımın üretim ortamına kolayca ve güvenilir biçimde yayınlanabilme özelliği; çeviklik (agility) bileşeni. Deployment (dağıtım) ile karıştırılmamalıdır."
+  },
+  {
     "en": "deployment",
     "tr": "dağıtım",
     "note": "Yazılımın çalıştırma ortamına yüklenmesi."
@@ -700,9 +715,29 @@ window.GLOSSARY = [
     "note": "Problem alanı bağlamında."
   },
   {
+    "en": "domain concern",
+    "tr": "alan kaygısı",
+    "note": "İş alanından (domain) gelen kaygı; Tablo 5-1'de mimari özelliklere çevrilir. Architectural concern (mimari kaygı) ile karıştırılmamalıdır."
+  },
+  {
+    "en": "domain concerns",
+    "tr": "alan kaygıları",
+    "note": "Alan paydaşlarının iş tarafındaki endişeleri; mimari özelliklere çevrilir (Tablo 5-1)."
+  },
+  {
+    "en": "domain knowledge",
+    "tr": "alan bilgisi",
+    "note": "Belirli bir iş alanına ilişkin bilgi; mimarlar için her zaman faydalıdır. Business domain knowledge (iş alanı bilgisi) ile ilişkilidir."
+  },
+  {
     "en": "domain requirements",
     "tr": "alan gereksinimleri",
     "note": "Sorun alanına (problem domain) ilişkin gereksinimler; mimari özelliklerle birlikte yazılım çözümünü oluşturur."
+  },
+  {
+    "en": "domain stakeholder",
+    "tr": "alan paydaşı",
+    "note": "Çoğulu: alan paydaşları (domain stakeholders); iş alanını temsil eden paydaş."
   },
   {
     "en": "domain-driven design",
@@ -713,6 +748,11 @@ window.GLOSSARY = [
     "en": "don't repeat yourself (DRY)",
     "tr": "kendini tekrar etme (DRY)",
     "note": "Kod tekrarını önleyen tasarım ilkesi"
+  },
+  {
+    "en": "driving architectural characteristics",
+    "tr": "yönlendirici mimari özellikler",
+    "note": "Bir sistemi yönlendiren, öncelikli mimari özellikler; bunları belirlemek mimari çalışmanın ilk adımlarındandır."
   },
   {
     "en": "dynamic connascence",
@@ -753,6 +793,11 @@ window.GLOSSARY = [
     "en": "encryption",
     "tr": "şifreleme",
     "note": "Verinin yetkisiz kişilerce okunamayacak biçime dönüştürülmesi; standart güvenlik hijyeninin parçası."
+  },
+  {
+    "en": "end-of-day fund pricing",
+    "tr": "gün sonu fon fiyatlaması",
+    "note": "İş günü sonunda fonların fiyatlandığı toplu işlem; kitabın örneğinde kullanılır."
   },
   {
     "en": "engineering discipline",
@@ -843,6 +888,11 @@ window.GLOSSARY = [
     "en": "fault tolerance",
     "tr": "hata toleransı",
     "note": "Sistemin bileşen arızalarına rağmen çalışmaya devam edebilme yeteneği."
+  },
+  {
+    "en": "feasibility",
+    "tr": "fizibilite (uygulanabilirlik)",
+    "note": "Bir çözümün zaman ve bütçe açısından uygulanabilirliği; Tablo 5-1'de zaman ve bütçe kaygısının karşılığı."
   },
   {
     "en": "feature flag",
@@ -1230,6 +1280,11 @@ window.GLOSSARY = [
     "note": "mimarın geliştiricilere yol göstermesi; coaching (koçluk) ile birlikte anılır."
   },
   {
+    "en": "mergers and acquisitions",
+    "tr": "birleşme ve satın almalar",
+    "note": "Şirket evlilikleri ve devralmaları; M&A kısaltması da yaygındır."
+  },
+  {
     "en": "messaging model",
     "tr": "mesajlaşma modeli",
     "note": "yayınla-abone ol ve noktadan noktaya dahil mesajlaşma biçimleri"
@@ -1590,6 +1645,11 @@ window.GLOSSARY = [
     "note": "Başkalarının izleyebileceği, örnek alınan mimari."
   },
   {
+    "en": "regulatory requirements",
+    "tr": "düzenleyici gereksinimler",
+    "note": "Yasal ya da mevzuat kaynaklı gereksinimler; gün sonu fon fiyatlaması örneğinde geçer."
+  },
+  {
     "en": "release",
     "tr": "sürüm",
     "note": "Yazılımın kullanıcılara yayınlanması."
@@ -1763,6 +1823,11 @@ window.GLOSSARY = [
     "en": "side effect",
     "tr": "yan etki",
     "note": "Bir işlemin öngörülmeyen ya da istenmeyen sonucu"
+  },
+  {
+    "en": "simplicity",
+    "tr": "basitlik",
+    "note": "Karmaşıklıktan kaçınma, tasarımı sade tutma; Tablo 5-1'de zaman ve bütçe kaygısının karşılığı."
   },
   {
     "en": "single responsibility",
@@ -2000,6 +2065,11 @@ window.GLOSSARY = [
     "note": "Yanıt, işlem süresi ve işleme hızı oranlarının ölçüsü; performans verimliliğinin alt ölçütü."
   },
   {
+    "en": "time to market",
+    "tr": "pazara çıkış süresi",
+    "note": "Bir ürünün fikirden pazara ulaşması için geçen süre."
+  },
+  {
     "en": "topic",
     "tr": "topic",
     "note": "Yayınla-abone ol modelinde birden çok abonenin aynı mesajı aldığı kanal."
@@ -2053,6 +2123,11 @@ window.GLOSSARY = [
     "en": "user error protection",
     "tr": "kullanıcı hatası koruması",
     "note": "Kullanıcıların hata yapmasına karşı koruma; kullanışlılığın alt ölçütü."
+  },
+  {
+    "en": "user satisfaction",
+    "tr": "kullanıcı memnuniyeti",
+    "note": ""
   },
   {
     "en": "user story",

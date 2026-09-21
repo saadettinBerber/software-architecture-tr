@@ -27,7 +27,7 @@
     "chapter_label_pattern": "^CHAPTER (\\d+)$",
     "math_geometry": true
   },
-  "last_translated_page": 64,
+  "last_translated_page": 67,
   "chapters": [
     {
       "num": 1,
@@ -690,6 +690,30 @@
       "title_tr": "Yinelemenin Değeri",
       "section_en": "Trade-Offs and Least Worst Architecture",
       "section_tr": "Ödünleşimler ve En Az Kötü Mimari"
+    },
+    "65": {
+      "pdf_page": 85,
+      "chapter": 5,
+      "title_en": "Extracting Architecture Characteristics from Domain Concerns",
+      "title_tr": "Alan Kaygılarından Mimari Özelliklerin Çıkarılması",
+      "section_en": "Extracting Architecture Characteristics from Domain Concerns",
+      "section_tr": "Alan Kaygılarından Mimari Özelliklerin Çıkarılması"
+    },
+    "66": {
+      "pdf_page": 86,
+      "chapter": 5,
+      "title_en": "Case Study: The Vasa",
+      "title_tr": "Vaka Çalışması: Vasa",
+      "section_en": "Extracting Architecture Characteristics from Domain Concerns",
+      "section_tr": "Alan Kaygılarından Mimari Özelliklerin Çıkarılması"
+    },
+    "67": {
+      "pdf_page": 87,
+      "chapter": 5,
+      "title_en": "Translating Domain Concerns",
+      "title_tr": "Alan Kaygılarının Çevrilmesi",
+      "section_en": "Extracting Architecture Characteristics from Requirements",
+      "section_tr": "Mimari Özelliklerin Gereksinimlerden Çıkarılması"
     }
   }
 }

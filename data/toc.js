@@ -9,7 +9,7 @@ window.TOC = {
   },
   "bookTotalPages": 399,
   "pdfOffset": 20,
-  "lastTranslatedPage": 64,
+  "lastTranslatedPage": 67,
   "chapters": [
     {
       "num": 1,
@@ -882,6 +882,39 @@ window.TOC = {
         "tr": "Ödünleşimler ve En Az Kötü Mimari"
       },
       "chapter": 4
+    },
+    "65": {
+      "title": {
+        "en": "Extracting Architecture Characteristics from Domain Concerns",
+        "tr": "Alan Kaygılarından Mimari Özelliklerin Çıkarılması"
+      },
+      "section": {
+        "en": "Extracting Architecture Characteristics from Domain Concerns",
+        "tr": "Alan Kaygılarından Mimari Özelliklerin Çıkarılması"
+      },
+      "chapter": 5
+    },
+    "66": {
+      "title": {
+        "en": "Case Study: The Vasa",
+        "tr": "Vaka Çalışması: Vasa"
+      },
+      "section": {
+        "en": "Extracting Architecture Characteristics from Domain Concerns",
+        "tr": "Alan Kaygılarından Mimari Özelliklerin Çıkarılması"
+      },
+      "chapter": 5
+    },
+    "67": {
+      "title": {
+        "en": "Translating Domain Concerns",
+        "tr": "Alan Kaygılarının Çevrilmesi"
+      },
+      "section": {
+        "en": "Extracting Architecture Characteristics from Requirements",
+        "tr": "Mimari Özelliklerin Gereksinimlerden Çıkarılması"
+      },
+      "chapter": 5
     }
   }
 };

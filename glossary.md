@@ -46,6 +46,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | artifact | çıktı (artifact) | Çalışma sonucu üretilen kayıt/eser; burada mimari diyagramlar. |
 | asynchronous messaging | asenkron mesajlaşma | servisler arası iletişimde yanıt beklemeden mesaj gönderme |
 | auction system | açık artırma sistemi | Kitabın ödünleşim örneğindeki gibi, eşyaların açık artırmayla satıldığı sistem. |
+| auditability | denetlenebilirlik | İşlem ve olayların izlenip denetlenebilmesi; bu sayfada gün sonu fon fiyatlamasının doğruluğu bağlamında geçer. |
 | authentication | kimlik doğrulama | Kullanıcıların gerçekten kendileri olduklarını doğrulamaya yönelik güvenlik gereksinimi; yapısal mimari özellik. |
 | authenticity | gerçeklik (authenticity) | Bir kullanıcının kimliğinin kanıtlanması; güvenlik özelliği. |
 | authorization | yetkilendirme | Kullanıcıların uygulama içinde yalnızca belirli işlevlere erişebilmesini sağlayan güvenlik gereksinimi; yapısal mimari özellik. |
@@ -96,6 +97,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | communication protocol | iletişim protokolü | servisler arası iletişimde kullanılan protokol (REST, gRPC gibi) |
 | communicational cohesion | iletişimsel bütünlük | İki modülün, her birinin aynı bilgi üzerinde işlem yaptığı bir iletişim zinciri oluşturduğu bütünlük düzeyi. |
 | compatibility | uyumluluk | ISO 25010 özelliği; aynı ortamı paylaşırken bilgi alışverişi ve işlev görme derecesi. |
+| competitive advantage | rekabet avantajı |  |
 | compliance | uyum | mimari kararlara uygun davranma; 'ensure compliance with decisions' beklentisi |
 | component | bileşen | Çoğulu: bileşenler. |
 | confidentiality | gizlilik | Verilere yalnızca erişim yetkisi olanların erişebilmesi; güvenlik özelliği. |
@@ -136,6 +138,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | decoupled | gevşek bağlı | coupling (bağlılık) karşıtı; topic yaklaşımının üreticiyi tüketicilerden ayırması bağlamında |
 | decoupling | bağlılığın kırılması (decoupling) | coupling (bağlılık) teriminin karşıtı. |
 | defensive design | savunmacı tasarım | Bir kısıtlama veya en kötü senaryo etrafında yapılan korumacı tasarım. |
+| deployability | dağıtılabilirlik | Yazılımın üretim ortamına kolayca ve güvenilir biçimde yayınlanabilme özelliği; çeviklik (agility) bileşeni. Deployment (dağıtım) ile karıştırılmamalıdır. |
 | deployment | dağıtım | Yazılımın çalıştırma ortamına yüklenmesi. |
 | derived metric | türetilmiş ölçüt | Ham bağlılık değerinden türetilen ölçüt; soyutluk, kararsızlık ve ana diziden uzaklık gibi. |
 | design pattern | tasarım deseni | Yinelenen tasarım sorunlarına kanıtlanmış çözüm kalıpları |
@@ -149,9 +152,14 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | distributed queue | dağıtık kuyruk | Birden çok bileşenin paylaşıp güncellediği, dağıtık ortamda yaşayan kuyruk. |
 | distributed systems | dağıtık sistemler | Birden çok makinede çalışan ve birbirleriyle ağ üzerinden iletişim kuran sistemler. |
 | domain | alan (domain) | Problem alanı bağlamında. |
+| domain concern | alan kaygısı | İş alanından (domain) gelen kaygı; Tablo 5-1'de mimari özelliklere çevrilir. Architectural concern (mimari kaygı) ile karıştırılmamalıdır. |
+| domain concerns | alan kaygıları | Alan paydaşlarının iş tarafındaki endişeleri; mimari özelliklere çevrilir (Tablo 5-1). |
+| domain knowledge | alan bilgisi | Belirli bir iş alanına ilişkin bilgi; mimarlar için her zaman faydalıdır. Business domain knowledge (iş alanı bilgisi) ile ilişkilidir. |
 | domain requirements | alan gereksinimleri | Sorun alanına (problem domain) ilişkin gereksinimler; mimari özelliklerle birlikte yazılım çözümünü oluşturur. |
+| domain stakeholder | alan paydaşı | Çoğulu: alan paydaşları (domain stakeholders); iş alanını temsil eden paydaş. |
 | domain-driven design | alan odaklı tasarım (domain-driven design) | Yazılımı modellemek için alanı (domain) merkeze alan tasarım yaklaşımı; DDD kısaltmasıyla da bilinir. |
 | don't repeat yourself (DRY) | kendini tekrar etme (DRY) | Kod tekrarını önleyen tasarım ilkesi |
+| driving architectural characteristics | yönlendirici mimari özellikler | Bir sistemi yönlendiren, öncelikli mimari özellikler; bunları belirlemek mimari çalışmanın ilk adımlarındandır. |
 | dynamic connascence | dinamik eşdoğuş | Çağrıları çalışma zamanında analiz eden eşdoğuş türü; statik eşdoğuşun (static connascence) karşıtı. |
 | dynamically typed language | dinamik tipli dil | Türlerin çalışma zamanında belirlendiği programlama dili. |
 | ecosystem | ekosistem | Birbirini etkileyen teknoloji, araç ve uygulamaların bütünü |
@@ -160,6 +168,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | elasticity | esneklik | Kaynakların talebe göre otomatik artırılıp azaltılabilmesi yeteneği (elastic scale) |
 | encapsulation | kapsülleme | Veriyi ve davranışı bir birim içinde saklayıp dışarıya kontrollü erişim sunma; kapsüllemek (encapsulate) eylemi de bu sayfada geçer. |
 | encryption | şifreleme | Verinin yetkisiz kişilerce okunamayacak biçime dönüştürülmesi; standart güvenlik hijyeninin parçası. |
+| end-of-day fund pricing | gün sonu fon fiyatlaması | İş günü sonunda fonların fiyatlandığı toplu işlem; kitabın örneğinde kullanılır. |
 | engineering discipline | mühendislik disiplini |  |
 | engineering practices | mühendislik uygulamaları | Süreçten bağımsız, kanıtlanmış ve tekrarlanabilir fayda sağlayan uygulamalar. |
 | enterprise | kuruluş | işletme/şirket bağlamında |
@@ -178,6 +187,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | fan-in | fan-in (gelen bağlantı sayısı) | Bir modüle giren bağlantıların sayısı; afferent coupling ile ilişkilidir. |
 | fan-out | fan-out (giden bağlantı sayısı) | Bir modülden çıkan bağlantıların sayısı; efferent coupling ile ilişkilidir. |
 | fault tolerance | hata toleransı | Sistemin bileşen arızalarına rağmen çalışmaya devam edebilme yeteneği. |
+| feasibility | fizibilite (uygulanabilirlik) | Bir çözümün zaman ve bütçe açısından uygulanabilirliği; Tablo 5-1'de zaman ve bütçe kaygısının karşılığı. |
 | feature flag | özellik anahtarı (feature flag) | Davranışı kod değişikliği olmadan açıp kapatan bayrak; feature toggle (özellik anahtarı) ile eş anlamlı. |
 | feature toggles | özellik anahtarları | Davranışı kod değişikliği olmadan açıp kapatmayı sağlayan bayraklar |
 | feedback loop | geri bildirim döngüsü | Kararların sonucunun hızla değerlendirilmesini sağlayan döngü; Çevik yaklaşımın temel avantajı |
@@ -255,6 +265,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | maintainability | bakım yapılabilirlik | ISO 25010 kalite özelliği; yazılımın iyileştirilebilme, düzeltilebilme ve uyarlanabilme kolaylığı. |
 | maturity | olgunluk | Yazılımın normal işleyişte güvenilirlik ihtiyaçlarını karşılaması; güvenilirliğin alt kategorisi. |
 | mentoring | rehberlik | mimarın geliştiricilere yol göstermesi; coaching (koçluk) ile birlikte anılır. |
+| mergers and acquisitions | birleşme ve satın almalar | Şirket evlilikleri ve devralmaları; M&A kısaltması da yaygındır. |
 | messaging model | mesajlaşma modeli | yayınla-abone ol ve noktadan noktaya dahil mesajlaşma biçimleri |
 | metaobject protocol | meta nesne protokolü (metaobject protocol) | Geliştiricilere ek genişletme mekanizmaları sağlayan programlama yapısı. |
 | metrics | ölçütler | Ölçülebilir performans ve değer göstergeleri. |
@@ -327,6 +338,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | recoverability | kurtarılabilirlik | Arıza sonrası sistemin yeniden çalışır duruma gelebilme yeteneği; operasyonel mimari özellik. |
 | refactoring | refaktoring (yeniden düzenleme) | Davranışı değiştirmeden kodun iç yapısını iyileştirme. |
 | reference architecture | referans mimari | Başkalarının izleyebileceği, örnek alınan mimari. |
+| regulatory requirements | düzenleyici gereksinimler | Yasal ya da mevzuat kaynaklı gereksinimler; gün sonu fon fiyatlaması örneğinde geçer. |
 | release | sürüm | Yazılımın kullanıcılara yayınlanması. |
 | release environment | sürüm ortamı | Sürümün hazırlandığı, doğrulandığı ve yayınlandığı ortam. |
 | reliability | güvenilirlik | Sistemin belirli koşullarda hatasız çalışma olasılığı; operasyonel mimari özellik. |
@@ -362,6 +374,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | shared resources | paylaşılan kaynaklar | Birden çok uygulamanın birlikte kullandığı altyapı kaynakları |
 | shared utility classes | paylaşılan yardımcı sınıflar | Mimari değişiminde sıkıntı yaratan, birden çok sınıfın ortak kullandığı yardımcı sınıflar. |
 | side effect | yan etki | Bir işlemin öngörülmeyen ya da istenmeyen sonucu |
+| simplicity | basitlik | Karmaşıklıktan kaçınma, tasarımı sade tutma; Tablo 5-1'de zaman ve bütçe kaygısının karşılığı. |
 | single responsibility | tek sorumluluk | Her bileşenin tek bir sorumluluğu olması ilkesi |
 | single source of truth | tek doğruluk kaynağı |  |
 | soft skills | sosyal beceriler | İletişim, iş birliği gibi teknik olmayan beceriler |
@@ -409,6 +422,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | throwaway code | atılacak kod | Yalnızca hızlı doğrulama için yazılan, üretime girmesi amaçlanmayan kod. |
 | tightly coupled | sıkı bağlı | Birbirinin iç yapısına bağımlı, birlikte değişmek zorunda kalan öğelerin durumu. |
 | time behavior | zaman davranışı | Yanıt, işlem süresi ve işleme hızı oranlarının ölçüsü; performans verimliliğinin alt ölçütü. |
+| time to market | pazara çıkış süresi | Bir ürünün fikirden pazara ulaşması için geçen süre. |
 | topic | topic | Yayınla-abone ol modelinde birden çok abonenin aynı mesajı aldığı kanal. |
 | topology | topoloji | Sistem bileşenlerinin bağlantı ve dağılım yapısı. |
 | trade-off | ödünleşim | Bir fayda için başka bir özellikten vazgeçme; metinde İngilizcesiyle de kullanılır |
@@ -420,6 +434,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | uptime | çalışma süresi | Sistemin kullanılabilir olduğu süre oranı |
 | usability | kullanışlılık | ISO 25010 özelliği; availability (kullanılabilirlik) ile karışmaması için kullanışlılık olarak çevrilir. |
 | user error protection | kullanıcı hatası koruması | Kullanıcıların hata yapmasına karşı koruma; kullanışlılığın alt ölçütü. |
+| user satisfaction | kullanıcı memnuniyeti |  |
 | user story | kullanıcı hikâyesi | Çevik geliştirmede, kullanıcı ihtiyacını kısa ve iş dilinde anlatan iş öğesi. |
 | variance | sapma | bir standarda veya mimari karara incelenip onaylanan istisna/muafiyet |
 | variance model | sapma modeli | sapma talep sürecini biçimlendiren kurumsal model |
