@@ -73,6 +73,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | blueprint | mavi baskı (blueprint) | Sistemin yapısını gösteren plan şeması |
 | bottleneck trap | darboğaz tuzağı | Mimarın projenin kritik yolundaki kodun sahipliğini alması ve ekibin ilerlemesini bloklaması durumu. |
 | boundary conditions | sınır koşulları | Sistemin uç durumlarda (bağlantı kesilmesi, donanım arızası vb.) doğru davranmasını gerektiren koşullar; Tablo 4-1'deki sağlamlık tanımında geçer. |
+| bounded context | sınırlı bağlam | Alan odaklı tasarımdan (domain-driven design) gelen; her mikroservisin kendi veritabanına sahip olmasını yönlendiren felsefe. Sayfa 94'teki 'Domain-Driven Design's Bounded Context' kesitinde ayrıntılı ele alınır. |
 | brittleness | kırılganlık | Sistemin gereksiz yere kırılgan olması; isteğe bağlı bir bağımlılığın arızalanmasının tüm sistemi çökertme eğilimi. |
 | brown-bag lunch | brown-bag öğle toplantısı | Katılımcıların kendi yemeklerini getirdiği, resmî olmayan öğle toplantısı; brown-bag terimi korunur. |
 | bursts of requests | istek patlamaları | Kısa sürede gelen yoğun istek yığınları; esneklik (elasticity) özelliğinin ölçtüğü durum. |
@@ -90,6 +91,8 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | CC | CC | Cyclomatic complexity (döngüsel karmaşıklık) kısaltması; kısaltma olduğu gibi korunur. |
 | change control | değişiklik kontrolü | değişikliklerin izlenmesi ve onaylanması süreci |
 | chaos engineering | kaos mühendisliği | Sistemin dayanıklılığını bilinçli arıza enjekte ederek test etme yöntemi. |
+| Chaos Kong | Chaos Kong | Netflix'in, bütün bir Amazon veri merkezi arızasını simüle eden aracı; ürün adı olduğu gibi korunur. |
+| Chaos Monkey | Kaos Maymunu | Netflix'in kaos mühendisliğinin öncüsü olan, üretim ortamında rastgele arıza simüle eden aracı; Simian Ordusu'nun (Simian Army) ilk üyesi. |
 | characteristics | özellikler | Kitapta architectural characteristics → mimari özellikler anlamında. |
 | checklist | kontrol listesi | Tamamlanması gereken adımların listesi; otomatik kontrol listeleri bağlamında. |
 | chief architect | baş mimar | ARB yoksa sapma taleplerini değerlendiren kişi |
@@ -110,6 +113,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | coincidental cohesion | tesadüfi bütünlük | Öğelerin yalnızca aynı kaynak dosyada bulunması nedeniyle ilişkili sayıldığı, uyumun en olumsuz biçimi. |
 | collaboration | iş birliği | mimar ile geliştirme ekibi arasındaki yakın çalışma |
 | comfort zone | konfor alanı | beceri/sorumluluk bağlamında |
+| communication connascence | iletişim eşdoğuşu | Bileşenler arasındaki iletişim/etkileşim biçiminden kaynaklanan eşdoğuş ölçümü; sayfada geleneksel bağlılık ölçütleriyle (coupling metrics) birleştirilen yeni ölçü olarak geçer. |
 | communication protocol | iletişim protokolü | servisler arası iletişimde kullanılan protokol (REST, gRPC gibi) |
 | communicational cohesion | iletişimsel bütünlük | İki modülün, her birinin aynı bilgi üzerinde işlem yaptığı bir iletişim zinciri oluşturduğu bütünlük düzeyi. |
 | compatibility | uyumluluk | ISO 25010 özelliği; aynı ortamı paylaşırken bilgi alışverişi ve işlev görme derecesi. |
@@ -120,6 +124,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | concert ticket booking system | konser bileti rezervasyon sistemi | Yeni biletler satışa çıktığında trafik patlamaları yaşayan, esneklik gerektiren örnek sistem. |
 | concurrent users | eşzamanlı kullanıcılar | Aynı anda sistemi kullanan kullanıcı sayısı; ölçeklenebilirlik ölçümünde temel kavram. |
 | confidentiality | gizlilik | Verilere yalnızca erişim yetkisi olanların erişebilmesi; güvenlik özelliği. |
+| Conformity Monkey | Uygunluk Maymunu | Netflix mimarlarının yönetişim kurallarını üretim ortamında uygulatan aracı; Simian Ordusu üyesi. |
 | connascence | eşdoğuş (connascence) | İki bileşenin, birindeki değişiklik diğerinde de değişikliği zorunlu kılıyorsa eşdoğuşlu olduğu söylenir; Bölüm 3'te (Modülerlik) ayrıntılı ele alınır. |
 | Connascence of Algorithm (CoA) | Algoritma Eşdoğuşu (CoA) | Statik eşdoğuş türlerinden biri; birden çok bileşenin belirli bir algoritma üzerinde anlaşmasını gerektirir. |
 | Connascence of Convention (CoC) | Uylaşım Eşdoğuşu (CoC) | Connascence of Meaning ile eş anlamlı kullanılan ad; convention sözcüğü, belirli değerlerin anlamı üzerindeki uzlaşımı ifade eder. |
@@ -167,6 +172,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | decoupled | gevşek bağlı | coupling (bağlılık) karşıtı; topic yaklaşımının üreticiyi tüketicilerden ayırması bağlamında |
 | decoupling | bağlılığın kırılması (decoupling) | coupling (bağlılık) teriminin karşıtı. |
 | defensive design | savunmacı tasarım | Bir kısıtlama veya en kötü senaryo etrafında yapılan korumacı tasarım. |
+| dependent components | bağımlı bileşenler | Kod tabanı dışındaki, mimari özellikleri (özellikle operasyonel olanları) etkileyen veritabanı, kuyruk, harici servis gibi bileşenler. |
 | deployability | dağıtılabilirlik | Yazılımın üretim ortamına kolayca ve güvenilir biçimde yayınlanabilme özelliği; çeviklik (agility) bileşeni. Deployment (dağıtım) ile karıştırılmamalıdır. |
 | deployment | dağıtım | Yazılımın çalıştırma ortamına yüklenmesi. |
 | derived metric | türetilmiş ölçüt | Ham bağlılık değerinden türetilen ölçüt; soyutluk, kararsızlık ve ana diziden uzaklık gibi. |
@@ -295,6 +301,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | iterative development | yinelemeli geliştirme | Küçük ve tekrarlı adımlarla ilerleyen geliştirme biçimi |
 | iterative process | yinelemeli süreç | Her adımda geri bildirim alarak art arda ilerleyen süreç. |
 | Ivory Tower Architect | Fildişi Kule Mimarı (Ivory Tower Architect) | Uygulama ekibinden izole biçimde karar alan, ekiple iletişim kurmayan mimar davranışını anlatan anti-desen. |
+| Janitor Monkey | Temizlikçi Maymun | Artık başka servislerin yönlendirmediği, sahipsiz kalan örnekleri üretimden kaldıran araç; Simian Ordusu üyesi. |
 | kata | kata | Japonya'dan ve dövüş sanatlarından gelen, vurgunun doğru form ve teknik üzerinde olduğu bireysel eğitim alıştırması; yerleşik terim olduğu gibi kullanılır. |
 | knowledge pyramid | bilgi piramidi | bilgiyi; bilinen, bilinmediği bilinen ve bilinmediği bilinmeyen olarak ayıran model; Şekil 2-3 |
 | knowledge triangle | bilgi üçgeni | bilgiyi üç bölüme ayıran kavram; sayfada knowledge pyramid (bilgi piramidi) ile aynı anlamda kullanılır |
@@ -302,6 +309,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | known unknowns | bilinen bilinmeyenler |  |
 | lack of cohesion in methods | yöntemlerde bütünlük eksikliği | LCOM metriklerinin ölçtüğü durum. |
 | latency | gecikme süresi | Bir isteğin gönderilmesi ile yanıtın alınması arasında geçen süre; düşük gecikme (low latency), yüksek frekanslı alım satım bağlamında kritik önem taşır. |
+| Latency Monkey | Gecikme Maymunu | Yüksek gecikme süresini simüle eden, gecikme sorununa özel yaratılmış araç; Simian Ordusu üyesi. |
 | latest trends | güncel trendler | teknoloji ve sektör trendlerini takip etme; 'keep current with latest trends' beklentisi |
 | Laws of Software Architecture | Yazılım Mimarisi Yasaları | Bölüm 1'in kesit başlığı ve sayfa 19'un koşu başlığı. |
 | layer | katman | Katmanlı mimaride (layered architecture) bağımsız bir sorumluluk düzeyi; sayfada Controller, Service, Persistence katmanları bağlamında geçer. |
@@ -311,6 +319,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | LCOM metric | LCOM ölçütü | yöntemlerde bütünlük eksikliği (lack of cohesion in methods) ölçütü. |
 | learnability | öğrenilebilirlik | Kullanıcının yazılımı kullanmayı öğrenme kolaylığı; kullanışlılığın alt ölçütü. |
 | least worst architecture | en az kötü mimari (least worst architecture) | Tüm mimari özellikler en üst düzeye çıkarılamayacağı için, en az acı veren yan etkilere sahip mimari seçiminin yapılması. |
+| legacy systems | eski sistemler | Tek veritabanı kullanılarak dağıtılan, tanım gereği tek bir mimari kuantum oluşturan geleneksel sistemler. |
 | legal | yasal | Sistemin çalıştığı yasal bağlam; veri koruma, Sarbanes Oxley, GDPR gibi yasal kısıtlamalarla ilgili yapısal mimari özellik. |
 | library | kütüphane | Yeniden kullanılabilir kod koleksiyonu; framework'ten (çerçeve) daha az yapılandırılmıştır. |
 | lint test | lint testi | Kodda olası hataları ve biçim sorunlarını denetleyen test; lint terimi korunur. |
@@ -372,6 +381,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | operational measure | operasyonel ölçüm | Bir mimari özelliğin işletimsel davranışını doğrudan ölçen ölçüm; sayfanın 'Operational Measures' kesit başlığı. |
 | operations group | operasyon grubu | Sistemin işletilmesinden sorumlu ekip. |
 | organizing principle | düzenleme ilkesi | Bir sistemin parçalarını düzenleyen temel ilke. |
+| orphan service | sahipsiz servis | Artık hiçbir servisin çağırmadığı, üretimde çalışmaya devam eden ve maliyet üreten servis; Janitor Monkey'nin aradığı hedef. |
 | orthogonal | ortogonal (bağımsız) | İşlevsellikle ilişkisiz, birbirinden bağımsız |
 | outlier | aykırı değer | Ortalamadan belirgin biçimde sapan ölçüm; örn. diğerlerinden 10 kat daha uzun süren istekler. |
 | outsourcing | dış kaynak kullanımı | Operasyon gibi işlevlerin maliyet tasarrufu amacıyla başka bir şirkete/ekibe devredilmesi |
@@ -441,6 +451,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | security | güvenlik | Bir mimari özellik; sistem ve verilerin yetkisiz erişime karşı korunması. Sayfada availability (kullanılabilirlik) ve reliability (güvenilirlik) ile birlikte, neredeyse tüm uygulamaların altında yatan örtük (implicit) özelliklerden biri olarak geçer. |
 | security breach | güvenlik ihlali | Güvenliğin ihlal edildiği olay/olay örüntüsü. |
 | security hygiene | güvenlik hijyeni | Şifreleme, karma, yamalama gibi her sistemin uygulaması gereken standart, temel güvenlik önlemleri; sayfada 'standard security hygiene' bağlamında kullanılır. |
+| Security Monkey | Güvenlik Maymunu | Her servisi bilinen güvenlik kusurlarına (etkin olmaması gereken portlar, yapılandırma hataları) karşı denetleyen araç; Simian Ordusu üyesi. |
 | selective typing | seçici tipleme | Bazı dinamik tipli dillerin (Clojure, Clojure Spec) değişkenleri belirli türlerle sınırlama yeteneği. |
 | sequential cohesion | sıralı bütünlük | Bir modülün çıktısının diğerinin girdisi olduğu bütünlük düzeyi. |
 | service-level agreement (SLA) | hizmet düzeyi anlaşması (SLA) | Çalışma süresi, ölçek, yanıt verebilirlik gibi hizmet ölçütlerini tanımlayan sözleşme |
@@ -449,6 +460,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | shared resources | paylaşılan kaynaklar | Birden çok uygulamanın birlikte kullandığı altyapı kaynakları |
 | shared utility classes | paylaşılan yardımcı sınıflar | Mimari değişiminde sıkıntı yaratan, birden çok sınıfın ortak kullandığı yardımcı sınıflar. |
 | side effect | yan etki | Bir işlemin öngörülmeyen ya da istenmeyen sonucu |
+| Simian Army | Simian Ordusu | Netflix'in kaos mühendisliği araçlarının genel adı; Conformity, Security, Janitor, Latency Maymunları ve Chaos Kong'u kapsar. Simian sözcüğü 'maymunsu' anlamına gelir. |
 | simplicity | basitlik | Karmaşıklıktan kaçınma, tasarımı sade tutma; Tablo 5-1'de zaman ve bütçe kaygısının karşılığı. |
 | single responsibility | tek sorumluluk | Her bileşenin tek bir sorumluluğu olması ilkesi |
 | single source of truth | tek doğruluk kaynağı |  |
@@ -473,6 +485,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | structural change | yapısal değişiklik | Sistemin yapısını ilgilendiren değişiklik |
 | structural cohesion | yapısal bütünlük | Bir modülün yapısının (ör. alan erişimi) ölçülebilen bütünlüğü; LCOM gibi yapısal ölçütlerle belirlenir. |
 | structural decay | yapısal çürüme | Geliştiricilerin kodlama/tasarım değişiklikleri sonucu mimari özelliklerin bozulması. |
+| structural evolvability | yapısal evrilebilirlik (structural evolvability) | Belirli mimari stillerin zaman içinde yapısal olarak evrilebilme yeteneği; Building Evolutionary Architectures kitabında ölçülmek istenen nitelik. |
 | structural metric | yapısal ölçüt | Kodun yapısını (alan erişimi, bağımlılıklar gibi) kaynak düzeyinde ölçen ölçüt. |
 | structural soundness | yapısal sağlamlık | Sistemin yapısının sağlam ve tutarlı olma durumu; tesadüfen oluşmaz, sürekli enerji gerektirir. |
 | structure | yapı | Sistemin mimari stil türüyle ilgili yapısı |
@@ -484,6 +497,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | success criteria | başarı kriterleri | Sistemin başarılı sayılması için karşılanması gereken ölçütler |
 | symbiotic relationship | simbiyotik ilişki | Birbirini tamamlayan ve destekleyen karşılıklı ilişki. |
 | synchronous communication | eşzamanlı iletişim | Gönderenin yanıt beklediği, çağrının engelleyici (bloklayıcı) olduğu iletişim biçimi; asenkron mesajlaşmanın (asynchronous messaging) karşıtı. |
+| synchronous connascence | eşzamanlı eşdoğuş | Dinamik eşdoğuşun (dynamic connascence) türü; uygulama bağlamı içindeki veya dağıtık servisler arasındaki eşzamanlı çağrıları ifade eder. |
 | teamwork | takım çalışması |  |
 | tech lead | teknik lider | Ekibin mühendislik kararlarını yönlendiren kişi; technical leader (teknik lider) ile aynı anlamda kullanılır. |
 | technical breadth | teknik genişlik |  |
@@ -505,6 +519,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | time behavior | zaman davranışı | Yanıt, işlem süresi ve işleme hızı oranlarının ölçüsü; performans verimliliğinin alt ölçütü. |
 | time to market | pazara çıkış süresi | Bir ürünün fikirden pazara ulaşması için geçen süre. |
 | timebox | zaman kutusu | Bir alıştırmaya ya da etkinliğe ayrılan sınırlı süre; bu sayfada kata alıştırmasının zaman kutusuna alınması (timeboxed exercise) bağlamında geçer. |
+| timeout | zaman aşımı (timeout) | Bir çağrının yanıt için beklediği azami süre; eşzamanlı çağrılarda güvenilirlik (reliability) kaygısı olarak geçer. |
 | topic | topic | Yayınla-abone ol modelinde birden çok abonenin aynı mesajı aldığı kanal. |
 | topology | topoloji | Sistem bileşenlerinin bağlantı ve dağılım yapısı. |
 | trade-off | ödünleşim | Bir fayda için başka bir özellikten vazgeçme; metinde İngilizcesiyle de kullanılır |

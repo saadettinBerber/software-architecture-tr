@@ -320,6 +320,11 @@ window.GLOSSARY = [
     "note": "Sistemin uç durumlarda (bağlantı kesilmesi, donanım arızası vb.) doğru davranmasını gerektiren koşullar; Tablo 4-1'deki sağlamlık tanımında geçer."
   },
   {
+    "en": "bounded context",
+    "tr": "sınırlı bağlam",
+    "note": "Alan odaklı tasarımdan (domain-driven design) gelen; her mikroservisin kendi veritabanına sahip olmasını yönlendiren felsefe. Sayfa 94'teki 'Domain-Driven Design's Bounded Context' kesitinde ayrıntılı ele alınır."
+  },
+  {
     "en": "brittleness",
     "tr": "kırılganlık",
     "note": "Sistemin gereksiz yere kırılgan olması; isteğe bağlı bir bağımlılığın arızalanmasının tüm sistemi çökertme eğilimi."
@@ -403,6 +408,16 @@ window.GLOSSARY = [
     "en": "chaos engineering",
     "tr": "kaos mühendisliği",
     "note": "Sistemin dayanıklılığını bilinçli arıza enjekte ederek test etme yöntemi."
+  },
+  {
+    "en": "Chaos Kong",
+    "tr": "Chaos Kong",
+    "note": "Netflix'in, bütün bir Amazon veri merkezi arızasını simüle eden aracı; ürün adı olduğu gibi korunur."
+  },
+  {
+    "en": "Chaos Monkey",
+    "tr": "Kaos Maymunu",
+    "note": "Netflix'in kaos mühendisliğinin öncüsü olan, üretim ortamında rastgele arıza simüle eden aracı; Simian Ordusu'nun (Simian Army) ilk üyesi."
   },
   {
     "en": "characteristics",
@@ -505,6 +520,11 @@ window.GLOSSARY = [
     "note": "beceri/sorumluluk bağlamında"
   },
   {
+    "en": "communication connascence",
+    "tr": "iletişim eşdoğuşu",
+    "note": "Bileşenler arasındaki iletişim/etkileşim biçiminden kaynaklanan eşdoğuş ölçümü; sayfada geleneksel bağlılık ölçütleriyle (coupling metrics) birleştirilen yeni ölçü olarak geçer."
+  },
+  {
     "en": "communication protocol",
     "tr": "iletişim protokolü",
     "note": "servisler arası iletişimde kullanılan protokol (REST, gRPC gibi)"
@@ -553,6 +573,11 @@ window.GLOSSARY = [
     "en": "confidentiality",
     "tr": "gizlilik",
     "note": "Verilere yalnızca erişim yetkisi olanların erişebilmesi; güvenlik özelliği."
+  },
+  {
+    "en": "Conformity Monkey",
+    "tr": "Uygunluk Maymunu",
+    "note": "Netflix mimarlarının yönetişim kurallarını üretim ortamında uygulatan aracı; Simian Ordusu üyesi."
   },
   {
     "en": "connascence",
@@ -788,6 +813,11 @@ window.GLOSSARY = [
     "en": "defensive design",
     "tr": "savunmacı tasarım",
     "note": "Bir kısıtlama veya en kötü senaryo etrafında yapılan korumacı tasarım."
+  },
+  {
+    "en": "dependent components",
+    "tr": "bağımlı bileşenler",
+    "note": "Kod tabanı dışındaki, mimari özellikleri (özellikle operasyonel olanları) etkileyen veritabanı, kuyruk, harici servis gibi bileşenler."
   },
   {
     "en": "deployability",
@@ -1430,6 +1460,11 @@ window.GLOSSARY = [
     "note": "Uygulama ekibinden izole biçimde karar alan, ekiple iletişim kurmayan mimar davranışını anlatan anti-desen."
   },
   {
+    "en": "Janitor Monkey",
+    "tr": "Temizlikçi Maymun",
+    "note": "Artık başka servislerin yönlendirmediği, sahipsiz kalan örnekleri üretimden kaldıran araç; Simian Ordusu üyesi."
+  },
+  {
     "en": "kata",
     "tr": "kata",
     "note": "Japonya'dan ve dövüş sanatlarından gelen, vurgunun doğru form ve teknik üzerinde olduğu bireysel eğitim alıştırması; yerleşik terim olduğu gibi kullanılır."
@@ -1463,6 +1498,11 @@ window.GLOSSARY = [
     "en": "latency",
     "tr": "gecikme süresi",
     "note": "Bir isteğin gönderilmesi ile yanıtın alınması arasında geçen süre; düşük gecikme (low latency), yüksek frekanslı alım satım bağlamında kritik önem taşır."
+  },
+  {
+    "en": "Latency Monkey",
+    "tr": "Gecikme Maymunu",
+    "note": "Yüksek gecikme süresini simüle eden, gecikme sorununa özel yaratılmış araç; Simian Ordusu üyesi."
   },
   {
     "en": "latest trends",
@@ -1508,6 +1548,11 @@ window.GLOSSARY = [
     "en": "least worst architecture",
     "tr": "en az kötü mimari (least worst architecture)",
     "note": "Tüm mimari özellikler en üst düzeye çıkarılamayacağı için, en az acı veren yan etkilere sahip mimari seçiminin yapılması."
+  },
+  {
+    "en": "legacy systems",
+    "tr": "eski sistemler",
+    "note": "Tek veritabanı kullanılarak dağıtılan, tanım gereği tek bir mimari kuantum oluşturan geleneksel sistemler."
   },
   {
     "en": "legal",
@@ -1813,6 +1858,11 @@ window.GLOSSARY = [
     "en": "organizing principle",
     "tr": "düzenleme ilkesi",
     "note": "Bir sistemin parçalarını düzenleyen temel ilke."
+  },
+  {
+    "en": "orphan service",
+    "tr": "sahipsiz servis",
+    "note": "Artık hiçbir servisin çağırmadığı, üretimde çalışmaya devam eden ve maliyet üreten servis; Janitor Monkey'nin aradığı hedef."
   },
   {
     "en": "orthogonal",
@@ -2160,6 +2210,11 @@ window.GLOSSARY = [
     "note": "Şifreleme, karma, yamalama gibi her sistemin uygulaması gereken standart, temel güvenlik önlemleri; sayfada 'standard security hygiene' bağlamında kullanılır."
   },
   {
+    "en": "Security Monkey",
+    "tr": "Güvenlik Maymunu",
+    "note": "Her servisi bilinen güvenlik kusurlarına (etkin olmaması gereken portlar, yapılandırma hataları) karşı denetleyen araç; Simian Ordusu üyesi."
+  },
+  {
     "en": "selective typing",
     "tr": "seçici tipleme",
     "note": "Bazı dinamik tipli dillerin (Clojure, Clojure Spec) değişkenleri belirli türlerle sınırlama yeteneği."
@@ -2198,6 +2253,11 @@ window.GLOSSARY = [
     "en": "side effect",
     "tr": "yan etki",
     "note": "Bir işlemin öngörülmeyen ya da istenmeyen sonucu"
+  },
+  {
+    "en": "Simian Army",
+    "tr": "Simian Ordusu",
+    "note": "Netflix'in kaos mühendisliği araçlarının genel adı; Conformity, Security, Janitor, Latency Maymunları ve Chaos Kong'u kapsar. Simian sözcüğü 'maymunsu' anlamına gelir."
   },
   {
     "en": "simplicity",
@@ -2320,6 +2380,11 @@ window.GLOSSARY = [
     "note": "Geliştiricilerin kodlama/tasarım değişiklikleri sonucu mimari özelliklerin bozulması."
   },
   {
+    "en": "structural evolvability",
+    "tr": "yapısal evrilebilirlik (structural evolvability)",
+    "note": "Belirli mimari stillerin zaman içinde yapısal olarak evrilebilme yeteneği; Building Evolutionary Architectures kitabında ölçülmek istenen nitelik."
+  },
+  {
     "en": "structural metric",
     "tr": "yapısal ölçüt",
     "note": "Kodun yapısını (alan erişimi, bağımlılıklar gibi) kaynak düzeyinde ölçen ölçüt."
@@ -2373,6 +2438,11 @@ window.GLOSSARY = [
     "en": "synchronous communication",
     "tr": "eşzamanlı iletişim",
     "note": "Gönderenin yanıt beklediği, çağrının engelleyici (bloklayıcı) olduğu iletişim biçimi; asenkron mesajlaşmanın (asynchronous messaging) karşıtı."
+  },
+  {
+    "en": "synchronous connascence",
+    "tr": "eşzamanlı eşdoğuş",
+    "note": "Dinamik eşdoğuşun (dynamic connascence) türü; uygulama bağlamı içindeki veya dağıtık servisler arasındaki eşzamanlı çağrıları ifade eder."
   },
   {
     "en": "teamwork",
@@ -2478,6 +2548,11 @@ window.GLOSSARY = [
     "en": "timebox",
     "tr": "zaman kutusu",
     "note": "Bir alıştırmaya ya da etkinliğe ayrılan sınırlı süre; bu sayfada kata alıştırmasının zaman kutusuna alınması (timeboxed exercise) bağlamında geçer."
+  },
+  {
+    "en": "timeout",
+    "tr": "zaman aşımı (timeout)",
+    "note": "Bir çağrının yanıt için beklediği azami süre; eşzamanlı çağrılarda güvenilirlik (reliability) kaygısı olarak geçer."
   },
   {
     "en": "topic",

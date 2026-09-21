@@ -9,7 +9,7 @@ window.TOC = {
   },
   "bookTotalPages": 399,
   "pdfOffset": 20,
-  "lastTranslatedPage": 89,
+  "lastTranslatedPage": 93,
   "chapters": [
     {
       "num": 1,
@@ -1141,6 +1141,39 @@ window.TOC = {
         "tr": "Yönetişim ve Uygunluk Fonksiyonları"
       },
       "chapter": 6
+    },
+    "88": {
+      "title": {
+        "en": "The Simian Army and Chaos Engineering",
+        "tr": "Simian Ordusu ve Kaos Mühendisliği"
+      },
+      "section": {
+        "en": "Governance and Fitness Functions",
+        "tr": "Yönetişim ve Uygunluk Fonksiyonları"
+      },
+      "chapter": 6
+    },
+    "91": {
+      "title": {
+        "en": "Scope of Architecture Characteristics",
+        "tr": "Mimari Özelliklerin Kapsamı"
+      },
+      "section": {
+        "en": "Scope of Architecture Characteristics",
+        "tr": "Mimari Özelliklerin Kapsamı"
+      },
+      "chapter": 7
+    },
+    "93": {
+      "title": {
+        "en": "Dissecting the Architecture Quantum",
+        "tr": "Mimari Kuantumun Parçalara Ayrılması (Dissecting the Architecture Quantum)"
+      },
+      "section": {
+        "en": "Architectural Quanta and Granularity",
+        "tr": "Mimari Kuantumlar ve Parçalılık"
+      },
+      "chapter": 7
     }
   }
 };

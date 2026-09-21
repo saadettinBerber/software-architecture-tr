@@ -27,7 +27,7 @@
     "chapter_label_pattern": "^CHAPTER (\\d+)$",
     "math_geometry": true
   },
-  "last_translated_page": 89,
+  "last_translated_page": 93,
   "chapters": [
     {
       "num": 1,
@@ -882,6 +882,30 @@
       "title_tr": "Uygunluk Fonksiyonlarına Kontrol Listesi Bakış Açısı",
       "section_en": "Governance and Fitness Functions",
       "section_tr": "Yönetişim ve Uygunluk Fonksiyonları"
+    },
+    "88": {
+      "pdf_page": 108,
+      "chapter": 6,
+      "title_en": "The Simian Army and Chaos Engineering",
+      "title_tr": "Simian Ordusu ve Kaos Mühendisliği",
+      "section_en": "Governance and Fitness Functions",
+      "section_tr": "Yönetişim ve Uygunluk Fonksiyonları"
+    },
+    "91": {
+      "pdf_page": 111,
+      "chapter": 7,
+      "title_en": "Scope of Architecture Characteristics",
+      "title_tr": "Mimari Özelliklerin Kapsamı",
+      "section_en": "Scope of Architecture Characteristics",
+      "section_tr": "Mimari Özelliklerin Kapsamı"
+    },
+    "93": {
+      "pdf_page": 113,
+      "chapter": 7,
+      "title_en": "Dissecting the Architecture Quantum",
+      "title_tr": "Mimari Kuantumun Parçalara Ayrılması (Dissecting the Architecture Quantum)",
+      "section_en": "Architectural Quanta and Granularity",
+      "section_tr": "Mimari Kuantumlar ve Parçalılık"
     }
   }
 }
