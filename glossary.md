@@ -73,6 +73,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | coaching | koçluk | mimarın geliştiricilere yönelik birebir yönlendirmesi. |
 | code base | kod tabanı |  |
 | code review | kod incelemesi | Bir geliştiricinin yazdığı kodun başka bir kişi tarafından gözden geçirilmesi; çoğulu kod incelemeleri. |
+| code smell | kod kokusu | Kodda belirli bir sorunu ya da tasarım kusurunu işaret eden kalıntı. |
 | code-level metrics | kod düzeyi ölçütler | Kaynak kodun yapısından türetilen, kod tabanına ilişkin ölçütler (döngüsel karmaşıklık gibi); neredeyse tamamı yorum gerektirir. |
 | cohesion | bütünlük | Modülün parçalarının aynı modülde tutulma derecesi; coupling (bağlılık) ile birlikte kullanılır. |
 | cohesiveness | bütünlük | Bir modülün uyum (cohesion) derecesi; cohesive (uyumlu) sıfatı da bu sayfada geçer. |
@@ -110,6 +111,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | cyclomatic complexity | döngüsel karmaşıklık | kod karmaşıklığını ölçen metrik |
 | data architecture | veri mimarisi | Verinin nasıl saklanacağını ve erişileceğini düzenleyen mimari yaklaşım. |
 | data center | veri merkezi | Sunucu ve ağ altyapısının barındırıldığı tesis |
+| data coupling | veri bağlılığı | Yapısal programlamada, modüllerin metot çağrıları aracılığıyla veri paylaştığı bağlılık türü. |
 | data structure | veri yapısı | Verinin düzenlenip saklanma biçimi; bütünlüğü (integrity) korumak için öğelerin birlikte değişmesi gerekebilir. |
 | database schema | veri tabanı şeması |  |
 | database server | veritabanı sunucusu | Veritabanı yönetimini barındıran sunucu |
@@ -124,9 +126,11 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | DevOps | DevOps | Yerleşmiş terim; bu hâliyle kullanılır. |
 | directory | dizin | Dosya sisteminde dosyaları gruplayan yapı; klasör. |
 | distance from the main sequence | ana diziden uzaklık | Soyutluk–kararsızlık grafiğinde bir bileşenin ana diziden (A+I=1 doğrusu) uzaklığı; D = A + I − 1 ile hesaplanır, normalleştirilmiş biçimi |A + I − 1|'dir. |
+| distributed architecture | dağıtık mimari | Mikroservisler gibi, bileşenlerin farklı süreçlerde/makinelerde çalıştığı mimari; distributed systems (dağıtık sistemler) ile ilişkilidir. |
 | distributed queue | dağıtık kuyruk | Birden çok bileşenin paylaşıp güncellediği, dağıtık ortamda yaşayan kuyruk. |
 | distributed systems | dağıtık sistemler | Birden çok makinede çalışan ve birbirleriyle ağ üzerinden iletişim kuran sistemler. |
 | domain | alan (domain) | Problem alanı bağlamında. |
+| domain requirements | alan gereksinimleri | Sorun alanına (problem domain) ilişkin gereksinimler; mimari özelliklerle birlikte yazılım çözümünü oluşturur. |
 | don't repeat yourself (DRY) | kendini tekrar etme (DRY) | Kod tekrarını önleyen tasarım ilkesi |
 | dynamic connascence | dinamik eşdoğuş | Çağrıları çalışma zamanında analiz eden eşdoğuş türü; statik eşdoğuşun (static connascence) karşıtı. |
 | dynamically typed language | dinamik tipli dil | Türlerin çalışma zamanında belirlendiği programlama dili. |
@@ -164,8 +168,10 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | fully qualified name | tam nitelikli ad | Bir öğeyi benzersiz biçimde tanımlayan, paket/alan adı zincirini içeren tam ad. |
 | functional cohesion | işlevsel bütünlük | En yüksek bütünlük düzeyi; modülün tüm parçaları birbiriyle ilişkilidir. |
 | functional language | fonksiyonel dil | Hesaplamanın fonksiyonlar aracılığıyla yapıldığı programlama dili. |
+| functional requirements | işlevsel gereksinimler | Sistemin gerçekleştirdiği alan işlevlerini tanımlayan gereksinimler; mimari özelliklerin karşıtı. |
 | functionality | işlevsellik | Sistemin gerçekleştirdiği işlevler; mimari karakteristiklerden bağımsızdır |
 | genetic algorithm | genetik algoritma | Çözümü mutasyon ve seçimle evrimleştirerek optimize eden algoritma. |
+| granularity | parçalılık | Bir sistemin parçalara ayrılma incelik derecesi; 'Architectural Quanta and Granularity' kesit başlığında geçer. |
 | graph theory | çizge kuramı | Çizge (graf) yapılarını inceleyen matematik dalı. |
 | guideline | kılavuz ilke | yol gösteren ama dayatmayan ilke; karşılığı kılavuz/rehber |
 | hands-on | uygulamalı | hands-on knowledge bağlamında |
@@ -201,6 +207,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | library | kütüphane | Yeniden kullanılabilir kod koleksiyonu; framework'ten (çerçeve) daha az yapılandırılmıştır. |
 | lint test | lint testi | Kodda olası hataları ve biçim sorunlarını denetleyen test; lint terimi korunur. |
 | load balancing | yük dengeleme | İş yükünün tüketiciler arasında dağıtılması. |
+| locality | yerellik | Eşdoğuşlu öğelerin kod tabanındaki birbirine yakınlığı; Rule of Locality (Yerellik Kuralı) bağlamında. |
 | logical cohesion | mantıksal bütünlük | Modüldeki verinin işlevsel değil mantıksal olarak ilişkili olduğu uyum türü; örn. StringUtils gibi aynı tür veri üzerinde çalışan ilişkisiz statik yöntemler. |
 | loose coupling | gevşek bağlılık | Bileşenler arası bağımlılığın az olması |
 | machine provisioning | makine sağlama | Sunucu ve kaynakların otomatik olarak hazırlanması. |
@@ -231,6 +238,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | negotiation | müzakere |  |
 | negotiation skills | müzakere becerileri | Mimarların kararları onaylatmak için kullandığı beceriler |
 | nomenclature | adlandırma | Bir alana özgü terimler bütünü. |
+| nonfunctional requirements | işlevsel olmayan gereksinimler | Yazılımın alan işlevselliğiyle doğrudan ilişkili olmayan özelliklerine (performans, kullanılabilirlik vb.) verilen yaygın ad; kitap bu terimi kendini küçültücü bulduğu için kullanmaz. |
 | nonpriority debt | imtiyazsız borç | finansal terim; junior debt olarak da bilinir |
 | object-oriented | nesne yönelimli | Nesneleri ve kapsüllemeyi temel alan programlama paradigması (OOP). |
 | object-oriented language | nesne yönelimli dil | Kodun sınıflar ve nesneler etrafında düzenlendiği programlama dili. |
@@ -261,6 +269,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | project manager | proje yöneticisi | Proje planlaması ve yürütmesinden sorumlu kişi |
 | proof-of-concept (POC) | kavram kanıtı (POC) | Bir mimari kararı doğrulamak için geliştirilen çalışan örnek; POC kısaltması korunur. |
 | publish-and-subscribe | yayınla-abone ol | Üreticinin bir konuya (topic) yayınladığı mesajı tüm abonelerin aldığı mesajlaşma modeli. |
+| quality attributes | kalite özellikleri | Mimari özellikler için kullanılan bir diğer popüler terim; kitap, iş sonrası kalite değerlendirmesi ima ettiği için bu terimi de tercih etmez. |
 | queue | kuyruk | Mesajlaşmada, bir mesajı tek bir tüketiciye ulaştıran sıra; point-to-point modelin temel öğesi. |
 | race condition | yarış durumu | İki iş parçacığının aynı anda çalışıp ortak işlemin sonucunu etkilemesiyle ortaya çıkan durum. |
 | rates rally | oran rallisi | finansal terim; faiz oranlarındaki yükseliş |
@@ -272,12 +281,15 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | release environment | sürüm ortamı | Sürümün hazırlandığı, doğrulandığı ve yayınlandığı ortam. |
 | remote access protocol | uzaktan erişim protokolü | REST, SOAP gibi uzak servis çağrılarında kullanılan protokol |
 | requirements | gereksinimler | Sistemin karşılaması gereken işlevsel ihtiyaçlar. |
+| requirements gathering | gereksinim toplama | Sistemin gereksinimlerinin toplanması çalışması; uygulanan yazılım geliştirme sürecine göre değişen tekniklerle yürütülür. |
 | resilient architecture | dayanıklı mimari | Değişime ve arızalara karşı dirençli mimari. |
 | responsibility | sorumluluk | Mimarın rol kapsamı bağlamında. |
 | restructuring | yeniden yapılandırma | Mimarinin bir desenden diğerine taşınması/değiştirilmesi |
 | reuse mechanism | yeniden kullanım mekanizması | Kodun farklı yerlerde tekrar kullanılmasını sağlayan platform yeteneği. |
 | roadmap | yol haritası | Bir sistemi geliştirme sürecini gösteren plan |
 | rogue service | başıboş servis | Kurallar dışına çıkan, izinsiz davranan servis. |
+| Rule of Degree | Derece Kuralı | Jim Weirich'in önerisi: güçlü eşdoğuş biçimlerini daha zayıf biçimlere dönüştürün. |
+| Rule of Locality | Yerellik Kuralı | Jim Weirich'in önerisi: öğeler arası uzaklık arttıkça daha zayıf eşdoğuş biçimleri kullanın. |
 | runtime | çalışma zamanı | Programın çalıştığı an; execution-time ile eş anlamlı kullanılır (kaynak kod düzeyi analizinin karşıtı). |
 | scalability | ölçeklenebilirlik | Bir mimari özellik (“-ility”) |
 | scope (scoping) | kapsam (scoping) | Bir tanımlayıcının görülebildiği ve erişilebildiği bölge; kapsam kuralları. |
@@ -321,6 +333,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | stuff you know you don’t know | bildiğini bilmediğin şeyler | Varlığından haberdar olunan ama uzmanlık gerektiren bilgi düzeyi; known unknowns (bilinen bilinmeyenler) ile ilişkilidir. |
 | success criteria | başarı kriterleri | Sistemin başarılı sayılması için karşılanması gereken ölçütler |
 | symbiotic relationship | simbiyotik ilişki | Birbirini tamamlayan ve destekleyen karşılıklı ilişki. |
+| synchronous communication | eşzamanlı iletişim | Gönderenin yanıt beklediği, çağrının engelleyici (bloklayıcı) olduğu iletişim biçimi; asenkron mesajlaşmanın (asynchronous messaging) karşıtı. |
 | teamwork | takım çalışması |  |
 | technical breadth | teknik genişlik |  |
 | technical debt | teknik borç | Kısa vadeli ya da acele çözümlerin biriktirdiği, sonradan ödenmesi gereken kod/tasarım borcu. |

@@ -320,6 +320,11 @@ window.GLOSSARY = [
     "note": "Bir geliştiricinin yazdığı kodun başka bir kişi tarafından gözden geçirilmesi; çoğulu kod incelemeleri."
   },
   {
+    "en": "code smell",
+    "tr": "kod kokusu",
+    "note": "Kodda belirli bir sorunu ya da tasarım kusurunu işaret eden kalıntı."
+  },
+  {
     "en": "code-level metrics",
     "tr": "kod düzeyi ölçütler",
     "note": "Kaynak kodun yapısından türetilen, kod tabanına ilişkin ölçütler (döngüsel karmaşıklık gibi); neredeyse tamamı yorum gerektirir."
@@ -505,6 +510,11 @@ window.GLOSSARY = [
     "note": "Sunucu ve ağ altyapısının barındırıldığı tesis"
   },
   {
+    "en": "data coupling",
+    "tr": "veri bağlılığı",
+    "note": "Yapısal programlamada, modüllerin metot çağrıları aracılığıyla veri paylaştığı bağlılık türü."
+  },
+  {
     "en": "data structure",
     "tr": "veri yapısı",
     "note": "Verinin düzenlenip saklanma biçimi; bütünlüğü (integrity) korumak için öğelerin birlikte değişmesi gerekebilir."
@@ -575,6 +585,11 @@ window.GLOSSARY = [
     "note": "Soyutluk–kararsızlık grafiğinde bir bileşenin ana diziden (A+I=1 doğrusu) uzaklığı; D = A + I − 1 ile hesaplanır, normalleştirilmiş biçimi |A + I − 1|'dir."
   },
   {
+    "en": "distributed architecture",
+    "tr": "dağıtık mimari",
+    "note": "Mikroservisler gibi, bileşenlerin farklı süreçlerde/makinelerde çalıştığı mimari; distributed systems (dağıtık sistemler) ile ilişkilidir."
+  },
+  {
     "en": "distributed queue",
     "tr": "dağıtık kuyruk",
     "note": "Birden çok bileşenin paylaşıp güncellediği, dağıtık ortamda yaşayan kuyruk."
@@ -588,6 +603,11 @@ window.GLOSSARY = [
     "en": "domain",
     "tr": "alan (domain)",
     "note": "Problem alanı bağlamında."
+  },
+  {
+    "en": "domain requirements",
+    "tr": "alan gereksinimleri",
+    "note": "Sorun alanına (problem domain) ilişkin gereksinimler; mimari özelliklerle birlikte yazılım çözümünü oluşturur."
   },
   {
     "en": "don't repeat yourself (DRY)",
@@ -775,6 +795,11 @@ window.GLOSSARY = [
     "note": "Hesaplamanın fonksiyonlar aracılığıyla yapıldığı programlama dili."
   },
   {
+    "en": "functional requirements",
+    "tr": "işlevsel gereksinimler",
+    "note": "Sistemin gerçekleştirdiği alan işlevlerini tanımlayan gereksinimler; mimari özelliklerin karşıtı."
+  },
+  {
     "en": "functionality",
     "tr": "işlevsellik",
     "note": "Sistemin gerçekleştirdiği işlevler; mimari karakteristiklerden bağımsızdır"
@@ -783,6 +808,11 @@ window.GLOSSARY = [
     "en": "genetic algorithm",
     "tr": "genetik algoritma",
     "note": "Çözümü mutasyon ve seçimle evrimleştirerek optimize eden algoritma."
+  },
+  {
+    "en": "granularity",
+    "tr": "parçalılık",
+    "note": "Bir sistemin parçalara ayrılma incelik derecesi; 'Architectural Quanta and Granularity' kesit başlığında geçer."
   },
   {
     "en": "graph theory",
@@ -960,6 +990,11 @@ window.GLOSSARY = [
     "note": "İş yükünün tüketiciler arasında dağıtılması."
   },
   {
+    "en": "locality",
+    "tr": "yerellik",
+    "note": "Eşdoğuşlu öğelerin kod tabanındaki birbirine yakınlığı; Rule of Locality (Yerellik Kuralı) bağlamında."
+  },
+  {
     "en": "logical cohesion",
     "tr": "mantıksal bütünlük",
     "note": "Modüldeki verinin işlevsel değil mantıksal olarak ilişkili olduğu uyum türü; örn. StringUtils gibi aynı tür veri üzerinde çalışan ilişkisiz statik yöntemler."
@@ -1108,6 +1143,11 @@ window.GLOSSARY = [
     "en": "nomenclature",
     "tr": "adlandırma",
     "note": "Bir alana özgü terimler bütünü."
+  },
+  {
+    "en": "nonfunctional requirements",
+    "tr": "işlevsel olmayan gereksinimler",
+    "note": "Yazılımın alan işlevselliğiyle doğrudan ilişkili olmayan özelliklerine (performans, kullanılabilirlik vb.) verilen yaygın ad; kitap bu terimi kendini küçültücü bulduğu için kullanmaz."
   },
   {
     "en": "nonpriority debt",
@@ -1260,6 +1300,11 @@ window.GLOSSARY = [
     "note": "Üreticinin bir konuya (topic) yayınladığı mesajı tüm abonelerin aldığı mesajlaşma modeli."
   },
   {
+    "en": "quality attributes",
+    "tr": "kalite özellikleri",
+    "note": "Mimari özellikler için kullanılan bir diğer popüler terim; kitap, iş sonrası kalite değerlendirmesi ima ettiği için bu terimi de tercih etmez."
+  },
+  {
     "en": "queue",
     "tr": "kuyruk",
     "note": "Mesajlaşmada, bir mesajı tek bir tüketiciye ulaştıran sıra; point-to-point modelin temel öğesi."
@@ -1315,6 +1360,11 @@ window.GLOSSARY = [
     "note": "Sistemin karşılaması gereken işlevsel ihtiyaçlar."
   },
   {
+    "en": "requirements gathering",
+    "tr": "gereksinim toplama",
+    "note": "Sistemin gereksinimlerinin toplanması çalışması; uygulanan yazılım geliştirme sürecine göre değişen tekniklerle yürütülür."
+  },
+  {
     "en": "resilient architecture",
     "tr": "dayanıklı mimari",
     "note": "Değişime ve arızalara karşı dirençli mimari."
@@ -1343,6 +1393,16 @@ window.GLOSSARY = [
     "en": "rogue service",
     "tr": "başıboş servis",
     "note": "Kurallar dışına çıkan, izinsiz davranan servis."
+  },
+  {
+    "en": "Rule of Degree",
+    "tr": "Derece Kuralı",
+    "note": "Jim Weirich'in önerisi: güçlü eşdoğuş biçimlerini daha zayıf biçimlere dönüştürün."
+  },
+  {
+    "en": "Rule of Locality",
+    "tr": "Yerellik Kuralı",
+    "note": "Jim Weirich'in önerisi: öğeler arası uzaklık arttıkça daha zayıf eşdoğuş biçimleri kullanın."
   },
   {
     "en": "runtime",
@@ -1558,6 +1618,11 @@ window.GLOSSARY = [
     "en": "symbiotic relationship",
     "tr": "simbiyotik ilişki",
     "note": "Birbirini tamamlayan ve destekleyen karşılıklı ilişki."
+  },
+  {
+    "en": "synchronous communication",
+    "tr": "eşzamanlı iletişim",
+    "note": "Gönderenin yanıt beklediği, çağrının engelleyici (bloklayıcı) olduğu iletişim biçimi; asenkron mesajlaşmanın (asynchronous messaging) karşıtı."
   },
   {
     "en": "teamwork",

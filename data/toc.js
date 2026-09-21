@@ -9,7 +9,7 @@ window.TOC = {
   },
   "bookTotalPages": 399,
   "pdfOffset": 20,
-  "lastTranslatedPage": 51,
+  "lastTranslatedPage": 55,
   "chapters": [
     {
       "num": 1,
@@ -750,6 +750,39 @@ window.TOC = {
         "tr": "Modülerliği Ölçme"
       },
       "chapter": 3
+    },
+    "52": {
+      "title": {
+        "en": "Unifying Coupling and Connascence Metrics",
+        "tr": "Bağlılık ve Eşdoğuş Ölçütlerinin Birleştirilmesi"
+      },
+      "section": {
+        "en": "Measuring Modularity",
+        "tr": "Modülerliğin Ölçülmesi"
+      },
+      "chapter": 3
+    },
+    "53": {
+      "title": {
+        "en": "From Modules to Components",
+        "tr": "Modüllerden Bileşenlere"
+      },
+      "section": {
+        "en": "From Modules to Components",
+        "tr": "Modüllerden Bileşenlere"
+      },
+      "chapter": 3
+    },
+    "55": {
+      "title": {
+        "en": "Defining Architecture Characteristics",
+        "tr": "Mimari Özellikleri Tanımlamak"
+      },
+      "section": {
+        "en": "Architecture Characteristics Defined",
+        "tr": "Mimari Özelliklerin Tanımı"
+      },
+      "chapter": 4
     }
   }
 };
