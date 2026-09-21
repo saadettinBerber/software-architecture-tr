@@ -22,7 +22,9 @@
     "section_min_size": 18.0,
     "subsection_min_size": 14.0,
     "chapter_title_min_size": 20,
-    "default_code_language": "java"
+    "default_code_language": "java",
+    "header_at_bottom": true,
+    "chapter_label_pattern": "^CHAPTER (\\d+)$"
   },
   "last_translated_page": 0,
   "chapters": [
