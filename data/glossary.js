@@ -205,6 +205,16 @@ window.GLOSSARY = [
     "note": "Testlerde beklenen davranışı doğrulayan kontrol ifadeleri; test edilebilirlik bağlamında geçer."
   },
   {
+    "en": "asynchronous call",
+    "tr": "asenkron çağrı",
+    "note": "Çağıranın yanıt beklemediği, ateşle ve unut (fire-and-forget) semantiğine olanak tanıyan çağrı biçimi."
+  },
+  {
+    "en": "asynchronous connascence",
+    "tr": "asenkron eşdoğuş",
+    "note": "Dinamik eşdoğuş türü; ateşle ve unut (fire-and-forget) semantiğiyle oluşur ve iki servisin operasyonel mimaride farklılaşmasına izin verir."
+  },
+  {
     "en": "asynchronous messaging",
     "tr": "asenkron mesajlaşma",
     "note": "servisler arası iletişimde yanıt beklemeden mesaj gönderme"
@@ -383,6 +393,16 @@ window.GLOSSARY = [
     "en": "call graph",
     "tr": "çağrı çizgesi",
     "note": "Yöntem çağrılarını ve dönüşlerini düğümler ve kenarlar olarak gösteren çizge."
+  },
+  {
+    "en": "callee",
+    "tr": "çağrılan",
+    "note": "Çağrının hedefi olan taraf; caller'ın (çağıran) karşıtı."
+  },
+  {
+    "en": "caller",
+    "tr": "çağıran",
+    "note": "Bir çağrıyı başlatan taraf; callee'nin (çağrılan) karşıtı."
   },
   {
     "en": "capacity",
@@ -645,6 +665,11 @@ window.GLOSSARY = [
     "note": "Birbiriyle ilişkili birden çok değerin birlikte değişmesi gerektiği dinamik eşdoğuş türü."
   },
   {
+    "en": "connascent",
+    "tr": "eşdoğuşlu",
+    "note": "İki bileşen, birindeki değişiklik diğerinde de değişikliği zorunlu kılıyorsa eşdoğuşludur; connascence (eşdoğuş) teriminin sıfat biçimi."
+  },
+  {
     "en": "connected components",
     "tr": "bağlı bileşenler",
     "note": "Çizge kuramında kenarlarla birbirine bağlı düğüm kümeleri; fan-out çağrıları için genel döngüsel karmaşıklık formülündeki (CC = E − N + 2P) P sayısını temsil eder."
@@ -698,6 +723,11 @@ window.GLOSSARY = [
     "en": "coupling metrics",
     "tr": "bağlılık ölçütleri",
     "note": "Bileşenler arası bağımlılık derecesini ölçen ölçütler; sayfa 44'te ayrıntılı ele alınır."
+  },
+  {
+    "en": "coupling point",
+    "tr": "bağlılık noktası",
+    "note": "İki parçayı birbirine bağlayan ve kırılabilecek bağlılık yeri; tasarım, analiz ve evrimde göz önünde bulundurulur."
   },
   {
     "en": "Crap4J",
@@ -1040,6 +1070,11 @@ window.GLOSSARY = [
     "note": "Proje tahmini bağlamında."
   },
   {
+    "en": "event-driven architecture",
+    "tr": "olay güdümlü mimari",
+    "note": "Bileşenlerin olaylar aracılığıyla iletişim kurduğu mimari stil; asenkron çağrıların yaygın olduğu ortam."
+  },
+  {
     "en": "evolutionary architecture",
     "tr": "evrimsel mimari",
     "note": "Zamanla değişime uyum sağlayan mimari."
@@ -1143,6 +1178,11 @@ window.GLOSSARY = [
     "en": "field",
     "tr": "alan",
     "note": "Sınıf düzeyinde tanımlanan değişken; örnek alanı (instance field)."
+  },
+  {
+    "en": "fire-and-forget",
+    "tr": "ateşle ve unut (fire-and-forget)",
+    "note": "Gönderenin yanıt beklemediği, mesajı gönderip işine devam ettiği asenkron iletişim biçimi."
   },
   {
     "en": "first contentful paint",
@@ -1368,6 +1408,11 @@ window.GLOSSARY = [
     "en": "incremental change",
     "tr": "artımlı değişiklik",
     "note": "Küçük adımlarla, düşük maliyetle yapılan değişiklik"
+  },
+  {
+    "en": "independently deployable",
+    "tr": "bağımsız olarak dağıtılabilir",
+    "note": "Mimari kuantum tanımında: başka parçalara bağımlı olmadan kendi başına işlev görebilen ve dağıtılabilen yapı."
   },
   {
     "en": "indirection",
@@ -2015,6 +2060,11 @@ window.GLOSSARY = [
     "note": "Mimari özellikler için kullanılan bir diğer popüler terim; kitap, iş sonrası kalite değerlendirmesi ima ettiği için bu terimi de tercih etmez."
   },
   {
+    "en": "quantum",
+    "tr": "kuantum",
+    "note": "Fizikten gelen kavram: bir etkileşime dahil olan herhangi bir fiziksel varlığın en küçük miktarı; mimari kuantumun (architecture quantum) kökeni."
+  },
+  {
     "en": "queue",
     "tr": "kuyruk",
     "note": "Mesajlaşmada, bir mesajı tek bir tüketiciye ulaştıran sıra; point-to-point modelin temel öğesi."
@@ -2330,6 +2380,11 @@ window.GLOSSARY = [
     "note": "Güncelliğini yitirmiş bilginin hâlâ en ileri düzey olduğu yanılgısı; uzmanlığın sürdürülmemesi sonucu oluşur."
   },
   {
+    "en": "static code analysis",
+    "tr": "statik kod analizi",
+    "note": "Kodu çalıştırmadan kaynak düzeyinde inceleyen analiz; statik eşdoğuşun keşfedilme yöntemi."
+  },
+  {
     "en": "static connascence",
     "tr": "statik eşdoğuş",
     "note": "Kaynak kod düzeyindeki eşdoğuş; Structured Design'daki afferent ve efferent bağlılık ölçütlerinin nesne yönelimli dillere uyarlanmış hâli."
@@ -2433,6 +2488,11 @@ window.GLOSSARY = [
     "en": "symbiotic relationship",
     "tr": "simbiyotik ilişki",
     "note": "Birbirini tamamlayan ve destekleyen karşılıklı ilişki."
+  },
+  {
+    "en": "synchronous call",
+    "tr": "eşzamanlı çağrı",
+    "note": "Çağıranın yanıt için beklediği, bloklayıcı çağrı biçimi; synchronous communication (eşzamanlı iletişim) ile ilişkilidir."
   },
   {
     "en": "synchronous communication",

@@ -50,6 +50,8 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | artifact | çıktı (artifact) | Çalışma sonucu üretilen kayıt/eser; burada mimari diyagramlar. |
 | aspiring architect | mimar adayı | Mimarlığa heves eden, kariyerinin başındaki kişi; nascent architect (yeni yetişen mimar) ile ilişkilidir. |
 | assertions | iddialar (assertions) | Testlerde beklenen davranışı doğrulayan kontrol ifadeleri; test edilebilirlik bağlamında geçer. |
+| asynchronous call | asenkron çağrı | Çağıranın yanıt beklemediği, ateşle ve unut (fire-and-forget) semantiğine olanak tanıyan çağrı biçimi. |
+| asynchronous connascence | asenkron eşdoğuş | Dinamik eşdoğuş türü; ateşle ve unut (fire-and-forget) semantiğiyle oluşur ve iki servisin operasyonel mimaride farklılaşmasına izin verir. |
 | asynchronous messaging | asenkron mesajlaşma | servisler arası iletişimde yanıt beklemeden mesaj gönderme |
 | auction system | açık artırma sistemi | Kitabın ödünleşim örneğindeki gibi, eşyaların açık artırmayla satıldığı sistem. |
 | auditability | denetlenebilirlik | İşlem ve olayların izlenip denetlenebilmesi; bu sayfada gün sonu fon fiyatlamasının doğruluğu bağlamında geçer. |
@@ -86,6 +88,8 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | C-level executives | üst düzey yöneticiler | CEO, CFO, CTO gibi unvanlar |
 | caching | önbellekleme | caching product bağlamında |
 | call graph | çağrı çizgesi | Yöntem çağrılarını ve dönüşlerini düğümler ve kenarlar olarak gösteren çizge. |
+| callee | çağrılan | Çağrının hedefi olan taraf; caller'ın (çağıran) karşıtı. |
+| caller | çağıran | Bir çağrıyı başlatan taraf; callee'nin (çağrılan) karşıtı. |
 | capacity | kapasite | Belirlenen en yüksek sınırların aşılma derecesi; performans verimliliğinin alt ölçütü. |
 | career path | kariyer yolu |  |
 | CC | CC | Cyclomatic complexity (döngüsel karmaşıklık) kısaltması; kısaltma olduğu gibi korunur. |
@@ -138,6 +142,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | Connascence of Timing (CoT) | zamanlama eşdoğuşu (CoT) | Birden çok bileşenin yürütülme zamanının önemli olduğu dinamik eşdoğuş türü; tipik örneği yarış durumudur (race condition). |
 | Connascence of Type (CoT) | Tür Eşdoğuşu (CoT) | Statik eşdoğuş türlerinden biri; birden çok bileşenin bir varlığın türü üzerinde anlaşmasını gerektirir. |
 | Connascence of Values (CoV) | değer eşdoğuşu (CoV) | Birbiriyle ilişkili birden çok değerin birlikte değişmesi gerektiği dinamik eşdoğuş türü. |
+| connascent | eşdoğuşlu | İki bileşen, birindeki değişiklik diğerinde de değişikliği zorunlu kılıyorsa eşdoğuşludur; connascence (eşdoğuş) teriminin sıfat biçimi. |
 | connected components | bağlı bileşenler | Çizge kuramında kenarlarla birbirine bağlı düğüm kümeleri; fan-out çağrıları için genel döngüsel karmaşıklık formülündeki (CC = E − N + 2P) P sayısını temsil eder. |
 | constraint | kısıt | Sistemi ve geliştirme ekiplerini sınırlayan mimari karar ya da kural |
 | consumer | tüketici | Mesajlaşmada mesajı alan taraf. |
@@ -149,6 +154,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | corollary | vargı | Bir yasadan çıkarılan doğal sonuç (Corollary 1 → Vargı 1). |
 | coupling | bağlılık | Bileşenlerin birbirine bağımlılık derecesi |
 | coupling metrics | bağlılık ölçütleri | Bileşenler arası bağımlılık derecesini ölçen ölçütler; sayfa 44'te ayrıntılı ele alınır. |
+| coupling point | bağlılık noktası | İki parçayı birbirine bağlayan ve kırılabilecek bağlılık yeri; tasarım, analiz ve evrimde göz önünde bulundurulur. |
 | Crap4J | Crap4J | Java dünyasında, CC ve kod kapsamını birleştirerek kod kalitesini değerlendiren ölçüt aracı; ürün adı olduğu gibi korunur. |
 | critical path | kritik yol | Proje yönetiminde, bir projenin tamamlanma süresini belirleyen görevler dizisi; burada mimarinin darboğazı olabilecek kod bağlamında kullanılır. |
 | criticality | kritiklik derecesi | Bir sistemin ya da özelliğin kritiklik/önem düzeyi; güvenlik gibi örtük özelliklerin önceliklendirilmesinde göz önüne alınır. |
@@ -217,6 +223,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | entropy | entropi | Fizikten ödünç alınan, sistemlerin düzensizliğe yönelme eğilimi. |
 | esoteric | az bilinen (esoteric) | Herkesçe bilinmeyen, yalnızca uzmanlara özgü; bu sayfada ölçüt ve uygunluk fonksiyonunu niteleyen sıfat. |
 | estimation | tahmin | Proje tahmini bağlamında. |
+| event-driven architecture | olay güdümlü mimari | Bileşenlerin olaylar aracılığıyla iletişim kurduğu mimari stil; asenkron çağrıların yaygın olduğu ortam. |
 | evolutionary architecture | evrimsel mimari | Zamanla değişime uyum sağlayan mimari. |
 | evolutionary computing | evrimsel hesaplama | Doğal evrim süreçlerinden esinlenen hesaplama alanı. |
 | exchange | exchange | AMQP'de üreticinin mesaj gönderdiği bileşen; yerleşik terim, olduğu gibi kullanılır. |
@@ -238,6 +245,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | feedback loop | geri bildirim döngüsü | Kararların sonucunun hızla değerlendirilmesini sağlayan döngü; Çevik yaklaşımın temel avantajı |
 | fervent fans | ateşli hayranlar | Konser bileti satışlarında siteye hücum eden, hevesli taraftarlar; esneklik örneğinde geçer. |
 | field | alan | Sınıf düzeyinde tanımlanan değişken; örnek alanı (instance field). |
+| fire-and-forget | ateşle ve unut (fire-and-forget) | Gönderenin yanıt beklemediği, mesajı gönderip işine devam ettiği asenkron iletişim biçimi. |
 | first contentful paint | ilk içerikli boyama (first contentful paint) | Tarayıcının ilk görünür içeriği (metin, görsel vb.) çizdiği anı ölçen web performans ölçütü. |
 | first CPU idle | ilk CPU boşta kalması (first CPU idle) | Sayfanın kullanıcı etkileşimlerini işleyebilmek için CPU'nun ilk kez boşta kaldığı anı ölçen web performans ölçütü. |
 | First Law of Software Architecture | Yazılım Mimarisi Birinci Yasası | “Yazılım mimarisindeki her şey bir ödünleşimdir.” |
@@ -283,6 +291,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | incidental coupling | tesadüfi bağlılık | Birbirinden bağımsız yöntemlerin hiçbir ortak alanı paylaşmadan aynı sınıfta toplanması durumu; LCOM ölçütünün sınıflar içinde ortaya çıkardığı bağlılık. |
 | incidentally coupled | tesadüfen bağlanmış | Aralarında gerçek bir ilişki olmamasına rağmen tek bir sınıfta toplanmış; yüksek LCOM ile tespit edilir. |
 | incremental change | artımlı değişiklik | Küçük adımlarla, düşük maliyetle yapılan değişiklik |
+| independently deployable | bağımsız olarak dağıtılabilir | Mimari kuantum tanımında: başka parçalara bağımlı olmadan kendi başına işlev görebilen ve dağıtılabilen yapı. |
 | indirection | dolaylı erişim (indirection) | Zararlı verileri gizlemek için erişimi bir aracı üzerinden dolaylı yapma tekniği. |
 | infrastructure | altyapı | Sistemin üzerinde çalıştığı donanım ve ağ hizmetleri. |
 | insecure code | güvenli olmayan kod | Güvenlik açığı içerebilecek, üretime sürülmemesi gereken kod; geliştiricilerde diğer önceliklerle rekabet eden güvenlik sorumluluğu bağlamında. |
@@ -412,6 +421,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | proof-of-concept (POC) | kavram kanıtı (POC) | Bir mimari kararı doğrulamak için geliştirilen çalışan örnek; POC kısaltması korunur. |
 | publish-and-subscribe | yayınla-abone ol | Üreticinin bir konuya (topic) yayınladığı mesajı tüm abonelerin aldığı mesajlaşma modeli. |
 | quality attributes | kalite özellikleri | Mimari özellikler için kullanılan bir diğer popüler terim; kitap, iş sonrası kalite değerlendirmesi ima ettiği için bu terimi de tercih etmez. |
+| quantum | kuantum | Fizikten gelen kavram: bir etkileşime dahil olan herhangi bir fiziksel varlığın en küçük miktarı; mimari kuantumun (architecture quantum) kökeni. |
 | queue | kuyruk | Mesajlaşmada, bir mesajı tek bir tüketiciye ulaştıran sıra; point-to-point modelin temel öğesi. |
 | race condition | yarış durumu | İki iş parçacığının aynı anda çalışıp ortak işlemin sonucunu etkilemesiyle ortaya çıkan durum. |
 | rates rally | oran rallisi | finansal terim; faiz oranlarındaki yükseliş |
@@ -475,6 +485,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | spike | deneme (spike) | Zaman kutusuna alınmış, riskli bir varsayımı hızlıca doğrulamak için yapılan küçük deney/prototip; Extreme Programming kökenli. |
 | stakeholders | paydaşlar |  |
 | stale expertise | bayat uzmanlık | Güncelliğini yitirmiş bilginin hâlâ en ileri düzey olduğu yanılgısı; uzmanlığın sürdürülmemesi sonucu oluşur. |
+| static code analysis | statik kod analizi | Kodu çalıştırmadan kaynak düzeyinde inceleyen analiz; statik eşdoğuşun keşfedilme yöntemi. |
 | static connascence | statik eşdoğuş | Kaynak kod düzeyindeki eşdoğuş; Structured Design'daki afferent ve efferent bağlılık ölçütlerinin nesne yönelimli dillere uyarlanmış hâli. |
 | static initializer | statik başlatıcı | Java'da sınıf yüklenirken bir kez çalışan, statik alanları başlatan kod bloğu. |
 | static typing | statik tipleme | Değişken ve parametrelerin belirli türlerle sınırlandırılması; statik tipli dillerin yaygın özelliği. |
@@ -496,6 +507,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | substrate | doku (substrate) | Mimarinin üzerine inşa edildiği temel katman/yapı; yönetişim kontrollerinin mimarinin bünyesine kodlanması bağlamında. |
 | success criteria | başarı kriterleri | Sistemin başarılı sayılması için karşılanması gereken ölçütler |
 | symbiotic relationship | simbiyotik ilişki | Birbirini tamamlayan ve destekleyen karşılıklı ilişki. |
+| synchronous call | eşzamanlı çağrı | Çağıranın yanıt için beklediği, bloklayıcı çağrı biçimi; synchronous communication (eşzamanlı iletişim) ile ilişkilidir. |
 | synchronous communication | eşzamanlı iletişim | Gönderenin yanıt beklediği, çağrının engelleyici (bloklayıcı) olduğu iletişim biçimi; asenkron mesajlaşmanın (asynchronous messaging) karşıtı. |
 | synchronous connascence | eşzamanlı eşdoğuş | Dinamik eşdoğuşun (dynamic connascence) türü; uygulama bağlamı içindeki veya dağıtık servisler arasındaki eşzamanlı çağrıları ifade eder. |
 | teamwork | takım çalışması |  |

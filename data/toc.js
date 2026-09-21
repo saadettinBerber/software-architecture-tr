@@ -1174,6 +1174,17 @@ window.TOC = {
         "tr": "Mimari Kuantumlar ve Parçalılık"
       },
       "chapter": 7
+    },
+    "92": {
+      "title": {
+        "en": "Coupling and Connascence",
+        "tr": "Bağlılık ve Eşdoğuş"
+      },
+      "section": {
+        "en": "Coupling and Connascence",
+        "tr": "Bağlılık ve Eşdoğuş"
+      },
+      "chapter": 7
     }
   }
 };
