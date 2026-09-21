@@ -27,7 +27,7 @@
     "chapter_label_pattern": "^CHAPTER (\\d+)$",
     "math_geometry": true
   },
-  "last_translated_page": 108,
+  "last_translated_page": 111,
   "chapters": [
     {
       "num": 1,
@@ -1026,6 +1026,30 @@
       "title_tr": "Geliştirici Rolü",
       "section_en": "Developer Role",
       "section_tr": "Geliştirici Rolü"
+    },
+    "106": {
+      "pdf_page": 126,
+      "chapter": 8,
+      "title_en": "Which Partitioning Is Better?",
+      "title_tr": "Hangi Bölümleme Daha İyi?",
+      "section_en": "Architect Role",
+      "section_tr": "Mimar Rolü"
+    },
+    "109": {
+      "pdf_page": 129,
+      "chapter": 8,
+      "title_en": "Component Identification Cycle",
+      "title_tr": "Bileşen Belirleme Döngüsü",
+      "section_en": "Component Identification Flow",
+      "section_tr": "Bileşen Belirleme Akışı"
+    },
+    "111": {
+      "pdf_page": 131,
+      "chapter": 8,
+      "title_en": "The Entity Trap and Component Discovery",
+      "title_tr": "Varlık Tuzağı ve Bileşen Keşfi",
+      "section_en": "Component Design",
+      "section_tr": "Bileşen Tasarımı"
     }
   }
 }

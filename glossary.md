@@ -14,6 +14,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | accessibility | erişilebilirlik | Renk körlüğü veya işitme kaybı gibi engelleri olan kullanıcılar dahil tüm kullanıcılara erişim sağlama; yapısal mimari özellik. |
 | accidental complexity | tesadüfi karmaşıklık | Mimari/tasarım tercihlerinden kaynaklanan, gereksiz karmaşıklık; Bölüm 9'da ele alınır |
 | accountability | hesap verebilirlik | Bir kullanıcının eylemlerinin izlenebilmesi; güvenlik özelliği. |
+| actor/actions approach | aktör/eylemler yaklaşımı | Mimarların aktörleri ve gerçekleştirebilecekleri eylemleri belirleyerek gereksinimleri bileşenlere eşlediği yöntem; Rational Unified Process kökenlidir. |
 | adaptability | uyarlanabilirlik | Yazılımın farklı ya da değişen donanım, yazılım veya operasyonel ortamlara uyarlanabilme derecesi. |
 | additional context | ek bağlam | Kata alıştırmasında, gereksinimlerde yer almayan ancak tasarımı etkileyen önemli değerlendirmeleri içeren bölüm. |
 | address space | adres alanı | Bir sürecin erişebildiği, kendine özgü bellek bölgesi; servislerin kendi adres alanlarında çalışması bağlamında geçer. |
@@ -114,6 +115,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | classpath | classpath | Java'da sınıf ve kaynakların arandığı dizin/JAR yolu; yerleşik terim, olduğu gibi kullanılır. |
 | co-constructor | ortak yapıcı | Yazılım sisteminin birlikte inşa edilmesinde rol alan kişi; geliştiriciler, proje yöneticisi, operasyon ekibi gibi mimarla birlikte çalışan taraflar. |
 | coaching | koçluk | mimarın geliştiricilere yönelik birebir yönlendirmesi. |
+| coarse-grained | kaba taneli (coarse-grained) | Bileşen parçalılığı bağlamında; ince taneli (fine-grained) tasarımın karşıtı, üst düzey yapı taşları ölçeğinde bir başlangıç noktası. |
 | code base | kod tabanı |  |
 | code coverage | kod kapsamı (code coverage) | Testlerin kodu ne ölçüde çalıştırdığını gösteren ölçüt; Crap4J ile ilişkili. |
 | code quality metrics | kod kalitesi ölçütleri | Kaynak kodun kalitesini ölçen ölçütler; Bölüm 6'da ele alınan ve kod tabanlarını bütüncül olarak etkileyen ölçütler bağlamında geçer. |
@@ -235,6 +237,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | dynamically typed language | dinamik tipli dil | Türlerin çalışma zamanında belirlendiği programlama dili. |
 | ecosystem | ekosistem | Birbirini etkileyen teknoloji, araç ve uygulamaların bütünü |
 | edge | kenar | Çizge kuramında iki düğümü birbirine bağlayan çizgi; döngüsel karmaşıklık formülünde olası kararları (E) temsil eder. |
+| edge cases | uç durumlar (edge cases) | Sistemin sınırında ortaya çıkan, yeniden tasarımı teşvik eden özel durumlar; boundary conditions (sınır koşulları) ile ilişkilidir. |
 | efferent coupling | çıkan bağlılık | Bir kod öğesinden diğer kod öğelerine giden bağlantıların sayısı; Robert Martin'in Ce (fan-out) ölçütü. |
 | elastic scale | esnek ölçekleme | İhtiyaca göre kaynak örneklerini artırıp azaltma yeteneği |
 | elasticity | esneklik | Kaynakların talebe göre otomatik artırılıp azaltılabilmesi yeteneği (elastic scale) |
@@ -246,6 +249,8 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | enterprise | kuruluş | işletme/şirket bağlamında |
 | enterprise architect | kurumsal mimar | Kuruluş genelindeki sistem ve çözümlerin mimarisini yönlendiren, kurumsal ölçekte kararlardan sorumlu mimar rolü. |
 | enterprise service bus (ESB) | kurumsal servis veri yolu (ESB) | Servisler arası entegrasyonu ve mesajlaşmayı sağlayan merkezi bileşen. |
+| entity | varlık | Gereksinimlerde tanımlanan, genellikle bir veritabanı tablosuna karşılık gelen nesne; entity trap (varlık tuzağı) ile ilişkilidir. |
+| entity trap | varlık tuzağı | Mimarın veritabanı ilişkilerini yanlışlıkla uygulama iş akışları sanarak bileşenleri varlıklara göre oluşturduğu ters desen (anti-pattern). |
 | entropy | entropi | Fizikten ödünç alınan, sistemlerin düzensizliğe yönelme eğilimi. |
 | esoteric | az bilinen (esoteric) | Herkesçe bilinmeyen, yalnızca uzmanlara özgü; bu sayfada ölçüt ve uygunluk fonksiyonunu niteleyen sıfat. |
 | estimation | tahmin | Proje tahmini bağlamında. |
@@ -269,6 +274,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | feasibility | fizibilite (uygulanabilirlik) | Bir çözümün zaman ve bütçe açısından uygulanabilirliği; Tablo 5-1'de zaman ve bütçe kaygısının karşılığı. |
 | feature flag | özellik anahtarı (feature flag) | Davranışı kod değişikliği olmadan açıp kapatan bayrak; feature toggle (özellik anahtarı) ile eş anlamlı. |
 | feature toggles | özellik anahtarları | Davranışı kod değişikliği olmadan açıp kapatmayı sağlayan bayraklar |
+| feedback | geri bildirim | Yazılım tasarımında yinelemeli iyileştirmeyi yönlendiren geri bildirim; feedback loop (geri bildirim döngüsü) ile ilişkilidir. |
 | feedback loop | geri bildirim döngüsü | Kararların sonucunun hızla değerlendirilmesini sağlayan döngü; Çevik yaklaşımın temel avantajı |
 | fervent fans | ateşli hayranlar | Konser bileti satışlarında siteye hücum eden, hevesli taraftarlar; esneklik örneğinde geçer. |
 | field | alan | Sınıf düzeyinde tanımlanan değişken; örnek alanı (instance field). |
@@ -419,6 +425,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | nonrepudiation | inkâr edilemezlik | Eylemlerin veya olayların gerçekleştiğinin kanıtlanabilmesi; güvenlik özelliği. |
 | object-oriented | nesne yönelimli | Nesneleri ve kapsüllemeyi temel alan programlama paradigması (OOP). |
 | object-oriented language | nesne yönelimli dil | Kodun sınıflar ve nesneler etrafında düzenlendiği programlama dili. |
+| object-relational mapping (ORM) | nesne-ilişkisel haritalama (ORM) | Framework'ün veritabanı tablolarını nesnelere ve kullanıcı arayüzüne eşlemesi; Naked Objects ve Isis gibi çerçeveler bağlamında geçer. |
 | objective definition | nesnel tanım | Mimari özelliklerin, öznelliğe yer bırakmayan somut tanımı; sayfada 'objective definitions' biçiminde geçer. |
 | objective function | amaç fonksiyonu | Uygunluk fonksiyonu tanımında 'çıktının amaca ne kadar yaklaştığını değerlendiren fonksiyon' anlamında geçer; metinde 'object function' olarak yazılmıştır. |
 | objective measure | nesnel ölçüm | Bir mimari özelliğin öznelliğe yer bırakmadan otomatik olarak ölçülmesi; objective definition (nesnel tanım) ile ilişkilidir. |
@@ -501,6 +508,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | Rule of Locality | Yerellik Kuralı | Jim Weirich'in önerisi: öğeler arası uzaklık arttıkça daha zayıf eşdoğuş biçimleri kullanın. |
 | runtime | çalışma zamanı | Programın çalıştığı an; execution-time ile eş anlamlı kullanılır (kaynak kod düzeyi analizinin karşıtı). |
 | sacrificial architecture | feda edilebilir mimari | Maliyet, zaman gibi kısıtlar nedeniyle bilinçli olarak basit tutulan ve ileride değiştirilmesi beklenen mimari. |
+| scaffolding | iskele (scaffolding) | Ruby on Rails'in veritabanı tablo yapısına dayalı varsayılan kullanıcı arayüzü ve eşlemeler üreten özelliği. |
 | scalability | ölçeklenebilirlik | Bir mimari özellik (“-ility”) |
 | scope (scoping) | kapsam (scoping) | Bir tanımlayıcının görülebildiği ve erişilebildiği bölge; kapsam kuralları. |
 | scoping rules | kapsam kuralları | Bir adın hangi bağlamlarda görünür ve erişilebilir olduğunu belirleyen kurallar. |

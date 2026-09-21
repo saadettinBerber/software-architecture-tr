@@ -25,6 +25,11 @@ window.GLOSSARY = [
     "note": "Bir kullanıcının eylemlerinin izlenebilmesi; güvenlik özelliği."
   },
   {
+    "en": "actor/actions approach",
+    "tr": "aktör/eylemler yaklaşımı",
+    "note": "Mimarların aktörleri ve gerçekleştirebilecekleri eylemleri belirleyerek gereksinimleri bileşenlere eşlediği yöntem; Rational Unified Process kökenlidir."
+  },
+  {
     "en": "adaptability",
     "tr": "uyarlanabilirlik",
     "note": "Yazılımın farklı ya da değişen donanım, yazılım veya operasyonel ortamlara uyarlanabilme derecesi."
@@ -523,6 +528,11 @@ window.GLOSSARY = [
     "en": "coaching",
     "tr": "koçluk",
     "note": "mimarın geliştiricilere yönelik birebir yönlendirmesi."
+  },
+  {
+    "en": "coarse-grained",
+    "tr": "kaba taneli (coarse-grained)",
+    "note": "Bileşen parçalılığı bağlamında; ince taneli (fine-grained) tasarımın karşıtı, üst düzey yapı taşları ölçeğinde bir başlangıç noktası."
   },
   {
     "en": "code base",
@@ -1130,6 +1140,11 @@ window.GLOSSARY = [
     "note": "Çizge kuramında iki düğümü birbirine bağlayan çizgi; döngüsel karmaşıklık formülünde olası kararları (E) temsil eder."
   },
   {
+    "en": "edge cases",
+    "tr": "uç durumlar (edge cases)",
+    "note": "Sistemin sınırında ortaya çıkan, yeniden tasarımı teşvik eden özel durumlar; boundary conditions (sınır koşulları) ile ilişkilidir."
+  },
+  {
     "en": "efferent coupling",
     "tr": "çıkan bağlılık",
     "note": "Bir kod öğesinden diğer kod öğelerine giden bağlantıların sayısı; Robert Martin'in Ce (fan-out) ölçütü."
@@ -1183,6 +1198,16 @@ window.GLOSSARY = [
     "en": "enterprise service bus (ESB)",
     "tr": "kurumsal servis veri yolu (ESB)",
     "note": "Servisler arası entegrasyonu ve mesajlaşmayı sağlayan merkezi bileşen."
+  },
+  {
+    "en": "entity",
+    "tr": "varlık",
+    "note": "Gereksinimlerde tanımlanan, genellikle bir veritabanı tablosuna karşılık gelen nesne; entity trap (varlık tuzağı) ile ilişkilidir."
+  },
+  {
+    "en": "entity trap",
+    "tr": "varlık tuzağı",
+    "note": "Mimarın veritabanı ilişkilerini yanlışlıkla uygulama iş akışları sanarak bileşenleri varlıklara göre oluşturduğu ters desen (anti-pattern)."
   },
   {
     "en": "entropy",
@@ -1298,6 +1323,11 @@ window.GLOSSARY = [
     "en": "feature toggles",
     "tr": "özellik anahtarları",
     "note": "Davranışı kod değişikliği olmadan açıp kapatmayı sağlayan bayraklar"
+  },
+  {
+    "en": "feedback",
+    "tr": "geri bildirim",
+    "note": "Yazılım tasarımında yinelemeli iyileştirmeyi yönlendiren geri bildirim; feedback loop (geri bildirim döngüsü) ile ilişkilidir."
   },
   {
     "en": "feedback loop",
@@ -2050,6 +2080,11 @@ window.GLOSSARY = [
     "note": "Kodun sınıflar ve nesneler etrafında düzenlendiği programlama dili."
   },
   {
+    "en": "object-relational mapping (ORM)",
+    "tr": "nesne-ilişkisel haritalama (ORM)",
+    "note": "Framework'ün veritabanı tablolarını nesnelere ve kullanıcı arayüzüne eşlemesi; Naked Objects ve Isis gibi çerçeveler bağlamında geçer."
+  },
+  {
     "en": "objective definition",
     "tr": "nesnel tanım",
     "note": "Mimari özelliklerin, öznelliğe yer bırakmayan somut tanımı; sayfada 'objective definitions' biçiminde geçer."
@@ -2458,6 +2493,11 @@ window.GLOSSARY = [
     "en": "sacrificial architecture",
     "tr": "feda edilebilir mimari",
     "note": "Maliyet, zaman gibi kısıtlar nedeniyle bilinçli olarak basit tutulan ve ileride değiştirilmesi beklenen mimari."
+  },
+  {
+    "en": "scaffolding",
+    "tr": "iskele (scaffolding)",
+    "note": "Ruby on Rails'in veritabanı tablo yapısına dayalı varsayılan kullanıcı arayüzü ve eşlemeler üreten özelliği."
   },
   {
     "en": "scalability",

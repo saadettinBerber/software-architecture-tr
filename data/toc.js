@@ -9,7 +9,7 @@ window.TOC = {
   },
   "bookTotalPages": 399,
   "pdfOffset": 20,
-  "lastTranslatedPage": 108,
+  "lastTranslatedPage": 111,
   "chapters": [
     {
       "num": 1,
@@ -1337,6 +1337,39 @@ window.TOC = {
       "section": {
         "en": "Developer Role",
         "tr": "Geliştirici Rolü"
+      },
+      "chapter": 8
+    },
+    "106": {
+      "title": {
+        "en": "Which Partitioning Is Better?",
+        "tr": "Hangi Bölümleme Daha İyi?"
+      },
+      "section": {
+        "en": "Architect Role",
+        "tr": "Mimar Rolü"
+      },
+      "chapter": 8
+    },
+    "109": {
+      "title": {
+        "en": "Component Identification Cycle",
+        "tr": "Bileşen Belirleme Döngüsü"
+      },
+      "section": {
+        "en": "Component Identification Flow",
+        "tr": "Bileşen Belirleme Akışı"
+      },
+      "chapter": 8
+    },
+    "111": {
+      "title": {
+        "en": "The Entity Trap and Component Discovery",
+        "tr": "Varlık Tuzağı ve Bileşen Keşfi"
+      },
+      "section": {
+        "en": "Component Design",
+        "tr": "Bileşen Tasarımı"
       },
       "chapter": 8
     }
