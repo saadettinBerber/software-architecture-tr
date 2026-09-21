@@ -170,6 +170,11 @@ window.GLOSSARY = [
     "note": "Sistemin yapısını ve davranışını önemli ölçüde etkileyen; gerekçesiyle birlikte kaydedilmesi gereken seçimler."
   },
   {
+    "en": "architecture exposition cycle",
+    "tr": "mimari sunum döngüsü (architecture exposition cycle)",
+    "note": "Bileşenlerin belirlenmesi ve iyileştirilmesinden oluşan genel döngü; sayfadaki 'generic architecture exposition cycle' ifadesinde geçer."
+  },
+  {
     "en": "architecture kata",
     "tr": "mimari kata",
     "note": "Ted Neward'ın, mimarların alan odaklı açıklamalardan mimari özellikler türetme pratiği yapması için tasarladığı alıştırma; çoğulu architecture katas (mimari katalar)."
@@ -295,6 +300,11 @@ window.GLOSSARY = [
     "note": "Doğru kabul edilen temel önerme"
   },
   {
+    "en": "backend developer",
+    "tr": "arka uç geliştiricisi",
+    "note": "Sunucu tarafı, servis ve veri katmanı üzerinde çalışan geliştirici; katmanlı mimaride aynı departmana yerleştirilen rol örneği."
+  },
+  {
     "en": "backward compatibility",
     "tr": "geriye dönük uyumluluk",
     "note": "Yeni bir özelliğin ya da dilin, eski kod ve alışkanlıklarla uyumlu kalma gereği."
@@ -403,6 +413,11 @@ window.GLOSSARY = [
     "en": "business layer",
     "tr": "iş katmanı",
     "note": "Katmanlı mimaride iş mantığını barındıran katman"
+  },
+  {
+    "en": "business rules",
+    "tr": "iş kuralları",
+    "note": "İş mantığını oluşturan kurallar; teknik bölümlemede teknik yetenek olarak ayrılan grup."
   },
   {
     "en": "business stakeholder",
@@ -590,6 +605,11 @@ window.GLOSSARY = [
     "note": "servisler arası iletişimde kullanılan protokol (REST, gRPC gibi)"
   },
   {
+    "en": "communication structure",
+    "tr": "iletişim yapısı",
+    "note": "İnsanlar arasındaki iletişim düzeni; Conway Yasası'nda tasarıma kopyalanan yapı olarak geçer."
+  },
+  {
     "en": "communicational cohesion",
     "tr": "iletişimsel bütünlük",
     "note": "İki modülün, her birinin aynı bilgi üzerinde işlem yaptığı bir iletişim zinciri oluşturduğu bütünlük düzeyi."
@@ -623,6 +643,11 @@ window.GLOSSARY = [
     "en": "component discovery",
     "tr": "bileşen keşfi",
     "note": "Bileşenlerin varlığının ve kullanımının belirlenmesi; sayfada kapsam (scope) ile birlikte ele alınan bileşen etrafındaki mimari değerlendirme konusu."
+  },
+  {
+    "en": "component identification",
+    "tr": "bileşen belirleme (component identification)",
+    "note": "Bileşenlerin ilk kez belirlenmesi ve geri bildirimle yinelemeli olarak iyileştirilmesi süreci; component discovery (bileşen keşfi) ile ilişkilidir."
   },
   {
     "en": "composite characteristics",
@@ -765,6 +790,11 @@ window.GLOSSARY = [
     "note": "Mesajlaşmada üzerinde anlaşılan mesaj yapısı/biçimi."
   },
   {
+    "en": "Conway's law",
+    "tr": "Conway Yasası (Conway's law)",
+    "note": "Organizasyonların, iletişim yapılarının kopyaları olan tasarımlar üretmeye zorlandığını söyleyen gözlem; bu sayfada Conway's Law kesit başlığı olarak geçer."
+  },
+  {
     "en": "coordination",
     "tr": "koordinasyon",
     "note": "Ortak çalışan tarafların eylemlerinin düzenlenmesi; paylaşılan çıktıların koordinasyonu zorlaştırması bağlamında geçer."
@@ -815,6 +845,11 @@ window.GLOSSARY = [
     "note": "Tablo 4-3'te listelenen, kolayca kategorize edilemeyen mimari özellikler; sayfa 60'ta geçer."
   },
   {
+    "en": "cross-functional team",
+    "tr": "çapraz fonksiyonlu ekip",
+    "note": "Belirli bir alan (domain) etrafında, gerekli tüm teknik yetkinliklere sahip ekip; Ters Conway Manevrası bağlamında alanlar etrafında kurulur."
+  },
+  {
     "en": "customer relationship management",
     "tr": "müşteri ilişkileri yönetimi",
     "note": "CRM olarak da bilinir"
@@ -823,6 +858,16 @@ window.GLOSSARY = [
     "en": "customizability",
     "tr": "özelleştirilebilirlik",
     "note": "Bir mimari özellik (-ility); sayfa 75'te en az önemli özellik olarak elenebileceği ve davranışın uygulama tasarımına taşınabileceği tartışılır."
+  },
+  {
+    "en": "customization",
+    "tr": "özelleştirme",
+    "note": "Ürünün temel işlevselliğinin dışında, belirli bir alana/coğrafyaya özel eklemeler; Silicon Sandwiches vaka çalışmasında ortak (common) ve yerel (local) varyasyonları kapsar."
+  },
+  {
+    "en": "customization code",
+    "tr": "özelleştirme kodu",
+    "note": "Ortak ve yerel varyasyonlar gibi müşteriye özel değişiklikleri karşılayan kod; alan bölümlemesinde birden çok yerde görünebilir, teknik bölümlemede ayrı bir bileşende toplanır."
   },
   {
     "en": "cycle",
@@ -878,6 +923,11 @@ window.GLOSSARY = [
     "en": "database server",
     "tr": "veritabanı sunucusu",
     "note": "Veritabanı yönetimini barındıran sunucu"
+  },
+  {
+    "en": "DBA",
+    "tr": "DBA",
+    "note": "database administrator (veritabanı yöneticisi) kısaltması; kısaltma olduğu gibi korunur."
   },
   {
     "en": "decision point",
@@ -950,6 +1000,11 @@ window.GLOSSARY = [
     "note": "Günlük kodlama ve geliştirme kararlarını yönlendiren rehber ilkeler (ör. Tek Sorumluluk İlkesi)."
   },
   {
+    "en": "developer role",
+    "tr": "geliştirici rolü (developer role)",
+    "note": "Mimar rolüyle karşıtlık kuran; bileşenleri sınıflara, fonksiyonlara ve alt bileşenlere bölme sorumluluğunu taşıyan rol."
+  },
+  {
     "en": "DevOps",
     "tr": "DevOps",
     "note": "Yerleşmiş terim; bu hâliyle kullanılır."
@@ -1008,6 +1063,11 @@ window.GLOSSARY = [
     "en": "domain knowledge",
     "tr": "alan bilgisi",
     "note": "Belirli bir iş alanına ilişkin bilgi; mimarlar için her zaman faydalıdır. Business domain knowledge (iş alanı bilgisi) ile ilişkilidir."
+  },
+  {
+    "en": "domain partitioning",
+    "tr": "alan bölümlemesi (domain partitioning)",
+    "note": "Mimarinin alanlar ya da iş akışları etrafında bölümlenmesi; teknik bölümlemenin (technical partitioning) karşıtı."
   },
   {
     "en": "domain requirements",
@@ -1370,6 +1430,11 @@ window.GLOSSARY = [
     "note": "Çözümü mutasyon ve seçimle evrimleştirerek optimize eden algoritma."
   },
   {
+    "en": "global coupling",
+    "tr": "küresel bağlılık (global coupling)",
+    "note": "Paylaşılan üst düzey bileşenlerdeki (Common, Local gibi) bir değişikliğin diğer tüm bileşenleri etkilemesi durumu; teknik bölümlemenin dezavantajı."
+  },
+  {
     "en": "governance",
     "tr": "yönetişim",
     "note": "Yunanca kubernan (yönlendirmek) sözcüğünden türeyen; mimari karar, süreç ve kalitenin yönetilip denetlenmesi. architectural governance (mimari yönetişim) ve governance mechanism (yönetişim mekanizması) ile ilişkilidir."
@@ -1568,6 +1633,11 @@ window.GLOSSARY = [
     "en": "interpersonal skills",
     "tr": "kişilerarası beceriler",
     "note": "mimarlardan beklenen iletişim ve iş birliği becerileri; 'possess interpersonal skills' beklentisi"
+  },
+  {
+    "en": "Inverse Conway Maneuver",
+    "tr": "Ters Conway Manevrası (Inverse Conway Maneuver)",
+    "note": "Jonny Leroy'un ortaya attığı gözlem; istenen mimariyi teşvik etmek için ekip ve kuruluş yapısının birlikte evrilmesi."
   },
   {
     "en": "isolation",
@@ -1860,6 +1930,11 @@ window.GLOSSARY = [
     "note": "Bilgiyi hatırlamaya yardımcı olan sözcük ya da ipucu; burada afferent/efferent ayrımı için geliştirilen ipuçları."
   },
   {
+    "en": "Model-View-Controller",
+    "tr": "Model-Görünüm-Denetleyici (Model-View-Controller)",
+    "note": "Katmanlı mimariyle örtüşen, yaygın tasarım deseni; MVC kısaltması da yaygındır."
+  },
+  {
     "en": "modifiability",
     "tr": "değiştirilebilirlik",
     "note": "Hata oluşturmadan ya da mevcut ürün kalitesini düşürmeden yazılımı değiştirebilme derecesi."
@@ -2120,6 +2195,11 @@ window.GLOSSARY = [
     "note": "ISO 25010 özelliği; performansın kaynak kullanımına göre ölçüsü."
   },
   {
+    "en": "persistence",
+    "tr": "kalıcılık",
+    "note": "Verilerin kalıcı olarak saklanmasıyla ilgili teknik işlev grubu; teknik bölümlemeye örnek olarak verilir."
+  },
+  {
     "en": "plain text",
     "tr": "düz metin",
     "note": "Şifrelenmemiş, açık biçimde iletilen veri; kredi kartı numaraları bağlamında güvenlik hijyeni ihlali."
@@ -2340,6 +2420,11 @@ window.GLOSSARY = [
     "note": "Kodun farklı yerlerde tekrar kullanılmasını sağlayan platform yeteneği."
   },
   {
+    "en": "rippling side effects",
+    "tr": "zincirleme yan etkiler",
+    "note": "Bir değişikliğin bağımlı bileşenler üzerinde dalga dalga yol açtığı yan etkiler; technical partitioning bağlamında."
+  },
+  {
     "en": "roadmap",
     "tr": "yol haritası",
     "note": "Bir sistemi geliştirme sürecini gösteren plan"
@@ -2423,6 +2508,11 @@ window.GLOSSARY = [
     "en": "selective typing",
     "tr": "seçici tipleme",
     "note": "Bazı dinamik tipli dillerin (Clojure, Clojure Spec) değişkenleri belirli türlerle sınırlama yeteneği."
+  },
+  {
+    "en": "separation of technical concerns",
+    "tr": "teknik kaygıların ayrıştırılması",
+    "note": "Teknik bölümlemenin düzenleme ilkesi; katmanlı mimaride ortak teknik kaygıların ayrı tutulması."
   },
   {
     "en": "sequential cohesion",
@@ -2650,6 +2740,11 @@ window.GLOSSARY = [
     "note": "ISO 25010'da bir kalite özelliğini oluşturan alt kategoriler."
   },
   {
+    "en": "subcomponent",
+    "tr": "alt bileşen (subcomponent)",
+    "note": "Bir üst düzey bileşenin içinde yer alan, katmanlar dahil daha küçük bileşen; üst düzey bölümleme alanlara odaklanırken bileşenlerin içinde alt bileşenler bulunabilir."
+  },
+  {
     "en": "subject matter expert",
     "tr": "konu uzmanı (subject matter expert)",
     "note": "Belirli bir konuda derin bilgiye sahip kişi; gereksinimi açıklaması için başvurulur, business analyst (iş analisti) ile ilişkilidir."
@@ -2718,6 +2813,16 @@ window.GLOSSARY = [
     "en": "technical leader",
     "tr": "teknik lider",
     "note": "Ekibin mühendislik kararlarını yönlendiren kişi."
+  },
+  {
+    "en": "technical partitioning",
+    "tr": "teknik bölümleme (technical partitioning)",
+    "note": "Mimarinin sunum, iş kuralları, kalıcılık gibi teknik yeteneklere göre bölümlenmesi."
+  },
+  {
+    "en": "technical top-level partitioning",
+    "tr": "teknik üst düzey bölümleme",
+    "note": "Mimariyi sunum, iş kuralları, servisler, kalıcılık gibi teknik yeteneklere göre en üst düzeyde bölümleme; alan bölümlemesinin (domain partitioning) karşıtı."
   },
   {
     "en": "technologist",
@@ -2798,6 +2903,11 @@ window.GLOSSARY = [
     "en": "timeout",
     "tr": "zaman aşımı (timeout)",
     "note": "Bir çağrının yanıt için beklediği azami süre; eşzamanlı çağrılarda güvenilirlik (reliability) kaygısı olarak geçer."
+  },
+  {
+    "en": "top-level component",
+    "tr": "üst düzey bileşen (top-level component)",
+    "note": "Mimarinin en üst düzeyinde, seçilen bölümlemeye göre oluşturulan bileşen; üst düzey bölümleme (top-level partitioning) ile ilişkilidir."
   },
   {
     "en": "top-level partitioning",

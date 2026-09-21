@@ -27,7 +27,7 @@
     "chapter_label_pattern": "^CHAPTER (\\d+)$",
     "math_geometry": true
   },
-  "last_translated_page": 102,
+  "last_translated_page": 108,
   "chapters": [
     {
       "num": 1,
@@ -986,6 +986,46 @@
       "title_tr": "Mimari Bölümleme (Architecture Partitioning)",
       "section_en": "Architecture Partitioning",
       "section_tr": "Mimari Bölümleme (Architecture Partitioning)"
+    },
+    "103": {
+      "pdf_page": 123,
+      "chapter": 8,
+      "title_en": "Conway's Law",
+      "title_tr": "Conway Yasası (Conway's Law)",
+      "section_en": "Architect Role",
+      "section_tr": "Mimar Rolü"
+    },
+    "104": {
+      "pdf_page": 124,
+      "chapter": 8,
+      "title_en": "Technical and Domain Partitioning",
+      "title_tr": "Teknik ve Alan Bölümlemesi (Technical and Domain Partitioning)",
+      "section_en": "Architect Role",
+      "section_tr": "Mimar Rolü"
+    },
+    "105": {
+      "pdf_page": 125,
+      "chapter": 8,
+      "title_en": "Technical versus Domain Partitioning",
+      "title_tr": "Teknik ve Alan Bölümlemesi (Technical versus Domain Partitioning)",
+      "section_en": "Architect Role",
+      "section_tr": "Mimar Rolü"
+    },
+    "107": {
+      "pdf_page": 127,
+      "chapter": 8,
+      "title_en": "Domain and Technical Partitioning",
+      "title_tr": "Alan ve Teknik Bölümleme (Domain and Technical Partitioning)",
+      "section_en": "Architect Role",
+      "section_tr": "Mimar Rolü"
+    },
+    "108": {
+      "pdf_page": 128,
+      "chapter": 8,
+      "title_en": "Developer Role",
+      "title_tr": "Geliştirici Rolü",
+      "section_en": "Developer Role",
+      "section_tr": "Geliştirici Rolü"
     }
   }
 }

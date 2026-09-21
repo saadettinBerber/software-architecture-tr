@@ -43,6 +43,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | architecture decision | mimari karar | Bir sistemin nasıl inşa edileceğine dair kural; rehber değil, kısıt. |
 | Architecture Decision Record (ADR) | mimari karar kaydı | Mimari kararı kaydeden belge; ADR kısaltması korunur |
 | architecture decisions | mimari kararlar | Sistemin yapısını ve davranışını önemli ölçüde etkileyen; gerekçesiyle birlikte kaydedilmesi gereken seçimler. |
+| architecture exposition cycle | mimari sunum döngüsü (architecture exposition cycle) | Bileşenlerin belirlenmesi ve iyileştirilmesinden oluşan genel döngü; sayfadaki 'generic architecture exposition cycle' ifadesinde geçer. |
 | architecture kata | mimari kata | Ted Neward'ın, mimarların alan odaklı açıklamalardan mimari özellikler türetme pratiği yapması için tasarladığı alıştırma; çoğulu architecture katas (mimari katalar). |
 | architecture partitioning | mimari bölümleme (architecture partitioning) | Mimarinin bileşenlere ayrılma biçimi; sayfada 'top-level partitioning' (üst düzey bölümleme) kavramıyla birlikte geçer. |
 | architecture patterns | mimari desenler | sorun alanına uygun mimari desen ve stillerin seçilmesi bağlamında; design patterns (tasarım desenleri) ile ilişkili. |
@@ -68,6 +69,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | availability | kullanılabilirlik | Bir mimari özellik (“-ility”) |
 | average directional index | ortalama yönlü endeks | finansal terim; piyasa trend ölçüsü |
 | axiom | aksiyom | Doğru kabul edilen temel önerme |
+| backend developer | arka uç geliştiricisi | Sunucu tarafı, servis ve veri katmanı üzerinde çalışan geliştirici; katmanlı mimaride aynı departmana yerleştirilen rol örneği. |
 | backward compatibility | geriye dönük uyumluluk | Yeni bir özelliğin ya da dilin, eski kod ve alışkanlıklarla uyumlu kalma gereği. |
 | baseline | taban çizgisi | Karşılaştırma ve sapma değerlendirmesi için zaman içinde ölçülerek oluşturulan referans değer (built-in ile karıştırılmamalıdır). |
 | behavioral anti-pattern | davranışsal ters desen | Kod veya tasarım yerine insan davranışıyla ilgili ters desen; sayfa 30'da Donmuş Mağara Adamı Ters Deseni bunun örneğidir. |
@@ -90,6 +92,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | business domain knowledge | iş alanı bilgisi | mimarların iş alanını anlaması; 'have business domain knowledge' beklentisi |
 | business drivers | iş etkenleri | Mimari kaygılara dönüşen iş tarafındaki itici güçler (kayıp sipariş istememe, hız, maliyet gibi). |
 | business layer | iş katmanı | Katmanlı mimaride iş mantığını barındıran katman |
+| business rules | iş kuralları | İş mantığını oluşturan kurallar; teknik bölümlemede teknik yetenek olarak ayrılan grup. |
 | business stakeholder | iş paydaşı | İş tarafındaki ilgili taraflar |
 | C-level executives | üst düzey yöneticiler | CEO, CFO, CTO gibi unvanlar |
 | caching | önbellekleme | caching product bağlamında |
@@ -127,6 +130,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | comfort zone | konfor alanı | beceri/sorumluluk bağlamında |
 | communication connascence | iletişim eşdoğuşu | Bileşenler arasındaki iletişim/etkileşim biçiminden kaynaklanan eşdoğuş ölçümü; sayfada geleneksel bağlılık ölçütleriyle (coupling metrics) birleştirilen yeni ölçü olarak geçer. |
 | communication protocol | iletişim protokolü | servisler arası iletişimde kullanılan protokol (REST, gRPC gibi) |
+| communication structure | iletişim yapısı | İnsanlar arasındaki iletişim düzeni; Conway Yasası'nda tasarıma kopyalanan yapı olarak geçer. |
 | communicational cohesion | iletişimsel bütünlük | İki modülün, her birinin aynı bilgi üzerinde işlem yaptığı bir iletişim zinciri oluşturduğu bütünlük düzeyi. |
 | compatibility | uyumluluk | ISO 25010 özelliği; aynı ortamı paylaşırken bilgi alışverişi ve işlev görme derecesi. |
 | competitive advantage | rekabet avantajı |  |
@@ -134,6 +138,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | compliance | uyum | mimari kararlara uygun davranma; 'ensure compliance with decisions' beklentisi |
 | component | bileşen | Çoğulu: bileşenler. |
 | component discovery | bileşen keşfi | Bileşenlerin varlığının ve kullanımının belirlenmesi; sayfada kapsam (scope) ile birlikte ele alınan bileşen etrafındaki mimari değerlendirme konusu. |
+| component identification | bileşen belirleme (component identification) | Bileşenlerin ilk kez belirlenmesi ve geri bildirimle yinelemeli olarak iyileştirilmesi süreci; component discovery (bileşen keşfi) ile ilişkilidir. |
 | composite characteristics | bileşik özellikler | Daha küçük ölçekte birçok başka mimari özelliği barındıran özellikler; örn. çeviklik modülerlik, dağıtılabilirlik ve test edilebilirliği kapsar. |
 | concert ticket booking system | konser bileti rezervasyon sistemi | Yeni biletler satışa çıktığında trafik patlamaları yaşayan, esneklik gerektiren örnek sistem. |
 | concurrent users | eşzamanlı kullanıcılar | Aynı anda sistemi kullanan kullanıcı sayısı; ölçeklenebilirlik ölçümünde temel kavram. |
@@ -162,6 +167,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | continuous delivery | sürekli teslim | Yazılımın her an yayınlanabilir durumda tutulduğu uygulama. |
 | continuous integration | sürekli entegrasyon | Her değişikliğin push edildiği anda derlenip test edildiği uygulama. |
 | contract | sözleşme | Mesajlaşmada üzerinde anlaşılan mesaj yapısı/biçimi. |
+| Conway's law | Conway Yasası (Conway's law) | Organizasyonların, iletişim yapılarının kopyaları olan tasarımlar üretmeye zorlandığını söyleyen gözlem; bu sayfada Conway's Law kesit başlığı olarak geçer. |
 | coordination | koordinasyon | Ortak çalışan tarafların eylemlerinin düzenlenmesi; paylaşılan çıktıların koordinasyonu zorlaştırması bağlamında geçer. |
 | corollary | vargı | Bir yasadan çıkarılan doğal sonuç (Corollary 1 → Vargı 1). |
 | coupling | bağlılık | Bileşenlerin birbirine bağımlılık derecesi |
@@ -172,8 +178,11 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | criticality | kritiklik derecesi | Bir sistemin ya da özelliğin kritiklik/önem düzeyi; güvenlik gibi örtük özelliklerin önceliklendirilmesinde göz önüne alınır. |
 | CRM | müşteri ilişkileri yönetimi (CRM) | customer relationship management kısaltması |
 | cross-cutting architecture characteristics | çapraz kesimli mimari özellikler | Tablo 4-3'te listelenen, kolayca kategorize edilemeyen mimari özellikler; sayfa 60'ta geçer. |
+| cross-functional team | çapraz fonksiyonlu ekip | Belirli bir alan (domain) etrafında, gerekli tüm teknik yetkinliklere sahip ekip; Ters Conway Manevrası bağlamında alanlar etrafında kurulur. |
 | customer relationship management | müşteri ilişkileri yönetimi | CRM olarak da bilinir |
 | customizability | özelleştirilebilirlik | Bir mimari özellik (-ility); sayfa 75'te en az önemli özellik olarak elenebileceği ve davranışın uygulama tasarımına taşınabileceği tartışılır. |
+| customization | özelleştirme | Ürünün temel işlevselliğinin dışında, belirli bir alana/coğrafyaya özel eklemeler; Silicon Sandwiches vaka çalışmasında ortak (common) ve yerel (local) varyasyonları kapsar. |
+| customization code | özelleştirme kodu | Ortak ve yerel varyasyonlar gibi müşteriye özel değişiklikleri karşılayan kod; alan bölümlemesinde birden çok yerde görünebilir, teknik bölümlemede ayrı bir bileşende toplanır. |
 | cycle | döngü | Paket/sınıf bağımlılık çizgesinde kendine dönen bağımlılık; cyclic dependency (döngüsel bağımlılık) ile ilişkilidir. |
 | cyclic dependencies | döngüsel bağımlılıklar | Bileşenlerin birbirine dairesel biçimde bağımlı olduğu durum; modülerliğe zarar verir. |
 | cyclic dependency | döngüsel bağımlılık | İki veya daha fazla bileşenin birbirine başvurduğu, modülerliği bozan bağımlılık durumu. |
@@ -185,6 +194,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | data structure | veri yapısı | Verinin düzenlenip saklanma biçimi; bütünlüğü (integrity) korumak için öğelerin birlikte değişmesi gerekebilir. |
 | database schema | veri tabanı şeması |  |
 | database server | veritabanı sunucusu | Veritabanı yönetimini barındıran sunucu |
+| DBA | DBA | database administrator (veritabanı yöneticisi) kısaltması; kısaltma olduğu gibi korunur. |
 | decision point | karar noktası | Kodda farklı yürütme yollarına yol açan karar deyimi (if gibi); döngüsel karmaşıklık hesabının temelini oluşturur. |
 | decode domain language | alan dilini çözmek | Alan terimlerini (ör. kullanıcı sayısı) mühendislik karşılıklarına (ör. ölçeklenebilirlik) dönüştürmek. |
 | decoupled | gevşek bağlı | coupling (bağlılık) karşıtı; topic yaklaşımının üreticiyi tüketicilerden ayırması bağlamında |
@@ -199,6 +209,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | design pattern | tasarım deseni | Yinelenen tasarım sorunlarına kanıtlanmış çözüm kalıpları |
 | design principle | tasarım ilkesi | katı kural yerine yol gösteren ilke |
 | design principles | tasarım ilkeleri | Günlük kodlama ve geliştirme kararlarını yönlendiren rehber ilkeler (ör. Tek Sorumluluk İlkesi). |
+| developer role | geliştirici rolü (developer role) | Mimar rolüyle karşıtlık kuran; bileşenleri sınıflara, fonksiyonlara ve alt bileşenlere bölme sorumluluğunu taşıyan rol. |
 | DevOps | DevOps | Yerleşmiş terim; bu hâliyle kullanılır. |
 | directory | dizin | Dosya sisteminde dosyaları gruplayan yapı; klasör. |
 | disaster recovery | olağanüstü durum kurtarma | Felaket sonrası sistem ve verinin kurtarılması yeteneği; operasyonel mimari özellik. |
@@ -211,6 +222,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | domain concern | alan kaygısı | İş alanından (domain) gelen kaygı; Tablo 5-1'de mimari özelliklere çevrilir. Architectural concern (mimari kaygı) ile karıştırılmamalıdır. |
 | domain concerns | alan kaygıları | Alan paydaşlarının iş tarafındaki endişeleri; mimari özelliklere çevrilir (Tablo 5-1). |
 | domain knowledge | alan bilgisi | Belirli bir iş alanına ilişkin bilgi; mimarlar için her zaman faydalıdır. Business domain knowledge (iş alanı bilgisi) ile ilişkilidir. |
+| domain partitioning | alan bölümlemesi (domain partitioning) | Mimarinin alanlar ya da iş akışları etrafında bölümlenmesi; teknik bölümlemenin (technical partitioning) karşıtı. |
 | domain requirements | alan gereksinimleri | Sorun alanına (problem domain) ilişkin gereksinimler; mimari özelliklerle birlikte yazılım çözümünü oluşturur. |
 | domain stakeholder | alan paydaşı | Çoğulu: alan paydaşları (domain stakeholders); iş alanını temsil eden paydaş. |
 | domain-driven design | alan odaklı tasarım (domain-driven design) | Yazılımı modellemek için alanı (domain) merkeze alan tasarım yaklaşımı; DDD kısaltmasıyla da bilinir. |
@@ -283,6 +295,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | functional suitability | işlevsel uygunluk | ISO 25010 kalite özelliği; ürünün işlevlerinin belirtilen ve ima edilen ihtiyaçları karşılama derecesi. |
 | functionality | işlevsellik | Sistemin gerçekleştirdiği işlevler; mimari karakteristiklerden bağımsızdır |
 | genetic algorithm | genetik algoritma | Çözümü mutasyon ve seçimle evrimleştirerek optimize eden algoritma. |
+| global coupling | küresel bağlılık (global coupling) | Paylaşılan üst düzey bileşenlerdeki (Common, Local gibi) bir değişikliğin diğer tüm bileşenleri etkilemesi durumu; teknik bölümlemenin dezavantajı. |
 | governance | yönetişim | Yunanca kubernan (yönlendirmek) sözcüğünden türeyen; mimari karar, süreç ve kalitenin yönetilip denetlenmesi. architectural governance (mimari yönetişim) ve governance mechanism (yönetişim mekanizması) ile ilişkilidir. |
 | governance check | yönetişim kontrolü | Mimari ilkelere uyumu otomatik olarak denetleyen kontrol; uygunluk fonksiyonları aracılığıyla mimarinin dokusuna (substrate) kodlanır. |
 | governance mechanism | yönetişim mekanizması | Mimari özelliklerin tanımlanması ve denetlenmesi için kurulan yapı/araç; architectural governance (mimari yönetişim) ile ilişkilidir. |
@@ -323,6 +336,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | interconnectivity | karşılıklı bağlantılılık (interconnectivity) | Mimari özelliklerin birbirini etkileme durumu; helikopter kumandaları benzetmesinde geçer. |
 | interoperability | birlikte çalışabilirlik | Uyumluluğun alt ölçütü; iki veya daha fazla sistemin bilgi alışverişi ve kullanım derecesi. |
 | interpersonal skills | kişilerarası beceriler | mimarlardan beklenen iletişim ve iş birliği becerileri; 'possess interpersonal skills' beklentisi |
+| Inverse Conway Maneuver | Ters Conway Manevrası (Inverse Conway Maneuver) | Jonny Leroy'un ortaya attığı gözlem; istenen mimariyi teşvik etmek için ekip ve kuruluş yapısının birlikte evrilmesi. |
 | isolation | yalıtım | Mimari düzeyde, bileşenlerin/katmanların birbirinden bağımsız tutulması; iyi modülerlikle birlikte test edilebilirlik ve dağıtım kolaylığına katkı sağlar. |
 | iteration | yineleme | bir projenin tekrarlanan geliştirme çevrimi |
 | iterative | yinelemeli |  |
@@ -381,6 +395,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | mission critical | görev açısından kritik | Arızası yaşamı veya büyük maddi sonuçları etkileyen sistem. |
 | mixed cohesion | karma bütünlük | Bir sınıfın yöntem kümelerinin bazı alan gruplarını paylaşıp bazılarını paylaşmadığı ara bütünlük durumu; Şekil 3-1'deki Class Z örneği. |
 | mnemonic | anımsatıcı | Bilgiyi hatırlamaya yardımcı olan sözcük ya da ipucu; burada afferent/efferent ayrımı için geliştirilen ipuçları. |
+| Model-View-Controller | Model-Görünüm-Denetleyici (Model-View-Controller) | Katmanlı mimariyle örtüşen, yaygın tasarım deseni; MVC kısaltması da yaygındır. |
 | modifiability | değiştirilebilirlik | Hata oluşturmadan ya da mevcut ürün kalitesini düşürmeden yazılımı değiştirebilme derecesi. |
 | modular monolith | modüler monolit | Simon Brown'ın popülerleştirdiği; alanlar etrafında bölümlenen, tek dağıtım birimi olan mimari stil. |
 | modular programming | modüler programlama | Kodu modül adı verilen bağımsız birimlerde gruplayan programlama yaklaşımı; Modula ve Ada gibi dillerde görülür. |
@@ -433,6 +448,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | performance | performans | Sistemin iş yükü altındaki hız ve yanıt verebilirlik düzeyi; Tablo 4-1'de listelenen operasyonel mimari özellik. |
 | performance budget | performans bütçesi | Bir sayfa ya da uygulamanın belirli performans ölçütleri (ör. ilk içerikli boyama) için ayrılan ve uygulanan üst sınır. |
 | performance efficiency | performans verimliliği | ISO 25010 özelliği; performansın kaynak kullanımına göre ölçüsü. |
+| persistence | kalıcılık | Verilerin kalıcı olarak saklanmasıyla ilgili teknik işlev grubu; teknik bölümlemeye örnek olarak verilir. |
 | plain text | düz metin | Şifrelenmemiş, açık biçimde iletilen veri; kredi kartı numaraları bağlamında güvenlik hijyeni ihlali. |
 | point-to-point messaging | noktadan noktaya mesajlaşma | Her mesajın tam olarak bir tüketici tarafından işlendiği mesajlaşma modeli. |
 | portability | taşınabilirlik | Bir sistemin, ürünün ya da bileşenin bir ortamdan diğerine taşınabilme derecesi. |
@@ -477,6 +493,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | restructuring | yeniden yapılandırma | Mimarinin bir desenden diğerine taşınması/değiştirilmesi |
 | reusability | yeniden kullanılabilirlik | Bir yazılım varlığının birden fazla sistemde ya da başka varlıkların üretiminde kullanılabilme derecesi. |
 | reuse mechanism | yeniden kullanım mekanizması | Kodun farklı yerlerde tekrar kullanılmasını sağlayan platform yeteneği. |
+| rippling side effects | zincirleme yan etkiler | Bir değişikliğin bağımlı bileşenler üzerinde dalga dalga yol açtığı yan etkiler; technical partitioning bağlamında. |
 | roadmap | yol haritası | Bir sistemi geliştirme sürecini gösteren plan |
 | robustness | sağlamlık | Hata ve sınır koşullarında bile çalışmaya devam edebilme yeteneği; operasyonel mimari özellik. |
 | rogue service | başıboş servis | Kurallar dışına çıkan, izinsiz davranan servis. |
@@ -494,6 +511,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | security hygiene | güvenlik hijyeni | Şifreleme, karma, yamalama gibi her sistemin uygulaması gereken standart, temel güvenlik önlemleri; sayfada 'standard security hygiene' bağlamında kullanılır. |
 | Security Monkey | Güvenlik Maymunu | Her servisi bilinen güvenlik kusurlarına (etkin olmaması gereken portlar, yapılandırma hataları) karşı denetleyen araç; Simian Ordusu üyesi. |
 | selective typing | seçici tipleme | Bazı dinamik tipli dillerin (Clojure, Clojure Spec) değişkenleri belirli türlerle sınırlama yeteneği. |
+| separation of technical concerns | teknik kaygıların ayrıştırılması | Teknik bölümlemenin düzenleme ilkesi; katmanlı mimaride ortak teknik kaygıların ayrı tutulması. |
 | sequential cohesion | sıralı bütünlük | Bir modülün çıktısının diğerinin girdisi olduğu bütünlük düzeyi. |
 | service-level agreement (SLA) | hizmet düzeyi anlaşması (SLA) | Çalışma süresi, ölçek, yanıt verebilirlik gibi hizmet ölçütlerini tanımlayan sözleşme |
 | service-oriented architecture (SOA) | servis odaklı mimari | İşlevleri bağımsız servisler olarak düzenleyen mimari yaklaşım. |
@@ -539,6 +557,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | structured programming | yapısal programlama | Pascal ve C ile örneklenen, GOTO gibi kontrolsüz sıçramaları reddeden programlama anlayışı. |
 | stuff you know you don’t know | bildiğini bilmediğin şeyler | Varlığından haberdar olunan ama uzmanlık gerektiren bilgi düzeyi; known unknowns (bilinen bilinmeyenler) ile ilişkilidir. |
 | subcharacteristic | alt özellik | ISO 25010'da bir kalite özelliğini oluşturan alt kategoriler. |
+| subcomponent | alt bileşen (subcomponent) | Bir üst düzey bileşenin içinde yer alan, katmanlar dahil daha küçük bileşen; üst düzey bölümleme alanlara odaklanırken bileşenlerin içinde alt bileşenler bulunabilir. |
 | subject matter expert | konu uzmanı (subject matter expert) | Belirli bir konuda derin bilgiye sahip kişi; gereksinimi açıklaması için başvurulur, business analyst (iş analisti) ile ilişkilidir. |
 | substrate | doku (substrate) | Mimarinin üzerine inşa edildiği temel katman/yapı; yönetişim kontrollerinin mimarinin bünyesine kodlanması bağlamında. |
 | success criteria | başarı kriterleri | Sistemin başarılı sayılması için karşılanması gereken ölçütler |
@@ -553,6 +572,8 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | technical debt | teknik borç | Kısa vadeli ya da acele çözümlerin biriktirdiği, sonradan ödenmesi gereken kod/tasarım borcu. |
 | technical depth | teknik derinlik |  |
 | technical leader | teknik lider | Ekibin mühendislik kararlarını yönlendiren kişi. |
+| technical partitioning | teknik bölümleme (technical partitioning) | Mimarinin sunum, iş kuralları, kalıcılık gibi teknik yeteneklere göre bölümlenmesi. |
+| technical top-level partitioning | teknik üst düzey bölümleme | Mimariyi sunum, iş kuralları, servisler, kalıcılık gibi teknik yeteneklere göre en üst düzeyde bölümleme; alan bölümlemesinin (domain partitioning) karşıtı. |
 | technologist | teknoloji uzmanı | teknolojik bilgiyi kullanan, geliştirici veya mimar gibi teknik profesyonel |
 | Template Method design pattern | Şablon Yöntemi (Template Method) tasarım deseni | Üst sınıfın bir iş akışının iskeletini tanımlayıp adımlarını alt sınıfların geçersiz kılmasına olanak tanıyan davranışsal tasarım deseni; üst sınıfların tanımladığı iş akışının alt sınıflarda geçersiz kılınabildiği bağlamda geçer. |
 | temporal cohesion | zamansal bütünlük | Modüllerin zamanlama bağımlılıklarına göre ilişkili olduğu uyum türü; örn. sistem başlangıcında başlatılan görünüşte alakasız görevler. |
@@ -569,6 +590,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | time to market | pazara çıkış süresi | Bir ürünün fikirden pazara ulaşması için geçen süre. |
 | timebox | zaman kutusu | Bir alıştırmaya ya da etkinliğe ayrılan sınırlı süre; bu sayfada kata alıştırmasının zaman kutusuna alınması (timeboxed exercise) bağlamında geçer. |
 | timeout | zaman aşımı (timeout) | Bir çağrının yanıt için beklediği azami süre; eşzamanlı çağrılarda güvenilirlik (reliability) kaygısı olarak geçer. |
+| top-level component | üst düzey bileşen (top-level component) | Mimarinin en üst düzeyinde, seçilen bölümlemeye göre oluşturulan bileşen; üst düzey bölümleme (top-level partitioning) ile ilişkilidir. |
 | top-level partitioning | üst düzey bölümleme | Mimarinin en üst düzeyde, stili belirleyen biçimde bölümlenmesi; katmanlı (layered) ya da modüler (modular) olabilir. |
 | topic | topic | Yayınla-abone ol modelinde birden çok abonenin aynı mesajı aldığı kanal. |
 | topology | topoloji | Sistem bileşenlerinin bağlantı ve dağılım yapısı. |
