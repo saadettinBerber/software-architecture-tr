@@ -9,7 +9,7 @@ window.TOC = {
   },
   "bookTotalPages": 399,
   "pdfOffset": 20,
-  "lastTranslatedPage": 42,
+  "lastTranslatedPage": 45,
   "chapters": [
     {
       "num": 1,
@@ -646,6 +646,39 @@ window.TOC = {
       "section": {
         "en": "Measuring Modularity",
         "tr": "Modülerliği Ölçmek"
+      },
+      "chapter": 3
+    },
+    "43": {
+      "title": {
+        "en": "The LCOM Metric",
+        "tr": "LCOM Ölçütü"
+      },
+      "section": {
+        "en": "Measuring Modularity",
+        "tr": "Modülerliği Ölçmek"
+      },
+      "chapter": 3
+    },
+    "44": {
+      "title": {
+        "en": "Coupling Metrics",
+        "tr": "Bağlılık Ölçütleri"
+      },
+      "section": {
+        "en": "Measuring Modularity",
+        "tr": "Modülerliği Ölçme"
+      },
+      "chapter": 3
+    },
+    "45": {
+      "title": {
+        "en": "Abstractness and Instability",
+        "tr": "Soyutluk ve Kararsızlık"
+      },
+      "section": {
+        "en": "Measuring Modularity",
+        "tr": "Modülerliği Ölçme"
       },
       "chapter": 3
     }

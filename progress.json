@@ -26,7 +26,7 @@
     "header_at_bottom": true,
     "chapter_label_pattern": "^CHAPTER (\\d+)$"
   },
-  "last_translated_page": 42,
+  "last_translated_page": 45,
   "chapters": [
     {
       "num": 1,
@@ -517,6 +517,30 @@
       "title_tr": "Modülerliği Ölçmek",
       "section_en": "Measuring Modularity",
       "section_tr": "Modülerliği Ölçmek"
+    },
+    "43": {
+      "pdf_page": 63,
+      "chapter": 3,
+      "title_en": "The LCOM Metric",
+      "title_tr": "LCOM Ölçütü",
+      "section_en": "Measuring Modularity",
+      "section_tr": "Modülerliği Ölçmek"
+    },
+    "44": {
+      "pdf_page": 64,
+      "chapter": 3,
+      "title_en": "Coupling Metrics",
+      "title_tr": "Bağlılık Ölçütleri",
+      "section_en": "Measuring Modularity",
+      "section_tr": "Modülerliği Ölçme"
+    },
+    "45": {
+      "pdf_page": 65,
+      "chapter": 3,
+      "title_en": "Abstractness and Instability",
+      "title_tr": "Soyutluk ve Kararsızlık",
+      "section_en": "Measuring Modularity",
+      "section_tr": "Modülerliği Ölçme"
     }
   }
 }

@@ -5,6 +5,11 @@ window.GLOSSARY = [
     "note": "Mimari özellik adlarının yaygın son eki (scalability → ölçeklenebilirlik, availability → kullanılabilirlik)."
   },
   {
+    "en": "abstractness",
+    "tr": "soyutluk",
+    "note": "Soyut öğelerin (soyut sınıflar, arayüzler) somut öğelere oranı; Robert Martin'in A ölçütü."
+  },
+  {
     "en": "accidental complexity",
     "tr": "tesadüfi karmaşıklık",
     "note": "Mimari/tasarım tercihlerinden kaynaklanan, gereksiz karmaşıklık; Bölüm 9'da ele alınır"
@@ -13,6 +18,11 @@ window.GLOSSARY = [
     "en": "Advanced Message Queuing Protocol (AMQP)",
     "tr": "Gelişmiş Mesaj Kuyruğu Protokolü (AMQP)",
     "note": "Mesaj kuyruğu standartlarından; AMQP kısaltması korunur."
+  },
+  {
+    "en": "afferent coupling",
+    "tr": "giren bağlılık",
+    "note": "Bir kod öğesine (bileşen, sınıf, fonksiyon vb.) gelen bağlantıların sayısı; Robert Martin'in Ca (fan-in) ölçütü."
   },
   {
     "en": "Agile",
@@ -240,6 +250,11 @@ window.GLOSSARY = [
     "note": "caching product bağlamında"
   },
   {
+    "en": "call graph",
+    "tr": "çağrı çizgesi",
+    "note": "Yöntem çağrılarını ve dönüşlerini düğümler ve kenarlar olarak gösteren çizge."
+  },
+  {
     "en": "career path",
     "tr": "kariyer yolu",
     "note": ""
@@ -450,6 +465,11 @@ window.GLOSSARY = [
     "note": "Yazılımın çalıştırma ortamına yüklenmesi."
   },
   {
+    "en": "derived metric",
+    "tr": "türetilmiş ölçüt",
+    "note": "Ham bağlılık değerinden türetilen ölçüt; soyutluk, kararsızlık ve ana diziden uzaklık gibi."
+  },
+  {
     "en": "design pattern",
     "tr": "tasarım deseni",
     "note": "Yinelenen tasarım sorunlarına kanıtlanmış çözüm kalıpları"
@@ -488,6 +508,11 @@ window.GLOSSARY = [
     "en": "ecosystem",
     "tr": "ekosistem",
     "note": "Birbirini etkileyen teknoloji, araç ve uygulamaların bütünü"
+  },
+  {
+    "en": "efferent coupling",
+    "tr": "çıkan bağlılık",
+    "note": "Bir kod öğesinden diğer kod öğelerine giden bağlantıların sayısı; Robert Martin'in Ce (fan-out) ölçütü."
   },
   {
     "en": "elastic scale",
@@ -575,6 +600,16 @@ window.GLOSSARY = [
     "note": "toplantı/çalışma yürütme becerisi"
   },
   {
+    "en": "fan-in",
+    "tr": "fan-in (gelen bağlantı sayısı)",
+    "note": "Bir modüle giren bağlantıların sayısı; afferent coupling ile ilişkilidir."
+  },
+  {
+    "en": "fan-out",
+    "tr": "fan-out (giden bağlantı sayısı)",
+    "note": "Bir modülden çıkan bağlantıların sayısı; efferent coupling ile ilişkilidir."
+  },
+  {
     "en": "fault tolerance",
     "tr": "hata toleransı",
     "note": "Sistemin bileşen arızalarına rağmen çalışmaya devam edebilme yeteneği."
@@ -650,6 +685,11 @@ window.GLOSSARY = [
     "note": "Çözümü mutasyon ve seçimle evrimleştirerek optimize eden algoritma."
   },
   {
+    "en": "graph theory",
+    "tr": "çizge kuramı",
+    "note": "Çizge (graf) yapılarını inceleyen matematik dalı."
+  },
+  {
     "en": "guideline",
     "tr": "kılavuz ilke",
     "note": "yol gösteren ama dayatmayan ilke; karşılığı kılavuz/rehber"
@@ -680,6 +720,16 @@ window.GLOSSARY = [
     "note": "Yalnızca geçmiş bağlamında anlamlı olma durumu"
   },
   {
+    "en": "incidental coupling",
+    "tr": "tesadüfi bağlılık",
+    "note": "Birbirinden bağımsız yöntemlerin hiçbir ortak alanı paylaşmadan aynı sınıfta toplanması durumu; LCOM ölçütünün sınıflar içinde ortaya çıkardığı bağlılık."
+  },
+  {
+    "en": "incidentally coupled",
+    "tr": "tesadüfen bağlanmış",
+    "note": "Aralarında gerçek bir ilişki olmamasına rağmen tek bir sınıfta toplanmış; yüksek LCOM ile tespit edilir."
+  },
+  {
     "en": "incremental change",
     "tr": "artımlı değişiklik",
     "note": "Küçük adımlarla, düşük maliyetle yapılan değişiklik"
@@ -688,6 +738,11 @@ window.GLOSSARY = [
     "en": "infrastructure",
     "tr": "altyapı",
     "note": "Sistemin üzerinde çalıştığı donanım ve ağ hizmetleri."
+  },
+  {
+    "en": "instability",
+    "tr": "kararsızlık",
+    "note": "Robert Martin'in I ölçütü; çıkan bağlılığın toplam bağlılığa oranı."
   },
   {
     "en": "integrity assessment",
@@ -765,6 +820,11 @@ window.GLOSSARY = [
     "note": "Katmanlar halinde düzenlenmiş mimari stili"
   },
   {
+    "en": "LCOM metric",
+    "tr": "LCOM ölçütü",
+    "note": "yöntemlerde bütünlük eksikliği (lack of cohesion in methods) ölçütü."
+  },
+  {
     "en": "library",
     "tr": "kütüphane",
     "note": "Yeniden kullanılabilir kod koleksiyonu; framework'ten (çerçeve) daha az yapılandırılmıştır."
@@ -793,6 +853,11 @@ window.GLOSSARY = [
     "en": "machine provisioning",
     "tr": "makine sağlama",
     "note": "Sunucu ve kaynakların otomatik olarak hazırlanması."
+  },
+  {
+    "en": "main sequence",
+    "tr": "ana dizi",
+    "note": "Soyutluk–kararsızlık grafiğinde A+I=1 doğrusu; bu doğrudan uzaklık (distance from the main sequence) ile ölçülür."
   },
   {
     "en": "mentoring",
@@ -843,6 +908,16 @@ window.GLOSSARY = [
     "en": "mindmap",
     "tr": "zihin haritası",
     "note": ""
+  },
+  {
+    "en": "mixed cohesion",
+    "tr": "karma bütünlük",
+    "note": "Bir sınıfın yöntem kümelerinin bazı alan gruplarını paylaşıp bazılarını paylaşmadığı ara bütünlük durumu; Şekil 3-1'deki Class Z örneği."
+  },
+  {
+    "en": "mnemonic",
+    "tr": "anımsatıcı",
+    "note": "Bilgiyi hatırlamaya yardımcı olan sözcük ya da ipucu; burada afferent/efferent ayrımı için geliştirilen ipuçları."
   },
   {
     "en": "modular programming",
@@ -1190,6 +1265,11 @@ window.GLOSSARY = [
     "note": "Birden çok uygulamanın birlikte kullandığı altyapı kaynakları"
   },
   {
+    "en": "shared utility classes",
+    "tr": "paylaşılan yardımcı sınıflar",
+    "note": "Mimari değişiminde sıkıntı yaratan, birden çok sınıfın ortak kullandığı yardımcı sınıflar."
+  },
+  {
     "en": "side effect",
     "tr": "yan etki",
     "note": "Bir işlemin öngörülmeyen ya da istenmeyen sonucu"
@@ -1268,6 +1348,11 @@ window.GLOSSARY = [
     "en": "structural change",
     "tr": "yapısal değişiklik",
     "note": "Sistemin yapısını ilgilendiren değişiklik"
+  },
+  {
+    "en": "structural cohesion",
+    "tr": "yapısal bütünlük",
+    "note": "Bir modülün yapısının (ör. alan erişimi) ölçülebilen bütünlüğü; LCOM gibi yapısal ölçütlerle belirlenir."
   },
   {
     "en": "structural decay",
@@ -1423,6 +1508,11 @@ window.GLOSSARY = [
     "en": "verification mechanism",
     "tr": "doğrulama mekanizması",
     "note": "Bir özelliğin veya parçanın durumunu otomatik olarak doğrulayan mekanizma."
+  },
+  {
+    "en": "volatility",
+    "tr": "değişkenlik",
+    "note": "Bir kod tabanının değişikliklerden etkilenme eğilimi; kararsızlık ölçütüyle belirlenir."
   },
   {
     "en": "waterfall",
