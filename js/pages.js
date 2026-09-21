@@ -1,6 +1,6 @@
 // Sayfa verisi yükleyici: data/pages/page-N.js dosyalarını <script> ile yükler, önbelleğe alır.
 const Pages = (function () {
-  const ASSET_VERSION = "1";
+  const ASSET_VERSION = "2";
   const cache = {};
   const waiting = {};
 

@@ -9,7 +9,7 @@ window.TOC = {
   },
   "bookTotalPages": 399,
   "pdfOffset": 20,
-  "lastTranslatedPage": 0,
+  "lastTranslatedPage": 20,
   "chapters": [
     {
       "num": 1,
@@ -194,5 +194,226 @@ window.TOC = {
       "end": 399
     }
   ],
-  "pages": {}
+  "pages": {
+    "1": {
+      "title": {
+        "en": "Introduction",
+        "tr": "Giriş"
+      },
+      "section": {
+        "en": "Introduction",
+        "tr": "Giriş"
+      },
+      "chapter": 1
+    },
+    "2": {
+      "title": {
+        "en": "A Moving Target",
+        "tr": "Hareketli Bir Hedef"
+      },
+      "section": {
+        "en": "The Definition of Software Architecture",
+        "tr": "Yazılım Mimarisi Tanımı"
+      },
+      "chapter": 1
+    },
+    "3": {
+      "title": {
+        "en": "Defining Software Architecture",
+        "tr": "Yazılım Mimarisini Tanımlamak"
+      },
+      "section": {
+        "en": "Defining Software Architecture",
+        "tr": "Yazılım Mimarisini Tanımlamak"
+      },
+      "chapter": 1
+    },
+    "4": {
+      "title": {
+        "en": "Architecture Components",
+        "tr": "Mimari Bileşenler"
+      },
+      "section": {
+        "en": "Defining Software Architecture",
+        "tr": "Yazılım Mimarisini Tanımlamak"
+      },
+      "chapter": 1
+    },
+    "5": {
+      "title": {
+        "en": "Structure",
+        "tr": "Yapı"
+      },
+      "section": {
+        "en": "Defining Software Architecture",
+        "tr": "Yazılım Mimarisini Tanımlamak"
+      },
+      "chapter": 1
+    },
+    "6": {
+      "title": {
+        "en": "Architecture characteristics and architecture decisions",
+        "tr": "Mimari özellikler ve mimari kararlar"
+      },
+      "section": {
+        "en": "Defining Software Architecture",
+        "tr": "Yazılım Mimarisini Tanımlamak"
+      },
+      "chapter": 1
+    },
+    "7": {
+      "title": {
+        "en": "Variances and Design Principles",
+        "tr": "Sapmalar ve Tasarım İlkeleri"
+      },
+      "section": {
+        "en": "Defining Software Architecture",
+        "tr": "Yazılım Mimarisini Tanımlama"
+      },
+      "chapter": 1
+    },
+    "8": {
+      "title": {
+        "en": "The Eight Core Expectations",
+        "tr": "Sekiz Temel Beklenti"
+      },
+      "section": {
+        "en": "Expectations of an Architect",
+        "tr": "Bir Mimarın Beklentileri"
+      },
+      "chapter": 1
+    },
+    "9": {
+      "title": {
+        "en": "Make Architecture Decisions and Continually Analyze the Architecture",
+        "tr": "Mimari Kararlar Alma ve Mimariyi Sürekli Analiz Etme"
+      },
+      "section": {
+        "en": "Expectations of an Architect",
+        "tr": "Bir Mimarın Beklentileri"
+      },
+      "chapter": 1
+    },
+    "10": {
+      "title": {
+        "en": "Keeping Current and Ensuring Compliance",
+        "tr": "Güncel Kalmak ve Uyumu Sağlamak"
+      },
+      "section": {
+        "en": "Expectations of an Architect",
+        "tr": "Mimardan Beklentiler"
+      },
+      "chapter": 1
+    },
+    "11": {
+      "title": {
+        "en": "Diverse Exposure and Business Domain Knowledge",
+        "tr": "Çeşitli Teknolojilere Aşinalık ve İş Alanı Bilgisi"
+      },
+      "section": {
+        "en": "Expectations of an Architect",
+        "tr": "Mimardan Beklentiler"
+      },
+      "chapter": 1
+    },
+    "12": {
+      "title": {
+        "en": "Interpersonal Skills and Navigating Politics",
+        "tr": "Kişilerarası Beceriler ve Politikaları Yönetmek"
+      },
+      "section": {
+        "en": "Expectations of an Architect",
+        "tr": "Mimardan Beklentiler"
+      },
+      "chapter": 1
+    },
+    "13": {
+      "title": {
+        "en": "History: Pets.com and Why We Have Elastic Scale",
+        "tr": "Tarihçe: Pets.com ve Esnek Ölçeklemenin Ortaya Çıkışı"
+      },
+      "section": {
+        "en": "Intersection of Architecture and…",
+        "tr": "Mimarinin Kesişimi ve…"
+      },
+      "chapter": 1
+    },
+    "14": {
+      "title": {
+        "en": "Engineering Practices and Continuous Delivery",
+        "tr": "Mühendislik Uygulamaları ve Sürekli Teslim"
+      },
+      "section": {
+        "en": "Intersection of Architecture and…",
+        "tr": "Mimarinin Diğer Alanlarla Kesişimi…"
+      },
+      "chapter": 1
+    },
+    "15": {
+      "title": {
+        "en": "Engineering Practices and Unknown Unknowns",
+        "tr": "Mühendislik Uygulamaları ve Bilinmeyen Bilinmeyenler"
+      },
+      "section": {
+        "en": "Intersection of Architecture and…",
+        "tr": "Mimari ve Agile'ın Kesişimi"
+      },
+      "chapter": 1
+    },
+    "16": {
+      "title": {
+        "en": "From Continuous Delivery to Evolutionary Architecture",
+        "tr": "Sürekli Teslimden Evrimsel Mimariye"
+      },
+      "section": {
+        "en": "Intersection of Architecture and…",
+        "tr": "Mimarinin Diğer Alanlarla Kesişimi…"
+      },
+      "chapter": 1
+    },
+    "17": {
+      "title": {
+        "en": "Fitness Functions and Operations/DevOps",
+        "tr": "Uygunluk Fonksiyonları ve Operasyonlar/DevOps"
+      },
+      "section": {
+        "en": "Intersection of Architecture and…",
+        "tr": "Mimarinin Diğer Alanlarla Kesişimi…"
+      },
+      "chapter": 1
+    },
+    "18": {
+      "title": {
+        "en": "Process",
+        "tr": "Süreç"
+      },
+      "section": {
+        "en": "Operations/DevOps",
+        "tr": "Operasyonlar/DevOps"
+      },
+      "chapter": 1
+    },
+    "19": {
+      "title": {
+        "en": "Laws of Software Architecture",
+        "tr": "Yazılım Mimarisi Yasaları"
+      },
+      "section": {
+        "en": "Laws of Software Architecture",
+        "tr": "Yazılım Mimarisi Yasaları"
+      },
+      "chapter": 1
+    },
+    "20": {
+      "title": {
+        "en": "Why Is More Important Than How",
+        "tr": "Neden, Nasıl’dan Daha Önemlidir"
+      },
+      "section": {
+        "en": "Laws of Software Architecture",
+        "tr": "Yazılım Mimarisi Yasaları"
+      },
+      "chapter": 1
+    }
+  }
 };
