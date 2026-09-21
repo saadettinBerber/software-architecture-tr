@@ -10,9 +10,19 @@ window.GLOSSARY = [
     "note": "Soyut öğelerin (soyut sınıflar, arayüzler) somut öğelere oranı; Robert Martin'in A ölçütü."
   },
   {
+    "en": "accessibility",
+    "tr": "erişilebilirlik",
+    "note": "Renk körlüğü veya işitme kaybı gibi engelleri olan kullanıcılar dahil tüm kullanıcılara erişim sağlama; yapısal mimari özellik."
+  },
+  {
     "en": "accidental complexity",
     "tr": "tesadüfi karmaşıklık",
     "note": "Mimari/tasarım tercihlerinden kaynaklanan, gereksiz karmaşıklık; Bölüm 9'da ele alınır"
+  },
+  {
+    "en": "accountability",
+    "tr": "hesap verebilirlik",
+    "note": "Bir kullanıcının eylemlerinin izlenebilmesi; güvenlik özelliği."
   },
   {
     "en": "Advanced Message Queuing Protocol (AMQP)",
@@ -23,6 +33,11 @@ window.GLOSSARY = [
     "en": "afferent coupling",
     "tr": "giren bağlılık",
     "note": "Bir kod öğesine (bileşen, sınıf, fonksiyon vb.) gelen bağlantıların sayısı; Robert Martin'in Ca (fan-in) ölçütü."
+  },
+  {
+    "en": "after-the-fact quality assessment",
+    "tr": "iş sonrası kalite değerlendirmesi",
+    "note": "quality attributes teriminin ima ettiği, yapım sonrası yapılan değerlendirme"
   },
   {
     "en": "Agile",
@@ -53,6 +68,11 @@ window.GLOSSARY = [
     "en": "application silos",
     "tr": "uygulama siloları",
     "note": "her uygulama veri tabanına yalnızca sahibi olan uygulamanın erişebildiği mimari yapı"
+  },
+  {
+    "en": "appropriateness recognizability",
+    "tr": "uygunluğun tanınabilirliği",
+    "note": "Kullanıcının yazılımın ihtiyaçlarına uygun olup olmadığını fark edebilmesi; kullanışlılığın alt ölçütü."
   },
   {
     "en": "architect",
@@ -135,6 +155,11 @@ window.GLOSSARY = [
     "note": "Yıllar önce tanımlanan bir mimarinin bugün ne kadar uygulanabilir olduğunun değerlendirmesi."
   },
   {
+    "en": "archivability",
+    "tr": "arşivlenebilirlik",
+    "note": "Verinin belirli bir süre sonra arşivlenme veya silinme gereksinimi; yapısal mimari özellik."
+  },
+  {
     "en": "artifact",
     "tr": "çıktı (artifact)",
     "note": "Çalışma sonucu üretilen kayıt/eser; burada mimari diyagramlar."
@@ -148,6 +173,21 @@ window.GLOSSARY = [
     "en": "auction system",
     "tr": "açık artırma sistemi",
     "note": "Kitabın ödünleşim örneğindeki gibi, eşyaların açık artırmayla satıldığı sistem."
+  },
+  {
+    "en": "authentication",
+    "tr": "kimlik doğrulama",
+    "note": "Kullanıcıların gerçekten kendileri olduklarını doğrulamaya yönelik güvenlik gereksinimi; yapısal mimari özellik."
+  },
+  {
+    "en": "authenticity",
+    "tr": "gerçeklik (authenticity)",
+    "note": "Bir kullanıcının kimliğinin kanıtlanması; güvenlik özelliği."
+  },
+  {
+    "en": "authorization",
+    "tr": "yetkilendirme",
+    "note": "Kullanıcıların uygulama içinde yalnızca belirli işlevlere erişebilmesini sağlayan güvenlik gereksinimi; yapısal mimari özellik."
   },
   {
     "en": "auto-scaling",
@@ -265,6 +305,11 @@ window.GLOSSARY = [
     "note": "Yöntem çağrılarını ve dönüşlerini düğümler ve kenarlar olarak gösteren çizge."
   },
   {
+    "en": "capacity",
+    "tr": "kapasite",
+    "note": "Belirlenen en yüksek sınırların aşılma derecesi; performans verimliliğinin alt ölçütü."
+  },
+  {
     "en": "career path",
     "tr": "kariyer yolu",
     "note": ""
@@ -335,6 +380,11 @@ window.GLOSSARY = [
     "note": "Kaynak kodun yapısından türetilen, kod tabanına ilişkin ölçütler (döngüsel karmaşıklık gibi); neredeyse tamamı yorum gerektirir."
   },
   {
+    "en": "coexistence",
+    "tr": "birlikte var olma",
+    "note": "Uyumluluğun alt ölçütü; ortak ortam ve kaynakları paylaşırken işlev görme."
+  },
+  {
     "en": "cohesion",
     "tr": "bütünlük",
     "note": "Modülün parçalarının aynı modülde tutulma derecesi; coupling (bağlılık) ile birlikte kullanılır."
@@ -370,6 +420,11 @@ window.GLOSSARY = [
     "note": "İki modülün, her birinin aynı bilgi üzerinde işlem yaptığı bir iletişim zinciri oluşturduğu bütünlük düzeyi."
   },
   {
+    "en": "compatibility",
+    "tr": "uyumluluk",
+    "note": "ISO 25010 özelliği; aynı ortamı paylaşırken bilgi alışverişi ve işlev görme derecesi."
+  },
+  {
     "en": "compliance",
     "tr": "uyum",
     "note": "mimari kararlara uygun davranma; 'ensure compliance with decisions' beklentisi"
@@ -378,6 +433,11 @@ window.GLOSSARY = [
     "en": "component",
     "tr": "bileşen",
     "note": "Çoğulu: bileşenler."
+  },
+  {
+    "en": "confidentiality",
+    "tr": "gizlilik",
+    "note": "Verilere yalnızca erişim yetkisi olanların erişebilmesi; güvenlik özelliği."
   },
   {
     "en": "connascence",
@@ -500,6 +560,11 @@ window.GLOSSARY = [
     "note": "customer relationship management kısaltması"
   },
   {
+    "en": "cross-cutting architecture characteristics",
+    "tr": "çapraz kesimli mimari özellikler",
+    "note": "Tablo 4-3'te listelenen, kolayca kategorize edilemeyen mimari özellikler; sayfa 60'ta geçer."
+  },
+  {
     "en": "customer relationship management",
     "tr": "müşteri ilişkileri yönetimi",
     "note": "CRM olarak da bilinir"
@@ -523,6 +588,11 @@ window.GLOSSARY = [
     "en": "data coupling",
     "tr": "veri bağlılığı",
     "note": "Yapısal programlamada, modüllerin metot çağrıları aracılığıyla veri paylaştığı bağlılık türü."
+  },
+  {
+    "en": "data protection",
+    "tr": "veri koruma",
+    "note": "GDPR, Sarbanes Oxley gibi mevzuatların kapsadığı, verilerin korunmasına yönelik yasal düzenleme; yasal kısıtlamalar bağlamında geçer."
   },
   {
     "en": "data structure",
@@ -935,9 +1005,19 @@ window.GLOSSARY = [
     "note": "Sistemin başka bir sistemle veya servisle iletişim kurduğu, üzerinde anlaşılmış arayüz/bağlantı noktası; üçüncü taraf ödeme işlemcisiyle kurulan bağlantı bağlamında."
   },
   {
+    "en": "integrity",
+    "tr": "bütünlük",
+    "note": "Yazılımın, yazılıma veya verilere yetkisiz erişimi ya da değişikliği önlemesi; güvenlik özelliği (integrity assessment ile karıştırılmamalıdır)."
+  },
+  {
     "en": "integrity assessment",
     "tr": "bütünlük değerlendirmesi",
     "note": "Bir özelliğin veya parçanın durumunun nesnel olarak ölçülüp değerlendirilmesi."
+  },
+  {
+    "en": "interoperability",
+    "tr": "birlikte çalışabilirlik",
+    "note": "Uyumluluğun alt ölçütü; iki veya daha fazla sistemin bilgi alışverişi ve kullanım derecesi."
   },
   {
     "en": "interpersonal skills",
@@ -1020,6 +1100,16 @@ window.GLOSSARY = [
     "note": "yöntemlerde bütünlük eksikliği (lack of cohesion in methods) ölçütü."
   },
   {
+    "en": "learnability",
+    "tr": "öğrenilebilirlik",
+    "note": "Kullanıcının yazılımı kullanmayı öğrenme kolaylığı; kullanışlılığın alt ölçütü."
+  },
+  {
+    "en": "legal",
+    "tr": "yasal",
+    "note": "Sistemin çalıştığı yasal bağlam; veri koruma, Sarbanes Oxley, GDPR gibi yasal kısıtlamalarla ilgili yapısal mimari özellik."
+  },
+  {
     "en": "library",
     "tr": "kütüphane",
     "note": "Yeniden kullanılabilir kod koleksiyonu; framework'ten (çerçeve) daha az yapılandırılmıştır."
@@ -1063,6 +1153,11 @@ window.GLOSSARY = [
     "en": "main sequence",
     "tr": "ana dizi",
     "note": "Soyutluk–kararsızlık grafiğinde A+I=1 doğrusu; bu doğrudan uzaklık (distance from the main sequence) ile ölçülür."
+  },
+  {
+    "en": "maturity",
+    "tr": "olgunluk",
+    "note": "Yazılımın normal işleyişte güvenilirlik ihtiyaçlarını karşılaması; güvenilirliğin alt kategorisi."
   },
   {
     "en": "mentoring",
@@ -1205,6 +1300,11 @@ window.GLOSSARY = [
     "note": "finansal terim; junior debt olarak da bilinir"
   },
   {
+    "en": "nonrepudiation",
+    "tr": "inkâr edilemezlik",
+    "note": "Eylemlerin veya olayların gerçekleştiğinin kanıtlanabilmesi; güvenlik özelliği."
+  },
+  {
     "en": "object-oriented",
     "tr": "nesne yönelimli",
     "note": "Nesneleri ve kapsüllemeyi temel alan programlama paradigması (OOP)."
@@ -1293,6 +1393,11 @@ window.GLOSSARY = [
     "en": "performance",
     "tr": "performans",
     "note": "Sistemin iş yükü altındaki hız ve yanıt verebilirlik düzeyi; Tablo 4-1'de listelenen operasyonel mimari özellik."
+  },
+  {
+    "en": "performance efficiency",
+    "tr": "performans verimliliği",
+    "note": "ISO 25010 özelliği; performansın kaynak kullanımına göre ölçüsü."
   },
   {
     "en": "point-to-point messaging",
@@ -1438,6 +1543,11 @@ window.GLOSSARY = [
     "en": "resilient architecture",
     "tr": "dayanıklı mimari",
     "note": "Değişime ve arızalara karşı dirençli mimari."
+  },
+  {
+    "en": "resource utilization",
+    "tr": "kaynak kullanımı",
+    "note": "Kullanılan kaynakların miktarı ve türleri; performans verimliliğinin alt ölçütü."
   },
   {
     "en": "responsibility",
@@ -1775,6 +1885,11 @@ window.GLOSSARY = [
     "note": "Birbirinin iç yapısına bağımlı, birlikte değişmek zorunda kalan öğelerin durumu."
   },
   {
+    "en": "time behavior",
+    "tr": "zaman davranışı",
+    "note": "Yanıt, işlem süresi ve işleme hızı oranlarının ölçüsü; performans verimliliğinin alt ölçütü."
+  },
+  {
     "en": "topic",
     "tr": "topic",
     "note": "Yayınla-abone ol modelinde birden çok abonenin aynı mesajı aldığı kanal."
@@ -1813,6 +1928,16 @@ window.GLOSSARY = [
     "en": "uptime",
     "tr": "çalışma süresi",
     "note": "Sistemin kullanılabilir olduğu süre oranı"
+  },
+  {
+    "en": "usability",
+    "tr": "kullanışlılık",
+    "note": "ISO 25010 özelliği; availability (kullanılabilirlik) ile karışmaması için kullanışlılık olarak çevrilir."
+  },
+  {
+    "en": "user error protection",
+    "tr": "kullanıcı hatası koruması",
+    "note": "Kullanıcıların hata yapmasına karşı koruma; kullanışlılığın alt ölçütü."
   },
   {
     "en": "user story",

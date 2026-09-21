@@ -11,15 +11,19 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 |----------------|-----------------|-------------|
 | -ilities | -ility'ler | Mimari özellik adlarının yaygın son eki (scalability → ölçeklenebilirlik, availability → kullanılabilirlik). |
 | abstractness | soyutluk | Soyut öğelerin (soyut sınıflar, arayüzler) somut öğelere oranı; Robert Martin'in A ölçütü. |
+| accessibility | erişilebilirlik | Renk körlüğü veya işitme kaybı gibi engelleri olan kullanıcılar dahil tüm kullanıcılara erişim sağlama; yapısal mimari özellik. |
 | accidental complexity | tesadüfi karmaşıklık | Mimari/tasarım tercihlerinden kaynaklanan, gereksiz karmaşıklık; Bölüm 9'da ele alınır |
+| accountability | hesap verebilirlik | Bir kullanıcının eylemlerinin izlenebilmesi; güvenlik özelliği. |
 | Advanced Message Queuing Protocol (AMQP) | Gelişmiş Mesaj Kuyruğu Protokolü (AMQP) | Mesaj kuyruğu standartlarından; AMQP kısaltması korunur. |
 | afferent coupling | giren bağlılık | Bir kod öğesine (bileşen, sınıf, fonksiyon vb.) gelen bağlantıların sayısı; Robert Martin'in Ca (fan-in) ölçütü. |
+| after-the-fact quality assessment | iş sonrası kalite değerlendirmesi | quality attributes teriminin ima ettiği, yapım sonrası yapılan değerlendirme |
 | Agile | Agile | Yerleşmiş terim; bu hâliyle kullanılır. |
 | agility | çeviklik | Değişime hızlı yanıt verebilme yeteneği. |
 | aleatory contracts | aleatorik sözleşmeler | finansal terim; örnek olarak verilir |
 | anti-pattern | ters desen | Kötü veya zararlı bir çözümü tekrarlayan, yaygın yazılım tasarım deseni; 'Frozen Caveman Anti-Pattern' adlandırmasında olduğu gibi. |
 | application server | uygulama sunucusu | Uygulamaları çalıştıran ve yöneten sunucu yazılımı |
 | application silos | uygulama siloları | her uygulama veri tabanına yalnızca sahibi olan uygulamanın erişebildiği mimari yapı |
+| appropriateness recognizability | uygunluğun tanınabilirliği | Kullanıcının yazılımın ihtiyaçlarına uygun olup olmadığını fark edebilmesi; kullanışlılığın alt ölçütü. |
 | architect | mimar | Yazılım mimarisiyle ilgilenen kişi |
 | architectural characteristic | mimari özellik | Performans, kullanılabilirlik, ölçeklenebilirlik gibi sistem başarı ölçütleri. |
 | architectural characteristics | mimari özellikler | Mimariyle belirlenen ölçeklenebilirlik, dayanıklılık gibi özellikler. |
@@ -36,9 +40,13 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | architecture review board (ARB) | mimari inceleme kurulu | mimari kararlara sapma taleplerini inceleyip onaylayan veya reddeden kurul |
 | architecture style | mimari stil | Mikro hizmetler, katmanlı, mikro çekirdek gibi sistemin uygulandığı stil |
 | architecture vitality | mimari canlılığı | Yıllar önce tanımlanan bir mimarinin bugün ne kadar uygulanabilir olduğunun değerlendirmesi. |
+| archivability | arşivlenebilirlik | Verinin belirli bir süre sonra arşivlenme veya silinme gereksinimi; yapısal mimari özellik. |
 | artifact | çıktı (artifact) | Çalışma sonucu üretilen kayıt/eser; burada mimari diyagramlar. |
 | asynchronous messaging | asenkron mesajlaşma | servisler arası iletişimde yanıt beklemeden mesaj gönderme |
 | auction system | açık artırma sistemi | Kitabın ödünleşim örneğindeki gibi, eşyaların açık artırmayla satıldığı sistem. |
+| authentication | kimlik doğrulama | Kullanıcıların gerçekten kendileri olduklarını doğrulamaya yönelik güvenlik gereksinimi; yapısal mimari özellik. |
+| authenticity | gerçeklik (authenticity) | Bir kullanıcının kimliğinin kanıtlanması; güvenlik özelliği. |
+| authorization | yetkilendirme | Kullanıcıların uygulama içinde yalnızca belirli işlevlere erişebilmesini sağlayan güvenlik gereksinimi; yapısal mimari özellik. |
 | auto-scaling | otomatik ölçekleme | Kaynakların ihtiyaca göre otomatik artırılıp azaltılması. |
 | automation | otomasyon | Araç ve betiklerle tekrarlayan işlerin otomatikleştirilmesi. |
 | availability | kullanılabilirlik | Bir mimari özellik (“-ility”) |
@@ -62,6 +70,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | C-level executives | üst düzey yöneticiler | CEO, CFO, CTO gibi unvanlar |
 | caching | önbellekleme | caching product bağlamında |
 | call graph | çağrı çizgesi | Yöntem çağrılarını ve dönüşlerini düğümler ve kenarlar olarak gösteren çizge. |
+| capacity | kapasite | Belirlenen en yüksek sınırların aşılma derecesi; performans verimliliğinin alt ölçütü. |
 | career path | kariyer yolu |  |
 | change control | değişiklik kontrolü | değişikliklerin izlenmesi ve onaylanması süreci |
 | chaos engineering | kaos mühendisliği | Sistemin dayanıklılığını bilinçli arıza enjekte ederek test etme yöntemi. |
@@ -76,6 +85,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | code review | kod incelemesi | Bir geliştiricinin yazdığı kodun başka bir kişi tarafından gözden geçirilmesi; çoğulu kod incelemeleri. |
 | code smell | kod kokusu | Kodda belirli bir sorunu ya da tasarım kusurunu işaret eden kalıntı. |
 | code-level metrics | kod düzeyi ölçütler | Kaynak kodun yapısından türetilen, kod tabanına ilişkin ölçütler (döngüsel karmaşıklık gibi); neredeyse tamamı yorum gerektirir. |
+| coexistence | birlikte var olma | Uyumluluğun alt ölçütü; ortak ortam ve kaynakları paylaşırken işlev görme. |
 | cohesion | bütünlük | Modülün parçalarının aynı modülde tutulma derecesi; coupling (bağlılık) ile birlikte kullanılır. |
 | cohesiveness | bütünlük | Bir modülün uyum (cohesion) derecesi; cohesive (uyumlu) sıfatı da bu sayfada geçer. |
 | coincidental cohesion | tesadüfi bütünlük | Öğelerin yalnızca aynı kaynak dosyada bulunması nedeniyle ilişkili sayıldığı, uyumun en olumsuz biçimi. |
@@ -83,8 +93,10 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | comfort zone | konfor alanı | beceri/sorumluluk bağlamında |
 | communication protocol | iletişim protokolü | servisler arası iletişimde kullanılan protokol (REST, gRPC gibi) |
 | communicational cohesion | iletişimsel bütünlük | İki modülün, her birinin aynı bilgi üzerinde işlem yaptığı bir iletişim zinciri oluşturduğu bütünlük düzeyi. |
+| compatibility | uyumluluk | ISO 25010 özelliği; aynı ortamı paylaşırken bilgi alışverişi ve işlev görme derecesi. |
 | compliance | uyum | mimari kararlara uygun davranma; 'ensure compliance with decisions' beklentisi |
 | component | bileşen | Çoğulu: bileşenler. |
+| confidentiality | gizlilik | Verilere yalnızca erişim yetkisi olanların erişebilmesi; güvenlik özelliği. |
 | connascence | eşdoğuş (connascence) | İki bileşenin, birindeki değişiklik diğerinde de değişikliği zorunlu kılıyorsa eşdoğuşlu olduğu söylenir; Bölüm 3'te (Modülerlik) ayrıntılı ele alınır. |
 | Connascence of Algorithm (CoA) | Algoritma Eşdoğuşu (CoA) | Statik eşdoğuş türlerinden biri; birden çok bileşenin belirli bir algoritma üzerinde anlaşmasını gerektirir. |
 | Connascence of Convention (CoC) | Uylaşım Eşdoğuşu (CoC) | Connascence of Meaning ile eş anlamlı kullanılan ad; convention sözcüğü, belirli değerlerin anlamı üzerindeki uzlaşımı ifade eder. |
@@ -109,11 +121,13 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | coupling metrics | bağlılık ölçütleri | Bileşenler arası bağımlılık derecesini ölçen ölçütler; sayfa 44'te ayrıntılı ele alınır. |
 | critical path | kritik yol | Proje yönetiminde, bir projenin tamamlanma süresini belirleyen görevler dizisi; burada mimarinin darboğazı olabilecek kod bağlamında kullanılır. |
 | CRM | müşteri ilişkileri yönetimi (CRM) | customer relationship management kısaltması |
+| cross-cutting architecture characteristics | çapraz kesimli mimari özellikler | Tablo 4-3'te listelenen, kolayca kategorize edilemeyen mimari özellikler; sayfa 60'ta geçer. |
 | customer relationship management | müşteri ilişkileri yönetimi | CRM olarak da bilinir |
 | cyclomatic complexity | döngüsel karmaşıklık | kod karmaşıklığını ölçen metrik |
 | data architecture | veri mimarisi | Verinin nasıl saklanacağını ve erişileceğini düzenleyen mimari yaklaşım. |
 | data center | veri merkezi | Sunucu ve ağ altyapısının barındırıldığı tesis |
 | data coupling | veri bağlılığı | Yapısal programlamada, modüllerin metot çağrıları aracılığıyla veri paylaştığı bağlılık türü. |
+| data protection | veri koruma | GDPR, Sarbanes Oxley gibi mevzuatların kapsadığı, verilerin korunmasına yönelik yasal düzenleme; yasal kısıtlamalar bağlamında geçer. |
 | data structure | veri yapısı | Verinin düzenlenip saklanma biçimi; bütünlüğü (integrity) korumak için öğelerin birlikte değişmesi gerekebilir. |
 | database schema | veri tabanı şeması |  |
 | database server | veritabanı sunucusu | Veritabanı yönetimini barındıran sunucu |
@@ -196,7 +210,9 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | infrastructure | altyapı | Sistemin üzerinde çalıştığı donanım ve ağ hizmetleri. |
 | instability | kararsızlık | Robert Martin'in I ölçütü; çıkan bağlılığın toplam bağlılığa oranı. |
 | integration point | entegrasyon noktası | Sistemin başka bir sistemle veya servisle iletişim kurduğu, üzerinde anlaşılmış arayüz/bağlantı noktası; üçüncü taraf ödeme işlemcisiyle kurulan bağlantı bağlamında. |
+| integrity | bütünlük | Yazılımın, yazılıma veya verilere yetkisiz erişimi ya da değişikliği önlemesi; güvenlik özelliği (integrity assessment ile karıştırılmamalıdır). |
 | integrity assessment | bütünlük değerlendirmesi | Bir özelliğin veya parçanın durumunun nesnel olarak ölçülüp değerlendirilmesi. |
+| interoperability | birlikte çalışabilirlik | Uyumluluğun alt ölçütü; iki veya daha fazla sistemin bilgi alışverişi ve kullanım derecesi. |
 | interpersonal skills | kişilerarası beceriler | mimarlardan beklenen iletişim ve iş birliği becerileri; 'possess interpersonal skills' beklentisi |
 | iteration | yineleme | bir projenin tekrarlanan geliştirme çevrimi |
 | iterative | yinelemeli |  |
@@ -213,6 +229,8 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | layered | katmanlı | Katmanlı mimari stili |
 | layered architecture | katmanlı mimari | Katmanlar halinde düzenlenmiş mimari stili |
 | LCOM metric | LCOM ölçütü | yöntemlerde bütünlük eksikliği (lack of cohesion in methods) ölçütü. |
+| learnability | öğrenilebilirlik | Kullanıcının yazılımı kullanmayı öğrenme kolaylığı; kullanışlılığın alt ölçütü. |
+| legal | yasal | Sistemin çalıştığı yasal bağlam; veri koruma, Sarbanes Oxley, GDPR gibi yasal kısıtlamalarla ilgili yapısal mimari özellik. |
 | library | kütüphane | Yeniden kullanılabilir kod koleksiyonu; framework'ten (çerçeve) daha az yapılandırılmıştır. |
 | lint test | lint testi | Kodda olası hataları ve biçim sorunlarını denetleyen test; lint terimi korunur. |
 | load balancing | yük dengeleme | İş yükünün tüketiciler arasında dağıtılması. |
@@ -222,6 +240,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | machine provisioning | makine sağlama | Sunucu ve kaynakların otomatik olarak hazırlanması. |
 | magic value | sihirli değer | Adlandırılmış bir sabite bağlanmamış, kaynak kod içinde doğrudan yazılmış sayı/dizge değeri. |
 | main sequence | ana dizi | Soyutluk–kararsızlık grafiğinde A+I=1 doğrusu; bu doğrudan uzaklık (distance from the main sequence) ile ölçülür. |
+| maturity | olgunluk | Yazılımın normal işleyişte güvenilirlik ihtiyaçlarını karşılaması; güvenilirliğin alt kategorisi. |
 | mentoring | rehberlik | mimarın geliştiricilere yol göstermesi; coaching (koçluk) ile birlikte anılır. |
 | messaging model | mesajlaşma modeli | yayınla-abone ol ve noktadan noktaya dahil mesajlaşma biçimleri |
 | metaobject protocol | meta nesne protokolü (metaobject protocol) | Geliştiricilere ek genişletme mekanizmaları sağlayan programlama yapısı. |
@@ -250,6 +269,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | nomenclature | adlandırma | Bir alana özgü terimler bütünü. |
 | nonfunctional requirements | işlevsel olmayan gereksinimler | Yazılımın alan işlevselliğiyle doğrudan ilişkili olmayan özelliklerine (performans, kullanılabilirlik vb.) verilen yaygın ad; kitap bu terimi kendini küçültücü bulduğu için kullanmaz. |
 | nonpriority debt | imtiyazsız borç | finansal terim; junior debt olarak da bilinir |
+| nonrepudiation | inkâr edilemezlik | Eylemlerin veya olayların gerçekleştiğinin kanıtlanabilmesi; güvenlik özelliği. |
 | object-oriented | nesne yönelimli | Nesneleri ve kapsüllemeyi temel alan programlama paradigması (OOP). |
 | object-oriented language | nesne yönelimli dil | Kodun sınıflar ve nesneler etrafında düzenlendiği programlama dili. |
 | office politics | ofis politikaları | kurum içi güç ve çıkar dinamikleri |
@@ -268,6 +288,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | payment processor | ödeme işlemcisi | Ödeme işlemlerini üçüncü taraf olarak yürüten hizmet; sayfada 'third-party payment processor' ifadesinde geçer. |
 | perceived technical risk | algılanan teknik risk | Gerçekte var olup olmadığına bakılmaksızın mimarların hissettiği/algıladığı teknik risk; sayfa 30'da gerçek teknik riskle karşılaştırılır. |
 | performance | performans | Sistemin iş yükü altındaki hız ve yanıt verebilirlik düzeyi; Tablo 4-1'de listelenen operasyonel mimari özellik. |
+| performance efficiency | performans verimliliği | ISO 25010 özelliği; performansın kaynak kullanımına göre ölçüsü. |
 | point-to-point messaging | noktadan noktaya mesajlaşma | Her mesajın tam olarak bir tüketici tarafından işlendiği mesajlaşma modeli. |
 | presentation layer | sunum katmanı | Kullanıcı arayüzü sorumluluğunu taşıyan katman |
 | problem domain | sorun alanı | çözülmek istenen iş sorununun yer aldığı alan |
@@ -297,6 +318,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | requirements | gereksinimler | Sistemin karşılaması gereken işlevsel ihtiyaçlar. |
 | requirements gathering | gereksinim toplama | Sistemin gereksinimlerinin toplanması çalışması; uygulanan yazılım geliştirme sürecine göre değişen tekniklerle yürütülür. |
 | resilient architecture | dayanıklı mimari | Değişime ve arızalara karşı dirençli mimari. |
+| resource utilization | kaynak kullanımı | Kullanılan kaynakların miktarı ve türleri; performans verimliliğinin alt ölçütü. |
 | responsibility | sorumluluk | Mimarın rol kapsamı bağlamında. |
 | restructuring | yeniden yapılandırma | Mimarinin bir desenden diğerine taşınması/değiştirilmesi |
 | reuse mechanism | yeniden kullanım mekanizması | Kodun farklı yerlerde tekrar kullanılmasını sağlayan platform yeteneği. |
@@ -364,6 +386,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | thread | iş parçacığı | Bir süreç içinde eşzamanlı çalışabilen en küçük yürütme birimi. |
 | throwaway code | atılacak kod | Yalnızca hızlı doğrulama için yazılan, üretime girmesi amaçlanmayan kod. |
 | tightly coupled | sıkı bağlı | Birbirinin iç yapısına bağımlı, birlikte değişmek zorunda kalan öğelerin durumu. |
+| time behavior | zaman davranışı | Yanıt, işlem süresi ve işleme hızı oranlarının ölçüsü; performans verimliliğinin alt ölçütü. |
 | topic | topic | Yayınla-abone ol modelinde birden çok abonenin aynı mesajı aldığı kanal. |
 | topology | topoloji | Sistem bileşenlerinin bağlantı ve dağılım yapısı. |
 | trade-off | ödünleşim | Bir fayda için başka bir özellikten vazgeçme; metinde İngilizcesiyle de kullanılır |
@@ -372,6 +395,8 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | unit tests | birim testleri | Tek bir kod birimini izole biçimde doğrulayan testler. |
 | unknown unknowns | bilinmeyen bilinmeyenler |  |
 | uptime | çalışma süresi | Sistemin kullanılabilir olduğu süre oranı |
+| usability | kullanışlılık | ISO 25010 özelliği; availability (kullanılabilirlik) ile karışmaması için kullanışlılık olarak çevrilir. |
+| user error protection | kullanıcı hatası koruması | Kullanıcıların hata yapmasına karşı koruma; kullanışlılığın alt ölçütü. |
 | user story | kullanıcı hikâyesi | Çevik geliştirmede, kullanıcı ihtiyacını kısa ve iş dilinde anlatan iş öğesi. |
 | variance | sapma | bir standarda veya mimari karara incelenip onaylanan istisna/muafiyet |
 | variance model | sapma modeli | sapma talep sürecini biçimlendiren kurumsal model |

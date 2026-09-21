@@ -24,9 +24,10 @@
     "chapter_title_min_size": 20,
     "default_code_language": "java",
     "header_at_bottom": true,
-    "chapter_label_pattern": "^CHAPTER (\\d+)$"
+    "chapter_label_pattern": "^CHAPTER (\\d+)$",
+    "math_geometry": true
   },
-  "last_translated_page": 58,
+  "last_translated_page": 61,
   "chapters": [
     {
       "num": 1,
@@ -631,6 +632,38 @@
       "chapter": 4,
       "title_en": "Operational Architecture Characteristics",
       "title_tr": "Operasyonel Mimari Özellikler",
+      "section_en": "Architecture Characteristics Defined",
+      "section_tr": "Mimari Özelliklerin Tanımı"
+    },
+    "56": {
+      "pdf_page": 76,
+      "chapter": 4,
+      "title_en": "Architecture Characteristics Defined",
+      "title_tr": "Mimari Özelliklerin Tanımı",
+      "section_en": "Architecture Characteristics Defined",
+      "section_tr": "Mimari Özelliklerin Tanımı"
+    },
+    "59": {
+      "pdf_page": 79,
+      "chapter": 4,
+      "title_en": "Structural Architecture Characteristics",
+      "title_tr": "Yapısal Mimari Özellikler",
+      "section_en": "Architectural Characteristics (Partially) Listed",
+      "section_tr": "Mimari Özelliklerin (Kısmen) Listesi"
+    },
+    "61": {
+      "pdf_page": 81,
+      "chapter": 4,
+      "title_en": "ISO Standard Definitions",
+      "title_tr": "ISO Standardı Tanımları",
+      "section_en": "Architectural Characteristics (Partially) Listed",
+      "section_tr": "Mimari Özellikler (Kısmen) Listelenmiştir"
+    },
+    "60": {
+      "pdf_page": 80,
+      "chapter": 4,
+      "title_en": "Cross-Cutting Architecture Characteristics",
+      "title_tr": "Çapraz Kesimli Mimari Özellikler (Cross-Cutting Architecture Characteristics)",
       "section_en": "Architecture Characteristics Defined",
       "section_tr": "Mimari Özelliklerin Tanımı"
     }
