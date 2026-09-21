@@ -9,7 +9,7 @@ window.TOC = {
   },
   "bookTotalPages": 399,
   "pdfOffset": 20,
-  "lastTranslatedPage": 39,
+  "lastTranslatedPage": 42,
   "chapters": [
     {
       "num": 1,
@@ -613,6 +613,39 @@ window.TOC = {
       "section": {
         "en": "Definition",
         "tr": "Tanım"
+      },
+      "chapter": 3
+    },
+    "40": {
+      "title": {
+        "en": "Measuring Modularity",
+        "tr": "Modülerliği Ölçmek"
+      },
+      "section": {
+        "en": "Measuring Modularity",
+        "tr": "Modülerliği Ölçmek"
+      },
+      "chapter": 3
+    },
+    "41": {
+      "title": {
+        "en": "Cohesion Variants",
+        "tr": "Uyum Türleri"
+      },
+      "section": {
+        "en": "Measuring Modularity",
+        "tr": "Modülerliği Ölçmek"
+      },
+      "chapter": 3
+    },
+    "42": {
+      "title": {
+        "en": "Measuring Modularity",
+        "tr": "Modülerliği Ölçmek"
+      },
+      "section": {
+        "en": "Measuring Modularity",
+        "tr": "Modülerliği Ölçmek"
       },
       "chapter": 3
     }

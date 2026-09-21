@@ -26,7 +26,7 @@
     "header_at_bottom": true,
     "chapter_label_pattern": "^CHAPTER (\\d+)$"
   },
-  "last_translated_page": 39,
+  "last_translated_page": 42,
   "chapters": [
     {
       "num": 1,
@@ -493,6 +493,30 @@
       "title_tr": "Ad Çakışması Olmayan Bir Dil: Java 1.0",
       "section_en": "Definition",
       "section_tr": "Tanım"
+    },
+    "40": {
+      "pdf_page": 60,
+      "chapter": 3,
+      "title_en": "Measuring Modularity",
+      "title_tr": "Modülerliği Ölçmek",
+      "section_en": "Measuring Modularity",
+      "section_tr": "Modülerliği Ölçmek"
+    },
+    "41": {
+      "pdf_page": 61,
+      "chapter": 3,
+      "title_en": "Cohesion Variants",
+      "title_tr": "Uyum Türleri",
+      "section_en": "Measuring Modularity",
+      "section_tr": "Modülerliği Ölçmek"
+    },
+    "42": {
+      "pdf_page": 62,
+      "chapter": 3,
+      "title_en": "Measuring Modularity",
+      "title_tr": "Modülerliği Ölçmek",
+      "section_en": "Measuring Modularity",
+      "section_tr": "Modülerliği Ölçmek"
     }
   }
 }

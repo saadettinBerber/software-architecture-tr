@@ -275,6 +275,11 @@ window.GLOSSARY = [
     "note": "her bileşen için oluşturulan, sınıfları ve ilişkilerini gösteren diyagram."
   },
   {
+    "en": "class loader",
+    "tr": "sınıf yükleyici",
+    "note": "Java'da sınıfları classpath üzerinden belleğe yükleyen mekanizma."
+  },
+  {
     "en": "classpath",
     "tr": "classpath",
     "note": "Java'da sınıf ve kaynakların arandığı dizin/JAR yolu; yerleşik terim, olduğu gibi kullanılır."
@@ -295,6 +300,21 @@ window.GLOSSARY = [
     "note": "Bir geliştiricinin yazdığı kodun başka bir kişi tarafından gözden geçirilmesi; çoğulu kod incelemeleri."
   },
   {
+    "en": "cohesion",
+    "tr": "bütünlük",
+    "note": "Modülün parçalarının aynı modülde tutulma derecesi; coupling (bağlılık) ile birlikte kullanılır."
+  },
+  {
+    "en": "cohesiveness",
+    "tr": "bütünlük",
+    "note": "Bir modülün uyum (cohesion) derecesi; cohesive (uyumlu) sıfatı da bu sayfada geçer."
+  },
+  {
+    "en": "coincidental cohesion",
+    "tr": "tesadüfi bütünlük",
+    "note": "Öğelerin yalnızca aynı kaynak dosyada bulunması nedeniyle ilişkili sayıldığı, uyumun en olumsuz biçimi."
+  },
+  {
     "en": "collaboration",
     "tr": "iş birliği",
     "note": "mimar ile geliştirme ekibi arasındaki yakın çalışma"
@@ -308,6 +328,11 @@ window.GLOSSARY = [
     "en": "communication protocol",
     "tr": "iletişim protokolü",
     "note": "servisler arası iletişimde kullanılan protokol (REST, gRPC gibi)"
+  },
+  {
+    "en": "communicational cohesion",
+    "tr": "iletişimsel bütünlük",
+    "note": "İki modülün, her birinin aynı bilgi üzerinde işlem yaptığı bir iletişim zinciri oluşturduğu bütünlük düzeyi."
   },
   {
     "en": "compliance",
@@ -358,6 +383,11 @@ window.GLOSSARY = [
     "en": "coupling",
     "tr": "bağlılık",
     "note": "Bileşenlerin birbirine bağımlılık derecesi"
+  },
+  {
+    "en": "coupling metrics",
+    "tr": "bağlılık ölçütleri",
+    "note": "Bileşenler arası bağımlılık derecesini ölçen ölçütler; sayfa 44'te ayrıntılı ele alınır."
   },
   {
     "en": "critical path",
@@ -560,6 +590,11 @@ window.GLOSSARY = [
     "note": "Kararların sonucunun hızla değerlendirilmesini sağlayan döngü; Çevik yaklaşımın temel avantajı"
   },
   {
+    "en": "field",
+    "tr": "alan",
+    "note": "Sınıf düzeyinde tanımlanan değişken; örnek alanı (instance field)."
+  },
+  {
     "en": "First Law of Software Architecture",
     "tr": "Yazılım Mimarisi Birinci Yasası",
     "note": "“Yazılım mimarisindeki her şey bir ödünleşimdir.”"
@@ -593,6 +628,11 @@ window.GLOSSARY = [
     "en": "fully qualified name",
     "tr": "tam nitelikli ad",
     "note": "Bir öğeyi benzersiz biçimde tanımlayan, paket/alan adı zincirini içeren tam ad."
+  },
+  {
+    "en": "functional cohesion",
+    "tr": "işlevsel bütünlük",
+    "note": "En yüksek bütünlük düzeyi; modülün tüm parçaları birbiriyle ilişkilidir."
   },
   {
     "en": "functional language",
@@ -700,6 +740,11 @@ window.GLOSSARY = [
     "note": ""
   },
   {
+    "en": "lack of cohesion in methods",
+    "tr": "yöntemlerde bütünlük eksikliği",
+    "note": "LCOM metriklerinin ölçtüğü durum."
+  },
+  {
     "en": "latest trends",
     "tr": "güncel trendler",
     "note": "teknoloji ve sektör trendlerini takip etme; 'keep current with latest trends' beklentisi"
@@ -720,6 +765,11 @@ window.GLOSSARY = [
     "note": "Katmanlar halinde düzenlenmiş mimari stili"
   },
   {
+    "en": "library",
+    "tr": "kütüphane",
+    "note": "Yeniden kullanılabilir kod koleksiyonu; framework'ten (çerçeve) daha az yapılandırılmıştır."
+  },
+  {
     "en": "lint test",
     "tr": "lint testi",
     "note": "Kodda olası hataları ve biçim sorunlarını denetleyen test; lint terimi korunur."
@@ -728,6 +778,11 @@ window.GLOSSARY = [
     "en": "load balancing",
     "tr": "yük dengeleme",
     "note": "İş yükünün tüketiciler arasında dağıtılması."
+  },
+  {
+    "en": "logical cohesion",
+    "tr": "mantıksal bütünlük",
+    "note": "Modüldeki verinin işlevsel değil mantıksal olarak ilişkili olduğu uyum türü; örn. StringUtils gibi aynı tür veri üzerinde çalışan ilişkisiz statik yöntemler."
   },
   {
     "en": "loose coupling",
@@ -758,6 +813,11 @@ window.GLOSSARY = [
     "en": "metrics",
     "tr": "ölçütler",
     "note": "Ölçülebilir performans ve değer göstergeleri."
+  },
+  {
+    "en": "metrics suite",
+    "tr": "ölçüt takımı",
+    "note": "Bir arada sunulan, birbiriyle ilişkili ölçütler dizisi; Chidamber ve Kemerer takımı gibi."
   },
   {
     "en": "microkernel",
@@ -955,6 +1015,11 @@ window.GLOSSARY = [
     "note": ""
   },
   {
+    "en": "procedural cohesion",
+    "tr": "süreçsel bütünlük",
+    "note": "İki modülün kodu belirli bir sırayla çalıştırması gerektiği uyum türü."
+  },
+  {
     "en": "process-agnostic",
     "tr": "süreçten bağımsız",
     "note": "Belirli bir sürece bağlı olmayan."
@@ -1008,6 +1073,11 @@ window.GLOSSARY = [
     "en": "reactive-based framework",
     "tr": "tepkisel tabanlı çerçeve",
     "note": "Angular, Elm, React.js, Vue gibi ön uç web çerçeveleri."
+  },
+  {
+    "en": "readability",
+    "tr": "okunabilirlik",
+    "note": "Kodun okunma ve anlaşılma kolaylığı."
   },
   {
     "en": "refactoring",
@@ -1093,6 +1163,11 @@ window.GLOSSARY = [
     "en": "security breach",
     "tr": "güvenlik ihlali",
     "note": "Güvenliğin ihlal edildiği olay/olay örüntüsü."
+  },
+  {
+    "en": "sequential cohesion",
+    "tr": "sıralı bütünlük",
+    "note": "Bir modülün çıktısının diğerinin girdisi olduğu bütünlük düzeyi."
   },
   {
     "en": "service-level agreement (SLA)",
@@ -1200,6 +1275,11 @@ window.GLOSSARY = [
     "note": "Geliştiricilerin kodlama/tasarım değişiklikleri sonucu mimari özelliklerin bozulması."
   },
   {
+    "en": "structural metric",
+    "tr": "yapısal ölçüt",
+    "note": "Kodun yapısını (alan erişimi, bağımlılıklar gibi) kaynak düzeyinde ölçen ölçüt."
+  },
+  {
     "en": "structural soundness",
     "tr": "yapısal sağlamlık",
     "note": "Sistemin yapısının sağlam ve tutarlı olma durumu; tesadüfen oluşmaz, sürekli enerji gerektirir."
@@ -1263,6 +1343,11 @@ window.GLOSSARY = [
     "en": "technologist",
     "tr": "teknoloji uzmanı",
     "note": "teknolojik bilgiyi kullanan, geliştirici veya mimar gibi teknik profesyonel"
+  },
+  {
+    "en": "temporal cohesion",
+    "tr": "zamansal bütünlük",
+    "note": "Modüllerin zamanlama bağımlılıklarına göre ilişkili olduğu uyum türü; örn. sistem başlangıcında başlatılan görünüşte alakasız görevler."
   },
   {
     "en": "test-first development",

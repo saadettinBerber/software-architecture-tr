@@ -64,13 +64,18 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | checklist | kontrol listesi | Tamamlanması gereken adımların listesi; otomatik kontrol listeleri bağlamında. |
 | chief architect | baş mimar | ARB yoksa sapma taleplerini değerlendiren kişi |
 | class diagram | sınıf diyagramı | her bileşen için oluşturulan, sınıfları ve ilişkilerini gösteren diyagram. |
+| class loader | sınıf yükleyici | Java'da sınıfları classpath üzerinden belleğe yükleyen mekanizma. |
 | classpath | classpath | Java'da sınıf ve kaynakların arandığı dizin/JAR yolu; yerleşik terim, olduğu gibi kullanılır. |
 | coaching | koçluk | mimarın geliştiricilere yönelik birebir yönlendirmesi. |
 | code base | kod tabanı |  |
 | code review | kod incelemesi | Bir geliştiricinin yazdığı kodun başka bir kişi tarafından gözden geçirilmesi; çoğulu kod incelemeleri. |
+| cohesion | bütünlük | Modülün parçalarının aynı modülde tutulma derecesi; coupling (bağlılık) ile birlikte kullanılır. |
+| cohesiveness | bütünlük | Bir modülün uyum (cohesion) derecesi; cohesive (uyumlu) sıfatı da bu sayfada geçer. |
+| coincidental cohesion | tesadüfi bütünlük | Öğelerin yalnızca aynı kaynak dosyada bulunması nedeniyle ilişkili sayıldığı, uyumun en olumsuz biçimi. |
 | collaboration | iş birliği | mimar ile geliştirme ekibi arasındaki yakın çalışma |
 | comfort zone | konfor alanı | beceri/sorumluluk bağlamında |
 | communication protocol | iletişim protokolü | servisler arası iletişimde kullanılan protokol (REST, gRPC gibi) |
+| communicational cohesion | iletişimsel bütünlük | İki modülün, her birinin aynı bilgi üzerinde işlem yaptığı bir iletişim zinciri oluşturduğu bütünlük düzeyi. |
 | compliance | uyum | mimari kararlara uygun davranma; 'ensure compliance with decisions' beklentisi |
 | component | bileşen | Çoğulu: bileşenler. |
 | connascence | eşdoğuş (connascence) | İki bileşenin, birindeki değişiklik diğerinde de değişikliği zorunlu kılıyorsa eşdoğuşlu olduğu söylenir; Bölüm 3'te (Modülerlik) ayrıntılı ele alınır. |
@@ -81,6 +86,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | contract | sözleşme | Mesajlaşmada üzerinde anlaşılan mesaj yapısı/biçimi. |
 | corollary | vargı | Bir yasadan çıkarılan doğal sonuç (Corollary 1 → Vargı 1). |
 | coupling | bağlılık | Bileşenlerin birbirine bağımlılık derecesi |
+| coupling metrics | bağlılık ölçütleri | Bileşenler arası bağımlılık derecesini ölçen ölçütler; sayfa 44'te ayrıntılı ele alınır. |
 | critical path | kritik yol | Proje yönetiminde, bir projenin tamamlanma süresini belirleyen görevler dizisi; burada mimarinin darboğazı olabilecek kod bağlamında kullanılır. |
 | CRM | müşteri ilişkileri yönetimi (CRM) | customer relationship management kısaltması |
 | customer relationship management | müşteri ilişkileri yönetimi | CRM olarak da bilinir |
@@ -121,6 +127,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | fault tolerance | hata toleransı | Sistemin bileşen arızalarına rağmen çalışmaya devam edebilme yeteneği. |
 | feature toggles | özellik anahtarları | Davranışı kod değişikliği olmadan açıp kapatmayı sağlayan bayraklar |
 | feedback loop | geri bildirim döngüsü | Kararların sonucunun hızla değerlendirilmesini sağlayan döngü; Çevik yaklaşımın temel avantajı |
+| field | alan | Sınıf düzeyinde tanımlanan değişken; örnek alanı (instance field). |
 | First Law of Software Architecture | Yazılım Mimarisi Birinci Yasası | “Yazılım mimarisindeki her şey bir ödünleşimdir.” |
 | fitness function | uygunluk fonksiyonu | bir mimari özelliği ölçen otomatik denetim; Bölüm 6'da ayrıntılı ele alınır |
 | framework | çerçeve |  |
@@ -128,6 +135,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | frontend | ön uç | Kullanıcıya görünen taraf; frontend. |
 | Frozen Caveman Anti-Pattern | Donmuş Mağara Adamı Anti-Deseni | Mimarın her mimaride en sevdiği mantıksız endişeye geri dönmesini anlatan davranış anti-deseni; sayfa 30'da ele alınır. |
 | fully qualified name | tam nitelikli ad | Bir öğeyi benzersiz biçimde tanımlayan, paket/alan adı zincirini içeren tam ad. |
+| functional cohesion | işlevsel bütünlük | En yüksek bütünlük düzeyi; modülün tüm parçaları birbiriyle ilişkilidir. |
 | functional language | fonksiyonel dil | Hesaplamanın fonksiyonlar aracılığıyla yapıldığı programlama dili. |
 | functionality | işlevsellik | Sistemin gerçekleştirdiği işlevler; mimari karakteristiklerden bağımsızdır |
 | genetic algorithm | genetik algoritma | Çözümü mutasyon ve seçimle evrimleştirerek optimize eden algoritma. |
@@ -149,18 +157,22 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | knowledge triangle | bilgi üçgeni | bilgiyi üç bölüme ayıran kavram; sayfada knowledge pyramid (bilgi piramidi) ile aynı anlamda kullanılır |
 | known knowns | bilinen bilinenler | Rumsfeld'ın bilgi modelindeki terim. |
 | known unknowns | bilinen bilinmeyenler |  |
+| lack of cohesion in methods | yöntemlerde bütünlük eksikliği | LCOM metriklerinin ölçtüğü durum. |
 | latest trends | güncel trendler | teknoloji ve sektör trendlerini takip etme; 'keep current with latest trends' beklentisi |
 | Laws of Software Architecture | Yazılım Mimarisi Yasaları | Bölüm 1'in kesit başlığı ve sayfa 19'un koşu başlığı. |
 | layered | katmanlı | Katmanlı mimari stili |
 | layered architecture | katmanlı mimari | Katmanlar halinde düzenlenmiş mimari stili |
+| library | kütüphane | Yeniden kullanılabilir kod koleksiyonu; framework'ten (çerçeve) daha az yapılandırılmıştır. |
 | lint test | lint testi | Kodda olası hataları ve biçim sorunlarını denetleyen test; lint terimi korunur. |
 | load balancing | yük dengeleme | İş yükünün tüketiciler arasında dağıtılması. |
+| logical cohesion | mantıksal bütünlük | Modüldeki verinin işlevsel değil mantıksal olarak ilişkili olduğu uyum türü; örn. StringUtils gibi aynı tür veri üzerinde çalışan ilişkisiz statik yöntemler. |
 | loose coupling | gevşek bağlılık | Bileşenler arası bağımlılığın az olması |
 | machine provisioning | makine sağlama | Sunucu ve kaynakların otomatik olarak hazırlanması. |
 | mentoring | rehberlik | mimarın geliştiricilere yol göstermesi; coaching (koçluk) ile birlikte anılır. |
 | messaging model | mesajlaşma modeli | yayınla-abone ol ve noktadan noktaya dahil mesajlaşma biçimleri |
 | metaobject protocol | meta nesne protokolü (metaobject protocol) | Geliştiricilere ek genişletme mekanizmaları sağlayan programlama yapısı. |
 | metrics | ölçütler | Ölçülebilir performans ve değer göstergeleri. |
+| metrics suite | ölçüt takımı | Bir arada sunulan, birbiriyle ilişkili ölçütler dizisi; Chidamber ve Kemerer takımı gibi. |
 | microkernel | mikro çekirdek | Bir mimari stil türü |
 | microservice | mikroservis | Çoğulu: mikroservisler. |
 | microservices | mikroservisler | Küçük, bağımsız dağıtılabilir servislerden oluşan mimari stil |
@@ -200,6 +212,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | presentation layer | sunum katmanı | Kullanıcı arayüzü sorumluluğunu taşıyan katman |
 | problem domain | sorun alanı | çözülmek istenen iş sorununun yer aldığı alan |
 | problem space | problem alanı |  |
+| procedural cohesion | süreçsel bütünlük | İki modülün kodu belirli bir sırayla çalıştırması gerektiği uyum türü. |
 | process-agnostic | süreçten bağımsız | Belirli bir sürece bağlı olmayan. |
 | producer | üretici | Mesajlaşmada mesajı gönderen taraf. |
 | product owner | ürün sahibi | Ürün gereksinimlerinden ve önceliklerden sorumlu paydaş |
@@ -211,6 +224,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | queue | kuyruk | Mesajlaşmada, bir mesajı tek bir tüketiciye ulaştıran sıra; point-to-point modelin temel öğesi. |
 | rates rally | oran rallisi | finansal terim; faiz oranlarındaki yükseliş |
 | reactive-based framework | tepkisel tabanlı çerçeve | Angular, Elm, React.js, Vue gibi ön uç web çerçeveleri. |
+| readability | okunabilirlik | Kodun okunma ve anlaşılma kolaylığı. |
 | refactoring | refaktoring (yeniden düzenleme) | Davranışı değiştirmeden kodun iç yapısını iyileştirme. |
 | reference architecture | referans mimari | Başkalarının izleyebileceği, örnek alınan mimari. |
 | release | sürüm | Yazılımın kullanıcılara yayınlanması. |
@@ -228,6 +242,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | scoping rules | kapsam kuralları | Bir adın hangi bağlamlarda görünür ve erişilebilir olduğunu belirleyen kurallar. |
 | Second Law of Software Architecture | Yazılım Mimarisi İkinci Yasası | “Neden, nasıl’dan daha önemlidir.” |
 | security breach | güvenlik ihlali | Güvenliğin ihlal edildiği olay/olay örüntüsü. |
+| sequential cohesion | sıralı bütünlük | Bir modülün çıktısının diğerinin girdisi olduğu bütünlük düzeyi. |
 | service-level agreement (SLA) | hizmet düzeyi anlaşması (SLA) | Çalışma süresi, ölçek, yanıt verebilirlik gibi hizmet ölçütlerini tanımlayan sözleşme |
 | service-oriented architecture (SOA) | servis odaklı mimari | İşlevleri bağımsız servisler olarak düzenleyen mimari yaklaşım. |
 | services layer | hizmet katmanı | Katmanlı mimaride hizmetleri barındıran katman |
@@ -249,6 +264,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | strategy pattern | strateji deseni | GoF tasarım deseni |
 | structural change | yapısal değişiklik | Sistemin yapısını ilgilendiren değişiklik |
 | structural decay | yapısal çürüme | Geliştiricilerin kodlama/tasarım değişiklikleri sonucu mimari özelliklerin bozulması. |
+| structural metric | yapısal ölçüt | Kodun yapısını (alan erişimi, bağımlılıklar gibi) kaynak düzeyinde ölçen ölçüt. |
 | structural soundness | yapısal sağlamlık | Sistemin yapısının sağlam ve tutarlı olma durumu; tesadüfen oluşmaz, sürekli enerji gerektirir. |
 | structure | yapı | Sistemin mimari stil türüyle ilgili yapısı |
 | structure of the system | sistemin yapısı | Mimarinin en görünür parçası; mimari stili ve bileşen düzenini kapsar. |
@@ -262,6 +278,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | technical depth | teknik derinlik |  |
 | technical leader | teknik lider | Ekibin mühendislik kararlarını yönlendiren kişi. |
 | technologist | teknoloji uzmanı | teknolojik bilgiyi kullanan, geliştirici veya mimar gibi teknik profesyonel |
+| temporal cohesion | zamansal bütünlük | Modüllerin zamanlama bağımlılıklarına göre ilişkili olduğu uyum türü; örn. sistem başlangıcında başlatılan görünüşte alakasız görevler. |
 | test-first development | önce test geliştirme | Kod yazılmadan önce testin yazıldığı geliştirme yaklaşımı. |
 | testing environment | test ortamı | Değişikliklerin test edildiği ortam. |
 | throwaway code | atılacak kod | Yalnızca hızlı doğrulama için yazılan, üretime girmesi amaçlanmayan kod. |
