@@ -1118,6 +1118,14 @@
       "title_tr": "Büyük Çamur Topu (Big Ball of Mud)",
       "section_en": "Fundamental Patterns",
       "section_tr": "Temel Desenler"
+    },
+    "116": {
+      "pdf_page": 136,
+      "chapter": 8,
+      "title_en": "Monolithic Versus Distributed: The Quantum Decision",
+      "title_tr": "Monolitik ve Dağıtık: Kuantum Kararı",
+      "section_en": "Architecture Quantum Redux: Choosing Between Monolithic Versus Distributed Architectures",
+      "section_tr": "Mimari Kuantum Yeniden: Monolitik ve Dağıtık Mimari Arasında Seçim"
     }
   }
 }

@@ -1463,6 +1463,17 @@ window.TOC = {
         "tr": "Temel Desenler"
       },
       "chapter": 9
+    },
+    "116": {
+      "title": {
+        "en": "Monolithic Versus Distributed: The Quantum Decision",
+        "tr": "Monolitik ve Dağıtık: Kuantum Kararı"
+      },
+      "section": {
+        "en": "Architecture Quantum Redux: Choosing Between Monolithic Versus Distributed Architectures",
+        "tr": "Mimari Kuantum Yeniden: Monolitik ve Dağıtık Mimari Arasında Seçim"
+      },
+      "chapter": 8
     }
   }
 };

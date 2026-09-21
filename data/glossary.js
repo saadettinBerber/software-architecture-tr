@@ -1015,6 +1015,11 @@ window.GLOSSARY = [
     "note": "Yazılımın üretim ortamına kolayca ve güvenilir biçimde yayınlanabilme özelliği; çeviklik (agility) bileşeni. Deployment (dağıtım) ile karıştırılmamalıdır."
   },
   {
+    "en": "deployable unit",
+    "tr": "dağıtılabilir birim (deployable unit)",
+    "note": "Birlikte dağıtılabilen tek bir birim; deployment unit (dağıtım birimi) ile ilişkilidir."
+  },
+  {
     "en": "deployment",
     "tr": "dağıtım",
     "note": "Yazılımın çalıştırma ortamına yüklenmesi."
@@ -2090,6 +2095,11 @@ window.GLOSSARY = [
     "note": "Sistemin durumunu sürekli izleyen araçlar."
   },
   {
+    "en": "monolith",
+    "tr": "monolit",
+    "note": "Monolitik mimarinin (monolithic architecture) kısa adı; 'monolith architecture' ifadesinde geçer."
+  },
+  {
     "en": "monolithic architecture",
     "tr": "monolitik mimari",
     "note": "Tüm bileşenlerin tek bir dağıtılabilir birimde toplandığı mimari"
@@ -2128,6 +2138,11 @@ window.GLOSSARY = [
     "en": "negotiation skills",
     "tr": "müzakere becerileri",
     "note": "Mimarların kararları onaylatmak için kullandığı beceriler"
+  },
+  {
+    "en": "networking protocol",
+    "tr": "ağ protokolü (networking protocol)",
+    "note": "Servisler arası iletişimde kullanılan protokol; communication protocol (iletişim protokolü) ile ilişkilidir."
   },
   {
     "en": "node",
@@ -2473,6 +2488,11 @@ window.GLOSSARY = [
     "en": "release",
     "tr": "sürüm",
     "note": "Yazılımın kullanıcılara yayınlanması."
+  },
+  {
+    "en": "release cadence",
+    "tr": "sürüm temposu (release cadence)",
+    "note": "Her servisin kendi ritminde sürüm yapma düzeni; dağıtık mimaride servis başına farklılaşabilir."
   },
   {
     "en": "release environment",

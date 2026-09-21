@@ -212,6 +212,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | defensive design | savunmacı tasarım | Bir kısıtlama veya en kötü senaryo etrafında yapılan korumacı tasarım. |
 | dependent components | bağımlı bileşenler | Kod tabanı dışındaki, mimari özellikleri (özellikle operasyonel olanları) etkileyen veritabanı, kuyruk, harici servis gibi bileşenler. |
 | deployability | dağıtılabilirlik | Yazılımın üretim ortamına kolayca ve güvenilir biçimde yayınlanabilme özelliği; çeviklik (agility) bileşeni. Deployment (dağıtım) ile karıştırılmamalıdır. |
+| deployable unit | dağıtılabilir birim (deployable unit) | Birlikte dağıtılabilen tek bir birim; deployment unit (dağıtım birimi) ile ilişkilidir. |
 | deployment | dağıtım | Yazılımın çalıştırma ortamına yüklenmesi. |
 | deployment model | dağıtım modeli | Bir mimari stil ya da desenin ima ettiği tipik dağıtım biçimi; tek bir dağıtılabilir birim ya da bağımsız servisler gibi. |
 | deployment unit | dağıtım birimi | Birlikte dağıtılabilir tek bir birim; modüler monolit tanımında 'tek dağıtım birimi' bağlamında geçer. |
@@ -427,6 +428,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | module | modül | İlgili kodun mantıksal olarak gruplandığı birim; nesne yönelimli dillerde sınıf grubu, yapısal veya fonksiyonel dillerde fonksiyon grubu olabilir. |
 | monitoring | izleme | Sistemin durumunu ölçüp gözlemleme eylemi; monitors (izleyiciler) ile ilişkilidir. |
 | monitors | izleyiciler | Sistemin durumunu sürekli izleyen araçlar. |
+| monolith | monolit | Monolitik mimarinin (monolithic architecture) kısa adı; 'monolith architecture' ifadesinde geçer. |
 | monolithic architecture | monolitik mimari | Tüm bileşenlerin tek bir dağıtılabilir birimde toplandığı mimari |
 | motivational requirements | motivasyon gereksinimleri | Kitaba göre işlevsel gereksinimler; yazılımı inşa etmeyi motive eden ancak mimari özellik olmayan gereksinimler. |
 | moving target | hareketli hedef | Sürekli değişen, sabitlenemeyen konu ya da durum |
@@ -435,6 +437,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | nascent architect | yeni yetişen mimar | Kariyerinin başında, deneyimi az olan mimar; aspiring architect (mimar adayı) ile ilişkilidir. |
 | negotiation | müzakere |  |
 | negotiation skills | müzakere becerileri | Mimarların kararları onaylatmak için kullandığı beceriler |
+| networking protocol | ağ protokolü (networking protocol) | Servisler arası iletişimde kullanılan protokol; communication protocol (iletişim protokolü) ile ilişkilidir. |
 | node | düğüm | Çizge kuramında (graph theory), kenarların (edges) birleştiği nokta; döngüsel karmaşıklık formülünde kod satırlarını (N) temsil eder. |
 | nomenclature | adlandırma | Bir alana özgü terimler bütünü. |
 | nonfunctional requirements | işlevsel olmayan gereksinimler | Yazılımın alan işlevselliğiyle doğrudan ilişkili olmayan özelliklerine (performans, kullanılabilirlik vb.) verilen yaygın ad; kitap bu terimi kendini küçültücü bulduğu için kullanmaz. |
@@ -504,6 +507,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | reference architecture | referans mimari | Başkalarının izleyebileceği, örnek alınan mimari. |
 | regulatory requirements | düzenleyici gereksinimler | Yasal ya da mevzuat kaynaklı gereksinimler; gün sonu fon fiyatlaması örneğinde geçer. |
 | release | sürüm | Yazılımın kullanıcılara yayınlanması. |
+| release cadence | sürüm temposu (release cadence) | Her servisin kendi ritminde sürüm yapma düzeni; dağıtık mimaride servis başına farklılaşabilir. |
 | release environment | sürüm ortamı | Sürümün hazırlandığı, doğrulandığı ve yayınlandığı ortam. |
 | reliability | güvenilirlik | Sistemin belirli koşullarda hatasız çalışma olasılığı; operasyonel mimari özellik. |
 | remote access protocol | uzaktan erişim protokolü | REST, SOAP gibi uzak servis çağrılarında kullanılan protokol |
