@@ -27,7 +27,7 @@
     "chapter_label_pattern": "^CHAPTER (\\d+)$",
     "math_geometry": true
   },
-  "last_translated_page": 67,
+  "last_translated_page": 70,
   "chapters": [
     {
       "num": 1,
@@ -714,6 +714,30 @@
       "title_tr": "Alan Kaygılarının Çevrilmesi",
       "section_en": "Extracting Architecture Characteristics from Requirements",
       "section_tr": "Mimari Özelliklerin Gereksinimlerden Çıkarılması"
+    },
+    "68": {
+      "pdf_page": 88,
+      "chapter": 5,
+      "title_en": "The Origin of Architecture Katas",
+      "title_tr": "Mimari Kataların Kökeni",
+      "section_en": "Extracting Architecture Characteristics from Requirements",
+      "section_tr": "Mimari Özelliklerin Gereksinimlerden Çıkarılması"
+    },
+    "69": {
+      "pdf_page": 89,
+      "chapter": 5,
+      "title_en": "Case Study: Silicon Sandwiches",
+      "title_tr": "Vaka Çalışması: Silicon Sandwiches",
+      "section_en": "Case Study: Silicon Sandwiches",
+      "section_tr": "Vaka Çalışması: Silicon Sandwiches"
+    },
+    "70": {
+      "pdf_page": 90,
+      "chapter": 5,
+      "title_en": "Explicit Characteristics",
+      "title_tr": "Açık Özellikler",
+      "section_en": "Case Study: Silicon Sandwiches",
+      "section_tr": "Vaka Çalışması: Silicon Sandwiches"
     }
   }
 }

@@ -30,6 +30,11 @@ window.GLOSSARY = [
     "note": "Yazılımın farklı ya da değişen donanım, yazılım veya operasyonel ortamlara uyarlanabilme derecesi."
   },
   {
+    "en": "additional context",
+    "tr": "ek bağlam",
+    "note": "Kata alıştırmasında, gereksinimlerde yer almayan ancak tasarımı etkileyen önemli değerlendirmeleri içeren bölüm."
+  },
+  {
     "en": "Advanced Message Queuing Protocol (AMQP)",
     "tr": "Gelişmiş Mesaj Kuyruğu Protokolü (AMQP)",
     "note": "Mesaj kuyruğu standartlarından; AMQP kısaltması korunur."
@@ -145,6 +150,11 @@ window.GLOSSARY = [
     "note": "Sistemin yapısını ve davranışını önemli ölçüde etkileyen; gerekçesiyle birlikte kaydedilmesi gereken seçimler."
   },
   {
+    "en": "architecture kata",
+    "tr": "mimari kata",
+    "note": "Ted Neward'ın, mimarların alan odaklı açıklamalardan mimari özellikler türetme pratiği yapması için tasarladığı alıştırma; çoğulu architecture katas (mimari katalar)."
+  },
+  {
     "en": "architecture patterns",
     "tr": "mimari desenler",
     "note": "sorun alanına uygun mimari desen ve stillerin seçilmesi bağlamında; design patterns (tasarım desenleri) ile ilişkili."
@@ -173,6 +183,11 @@ window.GLOSSARY = [
     "en": "artifact",
     "tr": "çıktı (artifact)",
     "note": "Çalışma sonucu üretilen kayıt/eser; burada mimari diyagramlar."
+  },
+  {
+    "en": "aspiring architect",
+    "tr": "mimar adayı",
+    "note": "Mimarlığa heves eden, kariyerinin başındaki kişi; nascent architect (yeni yetişen mimar) ile ilişkilidir."
   },
   {
     "en": "asynchronous messaging",
@@ -278,6 +293,16 @@ window.GLOSSARY = [
     "en": "boundary conditions",
     "tr": "sınır koşulları",
     "note": "Sistemin uç durumlarda (bağlantı kesilmesi, donanım arızası vb.) doğru davranmasını gerektiren koşullar; Tablo 4-1'deki sağlamlık tanımında geçer."
+  },
+  {
+    "en": "brown-bag lunch",
+    "tr": "brown-bag öğle toplantısı",
+    "note": "Katılımcıların kendi yemeklerini getirdiği, resmî olmayan öğle toplantısı; brown-bag terimi korunur."
+  },
+  {
+    "en": "bursts of requests",
+    "tr": "istek patlamaları",
+    "note": "Kısa sürede gelen yoğun istek yığınları; esneklik (elasticity) özelliğinin ölçtüğü durum."
   },
   {
     "en": "business domain",
@@ -455,6 +480,11 @@ window.GLOSSARY = [
     "note": "Çoğulu: bileşenler."
   },
   {
+    "en": "concurrent users",
+    "tr": "eşzamanlı kullanıcılar",
+    "note": "Aynı anda sistemi kullanan kullanıcı sayısı; ölçeklenebilirlik ölçümünde temel kavram."
+  },
+  {
     "en": "confidentiality",
     "tr": "gizlilik",
     "note": "Verilere yalnızca erişim yetkisi olanların erişebilmesi; güvenlik özelliği."
@@ -630,6 +660,11 @@ window.GLOSSARY = [
     "note": "Veritabanı yönetimini barındıran sunucu"
   },
   {
+    "en": "decode domain language",
+    "tr": "alan dilini çözmek",
+    "note": "Alan terimlerini (ör. kullanıcı sayısı) mühendislik karşılıklarına (ör. ölçeklenebilirlik) dönüştürmek."
+  },
+  {
     "en": "decoupled",
     "tr": "gevşek bağlı",
     "note": "coupling (bağlılık) karşıtı; topic yaklaşımının üreticiyi tüketicilerden ayırması bağlamında"
@@ -658,6 +693,11 @@ window.GLOSSARY = [
     "en": "derived metric",
     "tr": "türetilmiş ölçüt",
     "note": "Ham bağlılık değerinden türetilen ölçüt; soyutluk, kararsızlık ve ana diziden uzaklık gibi."
+  },
+  {
+    "en": "design decision",
+    "tr": "tasarım kararı",
+    "note": "Tasarım sırasında verilen ve sistemin yapısını/davranışını etkileyen karar; architecture decision (mimari karar) ile ilişkilidir."
   },
   {
     "en": "design pattern",
@@ -743,6 +783,16 @@ window.GLOSSARY = [
     "en": "domain-driven design",
     "tr": "alan odaklı tasarım (domain-driven design)",
     "note": "Yazılımı modellemek için alanı (domain) merkeze alan tasarım yaklaşımı; DDD kısaltmasıyla da bilinir."
+  },
+  {
+    "en": "domain-level predictions",
+    "tr": "alan düzeyi öngörüler",
+    "note": "Kullanıcı sayısı gibi, alan tarafında beklenen ölçütlere ilişkin öngörüler."
+  },
+  {
+    "en": "domain-targeted descriptions",
+    "tr": "alan odaklı açıklamalar",
+    "note": "Mimari özelliklerin türetildiği, belirli bir alana (domain) yönelik açıklamalar."
   },
   {
     "en": "don't repeat yourself (DRY)",
@@ -850,6 +900,16 @@ window.GLOSSARY = [
     "note": "Bir konudaki derin bilgi ve beceri; piramidin tepesindeki bilgi düzeyi."
   },
   {
+    "en": "explicit architecture characteristics",
+    "tr": "açık mimari özellikler",
+    "note": "Gereksinim belirtiminde açıkça yer alan mimari özellikler; örtük olanların (implicit) karşıtı."
+  },
+  {
+    "en": "explicit characteristics",
+    "tr": "açık özellikler",
+    "note": "Gereksinim belgesinde açıkça yer alan mimari özellikler; implicit characteristics (örtük özellikler) ile karşıtlık oluşturur."
+  },
+  {
     "en": "extensibility",
     "tr": "genişletilebilirlik",
     "note": "architectural extensibility (mimari genişletilebilirlik) bağlamında"
@@ -928,6 +988,11 @@ window.GLOSSARY = [
     "en": "framework",
     "tr": "çerçeve",
     "note": ""
+  },
+  {
+    "en": "franchise",
+    "tr": "bayilik (franchise)",
+    "note": "Silicon Sandwiches vaka çalışmasında, her dükkânın farklı bir sahibi olduğu işletme modeli; franchised sıfatı 'bayilik sistemine bağlı (franchised)' olarak çevrilir."
   },
   {
     "en": "friction",
@@ -1065,6 +1130,16 @@ window.GLOSSARY = [
     "note": "Bir sistemin bütününü tek bir değerle değerlendiren ölçüt; ana diziden uzaklık bunun örneğidir."
   },
   {
+    "en": "implicit characteristics",
+    "tr": "örtük özellikler",
+    "note": "Gereksinimlerde açıkça yazılmayan, alan bilgisinden çıkarılan mimari özellikler; explicit characteristics (açık özellikler) ile karşıtlık oluşturur."
+  },
+  {
+    "en": "implicit knowledge",
+    "tr": "örtük bilgi",
+    "note": "Açıkça ifade edilmeyen, alan (domain) hakkındaki sezgisel/deneyime dayalı bilgi."
+  },
+  {
     "en": "incidental coupling",
     "tr": "tesadüfi bağlılık",
     "note": "Birbirinden bağımsız yöntemlerin hiçbir ortak alanı paylaşmadan aynı sınıfta toplanması durumu; LCOM ölçütünün sınıflar içinde ortaya çıkardığı bağlılık."
@@ -1148,6 +1223,11 @@ window.GLOSSARY = [
     "en": "iterative process",
     "tr": "yinelemeli süreç",
     "note": "Her adımda geri bildirim alarak art arda ilerleyen süreç."
+  },
+  {
+    "en": "kata",
+    "tr": "kata",
+    "note": "Japonya'dan ve dövüş sanatlarından gelen, vurgunun doğru form ve teknik üzerinde olduğu bireysel eğitim alıştırması; yerleşik terim olduğu gibi kullanılır."
   },
   {
     "en": "knowledge pyramid",
@@ -1403,6 +1483,11 @@ window.GLOSSARY = [
     "en": "namespace",
     "tr": "ad alanı (namespace)",
     "note": ".NET gibi dillerde ilgili kodun gruplandığı modülerlik mekanizması."
+  },
+  {
+    "en": "nascent architect",
+    "tr": "yeni yetişen mimar",
+    "note": "Kariyerinin başında, deneyimi az olan mimar; aspiring architect (mimar adayı) ile ilişkilidir."
   },
   {
     "en": "negotiation",
@@ -1683,6 +1768,11 @@ window.GLOSSARY = [
     "en": "requirements gathering",
     "tr": "gereksinim toplama",
     "note": "Sistemin gereksinimlerinin toplanması çalışması; uygulanan yazılım geliştirme sürecine göre değişen tekniklerle yürütülür."
+  },
+  {
+    "en": "requirements specification",
+    "tr": "gereksinim belirtimi",
+    "note": "Gereksinimlerin yazılı olarak tanımlandığı belge."
   },
   {
     "en": "resilient architecture",
@@ -2068,6 +2158,11 @@ window.GLOSSARY = [
     "en": "time to market",
     "tr": "pazara çıkış süresi",
     "note": "Bir ürünün fikirden pazara ulaşması için geçen süre."
+  },
+  {
+    "en": "timebox",
+    "tr": "zaman kutusu",
+    "note": "Bir alıştırmaya ya da etkinliğe ayrılan sınırlı süre; bu sayfada kata alıştırmasının zaman kutusuna alınması (timeboxed exercise) bağlamında geçer."
   },
   {
     "en": "topic",

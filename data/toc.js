@@ -9,7 +9,7 @@ window.TOC = {
   },
   "bookTotalPages": 399,
   "pdfOffset": 20,
-  "lastTranslatedPage": 67,
+  "lastTranslatedPage": 70,
   "chapters": [
     {
       "num": 1,
@@ -913,6 +913,39 @@ window.TOC = {
       "section": {
         "en": "Extracting Architecture Characteristics from Requirements",
         "tr": "Mimari Özelliklerin Gereksinimlerden Çıkarılması"
+      },
+      "chapter": 5
+    },
+    "68": {
+      "title": {
+        "en": "The Origin of Architecture Katas",
+        "tr": "Mimari Kataların Kökeni"
+      },
+      "section": {
+        "en": "Extracting Architecture Characteristics from Requirements",
+        "tr": "Mimari Özelliklerin Gereksinimlerden Çıkarılması"
+      },
+      "chapter": 5
+    },
+    "69": {
+      "title": {
+        "en": "Case Study: Silicon Sandwiches",
+        "tr": "Vaka Çalışması: Silicon Sandwiches"
+      },
+      "section": {
+        "en": "Case Study: Silicon Sandwiches",
+        "tr": "Vaka Çalışması: Silicon Sandwiches"
+      },
+      "chapter": 5
+    },
+    "70": {
+      "title": {
+        "en": "Explicit Characteristics",
+        "tr": "Açık Özellikler"
+      },
+      "section": {
+        "en": "Case Study: Silicon Sandwiches",
+        "tr": "Vaka Çalışması: Silicon Sandwiches"
       },
       "chapter": 5
     }
