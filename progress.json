@@ -26,7 +26,7 @@
     "header_at_bottom": true,
     "chapter_label_pattern": "^CHAPTER (\\d+)$"
   },
-  "last_translated_page": 30,
+  "last_translated_page": 33,
   "chapters": [
     {
       "num": 1,
@@ -421,6 +421,30 @@
       "title_tr": "Donmuş Mağara Adamı Ters Deseni",
       "section_en": "Technical Breadth",
       "section_tr": "Teknik Genişlik"
+    },
+    "31": {
+      "pdf_page": 51,
+      "chapter": 2,
+      "title_en": "Auction System Trade-Off: Queues or Topics?",
+      "title_tr": "Açık Artırma Sistemi Ödünleşimi: Kuyruklar mı, Konular mı?",
+      "section_en": "Analyzing Trade-Offs",
+      "section_tr": "Ödünleşimleri Analiz Etmek"
+    },
+    "32": {
+      "pdf_page": 52,
+      "chapter": 2,
+      "title_en": "Topics vs. Queues: Trade-Offs",
+      "title_tr": "Konular ve Kuyruklar: Ödünleşimler",
+      "section_en": "Analyzing Trade-Offs",
+      "section_tr": "Ödünleşimleri Analiz Etme"
+    },
+    "33": {
+      "pdf_page": 53,
+      "chapter": 2,
+      "title_en": "Trade-Offs for Topics",
+      "title_tr": "Topic'lerin Ödünleşimleri",
+      "section_en": "Analyzing Trade-Offs",
+      "section_tr": "Ödünleşimleri Analiz Etmek"
     }
   }
 }

@@ -10,6 +10,11 @@ window.GLOSSARY = [
     "note": "Mimari/tasarım tercihlerinden kaynaklanan, gereksiz karmaşıklık; Bölüm 9'da ele alınır"
   },
   {
+    "en": "Advanced Message Queuing Protocol (AMQP)",
+    "tr": "Gelişmiş Mesaj Kuyruğu Protokolü (AMQP)",
+    "note": "Mesaj kuyruğu standartlarından; AMQP kısaltması korunur."
+  },
+  {
     "en": "Agile",
     "tr": "Agile",
     "note": "Yerleşmiş terim; bu hâliyle kullanılır."
@@ -130,6 +135,16 @@ window.GLOSSARY = [
     "note": "servisler arası iletişimde yanıt beklemeden mesaj gönderme"
   },
   {
+    "en": "auction system",
+    "tr": "açık artırma sistemi",
+    "note": "Kitabın ödünleşim örneğindeki gibi, eşyaların açık artırmayla satıldığı sistem."
+  },
+  {
+    "en": "auto-scaling",
+    "tr": "otomatik ölçekleme",
+    "note": "Kaynakların ihtiyaca göre otomatik artırılıp azaltılması."
+  },
+  {
     "en": "availability",
     "tr": "kullanılabilirlik",
     "note": "Bir mimari özellik (“-ility”)"
@@ -148,6 +163,16 @@ window.GLOSSARY = [
     "en": "behavioral anti-pattern",
     "tr": "davranışsal ters desen",
     "note": "Kod veya tasarım yerine insan davranışıyla ilgili ters desen; sayfa 30'da Donmuş Mağara Adamı Ters Deseni bunun örneğidir."
+  },
+  {
+    "en": "bidder",
+    "tr": "teklif veren",
+    "note": "açık artırma (auction) örneği bağlamında; teklif sahibi"
+  },
+  {
+    "en": "bidding data",
+    "tr": "teklif verileri",
+    "note": "Açık artırma sistemindeki tekliflere ilişkin veriler."
   },
   {
     "en": "bidirectional communication",
@@ -275,6 +300,11 @@ window.GLOSSARY = [
     "note": "Sistemi ve geliştirme ekiplerini sınırlayan mimari karar ya da kural"
   },
   {
+    "en": "consumer",
+    "tr": "tüketici",
+    "note": "Mesajlaşmada mesajı alan taraf."
+  },
+  {
     "en": "continuous delivery",
     "tr": "sürekli teslim",
     "note": "Yazılımın her an yayınlanabilir durumda tutulduğu uygulama."
@@ -283,6 +313,11 @@ window.GLOSSARY = [
     "en": "continuous integration",
     "tr": "sürekli entegrasyon",
     "note": "Her değişikliğin push edildiği anda derlenip test edildiği uygulama."
+  },
+  {
+    "en": "contract",
+    "tr": "sözleşme",
+    "note": "Mesajlaşmada üzerinde anlaşılan mesaj yapısı/biçimi."
   },
   {
     "en": "corollary",
@@ -328,6 +363,16 @@ window.GLOSSARY = [
     "en": "database server",
     "tr": "veritabanı sunucusu",
     "note": "Veritabanı yönetimini barındıran sunucu"
+  },
+  {
+    "en": "decoupled",
+    "tr": "gevşek bağlı",
+    "note": "coupling (bağlılık) karşıtı; topic yaklaşımının üreticiyi tüketicilerden ayırması bağlamında"
+  },
+  {
+    "en": "decoupling",
+    "tr": "bağlılığın kırılması (decoupling)",
+    "note": "coupling (bağlılık) teriminin karşıtı."
   },
   {
     "en": "defensive design",
@@ -420,9 +465,19 @@ window.GLOSSARY = [
     "note": "Doğal evrim süreçlerinden esinlenen hesaplama alanı."
   },
   {
+    "en": "exchange",
+    "tr": "exchange",
+    "note": "AMQP'de üreticinin mesaj gönderdiği bileşen; yerleşik terim, olduğu gibi kullanılır."
+  },
+  {
     "en": "expertise",
     "tr": "uzmanlık",
     "note": "Bir konudaki derin bilgi ve beceri; piramidin tepesindeki bilgi düzeyi."
+  },
+  {
+    "en": "extensibility",
+    "tr": "genişletilebilirlik",
+    "note": "architectural extensibility (mimari genişletilebilirlik) bağlamında"
   },
   {
     "en": "external data storage",
@@ -510,6 +565,11 @@ window.GLOSSARY = [
     "note": "farklı teknolojilerden oluşan ortam"
   },
   {
+    "en": "heterogeneous contracts",
+    "tr": "heterojen sözleşmeler",
+    "note": "Birbirinden farklı yapıdaki mesaj sözleşmeleri."
+  },
+  {
     "en": "historical relevance",
     "tr": "tarihsel önem",
     "note": "Yalnızca geçmiş bağlamında anlamlı olma durumu"
@@ -595,6 +655,11 @@ window.GLOSSARY = [
     "note": "Katmanlar halinde düzenlenmiş mimari stili"
   },
   {
+    "en": "load balancing",
+    "tr": "yük dengeleme",
+    "note": "İş yükünün tüketiciler arasında dağıtılması."
+  },
+  {
     "en": "loose coupling",
     "tr": "gevşek bağlılık",
     "note": "Bileşenler arası bağımlılığın az olması"
@@ -608,6 +673,11 @@ window.GLOSSARY = [
     "en": "mentoring",
     "tr": "rehberlik",
     "note": "mimarın geliştiricilere yol göstermesi; coaching (koçluk) ile birlikte anılır."
+  },
+  {
+    "en": "messaging model",
+    "tr": "mesajlaşma modeli",
+    "note": "yayınla-abone ol ve noktadan noktaya dahil mesajlaşma biçimleri"
   },
   {
     "en": "metrics",
@@ -643,6 +713,11 @@ window.GLOSSARY = [
     "en": "modularity",
     "tr": "modülerlik",
     "note": ""
+  },
+  {
+    "en": "monitoring",
+    "tr": "izleme",
+    "note": "Sistemin durumunu ölçüp gözlemleme eylemi; monitors (izleyiciler) ile ilişkilidir."
   },
   {
     "en": "monitors",
@@ -735,6 +810,11 @@ window.GLOSSARY = [
     "note": "Gerçekte var olup olmadığına bakılmaksızın mimarların hissettiği/algıladığı teknik risk; sayfa 30'da gerçek teknik riskle karşılaştırılır."
   },
   {
+    "en": "point-to-point messaging",
+    "tr": "noktadan noktaya mesajlaşma",
+    "note": "Her mesajın tam olarak bir tüketici tarafından işlendiği mesajlaşma modeli."
+  },
+  {
     "en": "presentation layer",
     "tr": "sunum katmanı",
     "note": "Kullanıcı arayüzü sorumluluğunu taşıyan katman"
@@ -755,14 +835,34 @@ window.GLOSSARY = [
     "note": "Belirli bir sürece bağlı olmayan."
   },
   {
+    "en": "producer",
+    "tr": "üretici",
+    "note": "Mesajlaşmada mesajı gönderen taraf."
+  },
+  {
     "en": "product owner",
     "tr": "ürün sahibi",
     "note": "Ürün gereksinimlerinden ve önceliklerden sorumlu paydaş"
   },
   {
+    "en": "programmatic load balancing",
+    "tr": "programatik yük dengeleme",
+    "note": "Kod aracılığıyla yapılan yük dengeleme."
+  },
+  {
     "en": "project manager",
     "tr": "proje yöneticisi",
     "note": "Proje planlaması ve yürütmesinden sorumlu kişi"
+  },
+  {
+    "en": "publish-and-subscribe",
+    "tr": "yayınla-abone ol",
+    "note": "Üreticinin bir konuya (topic) yayınladığı mesajı tüm abonelerin aldığı mesajlaşma modeli."
+  },
+  {
+    "en": "queue",
+    "tr": "kuyruk",
+    "note": "Mesajlaşmada, bir mesajı tek bir tüketiciye ulaştıran sıra; point-to-point modelin temel öğesi."
   },
   {
     "en": "rates rally",
@@ -815,6 +915,11 @@ window.GLOSSARY = [
     "note": "Bir sistemi geliştirme sürecini gösteren plan"
   },
   {
+    "en": "rogue service",
+    "tr": "başıboş servis",
+    "note": "Kurallar dışına çıkan, izinsiz davranan servis."
+  },
+  {
     "en": "scalability",
     "tr": "ölçeklenebilirlik",
     "note": "Bir mimari özellik (“-ility”)"
@@ -823,6 +928,11 @@ window.GLOSSARY = [
     "en": "Second Law of Software Architecture",
     "tr": "Yazılım Mimarisi İkinci Yasası",
     "note": "“Neden, nasıl’dan daha önemlidir.”"
+  },
+  {
+    "en": "security breach",
+    "tr": "güvenlik ihlali",
+    "note": "Güvenliğin ihlal edildiği olay/olay örüntüsü."
   },
   {
     "en": "service-level agreement (SLA)",
@@ -975,6 +1085,11 @@ window.GLOSSARY = [
     "note": "Değişikliklerin test edildiği ortam."
   },
   {
+    "en": "topic",
+    "tr": "topic",
+    "note": "Yayınla-abone ol modelinde birden çok abonenin aynı mesajı aldığı kanal."
+  },
+  {
     "en": "topology",
     "tr": "topoloji",
     "note": "Sistem bileşenlerinin bağlantı ve dağılım yapısı."
@@ -1028,6 +1143,11 @@ window.GLOSSARY = [
     "en": "whitepaper",
     "tr": "teknik rapor",
     "note": "Beyaz rapor; teknik belge türü."
+  },
+  {
+    "en": "wiretap",
+    "tr": "izinsiz dinleme",
+    "note": "Gizlice dinleme; mesaj akışını izinsiz gözlemleme."
   },
   {
     "en": "workflow",

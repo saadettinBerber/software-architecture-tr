@@ -9,7 +9,7 @@ window.TOC = {
   },
   "bookTotalPages": 399,
   "pdfOffset": 20,
-  "lastTranslatedPage": 30,
+  "lastTranslatedPage": 33,
   "chapters": [
     {
       "num": 1,
@@ -514,6 +514,39 @@ window.TOC = {
       "section": {
         "en": "Technical Breadth",
         "tr": "Teknik Genişlik"
+      },
+      "chapter": 2
+    },
+    "31": {
+      "title": {
+        "en": "Auction System Trade-Off: Queues or Topics?",
+        "tr": "Açık Artırma Sistemi Ödünleşimi: Kuyruklar mı, Konular mı?"
+      },
+      "section": {
+        "en": "Analyzing Trade-Offs",
+        "tr": "Ödünleşimleri Analiz Etmek"
+      },
+      "chapter": 2
+    },
+    "32": {
+      "title": {
+        "en": "Topics vs. Queues: Trade-Offs",
+        "tr": "Konular ve Kuyruklar: Ödünleşimler"
+      },
+      "section": {
+        "en": "Analyzing Trade-Offs",
+        "tr": "Ödünleşimleri Analiz Etme"
+      },
+      "chapter": 2
+    },
+    "33": {
+      "title": {
+        "en": "Trade-Offs for Topics",
+        "tr": "Topic'lerin Ödünleşimleri"
+      },
+      "section": {
+        "en": "Analyzing Trade-Offs",
+        "tr": "Ödünleşimleri Analiz Etmek"
       },
       "chapter": 2
     }

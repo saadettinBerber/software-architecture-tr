@@ -11,6 +11,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 |----------------|-----------------|-------------|
 | -ilities | -ility'ler | Mimari özellik adlarının yaygın son eki (scalability → ölçeklenebilirlik, availability → kullanılabilirlik). |
 | accidental complexity | tesadüfi karmaşıklık | Mimari/tasarım tercihlerinden kaynaklanan, gereksiz karmaşıklık; Bölüm 9'da ele alınır |
+| Advanced Message Queuing Protocol (AMQP) | Gelişmiş Mesaj Kuyruğu Protokolü (AMQP) | Mesaj kuyruğu standartlarından; AMQP kısaltması korunur. |
 | Agile | Agile | Yerleşmiş terim; bu hâliyle kullanılır. |
 | agility | çeviklik | Değişime hızlı yanıt verebilme yeteneği. |
 | aleatory contracts | aleatorik sözleşmeler | finansal terim; örnek olarak verilir |
@@ -35,10 +36,14 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | architecture vitality | mimari canlılığı | Yıllar önce tanımlanan bir mimarinin bugün ne kadar uygulanabilir olduğunun değerlendirmesi. |
 | artifact | çıktı (artifact) | Çalışma sonucu üretilen kayıt/eser; burada mimari diyagramlar. |
 | asynchronous messaging | asenkron mesajlaşma | servisler arası iletişimde yanıt beklemeden mesaj gönderme |
+| auction system | açık artırma sistemi | Kitabın ödünleşim örneğindeki gibi, eşyaların açık artırmayla satıldığı sistem. |
+| auto-scaling | otomatik ölçekleme | Kaynakların ihtiyaca göre otomatik artırılıp azaltılması. |
 | availability | kullanılabilirlik | Bir mimari özellik (“-ility”) |
 | average directional index | ortalama yönlü endeks | finansal terim; piyasa trend ölçüsü |
 | axiom | aksiyom | Doğru kabul edilen temel önerme |
 | behavioral anti-pattern | davranışsal ters desen | Kod veya tasarım yerine insan davranışıyla ilgili ters desen; sayfa 30'da Donmuş Mağara Adamı Ters Deseni bunun örneğidir. |
+| bidder | teklif veren | açık artırma (auction) örneği bağlamında; teklif sahibi |
+| bidding data | teklif verileri | Açık artırma sistemindeki tekliflere ilişkin veriler. |
 | bidirectional communication | çift yönlü iletişim | mimar ile geliştirme ekipleri arasında kararların iki yönde aktığı iletişim biçimi. |
 | Big Design Up Front | Önden Büyük Tasarım | BDUF kısaltmasıyla da bilinir. |
 | blueprint | mavi baskı (blueprint) | Sistemin yapısını gösteren plan şeması |
@@ -64,8 +69,10 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | component | bileşen | Çoğulu: bileşenler. |
 | connascence | eşdoğuş (connascence) | İki bileşenin, birindeki değişiklik diğerinde de değişikliği zorunlu kılıyorsa eşdoğuşlu olduğu söylenir; Bölüm 3'te (Modülerlik) ayrıntılı ele alınır. |
 | constraint | kısıt | Sistemi ve geliştirme ekiplerini sınırlayan mimari karar ya da kural |
+| consumer | tüketici | Mesajlaşmada mesajı alan taraf. |
 | continuous delivery | sürekli teslim | Yazılımın her an yayınlanabilir durumda tutulduğu uygulama. |
 | continuous integration | sürekli entegrasyon | Her değişikliğin push edildiği anda derlenip test edildiği uygulama. |
+| contract | sözleşme | Mesajlaşmada üzerinde anlaşılan mesaj yapısı/biçimi. |
 | corollary | vargı | Bir yasadan çıkarılan doğal sonuç (Corollary 1 → Vargı 1). |
 | coupling | bağlılık | Bileşenlerin birbirine bağımlılık derecesi |
 | CRM | müşteri ilişkileri yönetimi (CRM) | customer relationship management kısaltması |
@@ -75,6 +82,8 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | data center | veri merkezi | Sunucu ve ağ altyapısının barındırıldığı tesis |
 | database schema | veri tabanı şeması |  |
 | database server | veritabanı sunucusu | Veritabanı yönetimini barındıran sunucu |
+| decoupled | gevşek bağlı | coupling (bağlılık) karşıtı; topic yaklaşımının üreticiyi tüketicilerden ayırması bağlamında |
+| decoupling | bağlılığın kırılması (decoupling) | coupling (bağlılık) teriminin karşıtı. |
 | defensive design | savunmacı tasarım | Bir kısıtlama veya en kötü senaryo etrafında yapılan korumacı tasarım. |
 | deployment | dağıtım | Yazılımın çalıştırma ortamına yüklenmesi. |
 | design pattern | tasarım deseni | Yinelenen tasarım sorunlarına kanıtlanmış çözüm kalıpları |
@@ -93,7 +102,9 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | estimation | tahmin | Proje tahmini bağlamında. |
 | evolutionary architecture | evrimsel mimari | Zamanla değişime uyum sağlayan mimari. |
 | evolutionary computing | evrimsel hesaplama | Doğal evrim süreçlerinden esinlenen hesaplama alanı. |
+| exchange | exchange | AMQP'de üreticinin mesaj gönderdiği bileşen; yerleşik terim, olduğu gibi kullanılır. |
 | expertise | uzmanlık | Bir konudaki derin bilgi ve beceri; piramidin tepesindeki bilgi düzeyi. |
+| extensibility | genişletilebilirlik | architectural extensibility (mimari genişletilebilirlik) bağlamında |
 | external data storage | harici veri depolama | Uygulama dışında barındırılan veri deposu (veritabanı vb.). |
 | Extreme Programming (XP) | Extreme Programming (XP) | Yerleşmiş terim; Türkçe karşılığı yaygın değildir, İngilizce hâliyle kullanılır. |
 | facilitation | kolaylaştırıcılık | toplantı/çalışma yürütme becerisi |
@@ -111,6 +122,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | hands-on | uygulamalı | hands-on knowledge bağlamında |
 | hard-and-fast rule | katı ve kesin kural | istisnası olmayan, koşulsuz uygulanan kural |
 | heterogeneous | heterojen | farklı teknolojilerden oluşan ortam |
+| heterogeneous contracts | heterojen sözleşmeler | Birbirinden farklı yapıdaki mesaj sözleşmeleri. |
 | historical relevance | tarihsel önem | Yalnızca geçmiş bağlamında anlamlı olma durumu |
 | incremental change | artımlı değişiklik | Küçük adımlarla, düşük maliyetle yapılan değişiklik |
 | infrastructure | altyapı | Sistemin üzerinde çalıştığı donanım ve ağ hizmetleri. |
@@ -128,9 +140,11 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | Laws of Software Architecture | Yazılım Mimarisi Yasaları | Bölüm 1'in kesit başlığı ve sayfa 19'un koşu başlığı. |
 | layered | katmanlı | Katmanlı mimari stili |
 | layered architecture | katmanlı mimari | Katmanlar halinde düzenlenmiş mimari stili |
+| load balancing | yük dengeleme | İş yükünün tüketiciler arasında dağıtılması. |
 | loose coupling | gevşek bağlılık | Bileşenler arası bağımlılığın az olması |
 | machine provisioning | makine sağlama | Sunucu ve kaynakların otomatik olarak hazırlanması. |
 | mentoring | rehberlik | mimarın geliştiricilere yol göstermesi; coaching (koçluk) ile birlikte anılır. |
+| messaging model | mesajlaşma modeli | yayınla-abone ol ve noktadan noktaya dahil mesajlaşma biçimleri |
 | metrics | ölçütler | Ölçülebilir performans ve değer göstergeleri. |
 | microkernel | mikro çekirdek | Bir mimari stil türü |
 | microservice | mikroservis | Çoğulu: mikroservisler. |
@@ -138,6 +152,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | microservices architecture | mikroservis mimarisi | mimari stil türü; servisler arası asenkron mesajlaşma örneği verilir |
 | mindmap | zihin haritası |  |
 | modularity | modülerlik |  |
+| monitoring | izleme | Sistemin durumunu ölçüp gözlemleme eylemi; monitors (izleyiciler) ile ilişkilidir. |
 | monitors | izleyiciler | Sistemin durumunu sürekli izleyen araçlar. |
 | monolithic architecture | monolitik mimari | Tüm bileşenlerin tek bir dağıtılabilir birimde toplandığı mimari |
 | moving target | hareketli hedef | Sürekli değişen, sabitlenemeyen konu ya da durum |
@@ -156,12 +171,17 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | page load time | sayfa yükleme süresi | Bir sayfanın yüklenmesi için geçen süre; performans ölçütü. |
 | pattern | desen | Tasarım desenleri bağlamında; çoğulu: desenler. |
 | perceived technical risk | algılanan teknik risk | Gerçekte var olup olmadığına bakılmaksızın mimarların hissettiği/algıladığı teknik risk; sayfa 30'da gerçek teknik riskle karşılaştırılır. |
+| point-to-point messaging | noktadan noktaya mesajlaşma | Her mesajın tam olarak bir tüketici tarafından işlendiği mesajlaşma modeli. |
 | presentation layer | sunum katmanı | Kullanıcı arayüzü sorumluluğunu taşıyan katman |
 | problem domain | sorun alanı | çözülmek istenen iş sorununun yer aldığı alan |
 | problem space | problem alanı |  |
 | process-agnostic | süreçten bağımsız | Belirli bir sürece bağlı olmayan. |
+| producer | üretici | Mesajlaşmada mesajı gönderen taraf. |
 | product owner | ürün sahibi | Ürün gereksinimlerinden ve önceliklerden sorumlu paydaş |
+| programmatic load balancing | programatik yük dengeleme | Kod aracılığıyla yapılan yük dengeleme. |
 | project manager | proje yöneticisi | Proje planlaması ve yürütmesinden sorumlu kişi |
+| publish-and-subscribe | yayınla-abone ol | Üreticinin bir konuya (topic) yayınladığı mesajı tüm abonelerin aldığı mesajlaşma modeli. |
+| queue | kuyruk | Mesajlaşmada, bir mesajı tek bir tüketiciye ulaştıran sıra; point-to-point modelin temel öğesi. |
 | rates rally | oran rallisi | finansal terim; faiz oranlarındaki yükseliş |
 | reactive-based framework | tepkisel tabanlı çerçeve | Angular, Elm, React.js, Vue gibi ön uç web çerçeveleri. |
 | release | sürüm | Yazılımın kullanıcılara yayınlanması. |
@@ -172,8 +192,10 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | responsibility | sorumluluk | Mimarın rol kapsamı bağlamında. |
 | restructuring | yeniden yapılandırma | Mimarinin bir desenden diğerine taşınması/değiştirilmesi |
 | roadmap | yol haritası | Bir sistemi geliştirme sürecini gösteren plan |
+| rogue service | başıboş servis | Kurallar dışına çıkan, izinsiz davranan servis. |
 | scalability | ölçeklenebilirlik | Bir mimari özellik (“-ility”) |
 | Second Law of Software Architecture | Yazılım Mimarisi İkinci Yasası | “Neden, nasıl’dan daha önemlidir.” |
+| security breach | güvenlik ihlali | Güvenliğin ihlal edildiği olay/olay örüntüsü. |
 | service-level agreement (SLA) | hizmet düzeyi anlaşması (SLA) | Çalışma süresi, ölçek, yanıt verebilirlik gibi hizmet ölçütlerini tanımlayan sözleşme |
 | service-oriented architecture (SOA) | servis odaklı mimari | İşlevleri bağımsız servisler olarak düzenleyen mimari yaklaşım. |
 | services layer | hizmet katmanı | Katmanlı mimaride hizmetleri barındıran katman |
@@ -204,6 +226,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | technologist | teknoloji uzmanı | teknolojik bilgiyi kullanan, geliştirici veya mimar gibi teknik profesyonel |
 | test-first development | önce test geliştirme | Kod yazılmadan önce testin yazıldığı geliştirme yaklaşımı. |
 | testing environment | test ortamı | Değişikliklerin test edildiği ortam. |
+| topic | topic | Yayınla-abone ol modelinde birden çok abonenin aynı mesajı aldığı kanal. |
 | topology | topoloji | Sistem bileşenlerinin bağlantı ve dağılım yapısı. |
 | trade-off | ödünleşim | Bir fayda için başka bir özellikten vazgeçme; metinde İngilizcesiyle de kullanılır |
 | traveling salesperson problem | gezgin satıcı problemi | Çeşitli şehirler arasındaki en kısa rotayı bulmayı amaçlayan klasik optimizasyon problemi. |
@@ -215,5 +238,6 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | verification mechanism | doğrulama mekanizması | Bir özelliğin veya parçanın durumunu otomatik olarak doğrulayan mekanizma. |
 | waterfall | şelale | şelale (waterfall) modeli; eski, sıralı yazılım geliştirme yaklaşımı |
 | whitepaper | teknik rapor | Beyaz rapor; teknik belge türü. |
+| wiretap | izinsiz dinleme | Gizlice dinleme; mesaj akışını izinsiz gözlemleme. |
 | workflow | iş akışı | İşlerin yapılandırılmış akışı. |
 | working knowledge | çalışma bilgisi | Bir konuyu pratikte kullanabilecek düzeyde bilme. |
