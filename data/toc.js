@@ -9,7 +9,7 @@ window.TOC = {
   },
   "bookTotalPages": 399,
   "pdfOffset": 20,
-  "lastTranslatedPage": 99,
+  "lastTranslatedPage": 102,
   "chapters": [
     {
       "num": 1,
@@ -1216,6 +1216,72 @@ window.TOC = {
       "section": {
         "en": "Component-Based Thinking",
         "tr": "Bileşen Temelli Düşünme"
+      },
+      "chapter": 8
+    },
+    "95": {
+      "title": {
+        "en": "Case Study: Going, Going, Gone",
+        "tr": "Vaka Çalışması: Going, Going, Gone"
+      },
+      "section": {
+        "en": "Architectural Quanta and Granularity",
+        "tr": "Mimari Kuantumlar ve Parçalılık"
+      },
+      "chapter": 7
+    },
+    "96": {
+      "title": {
+        "en": "Considering Security and the Reputation Index",
+        "tr": "Güvenliği ve İtibar Endeksini Değerlendirmek"
+      },
+      "section": {
+        "en": "Architectural Quanta and Granularity",
+        "tr": "Mimari Kuantumlar ve Parçalılık"
+      },
+      "chapter": 7
+    },
+    "97": {
+      "title": {
+        "en": "Case Study: Going, Going, Gone",
+        "tr": "Vaka Çalışması: Going, Going, Gone"
+      },
+      "section": {
+        "en": "Architectural Quanta and Granularity",
+        "tr": "Mimari Kuantumlar ve Parçalılık"
+      },
+      "chapter": 7
+    },
+    "100": {
+      "title": {
+        "en": "Component Scope",
+        "tr": "Bileşen Kapsamı"
+      },
+      "section": {
+        "en": "Component Scope",
+        "tr": "Bileşen Kapsamı"
+      },
+      "chapter": 8
+    },
+    "101": {
+      "title": {
+        "en": "Architect Role",
+        "tr": "Mimar Rolü"
+      },
+      "section": {
+        "en": "Architect Role",
+        "tr": "Mimar Rolü"
+      },
+      "chapter": 8
+    },
+    "102": {
+      "title": {
+        "en": "Architecture Partitioning",
+        "tr": "Mimari Bölümleme (Architecture Partitioning)"
+      },
+      "section": {
+        "en": "Architecture Partitioning",
+        "tr": "Mimari Bölümleme (Architecture Partitioning)"
       },
       "chapter": 8
     }

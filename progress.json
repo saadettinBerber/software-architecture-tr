@@ -27,7 +27,7 @@
     "chapter_label_pattern": "^CHAPTER (\\d+)$",
     "math_geometry": true
   },
-  "last_translated_page": 99,
+  "last_translated_page": 102,
   "chapters": [
     {
       "num": 1,
@@ -938,6 +938,54 @@
       "title_tr": "Bileşen Kapsamı",
       "section_en": "Component-Based Thinking",
       "section_tr": "Bileşen Temelli Düşünme"
+    },
+    "95": {
+      "pdf_page": 115,
+      "chapter": 7,
+      "title_en": "Case Study: Going, Going, Gone",
+      "title_tr": "Vaka Çalışması: Going, Going, Gone",
+      "section_en": "Architectural Quanta and Granularity",
+      "section_tr": "Mimari Kuantumlar ve Parçalılık"
+    },
+    "96": {
+      "pdf_page": 116,
+      "chapter": 7,
+      "title_en": "Considering Security and the Reputation Index",
+      "title_tr": "Güvenliği ve İtibar Endeksini Değerlendirmek",
+      "section_en": "Architectural Quanta and Granularity",
+      "section_tr": "Mimari Kuantumlar ve Parçalılık"
+    },
+    "97": {
+      "pdf_page": 117,
+      "chapter": 7,
+      "title_en": "Case Study: Going, Going, Gone",
+      "title_tr": "Vaka Çalışması: Going, Going, Gone",
+      "section_en": "Architectural Quanta and Granularity",
+      "section_tr": "Mimari Kuantumlar ve Parçalılık"
+    },
+    "100": {
+      "pdf_page": 120,
+      "chapter": 8,
+      "title_en": "Component Scope",
+      "title_tr": "Bileşen Kapsamı",
+      "section_en": "Component Scope",
+      "section_tr": "Bileşen Kapsamı"
+    },
+    "101": {
+      "pdf_page": 121,
+      "chapter": 8,
+      "title_en": "Architect Role",
+      "title_tr": "Mimar Rolü",
+      "section_en": "Architect Role",
+      "section_tr": "Mimar Rolü"
+    },
+    "102": {
+      "pdf_page": 122,
+      "chapter": 8,
+      "title_en": "Architecture Partitioning",
+      "title_tr": "Mimari Bölümleme (Architecture Partitioning)",
+      "section_en": "Architecture Partitioning",
+      "section_tr": "Mimari Bölümleme (Architecture Partitioning)"
     }
   }
 }

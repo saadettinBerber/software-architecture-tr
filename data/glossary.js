@@ -35,6 +35,11 @@ window.GLOSSARY = [
     "note": "Kata alıştırmasında, gereksinimlerde yer almayan ancak tasarımı etkileyen önemli değerlendirmeleri içeren bölüm."
   },
   {
+    "en": "address space",
+    "tr": "adres alanı",
+    "note": "Bir sürecin erişebildiği, kendine özgü bellek bölgesi; servislerin kendi adres alanlarında çalışması bağlamında geçer."
+  },
+  {
     "en": "Advanced Message Queuing Protocol (AMQP)",
     "tr": "Gelişmiş Mesaj Kuyruğu Protokolü (AMQP)",
     "note": "Mesaj kuyruğu standartlarından; AMQP kısaltması korunur."
@@ -78,6 +83,11 @@ window.GLOSSARY = [
     "en": "anti-pattern",
     "tr": "ters desen",
     "note": "Kötü veya zararlı bir çözümü tekrarlayan, yaygın yazılım tasarım deseni; 'Frozen Caveman Anti-Pattern' adlandırmasında olduğu gibi."
+  },
+  {
+    "en": "anti-trollability",
+    "tr": "trolleme karşıtılık (anti-trollability)",
+    "note": "\"İtibar endeksi\" ifadesinin akla getirdiği, uydurma bir mimari özellik adı; gerçek bir özellik olarak tasarlanmamalıdır."
   },
   {
     "en": "application server",
@@ -163,6 +173,11 @@ window.GLOSSARY = [
     "en": "architecture kata",
     "tr": "mimari kata",
     "note": "Ted Neward'ın, mimarların alan odaklı açıklamalardan mimari özellikler türetme pratiği yapması için tasarladığı alıştırma; çoğulu architecture katas (mimari katalar)."
+  },
+  {
+    "en": "architecture partitioning",
+    "tr": "mimari bölümleme (architecture partitioning)",
+    "note": "Mimarinin bileşenlere ayrılma biçimi; sayfada 'top-level partitioning' (üst düzey bölümleme) kavramıyla birlikte geçer."
   },
   {
     "en": "architecture patterns",
@@ -360,6 +375,16 @@ window.GLOSSARY = [
     "note": "Kısa sürede gelen yoğun trafik yığınları; esneklik (elasticity) özelliğinin ölçtüğü durum; bursts of requests (istek patlamaları) ile ilişkilidir."
   },
   {
+    "en": "bursts of users",
+    "tr": "kullanıcı patlamaları",
+    "note": "Kısa sürede gelen yoğun kullanıcı yığınları; esneklik (elasticity) özelliğinin karşıladığı durum; bursts of requests (istek patlamaları) ile ilişkilidir."
+  },
+  {
+    "en": "business analyst",
+    "tr": "iş analisti",
+    "note": "Gereksinimleri açıklayan ve analiz eden uzman rolü."
+  },
+  {
     "en": "business domain",
     "tr": "iş alanı",
     "note": "business domain expertise bağlamında"
@@ -495,6 +520,11 @@ window.GLOSSARY = [
     "note": "Testlerin kodu ne ölçüde çalıştırdığını gösteren ölçüt; Crap4J ile ilişkili."
   },
   {
+    "en": "code quality metrics",
+    "tr": "kod kalitesi ölçütleri",
+    "note": "Kaynak kodun kalitesini ölçen ölçütler; Bölüm 6'da ele alınan ve kod tabanlarını bütüncül olarak etkileyen ölçütler bağlamında geçer."
+  },
+  {
     "en": "code review",
     "tr": "kod incelemesi",
     "note": "Bir geliştiricinin yazdığı kodun başka bir kişi tarafından gözden geçirilmesi; çoğulu kod incelemeleri."
@@ -513,6 +543,11 @@ window.GLOSSARY = [
     "en": "codify",
     "tr": "kodlamak (kurala dökmek)",
     "note": "Bir kuralı ya da ilkeyi kod biçiminde ifade ederek otomatik denetlenir hâle getirmek; yönetişim kontrollerinin uygunluk fonksiyonu olarak kodlanması bağlamında."
+  },
+  {
+    "en": "coding hygiene",
+    "tr": "kod hijyeni",
+    "note": "Kredi kartı numaralarını düz metin saklamamak, iletim sırasında şifrelemek gibi özel mimari yapı gerektirmeyen temel güvenlik önlemleri; security hygiene (güvenlik hijyeni) ile ilişkilidir."
   },
   {
     "en": "coexistence",
@@ -700,6 +735,11 @@ window.GLOSSARY = [
     "note": "Mesajlaşmada mesajı alan taraf."
   },
   {
+    "en": "containership",
+    "tr": "kapsayıcılık (containership)",
+    "note": "Bileşenlerin diğer öğeleri içinde barındıran genel bir kapsayıcı mekanizma olma özelliği."
+  },
+  {
     "en": "continuity",
     "tr": "süreklilik",
     "note": "İş sürekliliği (business continuity) bağlamında; kesinti sonrası sistemin hızla yeniden çevrimiçi olması gereği."
@@ -878,6 +918,11 @@ window.GLOSSARY = [
     "en": "deployment",
     "tr": "dağıtım",
     "note": "Yazılımın çalıştırma ortamına yüklenmesi."
+  },
+  {
+    "en": "deployment unit",
+    "tr": "dağıtım birimi",
+    "note": "Birlikte dağıtılabilir tek bir birim; modüler monolit tanımında 'tek dağıtım birimi' bağlamında geçer."
   },
   {
     "en": "derived metric",
@@ -1095,6 +1140,11 @@ window.GLOSSARY = [
     "note": "Proje tahmini bağlamında."
   },
   {
+    "en": "event processor",
+    "tr": "olay işleyicisi",
+    "note": "Olay güdümlü mimarilerde olayları işleyen bileşen; birçok olay işleyicisi için dağıtılabilir iş birimi bağlamında geçer."
+  },
+  {
     "en": "event-driven architecture",
     "tr": "olay güdümlü mimari",
     "note": "Bileşenlerin olaylar aracılığıyla iletişim kurduğu mimari stil; asenkron çağrıların yaygın olduğu ortam."
@@ -1248,6 +1298,11 @@ window.GLOSSARY = [
     "en": "franchise",
     "tr": "bayilik (franchise)",
     "note": "Silicon Sandwiches vaka çalışmasında, her dükkânın farklı bir sahibi olduğu işletme modeli; franchised sıfatı 'bayilik sistemine bağlı (franchised)' olarak çevrilir."
+  },
+  {
+    "en": "fraud",
+    "tr": "dolandırıcılık (fraud)",
+    "note": "Geçmişte sorun oluşturmuş, güvenlikle ilgili bir alan kaygısı; mimarın hangi güvenlik düzeyini tasarlarsa tasarlasın daha fazla girdi istemesini gerektirir."
   },
   {
     "en": "friction",
@@ -1410,6 +1465,11 @@ window.GLOSSARY = [
     "note": "Farklı parçalarının farklı mimari stiller kullandığı, kuantum başına analizle ortaya çıkan mimari."
   },
   {
+    "en": "implicit architecture characteristics",
+    "tr": "örtük mimari özellikler",
+    "note": "Sorun alanından (problem domain) ve alan bilgisinden (domain knowledge) çıkarılan, gereksinimlerde açıkça yazılmayan mimari özellikler; esneklik (elasticity) ve güvenlik (security) bu sayfada örnek olarak verilir."
+  },
+  {
     "en": "implicit characteristics",
     "tr": "örtük özellikler",
     "note": "Gereksinimlerde açıkça yazılmayan, alan bilgisinden çıkarılan mimari özellikler; explicit characteristics (açık özellikler) ile karşıtlık oluşturur."
@@ -1468,6 +1528,11 @@ window.GLOSSARY = [
     "en": "installability",
     "tr": "kurulabilirlik",
     "note": "Yazılımın belirtilen bir ortama kurulup kaldırılabilmesi."
+  },
+  {
+    "en": "integration architecture",
+    "tr": "entegrasyon mimarisi",
+    "note": "Sistemler arası entegrasyonu düzenleyen mimari yön; iletişim protokolü (communication protocol) seçimleriyle ilgilidir."
   },
   {
     "en": "integration point",
@@ -1538,6 +1603,11 @@ window.GLOSSARY = [
     "en": "Janitor Monkey",
     "tr": "Temizlikçi Maymun",
     "note": "Artık başka servislerin yönlendirmediği, sahipsiz kalan örnekleri üretimden kaldıran araç; Simian Ordusu üyesi."
+  },
+  {
+    "en": "Joint Application Design (JAD)",
+    "tr": "Ortak Uygulama Tasarımı (JAD)",
+    "note": "Resmî, katılımcı gereksinim toplama/analiz yöntemi; mimarların gereksinim kaynağı olarak umursamadığı süreç örneklerinden biri; JAD kısaltması korunur."
   },
   {
     "en": "kata",
@@ -1645,6 +1715,16 @@ window.GLOSSARY = [
     "note": "Kodda olası hataları ve biçim sorunlarını denetleyen test; lint terimi korunur."
   },
   {
+    "en": "litmus test",
+    "tr": "turnusol testi (litmus test)",
+    "note": "Mimarların bir gereksinimin alan özelliği mi yoksa soyut mimari özellik mi olduğunu belirlemek için kullandığı hızlı ölçüt; uygulamak için alan bilgisi gerekip gerekmediğini sorar."
+  },
+  {
+    "en": "live video stream",
+    "tr": "canlı video akışı",
+    "note": "Gerçek zamanlı olarak yayınlanan video; açık artırma örneğinde geçer."
+  },
+  {
     "en": "load balancing",
     "tr": "yük dengeleme",
     "note": "İş yükünün tüketiciler arasında dağıtılması."
@@ -1653,6 +1733,11 @@ window.GLOSSARY = [
     "en": "locality",
     "tr": "yerellik",
     "note": "Eşdoğuşlu öğelerin kod tabanındaki birbirine yakınlığı; Rule of Locality (Yerellik Kuralı) bağlamında."
+  },
+  {
+    "en": "loggability",
+    "tr": "günlüklenebilirlik (loggability)",
+    "note": "Olay ve işlemlerin kayıt altına alınabilme özelliği; denetlenebilirlik (auditability) ile birlikte katılımcı izleme bağlamında geçer."
   },
   {
     "en": "logical cohesion",
@@ -1708,6 +1793,11 @@ window.GLOSSARY = [
     "en": "mergers and acquisitions",
     "tr": "birleşme ve satın almalar",
     "note": "Şirket evlilikleri ve devralmaları; M&A kısaltması da yaygındır."
+  },
+  {
+    "en": "message ordering",
+    "tr": "mesaj sıralaması",
+    "note": "Mesajların verildikleri sırayla işlenmesi gereği; güvenilirlik (reliability) kaygısı olarak açık artırma örneğinde geçer."
   },
   {
     "en": "messaging model",
@@ -1773,6 +1863,11 @@ window.GLOSSARY = [
     "en": "modifiability",
     "tr": "değiştirilebilirlik",
     "note": "Hata oluşturmadan ya da mevcut ürün kalitesini düşürmeden yazılımı değiştirebilme derecesi."
+  },
+  {
+    "en": "modular monolith",
+    "tr": "modüler monolit",
+    "note": "Simon Brown'ın popülerleştirdiği; alanlar etrafında bölümlenen, tek dağıtım birimi olan mimari stil."
   },
   {
     "en": "modular programming",
@@ -1898,6 +1993,11 @@ window.GLOSSARY = [
     "en": "office politics",
     "tr": "ofis politikaları",
     "note": "kurum içi güç ve çıkar dinamikleri"
+  },
+  {
+    "en": "online auction",
+    "tr": "çevrim içi açık artırma",
+    "note": "İnternet üzerinden yürütülen açık artırma."
   },
   {
     "en": "online bidders",
@@ -2095,6 +2195,11 @@ window.GLOSSARY = [
     "note": "Üreticinin bir konuya (topic) yayınladığı mesajı tüm abonelerin aldığı mesajlaşma modeli."
   },
   {
+    "en": "QA engineer",
+    "tr": "QA mühendisi",
+    "note": "Kalite güvence (quality assurance) mühendisi; QA kısaltması korunur."
+  },
+  {
     "en": "quality attributes",
     "tr": "kalite özellikleri",
     "note": "Mimari özellikler için kullanılan bir diğer popüler terim; kitap, iş sonrası kalite değerlendirmesi ima ettiği için bu terimi de tercih etmez."
@@ -2128,6 +2233,11 @@ window.GLOSSARY = [
     "en": "readability",
     "tr": "okunabilirlik",
     "note": "Kodun okunma ve anlaşılma kolaylığı."
+  },
+  {
+    "en": "real-time",
+    "tr": "gerçek zamanlı",
+    "note": "Olayın gerçekleştiği anda işlenmesi; performans özelliğiyle ilişkilidir."
   },
   {
     "en": "recoverability",
@@ -2173,6 +2283,11 @@ window.GLOSSARY = [
     "en": "replaceability",
     "tr": "değiştirilebilirlik (replaceability)",
     "note": "İşlevselliğin başka bir yazılımla değiştirilebilme kolaylığı; modifiability (değiştirilebilirlik) ile karıştırılmamalıdır."
+  },
+  {
+    "en": "reputation index",
+    "tr": "itibar endeksi",
+    "note": "Katılımcıların güvenilirliğini izleyen ölçüt; açık artırma kata'sında geçer."
   },
   {
     "en": "requirements",
@@ -2470,6 +2585,11 @@ window.GLOSSARY = [
     "note": "Açık artırma sisteminde tekliflerin ve video akışının canlı olarak yayınlanması; Going, Going, Gone katasında mimari kuantum örneği."
   },
   {
+    "en": "streaming video",
+    "tr": "video akışı (streaming video)",
+    "note": "İnternet üzerinden kesintisiz video aktarımı; örnek uygulama türü olarak geçer."
+  },
+  {
     "en": "stress testing",
     "tr": "stres testi",
     "note": "Sistemin sınırlarını zorlayarak davranışını ölçen performans testi; tepe noktası (zirve) analiziyle ilişkilidir."
@@ -2530,6 +2650,11 @@ window.GLOSSARY = [
     "note": "ISO 25010'da bir kalite özelliğini oluşturan alt kategoriler."
   },
   {
+    "en": "subject matter expert",
+    "tr": "konu uzmanı (subject matter expert)",
+    "note": "Belirli bir konuda derin bilgiye sahip kişi; gereksinimi açıklaması için başvurulur, business analyst (iş analisti) ile ilişkilidir."
+  },
+  {
     "en": "substrate",
     "tr": "doku (substrate)",
     "note": "Mimarinin üzerine inşa edildiği temel katman/yapı; yönetişim kontrollerinin mimarinin bünyesine kodlanması bağlamında."
@@ -2573,6 +2698,11 @@ window.GLOSSARY = [
     "en": "technical breadth",
     "tr": "teknik genişlik",
     "note": ""
+  },
+  {
+    "en": "technical capabilities",
+    "tr": "teknik yetenekler",
+    "note": "Sunum, iş kuralları, servisler, kalıcılık gibi teknik işlev grupları; domain (alan) bölümlemesinin karşıtı."
   },
   {
     "en": "technical debt",
@@ -2668,6 +2798,11 @@ window.GLOSSARY = [
     "en": "timeout",
     "tr": "zaman aşımı (timeout)",
     "note": "Bir çağrının yanıt için beklediği azami süre; eşzamanlı çağrılarda güvenilirlik (reliability) kaygısı olarak geçer."
+  },
+  {
+    "en": "top-level partitioning",
+    "tr": "üst düzey bölümleme",
+    "note": "Mimarinin en üst düzeyde, stili belirleyen biçimde bölümlenmesi; katmanlı (layered) ya da modüler (modular) olabilir."
   },
   {
     "en": "topic",
