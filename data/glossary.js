@@ -310,6 +310,11 @@ window.GLOSSARY = [
     "note": "Kısa sürede gelen yoğun istek yığınları; esneklik (elasticity) özelliğinin ölçtüğü durum."
   },
   {
+    "en": "bursts of traffic",
+    "tr": "trafik patlamaları",
+    "note": "Kısa sürede gelen yoğun trafik yığınları; esneklik (elasticity) özelliğinin ölçtüğü durum; bursts of requests (istek patlamaları) ile ilişkilidir."
+  },
+  {
     "en": "business domain",
     "tr": "iş alanı",
     "note": "business domain expertise bağlamında"
@@ -485,6 +490,16 @@ window.GLOSSARY = [
     "note": "Çoğulu: bileşenler."
   },
   {
+    "en": "composite characteristics",
+    "tr": "bileşik özellikler",
+    "note": "Daha küçük ölçekte birçok başka mimari özelliği barındıran özellikler; örn. çeviklik modülerlik, dağıtılabilirlik ve test edilebilirliği kapsar."
+  },
+  {
+    "en": "concert ticket booking system",
+    "tr": "konser bileti rezervasyon sistemi",
+    "note": "Yeni biletler satışa çıktığında trafik patlamaları yaşayan, esneklik gerektiren örnek sistem."
+  },
+  {
     "en": "concurrent users",
     "tr": "eşzamanlı kullanıcılar",
     "note": "Aynı anda sistemi kullanan kullanıcı sayısı; ölçeklenebilirlik ölçümünde temel kavram."
@@ -630,6 +645,11 @@ window.GLOSSARY = [
     "note": "CRM olarak da bilinir"
   },
   {
+    "en": "customizability",
+    "tr": "özelleştirilebilirlik",
+    "note": "Bir mimari özellik (-ility); sayfa 75'te en az önemli özellik olarak elenebileceği ve davranışın uygulama tasarımına taşınabileceği tartışılır."
+  },
+  {
     "en": "cyclomatic complexity",
     "tr": "döngüsel karmaşıklık",
     "note": "kod karmaşıklığını ölçen metrik"
@@ -668,6 +688,11 @@ window.GLOSSARY = [
     "en": "database server",
     "tr": "veritabanı sunucusu",
     "note": "Veritabanı yönetimini barındıran sunucu"
+  },
+  {
+    "en": "decision point",
+    "tr": "karar noktası",
+    "note": "Kodda farklı yürütme yollarına yol açan karar deyimi (if gibi); döngüsel karmaşıklık hesabının temelini oluşturur."
   },
   {
     "en": "decode domain language",
@@ -830,6 +855,11 @@ window.GLOSSARY = [
     "note": "Birbirini etkileyen teknoloji, araç ve uygulamaların bütünü"
   },
   {
+    "en": "edge",
+    "tr": "kenar",
+    "note": "Çizge kuramında iki düğümü birbirine bağlayan çizgi; döngüsel karmaşıklık formülünde olası kararları (E) temsil eder."
+  },
+  {
     "en": "efferent coupling",
     "tr": "çıkan bağlılık",
     "note": "Bir kod öğesinden diğer kod öğelerine giden bağlantıların sayısı; Robert Martin'in Ce (fan-out) ölçütü."
@@ -930,6 +960,11 @@ window.GLOSSARY = [
     "note": "Uygulama dışında barındırılan veri deposu (veritabanı vb.)."
   },
   {
+    "en": "external mapping services",
+    "tr": "harici harita servisleri",
+    "note": "Trafik bilgisi sağlayan, dışarıdan entegre edilen harita servisleri; entegrasyon noktası örneği."
+  },
+  {
     "en": "Extreme Programming (XP)",
     "tr": "Extreme Programming (XP)",
     "note": "Yerleşmiş terim; Türkçe karşılığı yaygın değildir, İngilizce hâliyle kullanılır."
@@ -980,14 +1015,34 @@ window.GLOSSARY = [
     "note": "Kararların sonucunun hızla değerlendirilmesini sağlayan döngü; Çevik yaklaşımın temel avantajı"
   },
   {
+    "en": "fervent fans",
+    "tr": "ateşli hayranlar",
+    "note": "Konser bileti satışlarında siteye hücum eden, hevesli taraftarlar; esneklik örneğinde geçer."
+  },
+  {
     "en": "field",
     "tr": "alan",
     "note": "Sınıf düzeyinde tanımlanan değişken; örnek alanı (instance field)."
   },
   {
+    "en": "first contentful paint",
+    "tr": "ilk içerikli boyama (first contentful paint)",
+    "note": "Tarayıcının ilk görünür içeriği (metin, görsel vb.) çizdiği anı ölçen web performans ölçütü."
+  },
+  {
+    "en": "first CPU idle",
+    "tr": "ilk CPU boşta kalması (first CPU idle)",
+    "note": "Sayfanın kullanıcı etkileşimlerini işleyebilmek için CPU'nun ilk kez boşta kaldığı anı ölçen web performans ölçütü."
+  },
+  {
     "en": "First Law of Software Architecture",
     "tr": "Yazılım Mimarisi Birinci Yasası",
     "note": "“Yazılım mimarisindeki her şey bir ödünleşimdir.”"
+  },
+  {
+    "en": "first-page render",
+    "tr": "ilk sayfa görüntülenmesi (first-page render)",
+    "note": "Bir web sayfasının, tarayıcıda veya mobil cihazda görünen ilk ilerleme işareti; en uygun süresi 500 ms olarak ölçülür."
   },
   {
     "en": "fitness function",
@@ -1075,6 +1130,11 @@ window.GLOSSARY = [
     "note": "Çözümü mutasyon ve seçimle evrimleştirerek optimize eden algoritma."
   },
   {
+    "en": "governance mechanism",
+    "tr": "yönetişim mekanizması",
+    "note": "Mimari özelliklerin tanımlanması ve denetlenmesi için kurulan yapı/araç; architectural governance (mimari yönetişim) ile ilişkilidir."
+  },
+  {
     "en": "granularity",
     "tr": "parçalılık",
     "note": "Bir sistemin parçalara ayrılma incelik derecesi; 'Architectural Quanta and Granularity' kesit başlığında geçer."
@@ -1145,6 +1205,11 @@ window.GLOSSARY = [
     "note": "Bir sistemin bütününü tek bir değerle değerlendiren ölçüt; ana diziden uzaklık bunun örneğidir."
   },
   {
+    "en": "hotel reservation system",
+    "tr": "otel rezervasyon sistemi",
+    "note": "Trafiği genellikle tutarlı olan, ölçeklenebilirliği esneklikten ayıran örnek sistem."
+  },
+  {
     "en": "implicit characteristics",
     "tr": "örtük özellikler",
     "note": "Gereksinimlerde açıkça yazılmayan, alan bilgisinden çıkarılan mimari özellikler; explicit characteristics (açık özellikler) ile karşıtlık oluşturur."
@@ -1193,6 +1258,11 @@ window.GLOSSARY = [
     "en": "integration point",
     "tr": "entegrasyon noktası",
     "note": "Sistemin başka bir sistemle veya servisle iletişim kurduğu, üzerinde anlaşılmış arayüz/bağlantı noktası; üçüncü taraf ödeme işlemcisiyle kurulan bağlantı bağlamında."
+  },
+  {
+    "en": "integration points",
+    "tr": "entegrasyon noktaları",
+    "note": "Sistemin başka bir sistemle veya servisle iletişim kurduğu, üzerinde anlaşılmış arayüz/bağlantı noktaları."
   },
   {
     "en": "integrity",
@@ -1515,6 +1585,11 @@ window.GLOSSARY = [
     "note": "Mimarların kararları onaylatmak için kullandığı beceriler"
   },
   {
+    "en": "node",
+    "tr": "düğüm",
+    "note": "Çizge kuramında (graph theory), kenarların (edges) birleştiği nokta; döngüsel karmaşıklık formülünde kod satırlarını (N) temsil eder."
+  },
+  {
     "en": "nomenclature",
     "tr": "adlandırma",
     "note": "Bir alana özgü terimler bütünü."
@@ -1545,6 +1620,11 @@ window.GLOSSARY = [
     "note": "Kodun sınıflar ve nesneler etrafında düzenlendiği programlama dili."
   },
   {
+    "en": "objective definition",
+    "tr": "nesnel tanım",
+    "note": "Mimari özelliklerin, öznelliğe yer bırakmayan somut tanımı; sayfada 'objective definitions' biçiminde geçer."
+  },
+  {
     "en": "office politics",
     "tr": "ofis politikaları",
     "note": "kurum içi güç ve çıkar dinamikleri"
@@ -1560,6 +1640,11 @@ window.GLOSSARY = [
     "note": "Donanım ile uygulamalar arasında arayüz sağlayan temel yazılım"
   },
   {
+    "en": "operational architecture characteristics",
+    "tr": "operasyonel mimari özellikler",
+    "note": "Performans, kullanılabilirlik gibi sistemin işletilmesiyle ilgili mimari özellikler; sayfa 75'te performans bu gruptan en az kritik olan olarak değerlendirilir."
+  },
+  {
     "en": "operational awareness",
     "tr": "operasyonel farkındalık",
     "note": "Sistemin işleyiş ve işletim boyutunu görme yetisi"
@@ -1568,6 +1653,11 @@ window.GLOSSARY = [
     "en": "operational concerns",
     "tr": "operasyonel kaygılar",
     "note": "Ölçek, performans, esneklik gibi operasyonla ilgili mimari kaygılar"
+  },
+  {
+    "en": "operational measure",
+    "tr": "operasyonel ölçüm",
+    "note": "Bir mimari özelliğin işletimsel davranışını doğrudan ölçen ölçüm; sayfanın 'Operational Measures' kesit başlığı."
   },
   {
     "en": "operations group",
@@ -1583,6 +1673,11 @@ window.GLOSSARY = [
     "en": "orthogonal",
     "tr": "ortogonal (bağımsız)",
     "note": "İşlevsellikle ilişkisiz, birbirinden bağımsız"
+  },
+  {
+    "en": "outlier",
+    "tr": "aykırı değer",
+    "note": "Ortalamadan belirgin biçimde sapan ölçüm; örn. diğerlerinden 10 kat daha uzun süren istekler."
   },
   {
     "en": "outsourcing",
@@ -1633,6 +1728,11 @@ window.GLOSSARY = [
     "en": "performance",
     "tr": "performans",
     "note": "Sistemin iş yükü altındaki hız ve yanıt verebilirlik düzeyi; Tablo 4-1'de listelenen operasyonel mimari özellik."
+  },
+  {
+    "en": "performance budget",
+    "tr": "performans bütçesi",
+    "note": "Bir sayfa ya da uygulamanın belirli performans ölçütleri (ör. ilk içerikli boyama) için ayrılan ve uygulanan üst sınır."
   },
   {
     "en": "performance efficiency",
@@ -1813,6 +1913,11 @@ window.GLOSSARY = [
     "en": "resource utilization",
     "tr": "kaynak kullanımı",
     "note": "Kullanılan kaynakların miktarı ve türleri; performans verimliliğinin alt ölçütü."
+  },
+  {
+    "en": "response time",
+    "tr": "yanıt süresi",
+    "note": "Bir isteğin gönderilmesi ile yanıtın alınması arasında geçen süre; ortalama (average) ve en yüksek (maximum) yanıt süreleri bu sayfada geçer."
   },
   {
     "en": "responsibility",
@@ -2173,6 +2278,11 @@ window.GLOSSARY = [
     "en": "third party",
     "tr": "üçüncü taraf",
     "note": "Sistemin dışında, işlemleri üstlenen bağımsız hizmet sağlayıcı (ödeme işlemcisi gibi)."
+  },
+  {
+    "en": "third-party system",
+    "tr": "üçüncü taraf sistem",
+    "note": "Sistemin güvendiği, dışarıda barındırılan başka bir sistem; arızası çağıran sistemin güvenilirliğini etkiler."
   },
   {
     "en": "thread",

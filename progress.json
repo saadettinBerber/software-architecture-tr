@@ -27,7 +27,7 @@
     "chapter_label_pattern": "^CHAPTER (\\d+)$",
     "math_geometry": true
   },
-  "last_translated_page": 73,
+  "last_translated_page": 79,
   "chapters": [
     {
       "num": 1,
@@ -758,6 +758,46 @@
       "title_tr": "Örtük Özellikler",
       "section_en": "Case Study: Silicon Sandwiches",
       "section_tr": "Vaka Çalışması: Silicon Sandwiches"
+    },
+    "71": {
+      "pdf_page": 91,
+      "chapter": 5,
+      "title_en": "",
+      "title_tr": "",
+      "section_en": "Case Study: Silicon Sandwiches",
+      "section_tr": "Vaka Çalışması: Silicon Sandwiches"
+    },
+    "75": {
+      "pdf_page": 95,
+      "chapter": 5,
+      "title_en": "The Least Important Characteristic",
+      "title_tr": "En Az Önemli Özellik",
+      "section_en": "Case Study: Silicon Sandwiches",
+      "section_tr": "Vaka Çalışması: Silicon Sandwiches"
+    },
+    "77": {
+      "pdf_page": 97,
+      "chapter": 6,
+      "title_en": "Measuring Architecture Characteristics",
+      "title_tr": "Mimari Özelliklerin Ölçülmesi",
+      "section_en": "Measuring Architecture Characteristics",
+      "section_tr": "Mimari Özelliklerin Ölçülmesi"
+    },
+    "79": {
+      "pdf_page": 99,
+      "chapter": 6,
+      "title_en": "Structural Measures",
+      "title_tr": "Yapısal Ölçümler",
+      "section_en": "Measuring Architecture Characteristics",
+      "section_tr": "Mimari Özelliklerin Ölçülmesi"
+    },
+    "78": {
+      "pdf_page": 98,
+      "chapter": 6,
+      "title_en": "Operational Measures",
+      "title_tr": "Operasyonel Ölçümler",
+      "section_en": "Measuring Architecture Characteristics",
+      "section_tr": "Mimari Özelliklerin Ölçülmesi"
     }
   }
 }
