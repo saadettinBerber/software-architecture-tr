@@ -19,13 +19,16 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | architect | mimar | Yazılım mimarisiyle ilgilenen kişi |
 | architectural characteristic | mimari özellik | Performans, kullanılabilirlik, ölçeklenebilirlik gibi sistem başarı ölçütleri. |
 | architectural characteristics | mimari özellikler | Mimariyle belirlenen ölçeklenebilirlik, dayanıklılık gibi özellikler. |
+| architectural concerns | mimari kaygılar | İş etkenlerinin sistemin mimarisine yansıyan karşılıkları. |
 | architectural governance | mimari yönetişim | Mimari özelliklerin yönetilmesi ve denetlenmesi. |
 | architectural quantum | mimari kuantum | Bağımsız dağıtılabilir ve ölçeklenebilir en küçük mimari birim; sayfa 92'de ele alınır. |
 | architectural style | mimari stil | Çoğulu: mimari stiller. |
+| architectural thinking | mimari düşünme | Şeyleri mimari bir gözle ya da mimari bir bakış açısıyla görme; Bölüm 2'nin adı ve ana kavramı. |
 | architecture characteristics | mimari özellikler | Kitapta “-ilities” olarak da anılır: scalability, availability, elasticity vb. |
 | architecture decision | mimari karar | Bir sistemin nasıl inşa edileceğine dair kural; rehber değil, kısıt. |
 | Architecture Decision Record (ADR) | mimari karar kaydı | Mimari kararı kaydeden belge; ADR kısaltması korunur |
 | architecture decisions | mimari kararlar | Sistemin yapısını ve davranışını önemli ölçüde etkileyen; gerekçesiyle birlikte kaydedilmesi gereken seçimler. |
+| architecture patterns | mimari desenler | sorun alanına uygun mimari desen ve stillerin seçilmesi bağlamında; design patterns (tasarım desenleri) ile ilişkili. |
 | architecture review board (ARB) | mimari inceleme kurulu | mimari kararlara sapma taleplerini inceleyip onaylayan veya reddeden kurul |
 | architecture style | mimari stil | Mikro hizmetler, katmanlı, mikro çekirdek gibi sistemin uygulandığı stil |
 | architecture vitality | mimari canlılığı | Yıllar önce tanımlanan bir mimarinin bugün ne kadar uygulanabilir olduğunun değerlendirmesi. |
@@ -34,10 +37,12 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | availability | kullanılabilirlik | Bir mimari özellik (“-ility”) |
 | average directional index | ortalama yönlü endeks | finansal terim; piyasa trend ölçüsü |
 | axiom | aksiyom | Doğru kabul edilen temel önerme |
+| bidirectional communication | çift yönlü iletişim | mimar ile geliştirme ekipleri arasında kararların iki yönde aktığı iletişim biçimi. |
 | Big Design Up Front | Önden Büyük Tasarım | BDUF kısaltmasıyla da bilinir. |
 | blueprint | mavi baskı (blueprint) | Sistemin yapısını gösteren plan şeması |
 | business domain | iş alanı | business domain expertise bağlamında |
 | business domain knowledge | iş alanı bilgisi | mimarların iş alanını anlaması; 'have business domain knowledge' beklentisi |
+| business drivers | iş etkenleri | Mimari kaygılara dönüşen iş tarafındaki itici güçler (kayıp sipariş istememe, hız, maliyet gibi). |
 | business layer | iş katmanı | Katmanlı mimaride iş mantığını barındıran katman |
 | business stakeholder | iş paydaşı | İş tarafındaki ilgili taraflar |
 | C-level executives | üst düzey yöneticiler | CEO, CFO, CTO gibi unvanlar |
@@ -47,11 +52,14 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | chaos engineering | kaos mühendisliği | Sistemin dayanıklılığını bilinçli arıza enjekte ederek test etme yöntemi. |
 | characteristics | özellikler | Kitapta architectural characteristics → mimari özellikler anlamında. |
 | chief architect | baş mimar | ARB yoksa sapma taleplerini değerlendiren kişi |
+| class diagram | sınıf diyagramı | her bileşen için oluşturulan, sınıfları ve ilişkilerini gösteren diyagram. |
+| coaching | koçluk | mimarın geliştiricilere yönelik birebir yönlendirmesi. |
 | code base | kod tabanı |  |
 | comfort zone | konfor alanı | beceri/sorumluluk bağlamında |
 | communication protocol | iletişim protokolü | servisler arası iletişimde kullanılan protokol (REST, gRPC gibi) |
 | compliance | uyum | mimari kararlara uygun davranma; 'ensure compliance with decisions' beklentisi |
 | component | bileşen | Çoğulu: bileşenler. |
+| connascence | eşdoğuş (connascence) | İki bileşenin, birindeki değişiklik diğerinde de değişikliği zorunlu kılıyorsa eşdoğuşlu olduğu söylenir; Bölüm 3'te (Modülerlik) ayrıntılı ele alınır. |
 | constraint | kısıt | Sistemi ve geliştirme ekiplerini sınırlayan mimari karar ya da kural |
 | continuous delivery | sürekli teslim | Yazılımın her an yayınlanabilir durumda tutulduğu uygulama. |
 | continuous integration | sürekli entegrasyon | Her değişikliğin push edildiği anda derlenip test edildiği uygulama. |
@@ -114,6 +122,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | layered architecture | katmanlı mimari | Katmanlar halinde düzenlenmiş mimari stili |
 | loose coupling | gevşek bağlılık | Bileşenler arası bağımlılığın az olması |
 | machine provisioning | makine sağlama | Sunucu ve kaynakların otomatik olarak hazırlanması. |
+| mentoring | rehberlik | mimarın geliştiricilere yol göstermesi; coaching (koçluk) ile birlikte anılır. |
 | metrics | ölçütler | Ölçülebilir performans ve değer göstergeleri. |
 | microkernel | mikro çekirdek | Bir mimari stil türü |
 | microservice | mikroservis | Çoğulu: mikroservisler. |

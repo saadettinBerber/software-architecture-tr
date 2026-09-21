@@ -26,7 +26,7 @@
     "header_at_bottom": true,
     "chapter_label_pattern": "^CHAPTER (\\d+)$"
   },
-  "last_translated_page": 20,
+  "last_translated_page": 24,
   "chapters": [
     {
       "num": 1,
@@ -345,6 +345,34 @@
       "title_tr": "Neden, Nasıl’dan Daha Önemlidir",
       "section_en": "Laws of Software Architecture",
       "section_tr": "Yazılım Mimarisi Yasaları"
+    },
+    "21": {
+      "pdf_page": 41,
+      "chapter": 1,
+      "title_en": "",
+      "title_tr": "",
+      "section_en": "",
+      "section_tr": ""
+    },
+    "23": {
+      "pdf_page": 43,
+      "chapter": 2,
+      "title_en": "Architectural Thinking",
+      "title_tr": "Mimari Düşünme",
+      "section_en": "Architectural Thinking",
+      "section_tr": "Mimari Düşünme"
+    },
+    "24": {
+      "pdf_page": 44,
+      "chapter": 2,
+      "title_en": "Architecture Versus Design",
+      "title_tr": "Mimari ve Tasarım",
+      "section_en": "Architecture Versus Design",
+      "section_tr": "Mimari ve Tasarım"
+    },
+    "22": {
+      "blank": true,
+      "pdf_page": 42
     }
   }
 }

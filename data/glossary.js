@@ -50,6 +50,11 @@ window.GLOSSARY = [
     "note": "Mimariyle belirlenen ölçeklenebilirlik, dayanıklılık gibi özellikler."
   },
   {
+    "en": "architectural concerns",
+    "tr": "mimari kaygılar",
+    "note": "İş etkenlerinin sistemin mimarisine yansıyan karşılıkları."
+  },
+  {
     "en": "architectural governance",
     "tr": "mimari yönetişim",
     "note": "Mimari özelliklerin yönetilmesi ve denetlenmesi."
@@ -63,6 +68,11 @@ window.GLOSSARY = [
     "en": "architectural style",
     "tr": "mimari stil",
     "note": "Çoğulu: mimari stiller."
+  },
+  {
+    "en": "architectural thinking",
+    "tr": "mimari düşünme",
+    "note": "Şeyleri mimari bir gözle ya da mimari bir bakış açısıyla görme; Bölüm 2'nin adı ve ana kavramı."
   },
   {
     "en": "architecture characteristics",
@@ -83,6 +93,11 @@ window.GLOSSARY = [
     "en": "architecture decisions",
     "tr": "mimari kararlar",
     "note": "Sistemin yapısını ve davranışını önemli ölçüde etkileyen; gerekçesiyle birlikte kaydedilmesi gereken seçimler."
+  },
+  {
+    "en": "architecture patterns",
+    "tr": "mimari desenler",
+    "note": "sorun alanına uygun mimari desen ve stillerin seçilmesi bağlamında; design patterns (tasarım desenleri) ile ilişkili."
   },
   {
     "en": "architecture review board (ARB)",
@@ -125,6 +140,11 @@ window.GLOSSARY = [
     "note": "Doğru kabul edilen temel önerme"
   },
   {
+    "en": "bidirectional communication",
+    "tr": "çift yönlü iletişim",
+    "note": "mimar ile geliştirme ekipleri arasında kararların iki yönde aktığı iletişim biçimi."
+  },
+  {
     "en": "Big Design Up Front",
     "tr": "Önden Büyük Tasarım",
     "note": "BDUF kısaltmasıyla da bilinir."
@@ -143,6 +163,11 @@ window.GLOSSARY = [
     "en": "business domain knowledge",
     "tr": "iş alanı bilgisi",
     "note": "mimarların iş alanını anlaması; 'have business domain knowledge' beklentisi"
+  },
+  {
+    "en": "business drivers",
+    "tr": "iş etkenleri",
+    "note": "Mimari kaygılara dönüşen iş tarafındaki itici güçler (kayıp sipariş istememe, hız, maliyet gibi)."
   },
   {
     "en": "business layer",
@@ -190,6 +215,16 @@ window.GLOSSARY = [
     "note": "ARB yoksa sapma taleplerini değerlendiren kişi"
   },
   {
+    "en": "class diagram",
+    "tr": "sınıf diyagramı",
+    "note": "her bileşen için oluşturulan, sınıfları ve ilişkilerini gösteren diyagram."
+  },
+  {
+    "en": "coaching",
+    "tr": "koçluk",
+    "note": "mimarın geliştiricilere yönelik birebir yönlendirmesi."
+  },
+  {
     "en": "code base",
     "tr": "kod tabanı",
     "note": ""
@@ -213,6 +248,11 @@ window.GLOSSARY = [
     "en": "component",
     "tr": "bileşen",
     "note": "Çoğulu: bileşenler."
+  },
+  {
+    "en": "connascence",
+    "tr": "eşdoğuş (connascence)",
+    "note": "İki bileşenin, birindeki değişiklik diğerinde de değişikliği zorunlu kılıyorsa eşdoğuşlu olduğu söylenir; Bölüm 3'te (Modülerlik) ayrıntılı ele alınır."
   },
   {
     "en": "constraint",
@@ -523,6 +563,11 @@ window.GLOSSARY = [
     "en": "machine provisioning",
     "tr": "makine sağlama",
     "note": "Sunucu ve kaynakların otomatik olarak hazırlanması."
+  },
+  {
+    "en": "mentoring",
+    "tr": "rehberlik",
+    "note": "mimarın geliştiricilere yol göstermesi; coaching (koçluk) ile birlikte anılır."
   },
   {
     "en": "metrics",

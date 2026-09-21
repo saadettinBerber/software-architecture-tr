@@ -9,7 +9,7 @@ window.TOC = {
   },
   "bookTotalPages": 399,
   "pdfOffset": 20,
-  "lastTranslatedPage": 20,
+  "lastTranslatedPage": 24,
   "chapters": [
     {
       "num": 1,
@@ -414,6 +414,42 @@ window.TOC = {
         "tr": "Yazılım Mimarisi Yasaları"
       },
       "chapter": 1
+    },
+    "21": {
+      "title": {
+        "en": "",
+        "tr": ""
+      },
+      "section": {
+        "en": "",
+        "tr": ""
+      },
+      "chapter": 1
+    },
+    "23": {
+      "title": {
+        "en": "Architectural Thinking",
+        "tr": "Mimari Düşünme"
+      },
+      "section": {
+        "en": "Architectural Thinking",
+        "tr": "Mimari Düşünme"
+      },
+      "chapter": 2
+    },
+    "24": {
+      "title": {
+        "en": "Architecture Versus Design",
+        "tr": "Mimari ve Tasarım"
+      },
+      "section": {
+        "en": "Architecture Versus Design",
+        "tr": "Mimari ve Tasarım"
+      },
+      "chapter": 2
+    },
+    "22": {
+      "blank": true
     }
   }
 };
