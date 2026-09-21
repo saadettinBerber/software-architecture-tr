@@ -145,6 +145,11 @@ window.GLOSSARY = [
     "note": "Kaynakların ihtiyaca göre otomatik artırılıp azaltılması."
   },
   {
+    "en": "automation",
+    "tr": "otomasyon",
+    "note": "Araç ve betiklerle tekrarlayan işlerin otomatikleştirilmesi."
+  },
+  {
     "en": "availability",
     "tr": "kullanılabilirlik",
     "note": "Bir mimari özellik (“-ility”)"
@@ -188,6 +193,11 @@ window.GLOSSARY = [
     "en": "blueprint",
     "tr": "mavi baskı (blueprint)",
     "note": "Sistemin yapısını gösteren plan şeması"
+  },
+  {
+    "en": "bottleneck trap",
+    "tr": "darboğaz tuzağı",
+    "note": "Mimarın projenin kritik yolundaki kodun sahipliğini alması ve ekibin ilerlemesini bloklaması durumu."
   },
   {
     "en": "business domain",
@@ -245,6 +255,11 @@ window.GLOSSARY = [
     "note": "Kitapta architectural characteristics → mimari özellikler anlamında."
   },
   {
+    "en": "checklist",
+    "tr": "kontrol listesi",
+    "note": "Tamamlanması gereken adımların listesi; otomatik kontrol listeleri bağlamında."
+  },
+  {
     "en": "chief architect",
     "tr": "baş mimar",
     "note": "ARB yoksa sapma taleplerini değerlendiren kişi"
@@ -263,6 +278,11 @@ window.GLOSSARY = [
     "en": "code base",
     "tr": "kod tabanı",
     "note": ""
+  },
+  {
+    "en": "code review",
+    "tr": "kod incelemesi",
+    "note": "Bir geliştiricinin yazdığı kodun başka bir kişi tarafından gözden geçirilmesi; çoğulu kod incelemeleri."
   },
   {
     "en": "collaboration",
@@ -328,6 +348,11 @@ window.GLOSSARY = [
     "en": "coupling",
     "tr": "bağlılık",
     "note": "Bileşenlerin birbirine bağımlılık derecesi"
+  },
+  {
+    "en": "critical path",
+    "tr": "kritik yol",
+    "note": "Proje yönetiminde, bir projenin tamamlanma süresini belirleyen görevler dizisi; burada mimarinin darboğazı olabilecek kod bağlamında kullanılır."
   },
   {
     "en": "CRM",
@@ -495,6 +520,11 @@ window.GLOSSARY = [
     "note": "toplantı/çalışma yürütme becerisi"
   },
   {
+    "en": "fault tolerance",
+    "tr": "hata toleransı",
+    "note": "Sistemin bileşen arızalarına rağmen çalışmaya devam edebilme yeteneği."
+  },
+  {
     "en": "feature toggles",
     "tr": "özellik anahtarları",
     "note": "Davranışı kod değişikliği olmadan açıp kapatmayı sağlayan bayraklar"
@@ -653,6 +683,11 @@ window.GLOSSARY = [
     "en": "layered architecture",
     "tr": "katmanlı mimari",
     "note": "Katmanlar halinde düzenlenmiş mimari stili"
+  },
+  {
+    "en": "lint test",
+    "tr": "lint testi",
+    "note": "Kodda olası hataları ve biçim sorunlarını denetleyen test; lint terimi korunur."
   },
   {
     "en": "load balancing",
@@ -845,6 +880,11 @@ window.GLOSSARY = [
     "note": "Ürün gereksinimlerinden ve önceliklerden sorumlu paydaş"
   },
   {
+    "en": "production-quality code",
+    "tr": "üretim kalitesinde kod",
+    "note": "Üretim ortamına girebilecek kalitede yazılan kod."
+  },
+  {
     "en": "programmatic load balancing",
     "tr": "programatik yük dengeleme",
     "note": "Kod aracılığıyla yapılan yük dengeleme."
@@ -853,6 +893,11 @@ window.GLOSSARY = [
     "en": "project manager",
     "tr": "proje yöneticisi",
     "note": "Proje planlaması ve yürütmesinden sorumlu kişi"
+  },
+  {
+    "en": "proof-of-concept (POC)",
+    "tr": "kavram kanıtı (POC)",
+    "note": "Bir mimari kararı doğrulamak için geliştirilen çalışan örnek; POC kısaltması korunur."
   },
   {
     "en": "publish-and-subscribe",
@@ -873,6 +918,16 @@ window.GLOSSARY = [
     "en": "reactive-based framework",
     "tr": "tepkisel tabanlı çerçeve",
     "note": "Angular, Elm, React.js, Vue gibi ön uç web çerçeveleri."
+  },
+  {
+    "en": "refactoring",
+    "tr": "refaktoring (yeniden düzenleme)",
+    "note": "Davranışı değiştirmeden kodun iç yapısını iyileştirme."
+  },
+  {
+    "en": "reference architecture",
+    "tr": "referans mimari",
+    "note": "Başkalarının izleyebileceği, örnek alınan mimari."
   },
   {
     "en": "release",
@@ -990,6 +1045,11 @@ window.GLOSSARY = [
     "note": "Sektörü etkileyen topluluk, araç ve trendler bütünü."
   },
   {
+    "en": "source validator",
+    "tr": "kaynak doğrulayıcı",
+    "note": "Kaynak kodu belirli kodlama kurallarına göre otomatik denetleyen araç."
+  },
+  {
     "en": "Space-Based Architecture",
     "tr": "Alan Tabanlı Mimari",
     "note": "Bölüm 15'te ele alınan, yüksek ölçek için veriyi dağıtan mimari stili."
@@ -1060,6 +1120,11 @@ window.GLOSSARY = [
     "note": ""
   },
   {
+    "en": "technical debt",
+    "tr": "teknik borç",
+    "note": "Kısa vadeli ya da acele çözümlerin biriktirdiği, sonradan ödenmesi gereken kod/tasarım borcu."
+  },
+  {
     "en": "technical depth",
     "tr": "teknik derinlik",
     "note": ""
@@ -1083,6 +1148,11 @@ window.GLOSSARY = [
     "en": "testing environment",
     "tr": "test ortamı",
     "note": "Değişikliklerin test edildiği ortam."
+  },
+  {
+    "en": "throwaway code",
+    "tr": "atılacak kod",
+    "note": "Yalnızca hızlı doğrulama için yazılan, üretime girmesi amaçlanmayan kod."
   },
   {
     "en": "topic",
@@ -1118,6 +1188,11 @@ window.GLOSSARY = [
     "en": "uptime",
     "tr": "çalışma süresi",
     "note": "Sistemin kullanılabilir olduğu süre oranı"
+  },
+  {
+    "en": "user story",
+    "tr": "kullanıcı hikâyesi",
+    "note": "Çevik geliştirmede, kullanıcı ihtiyacını kısa ve iş dilinde anlatan iş öğesi."
   },
   {
     "en": "variance",

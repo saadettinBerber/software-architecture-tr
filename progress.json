@@ -26,7 +26,7 @@
     "header_at_bottom": true,
     "chapter_label_pattern": "^CHAPTER (\\d+)$"
   },
-  "last_translated_page": 33,
+  "last_translated_page": 36,
   "chapters": [
     {
       "num": 1,
@@ -445,6 +445,30 @@
       "title_tr": "Topic'lerin Ödünleşimleri",
       "section_en": "Analyzing Trade-Offs",
       "section_tr": "Ödünleşimleri Analiz Etmek"
+    },
+    "34": {
+      "pdf_page": 54,
+      "chapter": 2,
+      "title_en": "Understanding Business Drivers and Balancing Hands-On Coding",
+      "title_tr": "İş Etkenlerini Anlamak ve Uygulamalı Kodlamayı Dengelemek",
+      "section_en": "Analyzing Trade-Offs",
+      "section_tr": "Ödünleşimleri Analiz Etmek"
+    },
+    "35": {
+      "pdf_page": 55,
+      "chapter": 2,
+      "title_en": "Balancing Architecture and Hands-On Coding",
+      "title_tr": "Mimari ile Uygulamalı Kodlamayı Dengelemek",
+      "section_en": "Balancing Architecture and Hands-On Coding",
+      "section_tr": "Mimari ile Uygulamalı Kodlamayı Dengelemek"
+    },
+    "36": {
+      "pdf_page": 56,
+      "chapter": 2,
+      "title_en": "Automation and Code Reviews",
+      "title_tr": "Otomasyon ve Kod İncelemeleri",
+      "section_en": "Balancing Architecture and Hands-On Coding",
+      "section_tr": "Mimariyi ve Uygulamalı Kodlamayı Dengeleme"
     }
   }
 }

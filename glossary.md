@@ -38,6 +38,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | asynchronous messaging | asenkron mesajlaşma | servisler arası iletişimde yanıt beklemeden mesaj gönderme |
 | auction system | açık artırma sistemi | Kitabın ödünleşim örneğindeki gibi, eşyaların açık artırmayla satıldığı sistem. |
 | auto-scaling | otomatik ölçekleme | Kaynakların ihtiyaca göre otomatik artırılıp azaltılması. |
+| automation | otomasyon | Araç ve betiklerle tekrarlayan işlerin otomatikleştirilmesi. |
 | availability | kullanılabilirlik | Bir mimari özellik (“-ility”) |
 | average directional index | ortalama yönlü endeks | finansal terim; piyasa trend ölçüsü |
 | axiom | aksiyom | Doğru kabul edilen temel önerme |
@@ -47,6 +48,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | bidirectional communication | çift yönlü iletişim | mimar ile geliştirme ekipleri arasında kararların iki yönde aktığı iletişim biçimi. |
 | Big Design Up Front | Önden Büyük Tasarım | BDUF kısaltmasıyla da bilinir. |
 | blueprint | mavi baskı (blueprint) | Sistemin yapısını gösteren plan şeması |
+| bottleneck trap | darboğaz tuzağı | Mimarın projenin kritik yolundaki kodun sahipliğini alması ve ekibin ilerlemesini bloklaması durumu. |
 | business domain | iş alanı | business domain expertise bağlamında |
 | business domain knowledge | iş alanı bilgisi | mimarların iş alanını anlaması; 'have business domain knowledge' beklentisi |
 | business drivers | iş etkenleri | Mimari kaygılara dönüşen iş tarafındaki itici güçler (kayıp sipariş istememe, hız, maliyet gibi). |
@@ -58,10 +60,12 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | change control | değişiklik kontrolü | değişikliklerin izlenmesi ve onaylanması süreci |
 | chaos engineering | kaos mühendisliği | Sistemin dayanıklılığını bilinçli arıza enjekte ederek test etme yöntemi. |
 | characteristics | özellikler | Kitapta architectural characteristics → mimari özellikler anlamında. |
+| checklist | kontrol listesi | Tamamlanması gereken adımların listesi; otomatik kontrol listeleri bağlamında. |
 | chief architect | baş mimar | ARB yoksa sapma taleplerini değerlendiren kişi |
 | class diagram | sınıf diyagramı | her bileşen için oluşturulan, sınıfları ve ilişkilerini gösteren diyagram. |
 | coaching | koçluk | mimarın geliştiricilere yönelik birebir yönlendirmesi. |
 | code base | kod tabanı |  |
+| code review | kod incelemesi | Bir geliştiricinin yazdığı kodun başka bir kişi tarafından gözden geçirilmesi; çoğulu kod incelemeleri. |
 | collaboration | iş birliği | mimar ile geliştirme ekibi arasındaki yakın çalışma |
 | comfort zone | konfor alanı | beceri/sorumluluk bağlamında |
 | communication protocol | iletişim protokolü | servisler arası iletişimde kullanılan protokol (REST, gRPC gibi) |
@@ -75,6 +79,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | contract | sözleşme | Mesajlaşmada üzerinde anlaşılan mesaj yapısı/biçimi. |
 | corollary | vargı | Bir yasadan çıkarılan doğal sonuç (Corollary 1 → Vargı 1). |
 | coupling | bağlılık | Bileşenlerin birbirine bağımlılık derecesi |
+| critical path | kritik yol | Proje yönetiminde, bir projenin tamamlanma süresini belirleyen görevler dizisi; burada mimarinin darboğazı olabilecek kod bağlamında kullanılır. |
 | CRM | müşteri ilişkileri yönetimi (CRM) | customer relationship management kısaltması |
 | customer relationship management | müşteri ilişkileri yönetimi | CRM olarak da bilinir |
 | cyclomatic complexity | döngüsel karmaşıklık | kod karmaşıklığını ölçen metrik |
@@ -108,6 +113,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | external data storage | harici veri depolama | Uygulama dışında barındırılan veri deposu (veritabanı vb.). |
 | Extreme Programming (XP) | Extreme Programming (XP) | Yerleşmiş terim; Türkçe karşılığı yaygın değildir, İngilizce hâliyle kullanılır. |
 | facilitation | kolaylaştırıcılık | toplantı/çalışma yürütme becerisi |
+| fault tolerance | hata toleransı | Sistemin bileşen arızalarına rağmen çalışmaya devam edebilme yeteneği. |
 | feature toggles | özellik anahtarları | Davranışı kod değişikliği olmadan açıp kapatmayı sağlayan bayraklar |
 | feedback loop | geri bildirim döngüsü | Kararların sonucunun hızla değerlendirilmesini sağlayan döngü; Çevik yaklaşımın temel avantajı |
 | First Law of Software Architecture | Yazılım Mimarisi Birinci Yasası | “Yazılım mimarisindeki her şey bir ödünleşimdir.” |
@@ -140,6 +146,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | Laws of Software Architecture | Yazılım Mimarisi Yasaları | Bölüm 1'in kesit başlığı ve sayfa 19'un koşu başlığı. |
 | layered | katmanlı | Katmanlı mimari stili |
 | layered architecture | katmanlı mimari | Katmanlar halinde düzenlenmiş mimari stili |
+| lint test | lint testi | Kodda olası hataları ve biçim sorunlarını denetleyen test; lint terimi korunur. |
 | load balancing | yük dengeleme | İş yükünün tüketiciler arasında dağıtılması. |
 | loose coupling | gevşek bağlılık | Bileşenler arası bağımlılığın az olması |
 | machine provisioning | makine sağlama | Sunucu ve kaynakların otomatik olarak hazırlanması. |
@@ -178,12 +185,16 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | process-agnostic | süreçten bağımsız | Belirli bir sürece bağlı olmayan. |
 | producer | üretici | Mesajlaşmada mesajı gönderen taraf. |
 | product owner | ürün sahibi | Ürün gereksinimlerinden ve önceliklerden sorumlu paydaş |
+| production-quality code | üretim kalitesinde kod | Üretim ortamına girebilecek kalitede yazılan kod. |
 | programmatic load balancing | programatik yük dengeleme | Kod aracılığıyla yapılan yük dengeleme. |
 | project manager | proje yöneticisi | Proje planlaması ve yürütmesinden sorumlu kişi |
+| proof-of-concept (POC) | kavram kanıtı (POC) | Bir mimari kararı doğrulamak için geliştirilen çalışan örnek; POC kısaltması korunur. |
 | publish-and-subscribe | yayınla-abone ol | Üreticinin bir konuya (topic) yayınladığı mesajı tüm abonelerin aldığı mesajlaşma modeli. |
 | queue | kuyruk | Mesajlaşmada, bir mesajı tek bir tüketiciye ulaştıran sıra; point-to-point modelin temel öğesi. |
 | rates rally | oran rallisi | finansal terim; faiz oranlarındaki yükseliş |
 | reactive-based framework | tepkisel tabanlı çerçeve | Angular, Elm, React.js, Vue gibi ön uç web çerçeveleri. |
+| refactoring | refaktoring (yeniden düzenleme) | Davranışı değiştirmeden kodun iç yapısını iyileştirme. |
+| reference architecture | referans mimari | Başkalarının izleyebileceği, örnek alınan mimari. |
 | release | sürüm | Yazılımın kullanıcılara yayınlanması. |
 | release environment | sürüm ortamı | Sürümün hazırlandığı, doğrulandığı ve yayınlandığı ortam. |
 | remote access protocol | uzaktan erişim protokolü | REST, SOAP gibi uzak servis çağrılarında kullanılan protokol |
@@ -207,6 +218,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | software architect | yazılım mimarı | Meslek/rol adı. |
 | software architecture | yazılım mimarisi | Disiplin adı; kitabın ana konusu. |
 | software development ecosystem | yazılım geliştirme ekosistemi | Sektörü etkileyen topluluk, araç ve trendler bütünü. |
+| source validator | kaynak doğrulayıcı | Kaynak kodu belirli kodlama kurallarına göre otomatik denetleyen araç. |
 | Space-Based Architecture | Alan Tabanlı Mimari | Bölüm 15'te ele alınan, yüksek ölçek için veriyi dağıtan mimari stili. |
 | stakeholders | paydaşlar |  |
 | stale expertise | bayat uzmanlık | Güncelliğini yitirmiş bilginin hâlâ en ileri düzey olduğu yanılgısı; uzmanlığın sürdürülmemesi sonucu oluşur. |
@@ -221,11 +233,13 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | symbiotic relationship | simbiyotik ilişki | Birbirini tamamlayan ve destekleyen karşılıklı ilişki. |
 | teamwork | takım çalışması |  |
 | technical breadth | teknik genişlik |  |
+| technical debt | teknik borç | Kısa vadeli ya da acele çözümlerin biriktirdiği, sonradan ödenmesi gereken kod/tasarım borcu. |
 | technical depth | teknik derinlik |  |
 | technical leader | teknik lider | Ekibin mühendislik kararlarını yönlendiren kişi. |
 | technologist | teknoloji uzmanı | teknolojik bilgiyi kullanan, geliştirici veya mimar gibi teknik profesyonel |
 | test-first development | önce test geliştirme | Kod yazılmadan önce testin yazıldığı geliştirme yaklaşımı. |
 | testing environment | test ortamı | Değişikliklerin test edildiği ortam. |
+| throwaway code | atılacak kod | Yalnızca hızlı doğrulama için yazılan, üretime girmesi amaçlanmayan kod. |
 | topic | topic | Yayınla-abone ol modelinde birden çok abonenin aynı mesajı aldığı kanal. |
 | topology | topoloji | Sistem bileşenlerinin bağlantı ve dağılım yapısı. |
 | trade-off | ödünleşim | Bir fayda için başka bir özellikten vazgeçme; metinde İngilizcesiyle de kullanılır |
@@ -233,6 +247,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | unit tests | birim testleri | Tek bir kod birimini izole biçimde doğrulayan testler. |
 | unknown unknowns | bilinmeyen bilinmeyenler |  |
 | uptime | çalışma süresi | Sistemin kullanılabilir olduğu süre oranı |
+| user story | kullanıcı hikâyesi | Çevik geliştirmede, kullanıcı ihtiyacını kısa ve iş dilinde anlatan iş öğesi. |
 | variance | sapma | bir standarda veya mimari karara incelenip onaylanan istisna/muafiyet |
 | variance model | sapma modeli | sapma talep sürecini biçimlendiren kurumsal model |
 | verification mechanism | doğrulama mekanizması | Bir özelliğin veya parçanın durumunu otomatik olarak doğrulayan mekanizma. |
