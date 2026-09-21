@@ -375,6 +375,66 @@ window.GLOSSARY = [
     "note": "İki bileşenin, birindeki değişiklik diğerinde de değişikliği zorunlu kılıyorsa eşdoğuşlu olduğu söylenir; Bölüm 3'te (Modülerlik) ayrıntılı ele alınır."
   },
   {
+    "en": "Connascence of Algorithm (CoA)",
+    "tr": "Algoritma Eşdoğuşu (CoA)",
+    "note": "Statik eşdoğuş türlerinden biri; birden çok bileşenin belirli bir algoritma üzerinde anlaşmasını gerektirir."
+  },
+  {
+    "en": "Connascence of Convention (CoC)",
+    "tr": "Uylaşım Eşdoğuşu (CoC)",
+    "note": "Connascence of Meaning ile eş anlamlı kullanılan ad; convention sözcüğü, belirli değerlerin anlamı üzerindeki uzlaşımı ifade eder."
+  },
+  {
+    "en": "Connascence of Execution (CoE)",
+    "tr": "yürütme eşdoğuşu (CoE)",
+    "note": "Birden çok bileşenin yürütülme sırasının önemli olduğu dinamik eşdoğuş türü."
+  },
+  {
+    "en": "Connascence of Identity (CoI)",
+    "tr": "kimlik eşdoğuşu (CoI)",
+    "note": "Birden çok bileşenin aynı varlığa başvurması gerektiği dinamik eşdoğuş türü."
+  },
+  {
+    "en": "connascence of meaning",
+    "tr": "anlam eşdoğuşu",
+    "note": "Birden çok bileşenin belirli bir değerin ne anlama geldiği konusunda anlaşması gereken eşdoğuş türü; connascence of convention (kural eşdoğuşu) ile eşanlamlı."
+  },
+  {
+    "en": "Connascence of Meaning (CoM)",
+    "tr": "Anlam Eşdoğuşu (CoM)",
+    "note": "Statik eşdoğuş türlerinden biri; birden çok bileşenin belirli değerlerin anlamı üzerinde anlaşmasını gerektirir."
+  },
+  {
+    "en": "connascence of name",
+    "tr": "ad eşdoğuşu",
+    "note": "Birden çok bileşenin bir varlığın adı üzerinde anlaşması gereken eşdoğuş türü; en yaygın ve en çok tercih edilen biçimdir."
+  },
+  {
+    "en": "Connascence of Name (CoN)",
+    "tr": "Ad Eşdoğuşu (CoN)",
+    "note": "Statik eşdoğuş türlerinden biri; birden çok bileşenin bir varlığın adı (ör. metot adı) üzerinde anlaşmasını gerektirir."
+  },
+  {
+    "en": "Connascence of Position (CoP)",
+    "tr": "Konum Eşdoğuşu (CoP)",
+    "note": "Statik eşdoğuş türlerinden biri; birden çok bileşenin değerlerin sırası (ör. parametre düzeni) üzerinde anlaşmasını gerektirir."
+  },
+  {
+    "en": "Connascence of Timing (CoT)",
+    "tr": "zamanlama eşdoğuşu (CoT)",
+    "note": "Birden çok bileşenin yürütülme zamanının önemli olduğu dinamik eşdoğuş türü; tipik örneği yarış durumudur (race condition)."
+  },
+  {
+    "en": "Connascence of Type (CoT)",
+    "tr": "Tür Eşdoğuşu (CoT)",
+    "note": "Statik eşdoğuş türlerinden biri; birden çok bileşenin bir varlığın türü üzerinde anlaşmasını gerektirir."
+  },
+  {
+    "en": "Connascence of Values (CoV)",
+    "tr": "değer eşdoğuşu (CoV)",
+    "note": "Birbiriyle ilişkili birden çok değerin birlikte değişmesi gerektiği dinamik eşdoğuş türü."
+  },
+  {
     "en": "constraint",
     "tr": "kısıt",
     "note": "Sistemi ve geliştirme ekiplerini sınırlayan mimari karar ya da kural"
@@ -445,6 +505,11 @@ window.GLOSSARY = [
     "note": "Sunucu ve ağ altyapısının barındırıldığı tesis"
   },
   {
+    "en": "data structure",
+    "tr": "veri yapısı",
+    "note": "Verinin düzenlenip saklanma biçimi; bütünlüğü (integrity) korumak için öğelerin birlikte değişmesi gerekebilir."
+  },
+  {
     "en": "database schema",
     "tr": "veri tabanı şeması",
     "note": ""
@@ -510,6 +575,16 @@ window.GLOSSARY = [
     "note": "Soyutluk–kararsızlık grafiğinde bir bileşenin ana diziden (A+I=1 doğrusu) uzaklığı; D = A + I − 1 ile hesaplanır, normalleştirilmiş biçimi |A + I − 1|'dir."
   },
   {
+    "en": "distributed queue",
+    "tr": "dağıtık kuyruk",
+    "note": "Birden çok bileşenin paylaşıp güncellediği, dağıtık ortamda yaşayan kuyruk."
+  },
+  {
+    "en": "distributed systems",
+    "tr": "dağıtık sistemler",
+    "note": "Birden çok makinede çalışan ve birbirleriyle ağ üzerinden iletişim kuran sistemler."
+  },
+  {
     "en": "domain",
     "tr": "alan (domain)",
     "note": "Problem alanı bağlamında."
@@ -518,6 +593,16 @@ window.GLOSSARY = [
     "en": "don't repeat yourself (DRY)",
     "tr": "kendini tekrar etme (DRY)",
     "note": "Kod tekrarını önleyen tasarım ilkesi"
+  },
+  {
+    "en": "dynamic connascence",
+    "tr": "dinamik eşdoğuş",
+    "note": "Çağrıları çalışma zamanında analiz eden eşdoğuş türü; statik eşdoğuşun (static connascence) karşıtı."
+  },
+  {
+    "en": "dynamically typed language",
+    "tr": "dinamik tipli dil",
+    "note": "Türlerin çalışma zamanında belirlendiği programlama dili."
   },
   {
     "en": "ecosystem",
@@ -715,9 +800,24 @@ window.GLOSSARY = [
     "note": "hands-on knowledge bağlamında"
   },
   {
+    "en": "handshake",
+    "tr": "el sıkışma",
+    "note": "İki tarafın protokol üzerinde anlaştığını doğrulayan karşılıklı el sıkışma adımı; ağ/doğrulama bağlamında."
+  },
+  {
     "en": "hard-and-fast rule",
     "tr": "katı ve kesin kural",
     "note": "istisnası olmayan, koşulsuz uygulanan kural"
+  },
+  {
+    "en": "hard-coded",
+    "tr": "sabit kodlanmış",
+    "note": "Değerlerin, adlandırılmış sabitler yerine doğrudan koda yazılması; genellikle bakımı zorlaştırır."
+  },
+  {
+    "en": "hashing algorithm",
+    "tr": "karma algoritması",
+    "note": "İki tarafın (sunucu/istemci) aynı sonucu üretmesi gereken özet/karma üretim algoritması."
   },
   {
     "en": "heterogeneous",
@@ -873,6 +973,11 @@ window.GLOSSARY = [
     "en": "machine provisioning",
     "tr": "makine sağlama",
     "note": "Sunucu ve kaynakların otomatik olarak hazırlanması."
+  },
+  {
+    "en": "magic value",
+    "tr": "sihirli değer",
+    "note": "Adlandırılmış bir sabite bağlanmamış, kaynak kod içinde doğrudan yazılmış sayı/dizge değeri."
   },
   {
     "en": "main sequence",
@@ -1160,6 +1265,11 @@ window.GLOSSARY = [
     "note": "Mesajlaşmada, bir mesajı tek bir tüketiciye ulaştıran sıra; point-to-point modelin temel öğesi."
   },
   {
+    "en": "race condition",
+    "tr": "yarış durumu",
+    "note": "İki iş parçacığının aynı anda çalışıp ortak işlemin sonucunu etkilemesiyle ortaya çıkan durum."
+  },
+  {
     "en": "rates rally",
     "tr": "oran rallisi",
     "note": "finansal terim; faiz oranlarındaki yükseliş"
@@ -1235,6 +1345,11 @@ window.GLOSSARY = [
     "note": "Kurallar dışına çıkan, izinsiz davranan servis."
   },
   {
+    "en": "runtime",
+    "tr": "çalışma zamanı",
+    "note": "Programın çalıştığı an; execution-time ile eş anlamlı kullanılır (kaynak kod düzeyi analizinin karşıtı)."
+  },
+  {
     "en": "scalability",
     "tr": "ölçeklenebilirlik",
     "note": "Bir mimari özellik (“-ility”)"
@@ -1258,6 +1373,11 @@ window.GLOSSARY = [
     "en": "security breach",
     "tr": "güvenlik ihlali",
     "note": "Güvenliğin ihlal edildiği olay/olay örüntüsü."
+  },
+  {
+    "en": "selective typing",
+    "tr": "seçici tipleme",
+    "note": "Bazı dinamik tipli dillerin (Clojure, Clojure Spec) değişkenleri belirli türlerle sınırlama yeteneği."
   },
   {
     "en": "sequential cohesion",
@@ -1363,6 +1483,16 @@ window.GLOSSARY = [
     "en": "static initializer",
     "tr": "statik başlatıcı",
     "note": "Java'da sınıf yüklenirken bir kez çalışan, statik alanları başlatan kod bloğu."
+  },
+  {
+    "en": "static typing",
+    "tr": "statik tipleme",
+    "note": "Değişken ve parametrelerin belirli türlerle sınırlandırılması; statik tipli dillerin yaygın özelliği."
+  },
+  {
+    "en": "statically typed language",
+    "tr": "statik tipli dil",
+    "note": "Değişken ve parametrelerin belirli türlerle sınırlandığı programlama dili."
   },
   {
     "en": "Strangler Pattern",
@@ -1475,6 +1605,11 @@ window.GLOSSARY = [
     "note": "Değişikliklerin test edildiği ortam."
   },
   {
+    "en": "thread",
+    "tr": "iş parçacığı",
+    "note": "Bir süreç içinde eşzamanlı çalışabilen en küçük yürütme birimi."
+  },
+  {
     "en": "throwaway code",
     "tr": "atılacak kod",
     "note": "Yalnızca hızlı doğrulama için yazılan, üretime girmesi amaçlanmayan kod."
@@ -1498,6 +1633,11 @@ window.GLOSSARY = [
     "en": "trade-off",
     "tr": "ödünleşim",
     "note": "Bir fayda için başka bir özellikten vazgeçme; metinde İngilizcesiyle de kullanılır"
+  },
+  {
+    "en": "transaction",
+    "tr": "işlem (transaction)",
+    "note": "Bir bütün olarak gerçekleştirilmesi gereken; tüm değerlerin birlikte değiştiği atomik veri işleme birimi."
   },
   {
     "en": "traveling salesperson problem",

@@ -84,6 +84,18 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | compliance | uyum | mimari kararlara uygun davranma; 'ensure compliance with decisions' beklentisi |
 | component | bileşen | Çoğulu: bileşenler. |
 | connascence | eşdoğuş (connascence) | İki bileşenin, birindeki değişiklik diğerinde de değişikliği zorunlu kılıyorsa eşdoğuşlu olduğu söylenir; Bölüm 3'te (Modülerlik) ayrıntılı ele alınır. |
+| Connascence of Algorithm (CoA) | Algoritma Eşdoğuşu (CoA) | Statik eşdoğuş türlerinden biri; birden çok bileşenin belirli bir algoritma üzerinde anlaşmasını gerektirir. |
+| Connascence of Convention (CoC) | Uylaşım Eşdoğuşu (CoC) | Connascence of Meaning ile eş anlamlı kullanılan ad; convention sözcüğü, belirli değerlerin anlamı üzerindeki uzlaşımı ifade eder. |
+| Connascence of Execution (CoE) | yürütme eşdoğuşu (CoE) | Birden çok bileşenin yürütülme sırasının önemli olduğu dinamik eşdoğuş türü. |
+| Connascence of Identity (CoI) | kimlik eşdoğuşu (CoI) | Birden çok bileşenin aynı varlığa başvurması gerektiği dinamik eşdoğuş türü. |
+| connascence of meaning | anlam eşdoğuşu | Birden çok bileşenin belirli bir değerin ne anlama geldiği konusunda anlaşması gereken eşdoğuş türü; connascence of convention (kural eşdoğuşu) ile eşanlamlı. |
+| Connascence of Meaning (CoM) | Anlam Eşdoğuşu (CoM) | Statik eşdoğuş türlerinden biri; birden çok bileşenin belirli değerlerin anlamı üzerinde anlaşmasını gerektirir. |
+| connascence of name | ad eşdoğuşu | Birden çok bileşenin bir varlığın adı üzerinde anlaşması gereken eşdoğuş türü; en yaygın ve en çok tercih edilen biçimdir. |
+| Connascence of Name (CoN) | Ad Eşdoğuşu (CoN) | Statik eşdoğuş türlerinden biri; birden çok bileşenin bir varlığın adı (ör. metot adı) üzerinde anlaşmasını gerektirir. |
+| Connascence of Position (CoP) | Konum Eşdoğuşu (CoP) | Statik eşdoğuş türlerinden biri; birden çok bileşenin değerlerin sırası (ör. parametre düzeni) üzerinde anlaşmasını gerektirir. |
+| Connascence of Timing (CoT) | zamanlama eşdoğuşu (CoT) | Birden çok bileşenin yürütülme zamanının önemli olduğu dinamik eşdoğuş türü; tipik örneği yarış durumudur (race condition). |
+| Connascence of Type (CoT) | Tür Eşdoğuşu (CoT) | Statik eşdoğuş türlerinden biri; birden çok bileşenin bir varlığın türü üzerinde anlaşmasını gerektirir. |
+| Connascence of Values (CoV) | değer eşdoğuşu (CoV) | Birbiriyle ilişkili birden çok değerin birlikte değişmesi gerektiği dinamik eşdoğuş türü. |
 | constraint | kısıt | Sistemi ve geliştirme ekiplerini sınırlayan mimari karar ya da kural |
 | consumer | tüketici | Mesajlaşmada mesajı alan taraf. |
 | continuous delivery | sürekli teslim | Yazılımın her an yayınlanabilir durumda tutulduğu uygulama. |
@@ -98,6 +110,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | cyclomatic complexity | döngüsel karmaşıklık | kod karmaşıklığını ölçen metrik |
 | data architecture | veri mimarisi | Verinin nasıl saklanacağını ve erişileceğini düzenleyen mimari yaklaşım. |
 | data center | veri merkezi | Sunucu ve ağ altyapısının barındırıldığı tesis |
+| data structure | veri yapısı | Verinin düzenlenip saklanma biçimi; bütünlüğü (integrity) korumak için öğelerin birlikte değişmesi gerekebilir. |
 | database schema | veri tabanı şeması |  |
 | database server | veritabanı sunucusu | Veritabanı yönetimini barındıran sunucu |
 | decoupled | gevşek bağlı | coupling (bağlılık) karşıtı; topic yaklaşımının üreticiyi tüketicilerden ayırması bağlamında |
@@ -111,8 +124,12 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | DevOps | DevOps | Yerleşmiş terim; bu hâliyle kullanılır. |
 | directory | dizin | Dosya sisteminde dosyaları gruplayan yapı; klasör. |
 | distance from the main sequence | ana diziden uzaklık | Soyutluk–kararsızlık grafiğinde bir bileşenin ana diziden (A+I=1 doğrusu) uzaklığı; D = A + I − 1 ile hesaplanır, normalleştirilmiş biçimi |A + I − 1|'dir. |
+| distributed queue | dağıtık kuyruk | Birden çok bileşenin paylaşıp güncellediği, dağıtık ortamda yaşayan kuyruk. |
+| distributed systems | dağıtık sistemler | Birden çok makinede çalışan ve birbirleriyle ağ üzerinden iletişim kuran sistemler. |
 | domain | alan (domain) | Problem alanı bağlamında. |
 | don't repeat yourself (DRY) | kendini tekrar etme (DRY) | Kod tekrarını önleyen tasarım ilkesi |
+| dynamic connascence | dinamik eşdoğuş | Çağrıları çalışma zamanında analiz eden eşdoğuş türü; statik eşdoğuşun (static connascence) karşıtı. |
+| dynamically typed language | dinamik tipli dil | Türlerin çalışma zamanında belirlendiği programlama dili. |
 | ecosystem | ekosistem | Birbirini etkileyen teknoloji, araç ve uygulamaların bütünü |
 | efferent coupling | çıkan bağlılık | Bir kod öğesinden diğer kod öğelerine giden bağlantıların sayısı; Robert Martin'in Ce (fan-out) ölçütü. |
 | elastic scale | esnek ölçekleme | İhtiyaca göre kaynak örneklerini artırıp azaltma yeteneği |
@@ -152,7 +169,10 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | graph theory | çizge kuramı | Çizge (graf) yapılarını inceleyen matematik dalı. |
 | guideline | kılavuz ilke | yol gösteren ama dayatmayan ilke; karşılığı kılavuz/rehber |
 | hands-on | uygulamalı | hands-on knowledge bağlamında |
+| handshake | el sıkışma | İki tarafın protokol üzerinde anlaştığını doğrulayan karşılıklı el sıkışma adımı; ağ/doğrulama bağlamında. |
 | hard-and-fast rule | katı ve kesin kural | istisnası olmayan, koşulsuz uygulanan kural |
+| hard-coded | sabit kodlanmış | Değerlerin, adlandırılmış sabitler yerine doğrudan koda yazılması; genellikle bakımı zorlaştırır. |
+| hashing algorithm | karma algoritması | İki tarafın (sunucu/istemci) aynı sonucu üretmesi gereken özet/karma üretim algoritması. |
 | heterogeneous | heterojen | farklı teknolojilerden oluşan ortam |
 | heterogeneous contracts | heterojen sözleşmeler | Birbirinden farklı yapıdaki mesaj sözleşmeleri. |
 | historical relevance | tarihsel önem | Yalnızca geçmiş bağlamında anlamlı olma durumu |
@@ -184,6 +204,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | logical cohesion | mantıksal bütünlük | Modüldeki verinin işlevsel değil mantıksal olarak ilişkili olduğu uyum türü; örn. StringUtils gibi aynı tür veri üzerinde çalışan ilişkisiz statik yöntemler. |
 | loose coupling | gevşek bağlılık | Bileşenler arası bağımlılığın az olması |
 | machine provisioning | makine sağlama | Sunucu ve kaynakların otomatik olarak hazırlanması. |
+| magic value | sihirli değer | Adlandırılmış bir sabite bağlanmamış, kaynak kod içinde doğrudan yazılmış sayı/dizge değeri. |
 | main sequence | ana dizi | Soyutluk–kararsızlık grafiğinde A+I=1 doğrusu; bu doğrudan uzaklık (distance from the main sequence) ile ölçülür. |
 | mentoring | rehberlik | mimarın geliştiricilere yol göstermesi; coaching (koçluk) ile birlikte anılır. |
 | messaging model | mesajlaşma modeli | yayınla-abone ol ve noktadan noktaya dahil mesajlaşma biçimleri |
@@ -241,6 +262,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | proof-of-concept (POC) | kavram kanıtı (POC) | Bir mimari kararı doğrulamak için geliştirilen çalışan örnek; POC kısaltması korunur. |
 | publish-and-subscribe | yayınla-abone ol | Üreticinin bir konuya (topic) yayınladığı mesajı tüm abonelerin aldığı mesajlaşma modeli. |
 | queue | kuyruk | Mesajlaşmada, bir mesajı tek bir tüketiciye ulaştıran sıra; point-to-point modelin temel öğesi. |
+| race condition | yarış durumu | İki iş parçacığının aynı anda çalışıp ortak işlemin sonucunu etkilemesiyle ortaya çıkan durum. |
 | rates rally | oran rallisi | finansal terim; faiz oranlarındaki yükseliş |
 | reactive-based framework | tepkisel tabanlı çerçeve | Angular, Elm, React.js, Vue gibi ön uç web çerçeveleri. |
 | readability | okunabilirlik | Kodun okunma ve anlaşılma kolaylığı. |
@@ -256,11 +278,13 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | reuse mechanism | yeniden kullanım mekanizması | Kodun farklı yerlerde tekrar kullanılmasını sağlayan platform yeteneği. |
 | roadmap | yol haritası | Bir sistemi geliştirme sürecini gösteren plan |
 | rogue service | başıboş servis | Kurallar dışına çıkan, izinsiz davranan servis. |
+| runtime | çalışma zamanı | Programın çalıştığı an; execution-time ile eş anlamlı kullanılır (kaynak kod düzeyi analizinin karşıtı). |
 | scalability | ölçeklenebilirlik | Bir mimari özellik (“-ility”) |
 | scope (scoping) | kapsam (scoping) | Bir tanımlayıcının görülebildiği ve erişilebildiği bölge; kapsam kuralları. |
 | scoping rules | kapsam kuralları | Bir adın hangi bağlamlarda görünür ve erişilebilir olduğunu belirleyen kurallar. |
 | Second Law of Software Architecture | Yazılım Mimarisi İkinci Yasası | “Neden, nasıl’dan daha önemlidir.” |
 | security breach | güvenlik ihlali | Güvenliğin ihlal edildiği olay/olay örüntüsü. |
+| selective typing | seçici tipleme | Bazı dinamik tipli dillerin (Clojure, Clojure Spec) değişkenleri belirli türlerle sınırlama yeteneği. |
 | sequential cohesion | sıralı bütünlük | Bir modülün çıktısının diğerinin girdisi olduğu bütünlük düzeyi. |
 | service-level agreement (SLA) | hizmet düzeyi anlaşması (SLA) | Çalışma süresi, ölçek, yanıt verebilirlik gibi hizmet ölçütlerini tanımlayan sözleşme |
 | service-oriented architecture (SOA) | servis odaklı mimari | İşlevleri bağımsız servisler olarak düzenleyen mimari yaklaşım. |
@@ -282,6 +306,8 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | stale expertise | bayat uzmanlık | Güncelliğini yitirmiş bilginin hâlâ en ileri düzey olduğu yanılgısı; uzmanlığın sürdürülmemesi sonucu oluşur. |
 | static connascence | statik eşdoğuş | Kaynak kod düzeyindeki eşdoğuş; Structured Design'daki afferent ve efferent bağlılık ölçütlerinin nesne yönelimli dillere uyarlanmış hâli. |
 | static initializer | statik başlatıcı | Java'da sınıf yüklenirken bir kez çalışan, statik alanları başlatan kod bloğu. |
+| static typing | statik tipleme | Değişken ve parametrelerin belirli türlerle sınırlandırılması; statik tipli dillerin yaygın özelliği. |
+| statically typed language | statik tipli dil | Değişken ve parametrelerin belirli türlerle sınırlandığı programlama dili. |
 | Strangler Pattern | Strangler Deseni | Eski sistemi aynı arayüzün arkasında parça parça değiştirerek yeni mimariye geçme deseni |
 | strategy pattern | strateji deseni | GoF tasarım deseni |
 | structural change | yapısal değişiklik | Sistemin yapısını ilgilendiren değişiklik |
@@ -304,11 +330,13 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | temporal cohesion | zamansal bütünlük | Modüllerin zamanlama bağımlılıklarına göre ilişkili olduğu uyum türü; örn. sistem başlangıcında başlatılan görünüşte alakasız görevler. |
 | test-first development | önce test geliştirme | Kod yazılmadan önce testin yazıldığı geliştirme yaklaşımı. |
 | testing environment | test ortamı | Değişikliklerin test edildiği ortam. |
+| thread | iş parçacığı | Bir süreç içinde eşzamanlı çalışabilen en küçük yürütme birimi. |
 | throwaway code | atılacak kod | Yalnızca hızlı doğrulama için yazılan, üretime girmesi amaçlanmayan kod. |
 | tightly coupled | sıkı bağlı | Birbirinin iç yapısına bağımlı, birlikte değişmek zorunda kalan öğelerin durumu. |
 | topic | topic | Yayınla-abone ol modelinde birden çok abonenin aynı mesajı aldığı kanal. |
 | topology | topoloji | Sistem bileşenlerinin bağlantı ve dağılım yapısı. |
 | trade-off | ödünleşim | Bir fayda için başka bir özellikten vazgeçme; metinde İngilizcesiyle de kullanılır |
+| transaction | işlem (transaction) | Bir bütün olarak gerçekleştirilmesi gereken; tüm değerlerin birlikte değiştiği atomik veri işleme birimi. |
 | traveling salesperson problem | gezgin satıcı problemi | Çeşitli şehirler arasındaki en kısa rotayı bulmayı amaçlayan klasik optimizasyon problemi. |
 | unit tests | birim testleri | Tek bir kod birimini izole biçimde doğrulayan testler. |
 | unknown unknowns | bilinmeyen bilinmeyenler |  |

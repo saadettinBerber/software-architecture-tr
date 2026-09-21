@@ -9,7 +9,7 @@ window.TOC = {
   },
   "bookTotalPages": 399,
   "pdfOffset": 20,
-  "lastTranslatedPage": 48,
+  "lastTranslatedPage": 51,
   "chapters": [
     {
       "num": 1,
@@ -708,6 +708,42 @@ window.TOC = {
       "title": {
         "en": "Connascence",
         "tr": "Eşdoğuş (Connascence)"
+      },
+      "section": {
+        "en": "Measuring Modularity",
+        "tr": "Modülerliği Ölçme"
+      },
+      "chapter": 3
+    },
+    "54": {
+      "blank": true
+    },
+    "49": {
+      "title": {
+        "en": "Types of Static Connascence",
+        "tr": "Statik Eşdoğuş Türleri (Types of Static Connascence)"
+      },
+      "section": {
+        "en": "Measuring Modularity",
+        "tr": "Modülerliği Ölçme"
+      },
+      "chapter": 3
+    },
+    "50": {
+      "title": {
+        "en": "Dynamic Connascence",
+        "tr": "Dinamik Eşdoğuş (Dynamic Connascence)"
+      },
+      "section": {
+        "en": "Measuring Modularity",
+        "tr": "Modülerliği Ölçme"
+      },
+      "chapter": 3
+    },
+    "51": {
+      "title": {
+        "en": "Properties of Connascence",
+        "tr": "Eşdoğuşun Özellikleri (Properties of Connascence)"
       },
       "section": {
         "en": "Measuring Modularity",
