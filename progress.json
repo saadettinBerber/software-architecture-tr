@@ -27,7 +27,7 @@
     "chapter_label_pattern": "^CHAPTER (\\d+)$",
     "math_geometry": true
   },
-  "last_translated_page": 82,
+  "last_translated_page": 85,
   "chapters": [
     {
       "num": 1,
@@ -828,6 +828,30 @@
       "chapter": 6,
       "title_en": "Governance and Fitness Functions",
       "title_tr": "Yönetişim ve Uygunluk Fonksiyonları",
+      "section_en": "Governance and Fitness Functions",
+      "section_tr": "Yönetişim ve Uygunluk Fonksiyonları"
+    },
+    "83": {
+      "pdf_page": 103,
+      "chapter": 6,
+      "title_en": "Fitness Functions",
+      "title_tr": "Uygunluk Fonksiyonları",
+      "section_en": "Governance and Fitness Functions",
+      "section_tr": "Yönetişim ve Uygunluk Fonksiyonları"
+    },
+    "84": {
+      "pdf_page": 104,
+      "chapter": 6,
+      "title_en": "Cyclic Dependencies",
+      "title_tr": "Döngüsel Bağımlılıklar",
+      "section_en": "Governance and Fitness Functions",
+      "section_tr": "Yönetişim ve Uygunluk Fonksiyonları"
+    },
+    "85": {
+      "pdf_page": 105,
+      "chapter": 6,
+      "title_en": "Governing Component Cycles with Fitness Functions",
+      "title_tr": "Bileşen Döngülerinin Uygunluk Fonksiyonlarıyla Yönetişimi",
       "section_en": "Governance and Fitness Functions",
       "section_tr": "Yönetişim ve Uygunluk Fonksiyonları"
     }

@@ -55,6 +55,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | authentication | kimlik doğrulama | Kullanıcıların gerçekten kendileri olduklarını doğrulamaya yönelik güvenlik gereksinimi; yapısal mimari özellik. |
 | authenticity | gerçeklik (authenticity) | Bir kullanıcının kimliğinin kanıtlanması; güvenlik özelliği. |
 | authorization | yetkilendirme | Kullanıcıların uygulama içinde yalnızca belirli işlevlere erişebilmesini sağlayan güvenlik gereksinimi; yapısal mimari özellik. |
+| auto-import | otomatik içe aktarma | IDE'lerin, başvurulan sınıfı otomatik olarak import eden özelliği; rastgele kullanımı döngüsel bağımlılıklara yol açabilir. |
 | auto-scaling | otomatik ölçekleme | Kaynakların ihtiyaca göre otomatik artırılıp azaltılması. |
 | automation | otomasyon | Araç ve betiklerle tekrarlayan işlerin otomatikleştirilmesi. |
 | availability | kullanılabilirlik | Bir mimari özellik (“-ility”) |
@@ -66,6 +67,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | bidder | teklif veren | açık artırma (auction) örneği bağlamında; teklif sahibi |
 | bidding data | teklif verileri | Açık artırma sistemindeki tekliflere ilişkin veriler. |
 | bidirectional communication | çift yönlü iletişim | mimar ile geliştirme ekipleri arasında kararların iki yönde aktığı iletişim biçimi. |
+| Big Ball of Mud | Büyük Çamur Topu (Big Ball of Mud) | Yapısız, birbirine sıkı bağlı kod yığınını anlatan ünlü ters desen (anti-pattern). |
 | Big Design Up Front | Önden Büyük Tasarım | BDUF kısaltmasıyla da bilinir. |
 | blueprint | mavi baskı (blueprint) | Sistemin yapısını gösteren plan şeması |
 | bottleneck trap | darboğaz tuzağı | Mimarın projenin kritik yolundaki kodun sahipliğini alması ve ekibin ilerlemesini bloklaması durumu. |
@@ -146,6 +148,8 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | cross-cutting architecture characteristics | çapraz kesimli mimari özellikler | Tablo 4-3'te listelenen, kolayca kategorize edilemeyen mimari özellikler; sayfa 60'ta geçer. |
 | customer relationship management | müşteri ilişkileri yönetimi | CRM olarak da bilinir |
 | customizability | özelleştirilebilirlik | Bir mimari özellik (-ility); sayfa 75'te en az önemli özellik olarak elenebileceği ve davranışın uygulama tasarımına taşınabileceği tartışılır. |
+| cyclic dependencies | döngüsel bağımlılıklar | Bileşenlerin birbirine dairesel biçimde bağımlı olduğu durum; modülerliğe zarar verir. |
+| cyclic dependency | döngüsel bağımlılık | İki veya daha fazla bileşenin birbirine başvurduğu, modülerliği bozan bağımlılık durumu. |
 | cyclomatic complexity | döngüsel karmaşıklık | kod karmaşıklığını ölçen metrik |
 | data architecture | veri mimarisi | Verinin nasıl saklanacağını ve erişileceğini düzenleyen mimari yaklaşım. |
 | data center | veri merkezi | Sunucu ve ağ altyapısının barındırıldığı tesis |
@@ -263,6 +267,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | hotel reservation system | otel rezervasyon sistemi | Trafiği genellikle tutarlı olan, ölçeklenebilirliği esneklikten ayıran örnek sistem. |
 | implicit characteristics | örtük özellikler | Gereksinimlerde açıkça yazılmayan, alan bilgisinden çıkarılan mimari özellikler; explicit characteristics (açık özellikler) ile karşıtlık oluşturur. |
 | implicit knowledge | örtük bilgi | Açıkça ifade edilmeyen, alan (domain) hakkındaki sezgisel/deneyime dayalı bilgi. |
+| import | import etmek | Sınıf/bileşen içe aktarma eylemi; geliştirici jargonunda İngilizce hâli korunur. |
 | incidental coupling | tesadüfi bağlılık | Birbirinden bağımsız yöntemlerin hiçbir ortak alanı paylaşmadan aynı sınıfta toplanması durumu; LCOM ölçütünün sınıflar içinde ortaya çıkardığı bağlılık. |
 | incidentally coupled | tesadüfen bağlanmış | Aralarında gerçek bir ilişki olmamasına rağmen tek bir sınıfta toplanmış; yüksek LCOM ile tespit edilir. |
 | incremental change | artımlı değişiklik | Küçük adımlarla, düşük maliyetle yapılan değişiklik |
@@ -304,6 +309,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | locality | yerellik | Eşdoğuşlu öğelerin kod tabanındaki birbirine yakınlığı; Rule of Locality (Yerellik Kuralı) bağlamında. |
 | logical cohesion | mantıksal bütünlük | Modüldeki verinin işlevsel değil mantıksal olarak ilişkili olduğu uyum türü; örn. StringUtils gibi aynı tür veri üzerinde çalışan ilişkisiz statik yöntemler. |
 | loose coupling | gevşek bağlılık | Bileşenler arası bağımlılığın az olması |
+| machine learning | makine öğrenmesi | Gezgin satıcı probleminin temel olarak kullanıldığı alan; yaygın yerleşik terim, yaygın karşılığıyla verilir. |
 | machine provisioning | makine sağlama | Sunucu ve kaynakların otomatik olarak hazırlanması. |
 | magic value | sihirli değer | Adlandırılmış bir sabite bağlanmamış, kaynak kod içinde doğrudan yazılmış sayı/dizge değeri. |
 | main sequence | ana dizi | Soyutluk–kararsızlık grafiğinde A+I=1 doğrusu; bu doğrudan uzaklık (distance from the main sequence) ile ölçülür. |
@@ -346,6 +352,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | object-oriented | nesne yönelimli | Nesneleri ve kapsüllemeyi temel alan programlama paradigması (OOP). |
 | object-oriented language | nesne yönelimli dil | Kodun sınıflar ve nesneler etrafında düzenlendiği programlama dili. |
 | objective definition | nesnel tanım | Mimari özelliklerin, öznelliğe yer bırakmayan somut tanımı; sayfada 'objective definitions' biçiminde geçer. |
+| objective function | amaç fonksiyonu | Uygunluk fonksiyonu tanımında 'çıktının amaca ne kadar yaklaştığını değerlendiren fonksiyon' anlamında geçer; metinde 'object function' olarak yazılmıştır. |
 | office politics | ofis politikaları | kurum içi güç ve çıkar dinamikleri |
 | open source | açık kaynak | Kaynak kodu serbestçe kullanılabilen ve değiştirilebilen yazılım modeli |
 | operating system | işletim sistemi | Donanım ile uygulamalar arasında arayüz sağlayan temel yazılım |
@@ -493,8 +500,10 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | trade-off analysis | ödünleşim analizi | Rakipli seçenekler arasındaki ödünleşimleri (trade-off) değerlendirme; mimarın rolünün önemli bir parçası olarak mimari özelliklerin desteklenme maliyetini karşılaştırma. |
 | transaction | işlem (transaction) | Bir bütün olarak gerçekleştirilmesi gereken; tüm değerlerin birlikte değiştiği atomik veri işleme birimi. |
 | traveling salesperson problem | gezgin satıcı problemi | Çeşitli şehirler arasındaki en kısa rotayı bulmayı amaçlayan klasik optimizasyon problemi. |
+| trigger-happy | düşünmeden davranan (trigger-happy) | Geliştirici davranışı için kullanılan deyim; önce davranıp sonra düşünme. |
 | ubiquitous language | ortak dil (ubiquitous language) | Alan odaklı tasarımdan gelen; tüm ekip üyelerinin aynı terimleri aynı anlamda kullandığı ortak dil. |
 | under-specify | eksik belirlemek | Mimari özellikleri gerekenden az tanımlamak; aşırı belirlemenin (over-specify) karşıtı. |
+| unit testing library | birim testi kütüphanesi | Uygunluk fonksiyonlarının örtüştüğü mevcut doğrulama mekanizmalarından biri; unit tests (birim testleri) ve library (kütüphane) ile ilişkilidir. |
 | unit tests | birim testleri | Tek bir kod birimini izole biçimde doğrulayan testler. |
 | unknown unknowns | bilinmeyen bilinmeyenler |  |
 | uptime | çalışma süresi | Sistemin kullanılabilir olduğu süre oranı |

@@ -230,6 +230,11 @@ window.GLOSSARY = [
     "note": "Kullanıcıların uygulama içinde yalnızca belirli işlevlere erişebilmesini sağlayan güvenlik gereksinimi; yapısal mimari özellik."
   },
   {
+    "en": "auto-import",
+    "tr": "otomatik içe aktarma",
+    "note": "IDE'lerin, başvurulan sınıfı otomatik olarak import eden özelliği; rastgele kullanımı döngüsel bağımlılıklara yol açabilir."
+  },
+  {
     "en": "auto-scaling",
     "tr": "otomatik ölçekleme",
     "note": "Kaynakların ihtiyaca göre otomatik artırılıp azaltılması."
@@ -283,6 +288,11 @@ window.GLOSSARY = [
     "en": "bidirectional communication",
     "tr": "çift yönlü iletişim",
     "note": "mimar ile geliştirme ekipleri arasında kararların iki yönde aktığı iletişim biçimi."
+  },
+  {
+    "en": "Big Ball of Mud",
+    "tr": "Büyük Çamur Topu (Big Ball of Mud)",
+    "note": "Yapısız, birbirine sıkı bağlı kod yığınını anlatan ünlü ters desen (anti-pattern)."
   },
   {
     "en": "Big Design Up Front",
@@ -683,6 +693,16 @@ window.GLOSSARY = [
     "en": "customizability",
     "tr": "özelleştirilebilirlik",
     "note": "Bir mimari özellik (-ility); sayfa 75'te en az önemli özellik olarak elenebileceği ve davranışın uygulama tasarımına taşınabileceği tartışılır."
+  },
+  {
+    "en": "cyclic dependencies",
+    "tr": "döngüsel bağımlılıklar",
+    "note": "Bileşenlerin birbirine dairesel biçimde bağımlı olduğu durum; modülerliğe zarar verir."
+  },
+  {
+    "en": "cyclic dependency",
+    "tr": "döngüsel bağımlılık",
+    "note": "İki veya daha fazla bileşenin birbirine başvurduğu, modülerliği bozan bağımlılık durumu."
   },
   {
     "en": "cyclomatic complexity",
@@ -1270,6 +1290,11 @@ window.GLOSSARY = [
     "note": "Açıkça ifade edilmeyen, alan (domain) hakkındaki sezgisel/deneyime dayalı bilgi."
   },
   {
+    "en": "import",
+    "tr": "import etmek",
+    "note": "Sınıf/bileşen içe aktarma eylemi; geliştirici jargonunda İngilizce hâli korunur."
+  },
+  {
     "en": "incidental coupling",
     "tr": "tesadüfi bağlılık",
     "note": "Birbirinden bağımsız yöntemlerin hiçbir ortak alanı paylaşmadan aynı sınıfta toplanması durumu; LCOM ölçütünün sınıflar içinde ortaya çıkardığı bağlılık."
@@ -1473,6 +1498,11 @@ window.GLOSSARY = [
     "en": "loose coupling",
     "tr": "gevşek bağlılık",
     "note": "Bileşenler arası bağımlılığın az olması"
+  },
+  {
+    "en": "machine learning",
+    "tr": "makine öğrenmesi",
+    "note": "Gezgin satıcı probleminin temel olarak kullanıldığı alan; yaygın yerleşik terim, yaygın karşılığıyla verilir."
   },
   {
     "en": "machine provisioning",
@@ -1683,6 +1713,11 @@ window.GLOSSARY = [
     "en": "objective definition",
     "tr": "nesnel tanım",
     "note": "Mimari özelliklerin, öznelliğe yer bırakmayan somut tanımı; sayfada 'objective definitions' biçiminde geçer."
+  },
+  {
+    "en": "objective function",
+    "tr": "amaç fonksiyonu",
+    "note": "Uygunluk fonksiyonu tanımında 'çıktının amaca ne kadar yaklaştığını değerlendiren fonksiyon' anlamında geçer; metinde 'object function' olarak yazılmıştır."
   },
   {
     "en": "office politics",
@@ -2420,6 +2455,11 @@ window.GLOSSARY = [
     "note": "Çeşitli şehirler arasındaki en kısa rotayı bulmayı amaçlayan klasik optimizasyon problemi."
   },
   {
+    "en": "trigger-happy",
+    "tr": "düşünmeden davranan (trigger-happy)",
+    "note": "Geliştirici davranışı için kullanılan deyim; önce davranıp sonra düşünme."
+  },
+  {
     "en": "ubiquitous language",
     "tr": "ortak dil (ubiquitous language)",
     "note": "Alan odaklı tasarımdan gelen; tüm ekip üyelerinin aynı terimleri aynı anlamda kullandığı ortak dil."
@@ -2428,6 +2468,11 @@ window.GLOSSARY = [
     "en": "under-specify",
     "tr": "eksik belirlemek",
     "note": "Mimari özellikleri gerekenden az tanımlamak; aşırı belirlemenin (over-specify) karşıtı."
+  },
+  {
+    "en": "unit testing library",
+    "tr": "birim testi kütüphanesi",
+    "note": "Uygunluk fonksiyonlarının örtüştüğü mevcut doğrulama mekanizmalarından biri; unit tests (birim testleri) ve library (kütüphane) ile ilişkilidir."
   },
   {
     "en": "unit tests",
