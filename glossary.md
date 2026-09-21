@@ -68,6 +68,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | blueprint | mavi baskı (blueprint) | Sistemin yapısını gösteren plan şeması |
 | bottleneck trap | darboğaz tuzağı | Mimarın projenin kritik yolundaki kodun sahipliğini alması ve ekibin ilerlemesini bloklaması durumu. |
 | boundary conditions | sınır koşulları | Sistemin uç durumlarda (bağlantı kesilmesi, donanım arızası vb.) doğru davranmasını gerektiren koşullar; Tablo 4-1'deki sağlamlık tanımında geçer. |
+| brittleness | kırılganlık | Sistemin gereksiz yere kırılgan olması; isteğe bağlı bir bağımlılığın arızalanmasının tüm sistemi çökertme eğilimi. |
 | brown-bag lunch | brown-bag öğle toplantısı | Katılımcıların kendi yemeklerini getirdiği, resmî olmayan öğle toplantısı; brown-bag terimi korunur. |
 | bursts of requests | istek patlamaları | Kısa sürede gelen yoğun istek yığınları; esneklik (elasticity) özelliğinin ölçtüğü durum. |
 | business domain | iş alanı | business domain expertise bağlamında |
@@ -130,6 +131,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | coupling | bağlılık | Bileşenlerin birbirine bağımlılık derecesi |
 | coupling metrics | bağlılık ölçütleri | Bileşenler arası bağımlılık derecesini ölçen ölçütler; sayfa 44'te ayrıntılı ele alınır. |
 | critical path | kritik yol | Proje yönetiminde, bir projenin tamamlanma süresini belirleyen görevler dizisi; burada mimarinin darboğazı olabilecek kod bağlamında kullanılır. |
+| criticality | kritiklik derecesi | Bir sistemin ya da özelliğin kritiklik/önem düzeyi; güvenlik gibi örtük özelliklerin önceliklendirilmesinde göz önüne alınır. |
 | CRM | müşteri ilişkileri yönetimi (CRM) | customer relationship management kısaltması |
 | cross-cutting architecture characteristics | çapraz kesimli mimari özellikler | Tablo 4-3'te listelenen, kolayca kategorize edilemeyen mimari özellikler; sayfa 60'ta geçer. |
 | customer relationship management | müşteri ilişkileri yönetimi | CRM olarak da bilinir |
@@ -206,6 +208,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | field | alan | Sınıf düzeyinde tanımlanan değişken; örnek alanı (instance field). |
 | First Law of Software Architecture | Yazılım Mimarisi Birinci Yasası | “Yazılım mimarisindeki her şey bir ödünleşimdir.” |
 | fitness function | uygunluk fonksiyonu | bir mimari özelliği ölçen otomatik denetim; Bölüm 6'da ayrıntılı ele alınır |
+| fragility | dayanıksızlık | brittleness (kırılganlık) ile eş anlamlı kullanılan, tasarımın hasara karşı dirençsizliği. |
 | framework | çerçeve |  |
 | franchise | bayilik (franchise) | Silicon Sandwiches vaka çalışmasında, her dükkânın farklı bir sahibi olduğu işletme modeli; franchised sıfatı 'bayilik sistemine bağlı (franchised)' olarak çevrilir. |
 | friction | sürtünme | Uyumsuz süreç veya araçların yarattığı direnç. |
@@ -324,14 +327,17 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | organizing principle | düzenleme ilkesi | Bir sistemin parçalarını düzenleyen temel ilke. |
 | orthogonal | ortogonal (bağımsız) | İşlevsellikle ilişkisiz, birbirinden bağımsız |
 | outsourcing | dış kaynak kullanımı | Operasyon gibi işlevlerin maliyet tasarrufu amacıyla başka bir şirkete/ekibe devredilmesi |
+| over-specify | aşırı belirlemek | Mimari özellikleri gerekenden fazla tanımlamak; sistem tasarımını gereğinden fazla karmaşıklaştırdığı için eksik belirlemek kadar zararlıdır. |
 | package | paket | Java gibi dillerde ilgili sınıfların gruplandığı modülerlik mekanizması; dil anahtar sözcüğü olarak package korunur. |
 | page load time | sayfa yükleme süresi | Bir sayfanın yüklenmesi için geçen süre; performans ölçütü. |
 | paradigm | paradigma | Programlamada benimsenen model ya da yaklaşım; programlama paradigması bağlamında. |
 | pattern | desen | Tasarım desenleri bağlamında; çoğulu: desenler. |
 | payment processor | ödeme işlemcisi | Ödeme işlemlerini üçüncü taraf olarak yürüten hizmet; sayfada 'third-party payment processor' ifadesinde geçer. |
+| peak times | yoğun saatler | Talebin en yüksek olduğu kullanım saatleri; performans özelliğinin ölçüldüğü koşullar. |
 | perceived technical risk | algılanan teknik risk | Gerçekte var olup olmadığına bakılmaksızın mimarların hissettiği/algıladığı teknik risk; sayfa 30'da gerçek teknik riskle karşılaştırılır. |
 | performance | performans | Sistemin iş yükü altındaki hız ve yanıt verebilirlik düzeyi; Tablo 4-1'de listelenen operasyonel mimari özellik. |
 | performance efficiency | performans verimliliği | ISO 25010 özelliği; performansın kaynak kullanımına göre ölçüsü. |
+| plain text | düz metin | Şifrelenmemiş, açık biçimde iletilen veri; kredi kartı numaraları bağlamında güvenlik hijyeni ihlali. |
 | point-to-point messaging | noktadan noktaya mesajlaşma | Her mesajın tam olarak bir tüketici tarafından işlendiği mesajlaşma modeli. |
 | portability | taşınabilirlik | Bir sistemin, ürünün ya da bileşenin bir ortamdan diğerine taşınabilme derecesi. |
 | presentation layer | sunum katmanı | Kullanıcı arayüzü sorumluluğunu taşıyan katman |
@@ -376,6 +382,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | Rule of Degree | Derece Kuralı | Jim Weirich'in önerisi: güçlü eşdoğuş biçimlerini daha zayıf biçimlere dönüştürün. |
 | Rule of Locality | Yerellik Kuralı | Jim Weirich'in önerisi: öğeler arası uzaklık arttıkça daha zayıf eşdoğuş biçimleri kullanın. |
 | runtime | çalışma zamanı | Programın çalıştığı an; execution-time ile eş anlamlı kullanılır (kaynak kod düzeyi analizinin karşıtı). |
+| sacrificial architecture | feda edilebilir mimari | Maliyet, zaman gibi kısıtlar nedeniyle bilinçli olarak basit tutulan ve ileride değiştirilmesi beklenen mimari. |
 | scalability | ölçeklenebilirlik | Bir mimari özellik (“-ility”) |
 | scope (scoping) | kapsam (scoping) | Bir tanımlayıcının görülebildiği ve erişilebildiği bölge; kapsam kuralları. |
 | scoping rules | kapsam kuralları | Bir adın hangi bağlamlarda görünür ve erişilebilir olduğunu belirleyen kurallar. |
@@ -436,6 +443,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | test-first development | önce test geliştirme | Kod yazılmadan önce testin yazıldığı geliştirme yaklaşımı. |
 | testability | test edilebilirlik | Geliştiricilerin ve diğer kişilerin yazılımı test edebilme kolaylığı. |
 | testing environment | test ortamı | Değişikliklerin test edildiği ortam. |
+| third party | üçüncü taraf | Sistemin dışında, işlemleri üstlenen bağımsız hizmet sağlayıcı (ödeme işlemcisi gibi). |
 | thread | iş parçacığı | Bir süreç içinde eşzamanlı çalışabilen en küçük yürütme birimi. |
 | throwaway code | atılacak kod | Yalnızca hızlı doğrulama için yazılan, üretime girmesi amaçlanmayan kod. |
 | tightly coupled | sıkı bağlı | Birbirinin iç yapısına bağımlı, birlikte değişmek zorunda kalan öğelerin durumu. |
@@ -448,6 +456,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | transaction | işlem (transaction) | Bir bütün olarak gerçekleştirilmesi gereken; tüm değerlerin birlikte değiştiği atomik veri işleme birimi. |
 | traveling salesperson problem | gezgin satıcı problemi | Çeşitli şehirler arasındaki en kısa rotayı bulmayı amaçlayan klasik optimizasyon problemi. |
 | ubiquitous language | ortak dil (ubiquitous language) | Alan odaklı tasarımdan gelen; tüm ekip üyelerinin aynı terimleri aynı anlamda kullandığı ortak dil. |
+| under-specify | eksik belirlemek | Mimari özellikleri gerekenden az tanımlamak; aşırı belirlemenin (over-specify) karşıtı. |
 | unit tests | birim testleri | Tek bir kod birimini izole biçimde doğrulayan testler. |
 | unknown unknowns | bilinmeyen bilinmeyenler |  |
 | uptime | çalışma süresi | Sistemin kullanılabilir olduğu süre oranı |

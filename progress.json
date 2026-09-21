@@ -27,7 +27,7 @@
     "chapter_label_pattern": "^CHAPTER (\\d+)$",
     "math_geometry": true
   },
-  "last_translated_page": 70,
+  "last_translated_page": 73,
   "chapters": [
     {
       "num": 1,
@@ -541,7 +541,7 @@
       "title_en": "Abstractness and Instability",
       "title_tr": "Soyutluk ve Kararsızlık",
       "section_en": "Measuring Modularity",
-      "section_tr": "Modülerliği Ölçme"
+      "section_tr": "Modülerliği Ölçmek"
     },
     "46": {
       "pdf_page": 66,
@@ -736,6 +736,26 @@
       "chapter": 5,
       "title_en": "Explicit Characteristics",
       "title_tr": "Açık Özellikler",
+      "section_en": "Case Study: Silicon Sandwiches",
+      "section_tr": "Vaka Çalışması: Silicon Sandwiches"
+    },
+    "76": {
+      "blank": true,
+      "pdf_page": 96
+    },
+    "72": {
+      "pdf_page": 92,
+      "chapter": 5,
+      "title_en": "Considering Each Business Requirement",
+      "title_tr": "İş Gereksinimlerinin Tek Tek Değerlendirilmesi",
+      "section_en": "Case Study: Silicon Sandwiches",
+      "section_tr": "Vaka Çalışması: Silicon Sandwiches"
+    },
+    "73": {
+      "pdf_page": 93,
+      "chapter": 5,
+      "title_en": "Implicit Characteristics",
+      "title_tr": "Örtük Özellikler",
       "section_en": "Case Study: Silicon Sandwiches",
       "section_tr": "Vaka Çalışması: Silicon Sandwiches"
     }

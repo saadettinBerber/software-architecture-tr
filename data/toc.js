@@ -9,7 +9,7 @@ window.TOC = {
   },
   "bookTotalPages": 399,
   "pdfOffset": 20,
-  "lastTranslatedPage": 70,
+  "lastTranslatedPage": 73,
   "chapters": [
     {
       "num": 1,
@@ -678,7 +678,7 @@ window.TOC = {
       },
       "section": {
         "en": "Measuring Modularity",
-        "tr": "Modülerliği Ölçme"
+        "tr": "Modülerliği Ölçmek"
       },
       "chapter": 3
     },
@@ -942,6 +942,31 @@ window.TOC = {
       "title": {
         "en": "Explicit Characteristics",
         "tr": "Açık Özellikler"
+      },
+      "section": {
+        "en": "Case Study: Silicon Sandwiches",
+        "tr": "Vaka Çalışması: Silicon Sandwiches"
+      },
+      "chapter": 5
+    },
+    "76": {
+      "blank": true
+    },
+    "72": {
+      "title": {
+        "en": "Considering Each Business Requirement",
+        "tr": "İş Gereksinimlerinin Tek Tek Değerlendirilmesi"
+      },
+      "section": {
+        "en": "Case Study: Silicon Sandwiches",
+        "tr": "Vaka Çalışması: Silicon Sandwiches"
+      },
+      "chapter": 5
+    },
+    "73": {
+      "title": {
+        "en": "Implicit Characteristics",
+        "tr": "Örtük Özellikler"
       },
       "section": {
         "en": "Case Study: Silicon Sandwiches",

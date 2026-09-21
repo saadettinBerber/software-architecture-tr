@@ -295,6 +295,11 @@ window.GLOSSARY = [
     "note": "Sistemin uç durumlarda (bağlantı kesilmesi, donanım arızası vb.) doğru davranmasını gerektiren koşullar; Tablo 4-1'deki sağlamlık tanımında geçer."
   },
   {
+    "en": "brittleness",
+    "tr": "kırılganlık",
+    "note": "Sistemin gereksiz yere kırılgan olması; isteğe bağlı bir bağımlılığın arızalanmasının tüm sistemi çökertme eğilimi."
+  },
+  {
     "en": "brown-bag lunch",
     "tr": "brown-bag öğle toplantısı",
     "note": "Katılımcıların kendi yemeklerini getirdiği, resmî olmayan öğle toplantısı; brown-bag terimi korunur."
@@ -603,6 +608,11 @@ window.GLOSSARY = [
     "en": "critical path",
     "tr": "kritik yol",
     "note": "Proje yönetiminde, bir projenin tamamlanma süresini belirleyen görevler dizisi; burada mimarinin darboğazı olabilecek kod bağlamında kullanılır."
+  },
+  {
+    "en": "criticality",
+    "tr": "kritiklik derecesi",
+    "note": "Bir sistemin ya da özelliğin kritiklik/önem düzeyi; güvenlik gibi örtük özelliklerin önceliklendirilmesinde göz önüne alınır."
   },
   {
     "en": "CRM",
@@ -983,6 +993,11 @@ window.GLOSSARY = [
     "en": "fitness function",
     "tr": "uygunluk fonksiyonu",
     "note": "bir mimari özelliği ölçen otomatik denetim; Bölüm 6'da ayrıntılı ele alınır"
+  },
+  {
+    "en": "fragility",
+    "tr": "dayanıksızlık",
+    "note": "brittleness (kırılganlık) ile eş anlamlı kullanılan, tasarımın hasara karşı dirençsizliği."
   },
   {
     "en": "framework",
@@ -1575,6 +1590,11 @@ window.GLOSSARY = [
     "note": "Operasyon gibi işlevlerin maliyet tasarrufu amacıyla başka bir şirkete/ekibe devredilmesi"
   },
   {
+    "en": "over-specify",
+    "tr": "aşırı belirlemek",
+    "note": "Mimari özellikleri gerekenden fazla tanımlamak; sistem tasarımını gereğinden fazla karmaşıklaştırdığı için eksik belirlemek kadar zararlıdır."
+  },
+  {
     "en": "package",
     "tr": "paket",
     "note": "Java gibi dillerde ilgili sınıfların gruplandığı modülerlik mekanizması; dil anahtar sözcüğü olarak package korunur."
@@ -1600,6 +1620,11 @@ window.GLOSSARY = [
     "note": "Ödeme işlemlerini üçüncü taraf olarak yürüten hizmet; sayfada 'third-party payment processor' ifadesinde geçer."
   },
   {
+    "en": "peak times",
+    "tr": "yoğun saatler",
+    "note": "Talebin en yüksek olduğu kullanım saatleri; performans özelliğinin ölçüldüğü koşullar."
+  },
+  {
     "en": "perceived technical risk",
     "tr": "algılanan teknik risk",
     "note": "Gerçekte var olup olmadığına bakılmaksızın mimarların hissettiği/algıladığı teknik risk; sayfa 30'da gerçek teknik riskle karşılaştırılır."
@@ -1613,6 +1638,11 @@ window.GLOSSARY = [
     "en": "performance efficiency",
     "tr": "performans verimliliği",
     "note": "ISO 25010 özelliği; performansın kaynak kullanımına göre ölçüsü."
+  },
+  {
+    "en": "plain text",
+    "tr": "düz metin",
+    "note": "Şifrelenmemiş, açık biçimde iletilen veri; kredi kartı numaraları bağlamında güvenlik hijyeni ihlali."
   },
   {
     "en": "point-to-point messaging",
@@ -1833,6 +1863,11 @@ window.GLOSSARY = [
     "en": "runtime",
     "tr": "çalışma zamanı",
     "note": "Programın çalıştığı an; execution-time ile eş anlamlı kullanılır (kaynak kod düzeyi analizinin karşıtı)."
+  },
+  {
+    "en": "sacrificial architecture",
+    "tr": "feda edilebilir mimari",
+    "note": "Maliyet, zaman gibi kısıtlar nedeniyle bilinçli olarak basit tutulan ve ileride değiştirilmesi beklenen mimari."
   },
   {
     "en": "scalability",
@@ -2135,6 +2170,11 @@ window.GLOSSARY = [
     "note": "Değişikliklerin test edildiği ortam."
   },
   {
+    "en": "third party",
+    "tr": "üçüncü taraf",
+    "note": "Sistemin dışında, işlemleri üstlenen bağımsız hizmet sağlayıcı (ödeme işlemcisi gibi)."
+  },
+  {
     "en": "thread",
     "tr": "iş parçacığı",
     "note": "Bir süreç içinde eşzamanlı çalışabilen en küçük yürütme birimi."
@@ -2193,6 +2233,11 @@ window.GLOSSARY = [
     "en": "ubiquitous language",
     "tr": "ortak dil (ubiquitous language)",
     "note": "Alan odaklı tasarımdan gelen; tüm ekip üyelerinin aynı terimleri aynı anlamda kullandığı ortak dil."
+  },
+  {
+    "en": "under-specify",
+    "tr": "eksik belirlemek",
+    "note": "Mimari özellikleri gerekenden az tanımlamak; aşırı belirlemenin (over-specify) karşıtı."
   },
   {
     "en": "unit tests",
