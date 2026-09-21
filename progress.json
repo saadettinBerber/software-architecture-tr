@@ -1,0 +1,187 @@
+{
+  "book": {
+    "slug": "software-architecture",
+    "title": "Fundamentals of Software Architecture",
+    "subtitle": "An Engineering Approach",
+    "subtitle_tr": "Mühendislik Yaklaşımı",
+    "author": "Mark Richards, Neal Ford",
+    "series": "O'Reilly"
+  },
+  "book_pdf": "book.pdf",
+  "pdf_offset": 20,
+  "book_total_pages": 399,
+  "pdf_total_pages": 422,
+  "pages_per_run": 3,
+  "translator": {
+    "vision": true
+  },
+  "extraction": {
+    "code_font_prefix": "UbuntuMono",
+    "code_max_font_size": 10.2,
+    "footer_zone_top": 52,
+    "section_min_size": 18.0,
+    "subsection_min_size": 14.0,
+    "chapter_title_min_size": 20,
+    "default_code_language": "java"
+  },
+  "last_translated_page": 0,
+  "chapters": [
+    {
+      "num": 1,
+      "en": "Introduction",
+      "tr": "Giriş",
+      "start": 1
+    },
+    {
+      "num": 2,
+      "en": "Architectural Thinking",
+      "tr": "Mimari Düşünme",
+      "start": 23
+    },
+    {
+      "num": 3,
+      "en": "Modularity",
+      "tr": "Modülerlik",
+      "start": 37
+    },
+    {
+      "num": 4,
+      "en": "Architecture Characteristics Defined",
+      "tr": "Mimari Özelliklerin Tanımı",
+      "start": 55
+    },
+    {
+      "num": 5,
+      "en": "Identifying Architectural Characteristics",
+      "tr": "Mimari Özelliklerin Belirlenmesi",
+      "start": 65
+    },
+    {
+      "num": 6,
+      "en": "Measuring and Governing Architecture Characteristics",
+      "tr": "Mimari Özelliklerin Ölçülmesi ve Yönetişimi",
+      "start": 77
+    },
+    {
+      "num": 7,
+      "en": "Scope of Architecture Characteristics",
+      "tr": "Mimari Özelliklerin Kapsamı",
+      "start": 91
+    },
+    {
+      "num": 8,
+      "en": "Component-Based Thinking",
+      "tr": "Bileşen Temelli Düşünme",
+      "start": 99
+    },
+    {
+      "num": 9,
+      "en": "Foundations",
+      "tr": "Temeller",
+      "start": 119
+    },
+    {
+      "num": 10,
+      "en": "Layered Architecture Style",
+      "tr": "Katmanlı Mimari Stili",
+      "start": 133
+    },
+    {
+      "num": 11,
+      "en": "Pipeline Architecture Style",
+      "tr": "Boru Hattı Mimari Stili",
+      "start": 143
+    },
+    {
+      "num": 12,
+      "en": "Microkernel Architecture Style",
+      "tr": "Mikroçekirdek Mimari Stili",
+      "start": 149
+    },
+    {
+      "num": 13,
+      "en": "Service-Based Architecture Style",
+      "tr": "Servis Tabanlı Mimari Stili",
+      "start": 163
+    },
+    {
+      "num": 14,
+      "en": "Event-Driven Architecture Style",
+      "tr": "Olay Güdümlü Mimari Stili",
+      "start": 179
+    },
+    {
+      "num": 15,
+      "en": "Space-Based Architecture Style",
+      "tr": "Uzay Tabanlı Mimari Stili",
+      "start": 211
+    },
+    {
+      "num": 16,
+      "en": "Orchestration-Driven Service-Oriented Architecture",
+      "tr": "Orkestrasyon Güdümlü Servis Yönelimli Mimari",
+      "start": 235
+    },
+    {
+      "num": 17,
+      "en": "Microservices Architecture",
+      "tr": "Mikroservis Mimarisi",
+      "start": 245
+    },
+    {
+      "num": 18,
+      "en": "Choosing the Appropriate Architecture Style",
+      "tr": "Uygun Mimari Stilin Seçilmesi",
+      "start": 267
+    },
+    {
+      "num": 19,
+      "en": "Architecture Decisions",
+      "tr": "Mimari Kararlar",
+      "start": 281
+    },
+    {
+      "num": 20,
+      "en": "Analyzing Architecture Risk",
+      "tr": "Mimari Riskin Analizi",
+      "start": 297
+    },
+    {
+      "num": 21,
+      "en": "Diagramming and Presenting Architecture",
+      "tr": "Mimariyi Diyagramlama ve Sunma",
+      "start": 315
+    },
+    {
+      "num": 22,
+      "en": "Making Teams Effective",
+      "tr": "Ekipleri Etkili Kılmak",
+      "start": 325
+    },
+    {
+      "num": 23,
+      "en": "Negotiation and Leadership Skills",
+      "tr": "Müzakere ve Liderlik Becerileri",
+      "start": 347
+    },
+    {
+      "num": 24,
+      "en": "Developing a Career Path",
+      "tr": "Kariyer Yolu Geliştirmek",
+      "start": 365
+    },
+    {
+      "num": 0,
+      "en": "Appendix: Self-Assessment Questions",
+      "tr": "Ek: Öz Değerlendirme Soruları",
+      "start": 373
+    },
+    {
+      "num": 0,
+      "en": "Index",
+      "tr": "Dizin",
+      "start": 394
+    }
+  ],
+  "pages": {}
+}
