@@ -45,6 +45,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | average directional index | ortalama yönlü endeks | finansal terim; piyasa trend ölçüsü |
 | axiom | aksiyom | Doğru kabul edilen temel önerme |
 | backward compatibility | geriye dönük uyumluluk | Yeni bir özelliğin ya da dilin, eski kod ve alışkanlıklarla uyumlu kalma gereği. |
+| baseline | taban çizgisi | Karşılaştırma ve sapma değerlendirmesi için zaman içinde ölçülerek oluşturulan referans değer (built-in ile karıştırılmamalıdır). |
 | behavioral anti-pattern | davranışsal ters desen | Kod veya tasarım yerine insan davranışıyla ilgili ters desen; sayfa 30'da Donmuş Mağara Adamı Ters Deseni bunun örneğidir. |
 | bidder | teklif veren | açık artırma (auction) örneği bağlamında; teklif sahibi |
 | bidding data | teklif verileri | Açık artırma sistemindeki tekliflere ilişkin veriler. |
@@ -72,6 +73,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | coaching | koçluk | mimarın geliştiricilere yönelik birebir yönlendirmesi. |
 | code base | kod tabanı |  |
 | code review | kod incelemesi | Bir geliştiricinin yazdığı kodun başka bir kişi tarafından gözden geçirilmesi; çoğulu kod incelemeleri. |
+| code-level metrics | kod düzeyi ölçütler | Kaynak kodun yapısından türetilen, kod tabanına ilişkin ölçütler (döngüsel karmaşıklık gibi); neredeyse tamamı yorum gerektirir. |
 | cohesion | bütünlük | Modülün parçalarının aynı modülde tutulma derecesi; coupling (bağlılık) ile birlikte kullanılır. |
 | cohesiveness | bütünlük | Bir modülün uyum (cohesion) derecesi; cohesive (uyumlu) sıfatı da bu sayfada geçer. |
 | coincidental cohesion | tesadüfi bütünlük | Öğelerin yalnızca aynı kaynak dosyada bulunması nedeniyle ilişkili sayıldığı, uyumun en olumsuz biçimi. |
@@ -108,6 +110,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | design principles | tasarım ilkeleri | Günlük kodlama ve geliştirme kararlarını yönlendiren rehber ilkeler (ör. Tek Sorumluluk İlkesi). |
 | DevOps | DevOps | Yerleşmiş terim; bu hâliyle kullanılır. |
 | directory | dizin | Dosya sisteminde dosyaları gruplayan yapı; klasör. |
+| distance from the main sequence | ana diziden uzaklık | Soyutluk–kararsızlık grafiğinde bir bileşenin ana diziden (A+I=1 doğrusu) uzaklığı; D = A + I − 1 ile hesaplanır, normalleştirilmiş biçimi |A + I − 1|'dir. |
 | domain | alan (domain) | Problem alanı bağlamında. |
 | don't repeat yourself (DRY) | kendini tekrar etme (DRY) | Kod tekrarını önleyen tasarım ilkesi |
 | ecosystem | ekosistem | Birbirini etkileyen teknoloji, araç ve uygulamaların bütünü |
@@ -153,6 +156,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | heterogeneous | heterojen | farklı teknolojilerden oluşan ortam |
 | heterogeneous contracts | heterojen sözleşmeler | Birbirinden farklı yapıdaki mesaj sözleşmeleri. |
 | historical relevance | tarihsel önem | Yalnızca geçmiş bağlamında anlamlı olma durumu |
+| holistic metric | bütüncül ölçüt | Bir sistemin bütününü tek bir değerle değerlendiren ölçüt; ana diziden uzaklık bunun örneğidir. |
 | incidental coupling | tesadüfi bağlılık | Birbirinden bağımsız yöntemlerin hiçbir ortak alanı paylaşmadan aynı sınıfta toplanması durumu; LCOM ölçütünün sınıflar içinde ortaya çıkardığı bağlılık. |
 | incidentally coupled | tesadüfen bağlanmış | Aralarında gerçek bir ilişki olmamasına rağmen tek bir sınıfta toplanmış; yüksek LCOM ile tespit edilir. |
 | incremental change | artımlı değişiklik | Küçük adımlarla, düşük maliyetle yapılan değişiklik |
@@ -271,10 +275,12 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | software architecture | yazılım mimarisi | Disiplin adı; kitabın ana konusu. |
 | software asset | yazılım varlığı | Bileşen, sınıf gibi yeniden kullanılabilir yazılım öğesi. |
 | software development ecosystem | yazılım geliştirme ekosistemi | Sektörü etkileyen topluluk, araç ve trendler bütünü. |
+| source code-level | kaynak kod düzeyi | Kaynak kod seviyesindeki bağlılığı ifade eder; çalışma zamanı (execution-time) bağlılığının karşıtı. |
 | source validator | kaynak doğrulayıcı | Kaynak kodu belirli kodlama kurallarına göre otomatik denetleyen araç. |
 | Space-Based Architecture | Alan Tabanlı Mimari | Bölüm 15'te ele alınan, yüksek ölçek için veriyi dağıtan mimari stili. |
 | stakeholders | paydaşlar |  |
 | stale expertise | bayat uzmanlık | Güncelliğini yitirmiş bilginin hâlâ en ileri düzey olduğu yanılgısı; uzmanlığın sürdürülmemesi sonucu oluşur. |
+| static connascence | statik eşdoğuş | Kaynak kod düzeyindeki eşdoğuş; Structured Design'daki afferent ve efferent bağlılık ölçütlerinin nesne yönelimli dillere uyarlanmış hâli. |
 | static initializer | statik başlatıcı | Java'da sınıf yüklenirken bir kez çalışan, statik alanları başlatan kod bloğu. |
 | Strangler Pattern | Strangler Deseni | Eski sistemi aynı arayüzün arkasında parça parça değiştirerek yeni mimariye geçme deseni |
 | strategy pattern | strateji deseni | GoF tasarım deseni |
@@ -317,3 +323,5 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | wiretap | izinsiz dinleme | Gizlice dinleme; mesaj akışını izinsiz gözlemleme. |
 | workflow | iş akışı | İşlerin yapılandırılmış akışı. |
 | working knowledge | çalışma bilgisi | Bir konuyu pratikte kullanabilecek düzeyde bilme. |
+| zone of pain | acı bölgesi | Ana diziden sol alt köşeye çok sapan, aşırı somut ve kırılgan kodun bulunduğu bölge. |
+| zone of uselessness | işe yaramazlık bölgesi | Ana diziden sağ üst köşeye çok sapan, fazla soyut ve kullanımı zor kodun bulunduğu bölge. |

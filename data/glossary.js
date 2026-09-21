@@ -180,6 +180,11 @@ window.GLOSSARY = [
     "note": "Yeni bir özelliğin ya da dilin, eski kod ve alışkanlıklarla uyumlu kalma gereği."
   },
   {
+    "en": "baseline",
+    "tr": "taban çizgisi",
+    "note": "Karşılaştırma ve sapma değerlendirmesi için zaman içinde ölçülerek oluşturulan referans değer (built-in ile karıştırılmamalıdır)."
+  },
+  {
     "en": "behavioral anti-pattern",
     "tr": "davranışsal ters desen",
     "note": "Kod veya tasarım yerine insan davranışıyla ilgili ters desen; sayfa 30'da Donmuş Mağara Adamı Ters Deseni bunun örneğidir."
@@ -313,6 +318,11 @@ window.GLOSSARY = [
     "en": "code review",
     "tr": "kod incelemesi",
     "note": "Bir geliştiricinin yazdığı kodun başka bir kişi tarafından gözden geçirilmesi; çoğulu kod incelemeleri."
+  },
+  {
+    "en": "code-level metrics",
+    "tr": "kod düzeyi ölçütler",
+    "note": "Kaynak kodun yapısından türetilen, kod tabanına ilişkin ölçütler (döngüsel karmaşıklık gibi); neredeyse tamamı yorum gerektirir."
   },
   {
     "en": "cohesion",
@@ -493,6 +503,11 @@ window.GLOSSARY = [
     "en": "directory",
     "tr": "dizin",
     "note": "Dosya sisteminde dosyaları gruplayan yapı; klasör."
+  },
+  {
+    "en": "distance from the main sequence",
+    "tr": "ana diziden uzaklık",
+    "note": "Soyutluk–kararsızlık grafiğinde bir bileşenin ana diziden (A+I=1 doğrusu) uzaklığı; D = A + I − 1 ile hesaplanır, normalleştirilmiş biçimi |A + I − 1|'dir."
   },
   {
     "en": "domain",
@@ -718,6 +733,11 @@ window.GLOSSARY = [
     "en": "historical relevance",
     "tr": "tarihsel önem",
     "note": "Yalnızca geçmiş bağlamında anlamlı olma durumu"
+  },
+  {
+    "en": "holistic metric",
+    "tr": "bütüncül ölçüt",
+    "note": "Bir sistemin bütününü tek bir değerle değerlendiren ölçüt; ana diziden uzaklık bunun örneğidir."
   },
   {
     "en": "incidental coupling",
@@ -1310,6 +1330,11 @@ window.GLOSSARY = [
     "note": "Sektörü etkileyen topluluk, araç ve trendler bütünü."
   },
   {
+    "en": "source code-level",
+    "tr": "kaynak kod düzeyi",
+    "note": "Kaynak kod seviyesindeki bağlılığı ifade eder; çalışma zamanı (execution-time) bağlılığının karşıtı."
+  },
+  {
     "en": "source validator",
     "tr": "kaynak doğrulayıcı",
     "note": "Kaynak kodu belirli kodlama kurallarına göre otomatik denetleyen araç."
@@ -1328,6 +1353,11 @@ window.GLOSSARY = [
     "en": "stale expertise",
     "tr": "bayat uzmanlık",
     "note": "Güncelliğini yitirmiş bilginin hâlâ en ileri düzey olduğu yanılgısı; uzmanlığın sürdürülmemesi sonucu oluşur."
+  },
+  {
+    "en": "static connascence",
+    "tr": "statik eşdoğuş",
+    "note": "Kaynak kod düzeyindeki eşdoğuş; Structured Design'daki afferent ve efferent bağlılık ölçütlerinin nesne yönelimli dillere uyarlanmış hâli."
   },
   {
     "en": "static initializer",
@@ -1538,5 +1568,15 @@ window.GLOSSARY = [
     "en": "working knowledge",
     "tr": "çalışma bilgisi",
     "note": "Bir konuyu pratikte kullanabilecek düzeyde bilme."
+  },
+  {
+    "en": "zone of pain",
+    "tr": "acı bölgesi",
+    "note": "Ana diziden sol alt köşeye çok sapan, aşırı somut ve kırılgan kodun bulunduğu bölge."
+  },
+  {
+    "en": "zone of uselessness",
+    "tr": "işe yaramazlık bölgesi",
+    "note": "Ana diziden sağ üst köşeye çok sapan, fazla soyut ve kullanımı zor kodun bulunduğu bölge."
   }
 ];

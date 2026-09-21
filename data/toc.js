@@ -9,7 +9,7 @@ window.TOC = {
   },
   "bookTotalPages": 399,
   "pdfOffset": 20,
-  "lastTranslatedPage": 45,
+  "lastTranslatedPage": 48,
   "chapters": [
     {
       "num": 1,
@@ -675,6 +675,39 @@ window.TOC = {
       "title": {
         "en": "Abstractness and Instability",
         "tr": "Soyutluk ve Kararsızlık"
+      },
+      "section": {
+        "en": "Measuring Modularity",
+        "tr": "Modülerliği Ölçme"
+      },
+      "chapter": 3
+    },
+    "46": {
+      "title": {
+        "en": "Distance from the Main Sequence",
+        "tr": "Ana Diziden Uzaklık"
+      },
+      "section": {
+        "en": "Measuring Modularity",
+        "tr": "Modülerliği Ölçme"
+      },
+      "chapter": 3
+    },
+    "47": {
+      "title": {
+        "en": "Zones of Uselessness and Pain",
+        "tr": "İşe Yaramazlık ve Acı Bölgeleri"
+      },
+      "section": {
+        "en": "Measuring Modularity",
+        "tr": "Modülerliği Ölçme"
+      },
+      "chapter": 3
+    },
+    "48": {
+      "title": {
+        "en": "Connascence",
+        "tr": "Eşdoğuş (Connascence)"
       },
       "section": {
         "en": "Measuring Modularity",
