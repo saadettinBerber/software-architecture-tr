@@ -26,7 +26,7 @@
     "header_at_bottom": true,
     "chapter_label_pattern": "^CHAPTER (\\d+)$"
   },
-  "last_translated_page": 36,
+  "last_translated_page": 39,
   "chapters": [
     {
       "num": 1,
@@ -469,6 +469,30 @@
       "title_tr": "Otomasyon ve Kod İncelemeleri",
       "section_en": "Balancing Architecture and Hands-On Coding",
       "section_tr": "Mimariyi ve Uygulamalı Kodlamayı Dengeleme"
+    },
+    "37": {
+      "pdf_page": 57,
+      "chapter": 3,
+      "title_en": "Defining Modularity",
+      "title_tr": "Modülerliği Tanımlamak",
+      "section_en": "Modularity",
+      "section_tr": "Modülerlik"
+    },
+    "38": {
+      "pdf_page": 58,
+      "chapter": 3,
+      "title_en": "Definition and Modular Reuse",
+      "title_tr": "Tanım ve Modüler Yeniden Kullanım",
+      "section_en": "Modularity",
+      "section_tr": "Modülerlik"
+    },
+    "39": {
+      "pdf_page": 59,
+      "chapter": 3,
+      "title_en": "A Language with No Name Conflicts: Java 1.0",
+      "title_tr": "Ad Çakışması Olmayan Bir Dil: Java 1.0",
+      "section_en": "Definition",
+      "section_tr": "Tanım"
     }
   }
 }

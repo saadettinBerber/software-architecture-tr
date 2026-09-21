@@ -165,6 +165,11 @@ window.GLOSSARY = [
     "note": "Doğru kabul edilen temel önerme"
   },
   {
+    "en": "backward compatibility",
+    "tr": "geriye dönük uyumluluk",
+    "note": "Yeni bir özelliğin ya da dilin, eski kod ve alışkanlıklarla uyumlu kalma gereği."
+  },
+  {
     "en": "behavioral anti-pattern",
     "tr": "davranışsal ters desen",
     "note": "Kod veya tasarım yerine insan davranışıyla ilgili ters desen; sayfa 30'da Donmuş Mağara Adamı Ters Deseni bunun örneğidir."
@@ -268,6 +273,11 @@ window.GLOSSARY = [
     "en": "class diagram",
     "tr": "sınıf diyagramı",
     "note": "her bileşen için oluşturulan, sınıfları ve ilişkilerini gösteren diyagram."
+  },
+  {
+    "en": "classpath",
+    "tr": "classpath",
+    "note": "Java'da sınıf ve kaynakların arandığı dizin/JAR yolu; yerleşik terim, olduğu gibi kullanılır."
   },
   {
     "en": "coaching",
@@ -430,6 +440,11 @@ window.GLOSSARY = [
     "note": "Yerleşmiş terim; bu hâliyle kullanılır."
   },
   {
+    "en": "directory",
+    "tr": "dizin",
+    "note": "Dosya sisteminde dosyaları gruplayan yapı; klasör."
+  },
+  {
     "en": "domain",
     "tr": "alan (domain)",
     "note": "Problem alanı bağlamında."
@@ -455,6 +470,11 @@ window.GLOSSARY = [
     "note": "Kaynakların talebe göre otomatik artırılıp azaltılabilmesi yeteneği (elastic scale)"
   },
   {
+    "en": "encapsulation",
+    "tr": "kapsülleme",
+    "note": "Veriyi ve davranışı bir birim içinde saklayıp dışarıya kontrollü erişim sunma; kapsüllemek (encapsulate) eylemi de bu sayfada geçer."
+  },
+  {
     "en": "engineering discipline",
     "tr": "mühendislik disiplini",
     "note": ""
@@ -473,6 +493,11 @@ window.GLOSSARY = [
     "en": "enterprise service bus (ESB)",
     "tr": "kurumsal servis veri yolu (ESB)",
     "note": "Servisler arası entegrasyonu ve mesajlaşmayı sağlayan merkezi bileşen."
+  },
+  {
+    "en": "entropy",
+    "tr": "entropi",
+    "note": "Fizikten ödünç alınan, sistemlerin düzensizliğe yönelme eğilimi."
   },
   {
     "en": "estimation",
@@ -563,6 +588,16 @@ window.GLOSSARY = [
     "en": "Frozen Caveman Anti-Pattern",
     "tr": "Donmuş Mağara Adamı Anti-Deseni",
     "note": "Mimarın her mimaride en sevdiği mantıksız endişeye geri dönmesini anlatan davranış anti-deseni; sayfa 30'da ele alınır."
+  },
+  {
+    "en": "fully qualified name",
+    "tr": "tam nitelikli ad",
+    "note": "Bir öğeyi benzersiz biçimde tanımlayan, paket/alan adı zincirini içeren tam ad."
+  },
+  {
+    "en": "functional language",
+    "tr": "fonksiyonel dil",
+    "note": "Hesaplamanın fonksiyonlar aracılığıyla yapıldığı programlama dili."
   },
   {
     "en": "functionality",
@@ -715,6 +750,11 @@ window.GLOSSARY = [
     "note": "yayınla-abone ol ve noktadan noktaya dahil mesajlaşma biçimleri"
   },
   {
+    "en": "metaobject protocol",
+    "tr": "meta nesne protokolü (metaobject protocol)",
+    "note": "Geliştiricilere ek genişletme mekanizmaları sağlayan programlama yapısı."
+  },
+  {
     "en": "metrics",
     "tr": "ölçütler",
     "note": "Ölçülebilir performans ve değer göstergeleri."
@@ -745,9 +785,24 @@ window.GLOSSARY = [
     "note": ""
   },
   {
+    "en": "modular programming",
+    "tr": "modüler programlama",
+    "note": "Kodu modül adı verilen bağımsız birimlerde gruplayan programlama yaklaşımı; Modula ve Ada gibi dillerde görülür."
+  },
+  {
+    "en": "modular reuse",
+    "tr": "modüler yeniden kullanım",
+    "note": "Modülleri bağımsız birimler olarak başka bağlamlarda yeniden kullanma."
+  },
+  {
     "en": "modularity",
     "tr": "modülerlik",
     "note": ""
+  },
+  {
+    "en": "module",
+    "tr": "modül",
+    "note": "İlgili kodun mantıksal olarak gruplandığı birim; nesne yönelimli dillerde sınıf grubu, yapısal veya fonksiyonel dillerde fonksiyon grubu olabilir."
   },
   {
     "en": "monitoring",
@@ -770,6 +825,16 @@ window.GLOSSARY = [
     "note": "Sürekli değişen, sabitlenemeyen konu ya da durum"
   },
   {
+    "en": "name conflict",
+    "tr": "ad çakışması",
+    "note": "Aynı kapsamda aynı ada sahip iki öğenin çakışması; Java 1.0 tasarımının önlemeye çalıştığı sorun."
+  },
+  {
+    "en": "namespace",
+    "tr": "ad alanı (namespace)",
+    "note": ".NET gibi dillerde ilgili kodun gruplandığı modülerlik mekanizması."
+  },
+  {
     "en": "negotiation",
     "tr": "müzakere",
     "note": ""
@@ -788,6 +853,16 @@ window.GLOSSARY = [
     "en": "nonpriority debt",
     "tr": "imtiyazsız borç",
     "note": "finansal terim; junior debt olarak da bilinir"
+  },
+  {
+    "en": "object-oriented",
+    "tr": "nesne yönelimli",
+    "note": "Nesneleri ve kapsüllemeyi temel alan programlama paradigması (OOP)."
+  },
+  {
+    "en": "object-oriented language",
+    "tr": "nesne yönelimli dil",
+    "note": "Kodun sınıflar ve nesneler etrafında düzenlendiği programlama dili."
   },
   {
     "en": "office politics",
@@ -820,6 +895,11 @@ window.GLOSSARY = [
     "note": "Sistemin işletilmesinden sorumlu ekip."
   },
   {
+    "en": "organizing principle",
+    "tr": "düzenleme ilkesi",
+    "note": "Bir sistemin parçalarını düzenleyen temel ilke."
+  },
+  {
     "en": "orthogonal",
     "tr": "ortogonal (bağımsız)",
     "note": "İşlevsellikle ilişkisiz, birbirinden bağımsız"
@@ -830,9 +910,19 @@ window.GLOSSARY = [
     "note": "Operasyon gibi işlevlerin maliyet tasarrufu amacıyla başka bir şirkete/ekibe devredilmesi"
   },
   {
+    "en": "package",
+    "tr": "paket",
+    "note": "Java gibi dillerde ilgili sınıfların gruplandığı modülerlik mekanizması; dil anahtar sözcüğü olarak package korunur."
+  },
+  {
     "en": "page load time",
     "tr": "sayfa yükleme süresi",
     "note": "Bir sayfanın yüklenmesi için geçen süre; performans ölçütü."
+  },
+  {
+    "en": "paradigm",
+    "tr": "paradigma",
+    "note": "Programlamada benimsenen model ya da yaklaşım; programlama paradigması bağlamında."
   },
   {
     "en": "pattern",
@@ -965,6 +1055,11 @@ window.GLOSSARY = [
     "note": "Mimarinin bir desenden diğerine taşınması/değiştirilmesi"
   },
   {
+    "en": "reuse mechanism",
+    "tr": "yeniden kullanım mekanizması",
+    "note": "Kodun farklı yerlerde tekrar kullanılmasını sağlayan platform yeteneği."
+  },
+  {
     "en": "roadmap",
     "tr": "yol haritası",
     "note": "Bir sistemi geliştirme sürecini gösteren plan"
@@ -978,6 +1073,16 @@ window.GLOSSARY = [
     "en": "scalability",
     "tr": "ölçeklenebilirlik",
     "note": "Bir mimari özellik (“-ility”)"
+  },
+  {
+    "en": "scope (scoping)",
+    "tr": "kapsam (scoping)",
+    "note": "Bir tanımlayıcının görülebildiği ve erişilebildiği bölge; kapsam kuralları."
+  },
+  {
+    "en": "scoping rules",
+    "tr": "kapsam kuralları",
+    "note": "Bir adın hangi bağlamlarda görünür ve erişilebilir olduğunu belirleyen kurallar."
   },
   {
     "en": "Second Law of Software Architecture",
@@ -1040,6 +1145,11 @@ window.GLOSSARY = [
     "note": "Disiplin adı; kitabın ana konusu."
   },
   {
+    "en": "software asset",
+    "tr": "yazılım varlığı",
+    "note": "Bileşen, sınıf gibi yeniden kullanılabilir yazılım öğesi."
+  },
+  {
     "en": "software development ecosystem",
     "tr": "yazılım geliştirme ekosistemi",
     "note": "Sektörü etkileyen topluluk, araç ve trendler bütünü."
@@ -1065,6 +1175,11 @@ window.GLOSSARY = [
     "note": "Güncelliğini yitirmiş bilginin hâlâ en ileri düzey olduğu yanılgısı; uzmanlığın sürdürülmemesi sonucu oluşur."
   },
   {
+    "en": "static initializer",
+    "tr": "statik başlatıcı",
+    "note": "Java'da sınıf yüklenirken bir kez çalışan, statik alanları başlatan kod bloğu."
+  },
+  {
     "en": "Strangler Pattern",
     "tr": "Strangler Deseni",
     "note": "Eski sistemi aynı arayüzün arkasında parça parça değiştirerek yeni mimariye geçme deseni"
@@ -1085,6 +1200,11 @@ window.GLOSSARY = [
     "note": "Geliştiricilerin kodlama/tasarım değişiklikleri sonucu mimari özelliklerin bozulması."
   },
   {
+    "en": "structural soundness",
+    "tr": "yapısal sağlamlık",
+    "note": "Sistemin yapısının sağlam ve tutarlı olma durumu; tesadüfen oluşmaz, sürekli enerji gerektirir."
+  },
+  {
     "en": "structure",
     "tr": "yapı",
     "note": "Sistemin mimari stil türüyle ilgili yapısı"
@@ -1093,6 +1213,11 @@ window.GLOSSARY = [
     "en": "structure of the system",
     "tr": "sistemin yapısı",
     "note": "Mimarinin en görünür parçası; mimari stili ve bileşen düzenini kapsar."
+  },
+  {
+    "en": "structured programming",
+    "tr": "yapısal programlama",
+    "note": "Pascal ve C ile örneklenen, GOTO gibi kontrolsüz sıçramaları reddeden programlama anlayışı."
   },
   {
     "en": "stuff you know you don’t know",
@@ -1153,6 +1278,11 @@ window.GLOSSARY = [
     "en": "throwaway code",
     "tr": "atılacak kod",
     "note": "Yalnızca hızlı doğrulama için yazılan, üretime girmesi amaçlanmayan kod."
+  },
+  {
+    "en": "tightly coupled",
+    "tr": "sıkı bağlı",
+    "note": "Birbirinin iç yapısına bağımlı, birlikte değişmek zorunda kalan öğelerin durumu."
   },
   {
     "en": "topic",

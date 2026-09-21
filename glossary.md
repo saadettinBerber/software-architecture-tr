@@ -42,6 +42,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | availability | kullanılabilirlik | Bir mimari özellik (“-ility”) |
 | average directional index | ortalama yönlü endeks | finansal terim; piyasa trend ölçüsü |
 | axiom | aksiyom | Doğru kabul edilen temel önerme |
+| backward compatibility | geriye dönük uyumluluk | Yeni bir özelliğin ya da dilin, eski kod ve alışkanlıklarla uyumlu kalma gereği. |
 | behavioral anti-pattern | davranışsal ters desen | Kod veya tasarım yerine insan davranışıyla ilgili ters desen; sayfa 30'da Donmuş Mağara Adamı Ters Deseni bunun örneğidir. |
 | bidder | teklif veren | açık artırma (auction) örneği bağlamında; teklif sahibi |
 | bidding data | teklif verileri | Açık artırma sistemindeki tekliflere ilişkin veriler. |
@@ -63,6 +64,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | checklist | kontrol listesi | Tamamlanması gereken adımların listesi; otomatik kontrol listeleri bağlamında. |
 | chief architect | baş mimar | ARB yoksa sapma taleplerini değerlendiren kişi |
 | class diagram | sınıf diyagramı | her bileşen için oluşturulan, sınıfları ve ilişkilerini gösteren diyagram. |
+| classpath | classpath | Java'da sınıf ve kaynakların arandığı dizin/JAR yolu; yerleşik terim, olduğu gibi kullanılır. |
 | coaching | koçluk | mimarın geliştiricilere yönelik birebir yönlendirmesi. |
 | code base | kod tabanı |  |
 | code review | kod incelemesi | Bir geliştiricinin yazdığı kodun başka bir kişi tarafından gözden geçirilmesi; çoğulu kod incelemeleri. |
@@ -95,15 +97,18 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | design principle | tasarım ilkesi | katı kural yerine yol gösteren ilke |
 | design principles | tasarım ilkeleri | Günlük kodlama ve geliştirme kararlarını yönlendiren rehber ilkeler (ör. Tek Sorumluluk İlkesi). |
 | DevOps | DevOps | Yerleşmiş terim; bu hâliyle kullanılır. |
+| directory | dizin | Dosya sisteminde dosyaları gruplayan yapı; klasör. |
 | domain | alan (domain) | Problem alanı bağlamında. |
 | don't repeat yourself (DRY) | kendini tekrar etme (DRY) | Kod tekrarını önleyen tasarım ilkesi |
 | ecosystem | ekosistem | Birbirini etkileyen teknoloji, araç ve uygulamaların bütünü |
 | elastic scale | esnek ölçekleme | İhtiyaca göre kaynak örneklerini artırıp azaltma yeteneği |
 | elasticity | esneklik | Kaynakların talebe göre otomatik artırılıp azaltılabilmesi yeteneği (elastic scale) |
+| encapsulation | kapsülleme | Veriyi ve davranışı bir birim içinde saklayıp dışarıya kontrollü erişim sunma; kapsüllemek (encapsulate) eylemi de bu sayfada geçer. |
 | engineering discipline | mühendislik disiplini |  |
 | engineering practices | mühendislik uygulamaları | Süreçten bağımsız, kanıtlanmış ve tekrarlanabilir fayda sağlayan uygulamalar. |
 | enterprise | kuruluş | işletme/şirket bağlamında |
 | enterprise service bus (ESB) | kurumsal servis veri yolu (ESB) | Servisler arası entegrasyonu ve mesajlaşmayı sağlayan merkezi bileşen. |
+| entropy | entropi | Fizikten ödünç alınan, sistemlerin düzensizliğe yönelme eğilimi. |
 | estimation | tahmin | Proje tahmini bağlamında. |
 | evolutionary architecture | evrimsel mimari | Zamanla değişime uyum sağlayan mimari. |
 | evolutionary computing | evrimsel hesaplama | Doğal evrim süreçlerinden esinlenen hesaplama alanı. |
@@ -122,6 +127,8 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | friction | sürtünme | Uyumsuz süreç veya araçların yarattığı direnç. |
 | frontend | ön uç | Kullanıcıya görünen taraf; frontend. |
 | Frozen Caveman Anti-Pattern | Donmuş Mağara Adamı Anti-Deseni | Mimarın her mimaride en sevdiği mantıksız endişeye geri dönmesini anlatan davranış anti-deseni; sayfa 30'da ele alınır. |
+| fully qualified name | tam nitelikli ad | Bir öğeyi benzersiz biçimde tanımlayan, paket/alan adı zincirini içeren tam ad. |
+| functional language | fonksiyonel dil | Hesaplamanın fonksiyonlar aracılığıyla yapıldığı programlama dili. |
 | functionality | işlevsellik | Sistemin gerçekleştirdiği işlevler; mimari karakteristiklerden bağımsızdır |
 | genetic algorithm | genetik algoritma | Çözümü mutasyon ve seçimle evrimleştirerek optimize eden algoritma. |
 | guideline | kılavuz ilke | yol gösteren ama dayatmayan ilke; karşılığı kılavuz/rehber |
@@ -152,30 +159,41 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | machine provisioning | makine sağlama | Sunucu ve kaynakların otomatik olarak hazırlanması. |
 | mentoring | rehberlik | mimarın geliştiricilere yol göstermesi; coaching (koçluk) ile birlikte anılır. |
 | messaging model | mesajlaşma modeli | yayınla-abone ol ve noktadan noktaya dahil mesajlaşma biçimleri |
+| metaobject protocol | meta nesne protokolü (metaobject protocol) | Geliştiricilere ek genişletme mekanizmaları sağlayan programlama yapısı. |
 | metrics | ölçütler | Ölçülebilir performans ve değer göstergeleri. |
 | microkernel | mikro çekirdek | Bir mimari stil türü |
 | microservice | mikroservis | Çoğulu: mikroservisler. |
 | microservices | mikroservisler | Küçük, bağımsız dağıtılabilir servislerden oluşan mimari stil |
 | microservices architecture | mikroservis mimarisi | mimari stil türü; servisler arası asenkron mesajlaşma örneği verilir |
 | mindmap | zihin haritası |  |
+| modular programming | modüler programlama | Kodu modül adı verilen bağımsız birimlerde gruplayan programlama yaklaşımı; Modula ve Ada gibi dillerde görülür. |
+| modular reuse | modüler yeniden kullanım | Modülleri bağımsız birimler olarak başka bağlamlarda yeniden kullanma. |
 | modularity | modülerlik |  |
+| module | modül | İlgili kodun mantıksal olarak gruplandığı birim; nesne yönelimli dillerde sınıf grubu, yapısal veya fonksiyonel dillerde fonksiyon grubu olabilir. |
 | monitoring | izleme | Sistemin durumunu ölçüp gözlemleme eylemi; monitors (izleyiciler) ile ilişkilidir. |
 | monitors | izleyiciler | Sistemin durumunu sürekli izleyen araçlar. |
 | monolithic architecture | monolitik mimari | Tüm bileşenlerin tek bir dağıtılabilir birimde toplandığı mimari |
 | moving target | hareketli hedef | Sürekli değişen, sabitlenemeyen konu ya da durum |
+| name conflict | ad çakışması | Aynı kapsamda aynı ada sahip iki öğenin çakışması; Java 1.0 tasarımının önlemeye çalıştığı sorun. |
+| namespace | ad alanı (namespace) | .NET gibi dillerde ilgili kodun gruplandığı modülerlik mekanizması. |
 | negotiation | müzakere |  |
 | negotiation skills | müzakere becerileri | Mimarların kararları onaylatmak için kullandığı beceriler |
 | nomenclature | adlandırma | Bir alana özgü terimler bütünü. |
 | nonpriority debt | imtiyazsız borç | finansal terim; junior debt olarak da bilinir |
+| object-oriented | nesne yönelimli | Nesneleri ve kapsüllemeyi temel alan programlama paradigması (OOP). |
+| object-oriented language | nesne yönelimli dil | Kodun sınıflar ve nesneler etrafında düzenlendiği programlama dili. |
 | office politics | ofis politikaları | kurum içi güç ve çıkar dinamikleri |
 | open source | açık kaynak | Kaynak kodu serbestçe kullanılabilen ve değiştirilebilen yazılım modeli |
 | operating system | işletim sistemi | Donanım ile uygulamalar arasında arayüz sağlayan temel yazılım |
 | operational awareness | operasyonel farkındalık | Sistemin işleyiş ve işletim boyutunu görme yetisi |
 | operational concerns | operasyonel kaygılar | Ölçek, performans, esneklik gibi operasyonla ilgili mimari kaygılar |
 | operations group | operasyon grubu | Sistemin işletilmesinden sorumlu ekip. |
+| organizing principle | düzenleme ilkesi | Bir sistemin parçalarını düzenleyen temel ilke. |
 | orthogonal | ortogonal (bağımsız) | İşlevsellikle ilişkisiz, birbirinden bağımsız |
 | outsourcing | dış kaynak kullanımı | Operasyon gibi işlevlerin maliyet tasarrufu amacıyla başka bir şirkete/ekibe devredilmesi |
+| package | paket | Java gibi dillerde ilgili sınıfların gruplandığı modülerlik mekanizması; dil anahtar sözcüğü olarak package korunur. |
 | page load time | sayfa yükleme süresi | Bir sayfanın yüklenmesi için geçen süre; performans ölçütü. |
+| paradigm | paradigma | Programlamada benimsenen model ya da yaklaşım; programlama paradigması bağlamında. |
 | pattern | desen | Tasarım desenleri bağlamında; çoğulu: desenler. |
 | perceived technical risk | algılanan teknik risk | Gerçekte var olup olmadığına bakılmaksızın mimarların hissettiği/algıladığı teknik risk; sayfa 30'da gerçek teknik riskle karşılaştırılır. |
 | point-to-point messaging | noktadan noktaya mesajlaşma | Her mesajın tam olarak bir tüketici tarafından işlendiği mesajlaşma modeli. |
@@ -202,9 +220,12 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | resilient architecture | dayanıklı mimari | Değişime ve arızalara karşı dirençli mimari. |
 | responsibility | sorumluluk | Mimarın rol kapsamı bağlamında. |
 | restructuring | yeniden yapılandırma | Mimarinin bir desenden diğerine taşınması/değiştirilmesi |
+| reuse mechanism | yeniden kullanım mekanizması | Kodun farklı yerlerde tekrar kullanılmasını sağlayan platform yeteneği. |
 | roadmap | yol haritası | Bir sistemi geliştirme sürecini gösteren plan |
 | rogue service | başıboş servis | Kurallar dışına çıkan, izinsiz davranan servis. |
 | scalability | ölçeklenebilirlik | Bir mimari özellik (“-ility”) |
+| scope (scoping) | kapsam (scoping) | Bir tanımlayıcının görülebildiği ve erişilebildiği bölge; kapsam kuralları. |
+| scoping rules | kapsam kuralları | Bir adın hangi bağlamlarda görünür ve erişilebilir olduğunu belirleyen kurallar. |
 | Second Law of Software Architecture | Yazılım Mimarisi İkinci Yasası | “Neden, nasıl’dan daha önemlidir.” |
 | security breach | güvenlik ihlali | Güvenliğin ihlal edildiği olay/olay örüntüsü. |
 | service-level agreement (SLA) | hizmet düzeyi anlaşması (SLA) | Çalışma süresi, ölçek, yanıt verebilirlik gibi hizmet ölçütlerini tanımlayan sözleşme |
@@ -217,17 +238,21 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | soft skills | sosyal beceriler | İletişim, iş birliği gibi teknik olmayan beceriler |
 | software architect | yazılım mimarı | Meslek/rol adı. |
 | software architecture | yazılım mimarisi | Disiplin adı; kitabın ana konusu. |
+| software asset | yazılım varlığı | Bileşen, sınıf gibi yeniden kullanılabilir yazılım öğesi. |
 | software development ecosystem | yazılım geliştirme ekosistemi | Sektörü etkileyen topluluk, araç ve trendler bütünü. |
 | source validator | kaynak doğrulayıcı | Kaynak kodu belirli kodlama kurallarına göre otomatik denetleyen araç. |
 | Space-Based Architecture | Alan Tabanlı Mimari | Bölüm 15'te ele alınan, yüksek ölçek için veriyi dağıtan mimari stili. |
 | stakeholders | paydaşlar |  |
 | stale expertise | bayat uzmanlık | Güncelliğini yitirmiş bilginin hâlâ en ileri düzey olduğu yanılgısı; uzmanlığın sürdürülmemesi sonucu oluşur. |
+| static initializer | statik başlatıcı | Java'da sınıf yüklenirken bir kez çalışan, statik alanları başlatan kod bloğu. |
 | Strangler Pattern | Strangler Deseni | Eski sistemi aynı arayüzün arkasında parça parça değiştirerek yeni mimariye geçme deseni |
 | strategy pattern | strateji deseni | GoF tasarım deseni |
 | structural change | yapısal değişiklik | Sistemin yapısını ilgilendiren değişiklik |
 | structural decay | yapısal çürüme | Geliştiricilerin kodlama/tasarım değişiklikleri sonucu mimari özelliklerin bozulması. |
+| structural soundness | yapısal sağlamlık | Sistemin yapısının sağlam ve tutarlı olma durumu; tesadüfen oluşmaz, sürekli enerji gerektirir. |
 | structure | yapı | Sistemin mimari stil türüyle ilgili yapısı |
 | structure of the system | sistemin yapısı | Mimarinin en görünür parçası; mimari stili ve bileşen düzenini kapsar. |
+| structured programming | yapısal programlama | Pascal ve C ile örneklenen, GOTO gibi kontrolsüz sıçramaları reddeden programlama anlayışı. |
 | stuff you know you don’t know | bildiğini bilmediğin şeyler | Varlığından haberdar olunan ama uzmanlık gerektiren bilgi düzeyi; known unknowns (bilinen bilinmeyenler) ile ilişkilidir. |
 | success criteria | başarı kriterleri | Sistemin başarılı sayılması için karşılanması gereken ölçütler |
 | symbiotic relationship | simbiyotik ilişki | Birbirini tamamlayan ve destekleyen karşılıklı ilişki. |
@@ -240,6 +265,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | test-first development | önce test geliştirme | Kod yazılmadan önce testin yazıldığı geliştirme yaklaşımı. |
 | testing environment | test ortamı | Değişikliklerin test edildiği ortam. |
 | throwaway code | atılacak kod | Yalnızca hızlı doğrulama için yazılan, üretime girmesi amaçlanmayan kod. |
+| tightly coupled | sıkı bağlı | Birbirinin iç yapısına bağımlı, birlikte değişmek zorunda kalan öğelerin durumu. |
 | topic | topic | Yayınla-abone ol modelinde birden çok abonenin aynı mesajı aldığı kanal. |
 | topology | topoloji | Sistem bileşenlerinin bağlantı ve dağılım yapısı. |
 | trade-off | ödünleşim | Bir fayda için başka bir özellikten vazgeçme; metinde İngilizcesiyle de kullanılır |

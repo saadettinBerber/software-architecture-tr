@@ -9,7 +9,7 @@ window.TOC = {
   },
   "bookTotalPages": 399,
   "pdfOffset": 20,
-  "lastTranslatedPage": 36,
+  "lastTranslatedPage": 39,
   "chapters": [
     {
       "num": 1,
@@ -582,6 +582,39 @@ window.TOC = {
         "tr": "Mimariyi ve Uygulamalı Kodlamayı Dengeleme"
       },
       "chapter": 2
+    },
+    "37": {
+      "title": {
+        "en": "Defining Modularity",
+        "tr": "Modülerliği Tanımlamak"
+      },
+      "section": {
+        "en": "Modularity",
+        "tr": "Modülerlik"
+      },
+      "chapter": 3
+    },
+    "38": {
+      "title": {
+        "en": "Definition and Modular Reuse",
+        "tr": "Tanım ve Modüler Yeniden Kullanım"
+      },
+      "section": {
+        "en": "Modularity",
+        "tr": "Modülerlik"
+      },
+      "chapter": 3
+    },
+    "39": {
+      "title": {
+        "en": "A Language with No Name Conflicts: Java 1.0",
+        "tr": "Ad Çakışması Olmayan Bir Dil: Java 1.0"
+      },
+      "section": {
+        "en": "Definition",
+        "tr": "Tanım"
+      },
+      "chapter": 3
     }
   }
 };
