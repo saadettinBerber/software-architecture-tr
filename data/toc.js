@@ -9,7 +9,7 @@ window.TOC = {
   },
   "bookTotalPages": 399,
   "pdfOffset": 20,
-  "lastTranslatedPage": 93,
+  "lastTranslatedPage": 99,
   "chapters": [
     {
       "num": 1,
@@ -1185,6 +1185,39 @@ window.TOC = {
         "tr": "Bağlılık ve Eşdoğuş"
       },
       "chapter": 7
+    },
+    "94": {
+      "title": {
+        "en": "Asynchronous Connascence and Bounded Contexts",
+        "tr": "Asenkron Eşdoğuş ve Sınırlı Bağlamlar"
+      },
+      "section": {
+        "en": "Scope of Architecture Characteristics",
+        "tr": "Mimari Özelliklerin Kapsamı"
+      },
+      "chapter": 7
+    },
+    "98": {
+      "title": {
+        "en": "Architectural Quanta and Granularity",
+        "tr": "Mimari Kuantumlar ve Parçalılık (Architectural Quanta and Granularity)"
+      },
+      "section": {
+        "en": "Architectural Quanta and Granularity",
+        "tr": "Mimari Kuantumlar ve Parçalılık (Architectural Quanta and Granularity)"
+      },
+      "chapter": 7
+    },
+    "99": {
+      "title": {
+        "en": "Component Scope",
+        "tr": "Bileşen Kapsamı"
+      },
+      "section": {
+        "en": "Component-Based Thinking",
+        "tr": "Bileşen Temelli Düşünme"
+      },
+      "chapter": 8
     }
   }
 };

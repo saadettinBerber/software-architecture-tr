@@ -54,6 +54,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | asynchronous connascence | asenkron eşdoğuş | Dinamik eşdoğuş türü; ateşle ve unut (fire-and-forget) semantiğiyle oluşur ve iki servisin operasyonel mimaride farklılaşmasına izin verir. |
 | asynchronous messaging | asenkron mesajlaşma | servisler arası iletişimde yanıt beklemeden mesaj gönderme |
 | auction system | açık artırma sistemi | Kitabın ödünleşim örneğindeki gibi, eşyaların açık artırmayla satıldığı sistem. |
+| auctioneer | mezatçı (auctioneer) | Canlı açık artırmayı yürüten taraf; Going, Going, Gone katasında kuantum düzeyinde mimari özelliklerin kapsamlandığı ayrı bir örnek. |
 | auditability | denetlenebilirlik | İşlem ve olayların izlenip denetlenebilmesi; bu sayfada gün sonu fon fiyatlamasının doğruluğu bağlamında geçer. |
 | authentication | kimlik doğrulama | Kullanıcıların gerçekten kendileri olduklarını doğrulamaya yönelik güvenlik gereksinimi; yapısal mimari özellik. |
 | authenticity | gerçeklik (authenticity) | Bir kullanıcının kimliğinin kanıtlanması; güvenlik özelliği. |
@@ -122,8 +123,10 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | communicational cohesion | iletişimsel bütünlük | İki modülün, her birinin aynı bilgi üzerinde işlem yaptığı bir iletişim zinciri oluşturduğu bütünlük düzeyi. |
 | compatibility | uyumluluk | ISO 25010 özelliği; aynı ortamı paylaşırken bilgi alışverişi ve işlev görme derecesi. |
 | competitive advantage | rekabet avantajı |  |
+| compile-time dependency | derleme zamanı bağımlılığı | Derleme sırasında çözümlenen bağımlılık; dinamik bağlantı kütüphaneleri (dynamic link libraries) gibi çalışma zamanında yüklenen bağımlılıkların karşıtı. |
 | compliance | uyum | mimari kararlara uygun davranma; 'ensure compliance with decisions' beklentisi |
 | component | bileşen | Çoğulu: bileşenler. |
+| component discovery | bileşen keşfi | Bileşenlerin varlığının ve kullanımının belirlenmesi; sayfada kapsam (scope) ile birlikte ele alınan bileşen etrafındaki mimari değerlendirme konusu. |
 | composite characteristics | bileşik özellikler | Daha küçük ölçekte birçok başka mimari özelliği barındıran özellikler; örn. çeviklik modülerlik, dağıtılabilirlik ve test edilebilirliği kapsar. |
 | concert ticket booking system | konser bileti rezervasyon sistemi | Yeni biletler satışa çıktığında trafik patlamaları yaşayan, esneklik gerektiren örnek sistem. |
 | concurrent users | eşzamanlı kullanıcılar | Aynı anda sistemi kullanan kullanıcı sayısı; ölçeklenebilirlik ölçümünde temel kavram. |
@@ -151,6 +154,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | continuous delivery | sürekli teslim | Yazılımın her an yayınlanabilir durumda tutulduğu uygulama. |
 | continuous integration | sürekli entegrasyon | Her değişikliğin push edildiği anda derlenip test edildiği uygulama. |
 | contract | sözleşme | Mesajlaşmada üzerinde anlaşılan mesaj yapısı/biçimi. |
+| coordination | koordinasyon | Ortak çalışan tarafların eylemlerinin düzenlenmesi; paylaşılan çıktıların koordinasyonu zorlaştırması bağlamında geçer. |
 | corollary | vargı | Bir yasadan çıkarılan doğal sonuç (Corollary 1 → Vargı 1). |
 | coupling | bağlılık | Bileşenlerin birbirine bağımlılık derecesi |
 | coupling metrics | bağlılık ölçütleri | Bileşenler arası bağımlılık derecesini ölçen ölçütler; sayfa 44'te ayrıntılı ele alınır. |
@@ -206,6 +210,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | don't repeat yourself (DRY) | kendini tekrar etme (DRY) | Kod tekrarını önleyen tasarım ilkesi |
 | driving architectural characteristics | yönlendirici mimari özellikler | Bir sistemi yönlendiren, öncelikli mimari özellikler; bunları belirlemek mimari çalışmanın ilk adımlarındandır. |
 | dynamic connascence | dinamik eşdoğuş | Çağrıları çalışma zamanında analiz eden eşdoğuş türü; statik eşdoğuşun (static connascence) karşıtı. |
+| dynamic link library | dinamik bağlantı kütüphanesi (DLL) | Uygulamanın çalışma zamanında yüklediği paylaşımlı kütüphane; DLL kısaltması korunur. |
 | dynamically typed language | dinamik tipli dil | Türlerin çalışma zamanında belirlendiği programlama dili. |
 | ecosystem | ekosistem | Birbirini etkileyen teknoloji, araç ve uygulamaların bütünü |
 | edge | kenar | Çizge kuramında iki düğümü birbirine bağlayan çizgi; döngüsel karmaşıklık formülünde olası kararları (E) temsil eder. |
@@ -285,6 +290,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | historical relevance | tarihsel önem | Yalnızca geçmiş bağlamında anlamlı olma durumu |
 | holistic metric | bütüncül ölçüt | Bir sistemin bütününü tek bir değerle değerlendiren ölçüt; ana diziden uzaklık bunun örneğidir. |
 | hotel reservation system | otel rezervasyon sistemi | Trafiği genellikle tutarlı olan, ölçeklenebilirliği esneklikten ayıran örnek sistem. |
+| hybrid architecture | melez mimari (hybrid architecture) | Farklı parçalarının farklı mimari stiller kullandığı, kuantum başına analizle ortaya çıkan mimari. |
 | implicit characteristics | örtük özellikler | Gereksinimlerde açıkça yazılmayan, alan bilgisinden çıkarılan mimari özellikler; explicit characteristics (açık özellikler) ile karşıtlık oluşturur. |
 | implicit knowledge | örtük bilgi | Açıkça ifade edilmeyen, alan (domain) hakkındaki sezgisel/deneyime dayalı bilgi. |
 | import | import etmek | Sınıf/bileşen içe aktarma eylemi; geliştirici jargonunda İngilizce hâli korunur. |
@@ -342,6 +348,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | main sequence | ana dizi | Soyutluk–kararsızlık grafiğinde A+I=1 doğrusu; bu doğrudan uzaklık (distance from the main sequence) ile ölçülür. |
 | maintainability | bakım yapılabilirlik | ISO 25010 kalite özelliği; yazılımın iyileştirilebilme, düzeltilebilme ve uyarlanabilme kolaylığı. |
 | maturity | olgunluk | Yazılımın normal işleyişte güvenilirlik ihtiyaçlarını karşılaması; güvenilirliğin alt kategorisi. |
+| memory address | bellek adresi | Kütüphanelerin çağıran kodla aynı bellek adresinde çalışma ve işlev çağrısı mekanizmalarıyla iletişim kurma bağlamında geçer. |
 | mentoring | rehberlik | mimarın geliştiricilere yol göstermesi; coaching (koçluk) ile birlikte anılır. |
 | mergers and acquisitions | birleşme ve satın almalar | Şirket evlilikleri ve devralmaları; M&A kısaltması da yaygındır. |
 | messaging model | mesajlaşma modeli | yayınla-abone ol ve noktadan noktaya dahil mesajlaşma biçimleri |
@@ -382,6 +389,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | objective function | amaç fonksiyonu | Uygunluk fonksiyonu tanımında 'çıktının amaca ne kadar yaklaştığını değerlendiren fonksiyon' anlamında geçer; metinde 'object function' olarak yazılmıştır. |
 | objective measure | nesnel ölçüm | Bir mimari özelliğin öznelliğe yer bırakmadan otomatik olarak ölçülmesi; objective definition (nesnel tanım) ile ilişkilidir. |
 | office politics | ofis politikaları | kurum içi güç ve çıkar dinamikleri |
+| online bidders | çevrimiçi teklif verenler (online bidders) | Açık artırma sitesine çevrimiçi olarak teklif veren kullanıcılar; mimari özelliklerin kuantum düzeyinde kapsamlanmasına örnek. |
 | open source | açık kaynak | Kaynak kodu serbestçe kullanılabilen ve değiştirilebilen yazılım modeli |
 | operating system | işletim sistemi | Donanım ile uygulamalar arasında arayüz sağlayan temel yazılım |
 | operational architecture characteristics | operasyonel mimari özellikler | Performans, kullanılabilirlik gibi sistemin işletilmesiyle ilgili mimari özellikler; sayfa 75'te performans bu gruptan en az kritik olan olarak değerlendirilir. |
@@ -467,6 +475,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | service-level agreement (SLA) | hizmet düzeyi anlaşması (SLA) | Çalışma süresi, ölçek, yanıt verebilirlik gibi hizmet ölçütlerini tanımlayan sözleşme |
 | service-oriented architecture (SOA) | servis odaklı mimari | İşlevleri bağımsız servisler olarak düzenleyen mimari yaklaşım. |
 | services layer | hizmet katmanı | Katmanlı mimaride hizmetleri barındıran katman |
+| shared artifacts | ortak paylaşılan çıktılar | Kuruluş genelinde ortaklaşa kullanılan, yeniden kullanım amacıyla oluşturulan ortak varlıklar/çıktılar; bağlılık ve koordinasyon sorunlarına yol açabilir. |
 | shared resources | paylaşılan kaynaklar | Birden çok uygulamanın birlikte kullandığı altyapı kaynakları |
 | shared utility classes | paylaşılan yardımcı sınıflar | Mimari değişiminde sıkıntı yaratan, birden çok sınıfın ortak kullandığı yardımcı sınıflar. |
 | side effect | yan etki | Bir işlemin öngörülmeyen ya da istenmeyen sonucu |
@@ -492,6 +501,8 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | statically typed language | statik tipli dil | Değişken ve parametrelerin belirli türlerle sınırlandığı programlama dili. |
 | Strangler Pattern | Strangler Deseni | Eski sistemi aynı arayüzün arkasında parça parça değiştirerek yeni mimariye geçme deseni |
 | strategy pattern | strateji deseni | GoF tasarım deseni |
+| stratification | katmanlaşma | Bileşenlerin iç içe yerleştirilerek katmanlar oluşturması; bileşen çeşitlerini gösteren Şekil 8-1 bağlamında geçer. |
+| streaming bids | canlı yayınlanan teklifler (streaming bids) | Açık artırma sisteminde tekliflerin ve video akışının canlı olarak yayınlanması; Going, Going, Gone katasında mimari kuantum örneği. |
 | stress testing | stres testi | Sistemin sınırlarını zorlayarak davranışını ölçen performans testi; tepe noktası (zirve) analiziyle ilişkilidir. |
 | structural change | yapısal değişiklik | Sistemin yapısını ilgilendiren değişiklik |
 | structural cohesion | yapısal bütünlük | Bir modülün yapısının (ör. alan erişimi) ölçülebilen bütünlüğü; LCOM gibi yapısal ölçütlerle belirlenir. |

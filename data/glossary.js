@@ -225,6 +225,11 @@ window.GLOSSARY = [
     "note": "Kitabın ödünleşim örneğindeki gibi, eşyaların açık artırmayla satıldığı sistem."
   },
   {
+    "en": "auctioneer",
+    "tr": "mezatçı (auctioneer)",
+    "note": "Canlı açık artırmayı yürüten taraf; Going, Going, Gone katasında kuantum düzeyinde mimari özelliklerin kapsamlandığı ayrı bir örnek."
+  },
+  {
     "en": "auditability",
     "tr": "denetlenebilirlik",
     "note": "İşlem ve olayların izlenip denetlenebilmesi; bu sayfada gün sonu fon fiyatlamasının doğruluğu bağlamında geçer."
@@ -565,6 +570,11 @@ window.GLOSSARY = [
     "note": ""
   },
   {
+    "en": "compile-time dependency",
+    "tr": "derleme zamanı bağımlılığı",
+    "note": "Derleme sırasında çözümlenen bağımlılık; dinamik bağlantı kütüphaneleri (dynamic link libraries) gibi çalışma zamanında yüklenen bağımlılıkların karşıtı."
+  },
+  {
     "en": "compliance",
     "tr": "uyum",
     "note": "mimari kararlara uygun davranma; 'ensure compliance with decisions' beklentisi"
@@ -573,6 +583,11 @@ window.GLOSSARY = [
     "en": "component",
     "tr": "bileşen",
     "note": "Çoğulu: bileşenler."
+  },
+  {
+    "en": "component discovery",
+    "tr": "bileşen keşfi",
+    "note": "Bileşenlerin varlığının ve kullanımının belirlenmesi; sayfada kapsam (scope) ile birlikte ele alınan bileşen etrafındaki mimari değerlendirme konusu."
   },
   {
     "en": "composite characteristics",
@@ -708,6 +723,11 @@ window.GLOSSARY = [
     "en": "contract",
     "tr": "sözleşme",
     "note": "Mesajlaşmada üzerinde anlaşılan mesaj yapısı/biçimi."
+  },
+  {
+    "en": "coordination",
+    "tr": "koordinasyon",
+    "note": "Ortak çalışan tarafların eylemlerinin düzenlenmesi; paylaşılan çıktıların koordinasyonu zorlaştırması bağlamında geçer."
   },
   {
     "en": "corollary",
@@ -983,6 +1003,11 @@ window.GLOSSARY = [
     "en": "dynamic connascence",
     "tr": "dinamik eşdoğuş",
     "note": "Çağrıları çalışma zamanında analiz eden eşdoğuş türü; statik eşdoğuşun (static connascence) karşıtı."
+  },
+  {
+    "en": "dynamic link library",
+    "tr": "dinamik bağlantı kütüphanesi (DLL)",
+    "note": "Uygulamanın çalışma zamanında yüklediği paylaşımlı kütüphane; DLL kısaltması korunur."
   },
   {
     "en": "dynamically typed language",
@@ -1380,6 +1405,11 @@ window.GLOSSARY = [
     "note": "Trafiği genellikle tutarlı olan, ölçeklenebilirliği esneklikten ayıran örnek sistem."
   },
   {
+    "en": "hybrid architecture",
+    "tr": "melez mimari (hybrid architecture)",
+    "note": "Farklı parçalarının farklı mimari stiller kullandığı, kuantum başına analizle ortaya çıkan mimari."
+  },
+  {
     "en": "implicit characteristics",
     "tr": "örtük özellikler",
     "note": "Gereksinimlerde açıkça yazılmayan, alan bilgisinden çıkarılan mimari özellikler; explicit characteristics (açık özellikler) ile karşıtlık oluşturur."
@@ -1665,6 +1695,11 @@ window.GLOSSARY = [
     "note": "Yazılımın normal işleyişte güvenilirlik ihtiyaçlarını karşılaması; güvenilirliğin alt kategorisi."
   },
   {
+    "en": "memory address",
+    "tr": "bellek adresi",
+    "note": "Kütüphanelerin çağıran kodla aynı bellek adresinde çalışma ve işlev çağrısı mekanizmalarıyla iletişim kurma bağlamında geçer."
+  },
+  {
     "en": "mentoring",
     "tr": "rehberlik",
     "note": "mimarın geliştiricilere yol göstermesi; coaching (koçluk) ile birlikte anılır."
@@ -1863,6 +1898,11 @@ window.GLOSSARY = [
     "en": "office politics",
     "tr": "ofis politikaları",
     "note": "kurum içi güç ve çıkar dinamikleri"
+  },
+  {
+    "en": "online bidders",
+    "tr": "çevrimiçi teklif verenler (online bidders)",
+    "note": "Açık artırma sitesine çevrimiçi olarak teklif veren kullanıcılar; mimari özelliklerin kuantum düzeyinde kapsamlanmasına örnek."
   },
   {
     "en": "open source",
@@ -2290,6 +2330,11 @@ window.GLOSSARY = [
     "note": "Katmanlı mimaride hizmetleri barındıran katman"
   },
   {
+    "en": "shared artifacts",
+    "tr": "ortak paylaşılan çıktılar",
+    "note": "Kuruluş genelinde ortaklaşa kullanılan, yeniden kullanım amacıyla oluşturulan ortak varlıklar/çıktılar; bağlılık ve koordinasyon sorunlarına yol açabilir."
+  },
+  {
     "en": "shared resources",
     "tr": "paylaşılan kaynaklar",
     "note": "Birden çok uygulamanın birlikte kullandığı altyapı kaynakları"
@@ -2413,6 +2458,16 @@ window.GLOSSARY = [
     "en": "strategy pattern",
     "tr": "strateji deseni",
     "note": "GoF tasarım deseni"
+  },
+  {
+    "en": "stratification",
+    "tr": "katmanlaşma",
+    "note": "Bileşenlerin iç içe yerleştirilerek katmanlar oluşturması; bileşen çeşitlerini gösteren Şekil 8-1 bağlamında geçer."
+  },
+  {
+    "en": "streaming bids",
+    "tr": "canlı yayınlanan teklifler (streaming bids)",
+    "note": "Açık artırma sisteminde tekliflerin ve video akışının canlı olarak yayınlanması; Going, Going, Gone katasında mimari kuantum örneği."
   },
   {
     "en": "stress testing",
