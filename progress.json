@@ -27,7 +27,7 @@
     "chapter_label_pattern": "^CHAPTER (\\d+)$",
     "math_geometry": true
   },
-  "last_translated_page": 79,
+  "last_translated_page": 82,
   "chapters": [
     {
       "num": 1,
@@ -798,6 +798,38 @@
       "title_tr": "Operasyonel Ölçümler",
       "section_en": "Measuring Architecture Characteristics",
       "section_tr": "Mimari Özelliklerin Ölçülmesi"
+    },
+    "74": {
+      "pdf_page": 94,
+      "chapter": 5,
+      "title_en": "Design Versus Architecture and Trade-Offs",
+      "title_tr": "Tasarıma Karşı Mimari ve Ödünleşimler",
+      "section_en": "Case Study: Silicon Sandwiches",
+      "section_tr": "Vaka Çalışması: Silicon Sandwiches"
+    },
+    "80": {
+      "pdf_page": 100,
+      "chapter": 6,
+      "title_en": "Cyclomatic Complexity Evaluation",
+      "title_tr": "Döngüsel Karmaşıklık Değerlendirmesi",
+      "section_en": "Measuring Architecture Characteristics",
+      "section_tr": "Mimari Özelliklerin Ölçülmesi"
+    },
+    "81": {
+      "pdf_page": 101,
+      "chapter": 6,
+      "title_en": "Cyclomatic Complexity Thresholds and Process Measures",
+      "title_tr": "Döngüsel Karmaşıklık Eşikleri ve Süreç Ölçümleri",
+      "section_en": "Measuring Architecture Characteristics",
+      "section_tr": "Mimari Özelliklerin Ölçülmesi"
+    },
+    "82": {
+      "pdf_page": 102,
+      "chapter": 6,
+      "title_en": "Governance and Fitness Functions",
+      "title_tr": "Yönetişim ve Uygunluk Fonksiyonları",
+      "section_en": "Governance and Fitness Functions",
+      "section_tr": "Yönetişim ve Uygunluk Fonksiyonları"
     }
   }
 }

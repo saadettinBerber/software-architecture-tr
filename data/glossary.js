@@ -65,6 +65,11 @@ window.GLOSSARY = [
     "note": "finansal terim; örnek olarak verilir"
   },
   {
+    "en": "algorithmically complex",
+    "tr": "algoritmik olarak karmaşık",
+    "note": "Sorun alanının algoritma gerektiren yapısal karmaşıklığına işaret eder."
+  },
+  {
     "en": "analyzability",
     "tr": "analiz edilebilirlik",
     "note": "Yazılım hakkında somut ölçütler toplayabilme kolaylığı."
@@ -188,6 +193,11 @@ window.GLOSSARY = [
     "en": "aspiring architect",
     "tr": "mimar adayı",
     "note": "Mimarlığa heves eden, kariyerinin başındaki kişi; nascent architect (yeni yetişen mimar) ile ilişkilidir."
+  },
+  {
+    "en": "assertions",
+    "tr": "iddialar (assertions)",
+    "note": "Testlerde beklenen davranışı doğrulayan kontrol ifadeleri; test edilebilirlik bağlamında geçer."
   },
   {
     "en": "asynchronous messaging",
@@ -365,6 +375,11 @@ window.GLOSSARY = [
     "note": ""
   },
   {
+    "en": "CC",
+    "tr": "CC",
+    "note": "Cyclomatic complexity (döngüsel karmaşıklık) kısaltması; kısaltma olduğu gibi korunur."
+  },
+  {
     "en": "change control",
     "tr": "değişiklik kontrolü",
     "note": "değişikliklerin izlenmesi ve onaylanması süreci"
@@ -405,6 +420,11 @@ window.GLOSSARY = [
     "note": "Java'da sınıf ve kaynakların arandığı dizin/JAR yolu; yerleşik terim, olduğu gibi kullanılır."
   },
   {
+    "en": "co-constructor",
+    "tr": "ortak yapıcı",
+    "note": "Yazılım sisteminin birlikte inşa edilmesinde rol alan kişi; geliştiriciler, proje yöneticisi, operasyon ekibi gibi mimarla birlikte çalışan taraflar."
+  },
+  {
     "en": "coaching",
     "tr": "koçluk",
     "note": "mimarın geliştiricilere yönelik birebir yönlendirmesi."
@@ -413,6 +433,11 @@ window.GLOSSARY = [
     "en": "code base",
     "tr": "kod tabanı",
     "note": ""
+  },
+  {
+    "en": "code coverage",
+    "tr": "kod kapsamı (code coverage)",
+    "note": "Testlerin kodu ne ölçüde çalıştırdığını gösteren ölçüt; Crap4J ile ilişkili."
   },
   {
     "en": "code review",
@@ -575,6 +600,11 @@ window.GLOSSARY = [
     "note": "Birbiriyle ilişkili birden çok değerin birlikte değişmesi gerektiği dinamik eşdoğuş türü."
   },
   {
+    "en": "connected components",
+    "tr": "bağlı bileşenler",
+    "note": "Çizge kuramında kenarlarla birbirine bağlı düğüm kümeleri; fan-out çağrıları için genel döngüsel karmaşıklık formülündeki (CC = E − N + 2P) P sayısını temsil eder."
+  },
+  {
     "en": "constraint",
     "tr": "kısıt",
     "note": "Sistemi ve geliştirme ekiplerini sınırlayan mimari karar ya da kural"
@@ -618,6 +648,11 @@ window.GLOSSARY = [
     "en": "coupling metrics",
     "tr": "bağlılık ölçütleri",
     "note": "Bileşenler arası bağımlılık derecesini ölçen ölçütler; sayfa 44'te ayrıntılı ele alınır."
+  },
+  {
+    "en": "Crap4J",
+    "tr": "Crap4J",
+    "note": "Java dünyasında, CC ve kod kapsamını birleştirerek kod kalitesini değerlendiren ölçüt aracı; ürün adı olduğu gibi korunur."
   },
   {
     "en": "critical path",
@@ -790,6 +825,11 @@ window.GLOSSARY = [
     "note": "Problem alanı bağlamında."
   },
   {
+    "en": "domain analyst",
+    "tr": "alan analisti",
+    "note": "İş alanını (domain) analiz eden ve gereksinimleri anlamlandıran kişi; mimar ve geliştiricilerle birlikte iş birliği yapan paydaş."
+  },
+  {
     "en": "domain concern",
     "tr": "alan kaygısı",
     "note": "İş alanından (domain) gelen kaygı; Tablo 5-1'de mimari özelliklere çevrilir. Architectural concern (mimari kaygı) ile karıştırılmamalıdır."
@@ -903,6 +943,11 @@ window.GLOSSARY = [
     "en": "enterprise",
     "tr": "kuruluş",
     "note": "işletme/şirket bağlamında"
+  },
+  {
+    "en": "enterprise architect",
+    "tr": "kurumsal mimar",
+    "note": "Kuruluş genelindeki sistem ve çözümlerin mimarisini yönlendiren, kurumsal ölçekte kararlardan sorumlu mimar rolü."
   },
   {
     "en": "enterprise service bus (ESB)",
@@ -1130,6 +1175,11 @@ window.GLOSSARY = [
     "note": "Çözümü mutasyon ve seçimle evrimleştirerek optimize eden algoritma."
   },
   {
+    "en": "governance",
+    "tr": "yönetişim",
+    "note": "Yunanca kubernan (yönlendirmek) sözcüğünden türeyen; mimari karar, süreç ve kalitenin yönetilip denetlenmesi. architectural governance (mimari yönetişim) ve governance mechanism (yönetişim mekanizması) ile ilişkilidir."
+  },
+  {
     "en": "governance mechanism",
     "tr": "yönetişim mekanizması",
     "note": "Mimari özelliklerin tanımlanması ve denetlenmesi için kurulan yapı/araç; architectural governance (mimari yönetişim) ile ilişkilidir."
@@ -1290,6 +1340,11 @@ window.GLOSSARY = [
     "note": "mimarlardan beklenen iletişim ve iş birliği becerileri; 'possess interpersonal skills' beklentisi"
   },
   {
+    "en": "isolation",
+    "tr": "yalıtım",
+    "note": "Mimari düzeyde, bileşenlerin/katmanların birbirinden bağımsız tutulması; iyi modülerlikle birlikte test edilebilirlik ve dağıtım kolaylığına katkı sağlar."
+  },
+  {
     "en": "iteration",
     "tr": "yineleme",
     "note": "bir projenin tekrarlanan geliştirme çevrimi"
@@ -1308,6 +1363,11 @@ window.GLOSSARY = [
     "en": "iterative process",
     "tr": "yinelemeli süreç",
     "note": "Her adımda geri bildirim alarak art arda ilerleyen süreç."
+  },
+  {
+    "en": "Ivory Tower Architect",
+    "tr": "Fildişi Kule Mimarı (Ivory Tower Architect)",
+    "note": "Uygulama ekibinden izole biçimde karar alan, ekiple iletişim kurmayan mimar davranışını anlatan anti-desen."
   },
   {
     "en": "kata",
@@ -2230,6 +2290,11 @@ window.GLOSSARY = [
     "note": ""
   },
   {
+    "en": "tech lead",
+    "tr": "teknik lider",
+    "note": "Ekibin mühendislik kararlarını yönlendiren kişi; technical leader (teknik lider) ile aynı anlamda kullanılır."
+  },
+  {
     "en": "technical breadth",
     "tr": "teknik genişlik",
     "note": ""
@@ -2253,6 +2318,11 @@ window.GLOSSARY = [
     "en": "technologist",
     "tr": "teknoloji uzmanı",
     "note": "teknolojik bilgiyi kullanan, geliştirici veya mimar gibi teknik profesyonel"
+  },
+  {
+    "en": "Template Method design pattern",
+    "tr": "Şablon Yöntemi (Template Method) tasarım deseni",
+    "note": "Üst sınıfın bir iş akışının iskeletini tanımlayıp adımlarını alt sınıfların geçersiz kılmasına olanak tanıyan davranışsal tasarım deseni; üst sınıfların tanımladığı iş akışının alt sınıflarda geçersiz kılınabildiği bağlamda geçer."
   },
   {
     "en": "temporal cohesion",
@@ -2288,6 +2358,11 @@ window.GLOSSARY = [
     "en": "thread",
     "tr": "iş parçacığı",
     "note": "Bir süreç içinde eşzamanlı çalışabilen en küçük yürütme birimi."
+  },
+  {
+    "en": "threshold",
+    "tr": "eşik (threshold)",
+    "note": "Bir ölçüt için kabul edilebilir sınır değer; 'threshold value' bağlamında kullanılır."
   },
   {
     "en": "throwaway code",
@@ -2328,6 +2403,11 @@ window.GLOSSARY = [
     "en": "trade-off",
     "tr": "ödünleşim",
     "note": "Bir fayda için başka bir özellikten vazgeçme; metinde İngilizcesiyle de kullanılır"
+  },
+  {
+    "en": "trade-off analysis",
+    "tr": "ödünleşim analizi",
+    "note": "Rakipli seçenekler arasındaki ödünleşimleri (trade-off) değerlendirme; mimarın rolünün önemli bir parçası olarak mimari özelliklerin desteklenme maliyetini karşılaştırma."
   },
   {
     "en": "transaction",
@@ -2408,6 +2488,11 @@ window.GLOSSARY = [
     "en": "waterfall",
     "tr": "şelale",
     "note": "şelale (waterfall) modeli; eski, sıralı yazılım geliştirme yaklaşımı"
+  },
+  {
+    "en": "well-factored",
+    "tr": "iyi yapılandırılmış (well-factored)",
+    "note": "Küçük, mantıklı ve sorumluluğu net metotlara bölünmüş kod; refactoring ile ilişkili."
   },
   {
     "en": "whitepaper",

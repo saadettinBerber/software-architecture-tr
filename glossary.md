@@ -22,6 +22,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | Agile | Agile | Yerleşmiş terim; bu hâliyle kullanılır. |
 | agility | çeviklik | Değişime hızlı yanıt verebilme yeteneği. |
 | aleatory contracts | aleatorik sözleşmeler | finansal terim; örnek olarak verilir |
+| algorithmically complex | algoritmik olarak karmaşık | Sorun alanının algoritma gerektiren yapısal karmaşıklığına işaret eder. |
 | analyzability | analiz edilebilirlik | Yazılım hakkında somut ölçütler toplayabilme kolaylığı. |
 | anti-pattern | ters desen | Kötü veya zararlı bir çözümü tekrarlayan, yaygın yazılım tasarım deseni; 'Frozen Caveman Anti-Pattern' adlandırmasında olduğu gibi. |
 | application server | uygulama sunucusu | Uygulamaları çalıştıran ve yöneten sunucu yazılımı |
@@ -47,6 +48,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | archivability | arşivlenebilirlik | Verinin belirli bir süre sonra arşivlenme veya silinme gereksinimi; yapısal mimari özellik. |
 | artifact | çıktı (artifact) | Çalışma sonucu üretilen kayıt/eser; burada mimari diyagramlar. |
 | aspiring architect | mimar adayı | Mimarlığa heves eden, kariyerinin başındaki kişi; nascent architect (yeni yetişen mimar) ile ilişkilidir. |
+| assertions | iddialar (assertions) | Testlerde beklenen davranışı doğrulayan kontrol ifadeleri; test edilebilirlik bağlamında geçer. |
 | asynchronous messaging | asenkron mesajlaşma | servisler arası iletişimde yanıt beklemeden mesaj gönderme |
 | auction system | açık artırma sistemi | Kitabın ödünleşim örneğindeki gibi, eşyaların açık artırmayla satıldığı sistem. |
 | auditability | denetlenebilirlik | İşlem ve olayların izlenip denetlenebilmesi; bu sayfada gün sonu fon fiyatlamasının doğruluğu bağlamında geçer. |
@@ -82,6 +84,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | call graph | çağrı çizgesi | Yöntem çağrılarını ve dönüşlerini düğümler ve kenarlar olarak gösteren çizge. |
 | capacity | kapasite | Belirlenen en yüksek sınırların aşılma derecesi; performans verimliliğinin alt ölçütü. |
 | career path | kariyer yolu |  |
+| CC | CC | Cyclomatic complexity (döngüsel karmaşıklık) kısaltması; kısaltma olduğu gibi korunur. |
 | change control | değişiklik kontrolü | değişikliklerin izlenmesi ve onaylanması süreci |
 | chaos engineering | kaos mühendisliği | Sistemin dayanıklılığını bilinçli arıza enjekte ederek test etme yöntemi. |
 | characteristics | özellikler | Kitapta architectural characteristics → mimari özellikler anlamında. |
@@ -90,8 +93,10 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | class diagram | sınıf diyagramı | her bileşen için oluşturulan, sınıfları ve ilişkilerini gösteren diyagram. |
 | class loader | sınıf yükleyici | Java'da sınıfları classpath üzerinden belleğe yükleyen mekanizma. |
 | classpath | classpath | Java'da sınıf ve kaynakların arandığı dizin/JAR yolu; yerleşik terim, olduğu gibi kullanılır. |
+| co-constructor | ortak yapıcı | Yazılım sisteminin birlikte inşa edilmesinde rol alan kişi; geliştiriciler, proje yöneticisi, operasyon ekibi gibi mimarla birlikte çalışan taraflar. |
 | coaching | koçluk | mimarın geliştiricilere yönelik birebir yönlendirmesi. |
 | code base | kod tabanı |  |
+| code coverage | kod kapsamı (code coverage) | Testlerin kodu ne ölçüde çalıştırdığını gösteren ölçüt; Crap4J ile ilişkili. |
 | code review | kod incelemesi | Bir geliştiricinin yazdığı kodun başka bir kişi tarafından gözden geçirilmesi; çoğulu kod incelemeleri. |
 | code smell | kod kokusu | Kodda belirli bir sorunu ya da tasarım kusurunu işaret eden kalıntı. |
 | code-level metrics | kod düzeyi ölçütler | Kaynak kodun yapısından türetilen, kod tabanına ilişkin ölçütler (döngüsel karmaşıklık gibi); neredeyse tamamı yorum gerektirir. |
@@ -124,6 +129,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | Connascence of Timing (CoT) | zamanlama eşdoğuşu (CoT) | Birden çok bileşenin yürütülme zamanının önemli olduğu dinamik eşdoğuş türü; tipik örneği yarış durumudur (race condition). |
 | Connascence of Type (CoT) | Tür Eşdoğuşu (CoT) | Statik eşdoğuş türlerinden biri; birden çok bileşenin bir varlığın türü üzerinde anlaşmasını gerektirir. |
 | Connascence of Values (CoV) | değer eşdoğuşu (CoV) | Birbiriyle ilişkili birden çok değerin birlikte değişmesi gerektiği dinamik eşdoğuş türü. |
+| connected components | bağlı bileşenler | Çizge kuramında kenarlarla birbirine bağlı düğüm kümeleri; fan-out çağrıları için genel döngüsel karmaşıklık formülündeki (CC = E − N + 2P) P sayısını temsil eder. |
 | constraint | kısıt | Sistemi ve geliştirme ekiplerini sınırlayan mimari karar ya da kural |
 | consumer | tüketici | Mesajlaşmada mesajı alan taraf. |
 | continuity | süreklilik | İş sürekliliği (business continuity) bağlamında; kesinti sonrası sistemin hızla yeniden çevrimiçi olması gereği. |
@@ -133,6 +139,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | corollary | vargı | Bir yasadan çıkarılan doğal sonuç (Corollary 1 → Vargı 1). |
 | coupling | bağlılık | Bileşenlerin birbirine bağımlılık derecesi |
 | coupling metrics | bağlılık ölçütleri | Bileşenler arası bağımlılık derecesini ölçen ölçütler; sayfa 44'te ayrıntılı ele alınır. |
+| Crap4J | Crap4J | Java dünyasında, CC ve kod kapsamını birleştirerek kod kalitesini değerlendiren ölçüt aracı; ürün adı olduğu gibi korunur. |
 | critical path | kritik yol | Proje yönetiminde, bir projenin tamamlanma süresini belirleyen görevler dizisi; burada mimarinin darboğazı olabilecek kod bağlamında kullanılır. |
 | criticality | kritiklik derecesi | Bir sistemin ya da özelliğin kritiklik/önem düzeyi; güvenlik gibi örtük özelliklerin önceliklendirilmesinde göz önüne alınır. |
 | CRM | müşteri ilişkileri yönetimi (CRM) | customer relationship management kısaltması |
@@ -167,6 +174,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | distributed queue | dağıtık kuyruk | Birden çok bileşenin paylaşıp güncellediği, dağıtık ortamda yaşayan kuyruk. |
 | distributed systems | dağıtık sistemler | Birden çok makinede çalışan ve birbirleriyle ağ üzerinden iletişim kuran sistemler. |
 | domain | alan (domain) | Problem alanı bağlamında. |
+| domain analyst | alan analisti | İş alanını (domain) analiz eden ve gereksinimleri anlamlandıran kişi; mimar ve geliştiricilerle birlikte iş birliği yapan paydaş. |
 | domain concern | alan kaygısı | İş alanından (domain) gelen kaygı; Tablo 5-1'de mimari özelliklere çevrilir. Architectural concern (mimari kaygı) ile karıştırılmamalıdır. |
 | domain concerns | alan kaygıları | Alan paydaşlarının iş tarafındaki endişeleri; mimari özelliklere çevrilir (Tablo 5-1). |
 | domain knowledge | alan bilgisi | Belirli bir iş alanına ilişkin bilgi; mimarlar için her zaman faydalıdır. Business domain knowledge (iş alanı bilgisi) ile ilişkilidir. |
@@ -190,6 +198,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | engineering discipline | mühendislik disiplini |  |
 | engineering practices | mühendislik uygulamaları | Süreçten bağımsız, kanıtlanmış ve tekrarlanabilir fayda sağlayan uygulamalar. |
 | enterprise | kuruluş | işletme/şirket bağlamında |
+| enterprise architect | kurumsal mimar | Kuruluş genelindeki sistem ve çözümlerin mimarisini yönlendiren, kurumsal ölçekte kararlardan sorumlu mimar rolü. |
 | enterprise service bus (ESB) | kurumsal servis veri yolu (ESB) | Servisler arası entegrasyonu ve mesajlaşmayı sağlayan merkezi bileşen. |
 | entropy | entropi | Fizikten ödünç alınan, sistemlerin düzensizliğe yönelme eğilimi. |
 | estimation | tahmin | Proje tahmini bağlamında. |
@@ -235,6 +244,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | functional suitability | işlevsel uygunluk | ISO 25010 kalite özelliği; ürünün işlevlerinin belirtilen ve ima edilen ihtiyaçları karşılama derecesi. |
 | functionality | işlevsellik | Sistemin gerçekleştirdiği işlevler; mimari karakteristiklerden bağımsızdır |
 | genetic algorithm | genetik algoritma | Çözümü mutasyon ve seçimle evrimleştirerek optimize eden algoritma. |
+| governance | yönetişim | Yunanca kubernan (yönlendirmek) sözcüğünden türeyen; mimari karar, süreç ve kalitenin yönetilip denetlenmesi. architectural governance (mimari yönetişim) ve governance mechanism (yönetişim mekanizması) ile ilişkilidir. |
 | governance mechanism | yönetişim mekanizması | Mimari özelliklerin tanımlanması ve denetlenmesi için kurulan yapı/araç; architectural governance (mimari yönetişim) ile ilişkilidir. |
 | granularity | parçalılık | Bir sistemin parçalara ayrılma incelik derecesi; 'Architectural Quanta and Granularity' kesit başlığında geçer. |
 | graph theory | çizge kuramı | Çizge (graf) yapılarını inceleyen matematik dalı. |
@@ -267,10 +277,12 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | interconnectivity | karşılıklı bağlantılılık (interconnectivity) | Mimari özelliklerin birbirini etkileme durumu; helikopter kumandaları benzetmesinde geçer. |
 | interoperability | birlikte çalışabilirlik | Uyumluluğun alt ölçütü; iki veya daha fazla sistemin bilgi alışverişi ve kullanım derecesi. |
 | interpersonal skills | kişilerarası beceriler | mimarlardan beklenen iletişim ve iş birliği becerileri; 'possess interpersonal skills' beklentisi |
+| isolation | yalıtım | Mimari düzeyde, bileşenlerin/katmanların birbirinden bağımsız tutulması; iyi modülerlikle birlikte test edilebilirlik ve dağıtım kolaylığına katkı sağlar. |
 | iteration | yineleme | bir projenin tekrarlanan geliştirme çevrimi |
 | iterative | yinelemeli |  |
 | iterative development | yinelemeli geliştirme | Küçük ve tekrarlı adımlarla ilerleyen geliştirme biçimi |
 | iterative process | yinelemeli süreç | Her adımda geri bildirim alarak art arda ilerleyen süreç. |
+| Ivory Tower Architect | Fildişi Kule Mimarı (Ivory Tower Architect) | Uygulama ekibinden izole biçimde karar alan, ekiple iletişim kurmayan mimar davranışını anlatan anti-desen. |
 | kata | kata | Japonya'dan ve dövüş sanatlarından gelen, vurgunun doğru form ve teknik üzerinde olduğu bireysel eğitim alıştırması; yerleşik terim olduğu gibi kullanılır. |
 | knowledge pyramid | bilgi piramidi | bilgiyi; bilinen, bilinmediği bilinen ve bilinmediği bilinmeyen olarak ayıran model; Şekil 2-3 |
 | knowledge triangle | bilgi üçgeni | bilgiyi üç bölüme ayıran kavram; sayfada knowledge pyramid (bilgi piramidi) ile aynı anlamda kullanılır |
@@ -455,11 +467,13 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | symbiotic relationship | simbiyotik ilişki | Birbirini tamamlayan ve destekleyen karşılıklı ilişki. |
 | synchronous communication | eşzamanlı iletişim | Gönderenin yanıt beklediği, çağrının engelleyici (bloklayıcı) olduğu iletişim biçimi; asenkron mesajlaşmanın (asynchronous messaging) karşıtı. |
 | teamwork | takım çalışması |  |
+| tech lead | teknik lider | Ekibin mühendislik kararlarını yönlendiren kişi; technical leader (teknik lider) ile aynı anlamda kullanılır. |
 | technical breadth | teknik genişlik |  |
 | technical debt | teknik borç | Kısa vadeli ya da acele çözümlerin biriktirdiği, sonradan ödenmesi gereken kod/tasarım borcu. |
 | technical depth | teknik derinlik |  |
 | technical leader | teknik lider | Ekibin mühendislik kararlarını yönlendiren kişi. |
 | technologist | teknoloji uzmanı | teknolojik bilgiyi kullanan, geliştirici veya mimar gibi teknik profesyonel |
+| Template Method design pattern | Şablon Yöntemi (Template Method) tasarım deseni | Üst sınıfın bir iş akışının iskeletini tanımlayıp adımlarını alt sınıfların geçersiz kılmasına olanak tanıyan davranışsal tasarım deseni; üst sınıfların tanımladığı iş akışının alt sınıflarda geçersiz kılınabildiği bağlamda geçer. |
 | temporal cohesion | zamansal bütünlük | Modüllerin zamanlama bağımlılıklarına göre ilişkili olduğu uyum türü; örn. sistem başlangıcında başlatılan görünüşte alakasız görevler. |
 | test-first development | önce test geliştirme | Kod yazılmadan önce testin yazıldığı geliştirme yaklaşımı. |
 | testability | test edilebilirlik | Geliştiricilerin ve diğer kişilerin yazılımı test edebilme kolaylığı. |
@@ -467,6 +481,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | third party | üçüncü taraf | Sistemin dışında, işlemleri üstlenen bağımsız hizmet sağlayıcı (ödeme işlemcisi gibi). |
 | third-party system | üçüncü taraf sistem | Sistemin güvendiği, dışarıda barındırılan başka bir sistem; arızası çağıran sistemin güvenilirliğini etkiler. |
 | thread | iş parçacığı | Bir süreç içinde eşzamanlı çalışabilen en küçük yürütme birimi. |
+| threshold | eşik (threshold) | Bir ölçüt için kabul edilebilir sınır değer; 'threshold value' bağlamında kullanılır. |
 | throwaway code | atılacak kod | Yalnızca hızlı doğrulama için yazılan, üretime girmesi amaçlanmayan kod. |
 | tightly coupled | sıkı bağlı | Birbirinin iç yapısına bağımlı, birlikte değişmek zorunda kalan öğelerin durumu. |
 | time behavior | zaman davranışı | Yanıt, işlem süresi ve işleme hızı oranlarının ölçüsü; performans verimliliğinin alt ölçütü. |
@@ -475,6 +490,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | topic | topic | Yayınla-abone ol modelinde birden çok abonenin aynı mesajı aldığı kanal. |
 | topology | topoloji | Sistem bileşenlerinin bağlantı ve dağılım yapısı. |
 | trade-off | ödünleşim | Bir fayda için başka bir özellikten vazgeçme; metinde İngilizcesiyle de kullanılır |
+| trade-off analysis | ödünleşim analizi | Rakipli seçenekler arasındaki ödünleşimleri (trade-off) değerlendirme; mimarın rolünün önemli bir parçası olarak mimari özelliklerin desteklenme maliyetini karşılaştırma. |
 | transaction | işlem (transaction) | Bir bütün olarak gerçekleştirilmesi gereken; tüm değerlerin birlikte değiştiği atomik veri işleme birimi. |
 | traveling salesperson problem | gezgin satıcı problemi | Çeşitli şehirler arasındaki en kısa rotayı bulmayı amaçlayan klasik optimizasyon problemi. |
 | ubiquitous language | ortak dil (ubiquitous language) | Alan odaklı tasarımdan gelen; tüm ekip üyelerinin aynı terimleri aynı anlamda kullandığı ortak dil. |
@@ -491,6 +507,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | verification mechanism | doğrulama mekanizması | Bir özelliğin veya parçanın durumunu otomatik olarak doğrulayan mekanizma. |
 | volatility | değişkenlik | Bir kod tabanının değişikliklerden etkilenme eğilimi; kararsızlık ölçütüyle belirlenir. |
 | waterfall | şelale | şelale (waterfall) modeli; eski, sıralı yazılım geliştirme yaklaşımı |
+| well-factored | iyi yapılandırılmış (well-factored) | Küçük, mantıklı ve sorumluluğu net metotlara bölünmüş kod; refactoring ile ilişkili. |
 | whitepaper | teknik rapor | Beyaz rapor; teknik belge türü. |
 | wiretap | izinsiz dinleme | Gizlice dinleme; mesaj akışını izinsiz gözlemleme. |
 | workflow | iş akışı | İşlerin yapılandırılmış akışı. |

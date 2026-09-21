@@ -9,7 +9,7 @@ window.TOC = {
   },
   "bookTotalPages": 399,
   "pdfOffset": 20,
-  "lastTranslatedPage": 79,
+  "lastTranslatedPage": 82,
   "chapters": [
     {
       "num": 1,
@@ -1026,6 +1026,50 @@ window.TOC = {
       "section": {
         "en": "Measuring Architecture Characteristics",
         "tr": "Mimari Özelliklerin Ölçülmesi"
+      },
+      "chapter": 6
+    },
+    "74": {
+      "title": {
+        "en": "Design Versus Architecture and Trade-Offs",
+        "tr": "Tasarıma Karşı Mimari ve Ödünleşimler"
+      },
+      "section": {
+        "en": "Case Study: Silicon Sandwiches",
+        "tr": "Vaka Çalışması: Silicon Sandwiches"
+      },
+      "chapter": 5
+    },
+    "80": {
+      "title": {
+        "en": "Cyclomatic Complexity Evaluation",
+        "tr": "Döngüsel Karmaşıklık Değerlendirmesi"
+      },
+      "section": {
+        "en": "Measuring Architecture Characteristics",
+        "tr": "Mimari Özelliklerin Ölçülmesi"
+      },
+      "chapter": 6
+    },
+    "81": {
+      "title": {
+        "en": "Cyclomatic Complexity Thresholds and Process Measures",
+        "tr": "Döngüsel Karmaşıklık Eşikleri ve Süreç Ölçümleri"
+      },
+      "section": {
+        "en": "Measuring Architecture Characteristics",
+        "tr": "Mimari Özelliklerin Ölçülmesi"
+      },
+      "chapter": 6
+    },
+    "82": {
+      "title": {
+        "en": "Governance and Fitness Functions",
+        "tr": "Yönetişim ve Uygunluk Fonksiyonları"
+      },
+      "section": {
+        "en": "Governance and Fitness Functions",
+        "tr": "Yönetişim ve Uygunluk Fonksiyonları"
       },
       "chapter": 6
     }
