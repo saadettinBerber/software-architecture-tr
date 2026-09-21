@@ -14,6 +14,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | Agile | Agile | Yerleşmiş terim; bu hâliyle kullanılır. |
 | agility | çeviklik | Değişime hızlı yanıt verebilme yeteneği. |
 | aleatory contracts | aleatorik sözleşmeler | finansal terim; örnek olarak verilir |
+| anti-pattern | ters desen | Kötü veya zararlı bir çözümü tekrarlayan, yaygın yazılım tasarım deseni; 'Frozen Caveman Anti-Pattern' adlandırmasında olduğu gibi. |
 | application server | uygulama sunucusu | Uygulamaları çalıştıran ve yöneten sunucu yazılımı |
 | application silos | uygulama siloları | her uygulama veri tabanına yalnızca sahibi olan uygulamanın erişebildiği mimari yapı |
 | architect | mimar | Yazılım mimarisiyle ilgilenen kişi |
@@ -37,6 +38,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | availability | kullanılabilirlik | Bir mimari özellik (“-ility”) |
 | average directional index | ortalama yönlü endeks | finansal terim; piyasa trend ölçüsü |
 | axiom | aksiyom | Doğru kabul edilen temel önerme |
+| behavioral anti-pattern | davranışsal ters desen | Kod veya tasarım yerine insan davranışıyla ilgili ters desen; sayfa 30'da Donmuş Mağara Adamı Ters Deseni bunun örneğidir. |
 | bidirectional communication | çift yönlü iletişim | mimar ile geliştirme ekipleri arasında kararların iki yönde aktığı iletişim biçimi. |
 | Big Design Up Front | Önden Büyük Tasarım | BDUF kısaltmasıyla da bilinir. |
 | blueprint | mavi baskı (blueprint) | Sistemin yapısını gösteren plan şeması |
@@ -102,6 +104,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | framework | çerçeve |  |
 | friction | sürtünme | Uyumsuz süreç veya araçların yarattığı direnç. |
 | frontend | ön uç | Kullanıcıya görünen taraf; frontend. |
+| Frozen Caveman Anti-Pattern | Donmuş Mağara Adamı Anti-Deseni | Mimarın her mimaride en sevdiği mantıksız endişeye geri dönmesini anlatan davranış anti-deseni; sayfa 30'da ele alınır. |
 | functionality | işlevsellik | Sistemin gerçekleştirdiği işlevler; mimari karakteristiklerden bağımsızdır |
 | genetic algorithm | genetik algoritma | Çözümü mutasyon ve seçimle evrimleştirerek optimize eden algoritma. |
 | guideline | kılavuz ilke | yol gösteren ama dayatmayan ilke; karşılığı kılavuz/rehber |
@@ -152,6 +155,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | outsourcing | dış kaynak kullanımı | Operasyon gibi işlevlerin maliyet tasarrufu amacıyla başka bir şirkete/ekibe devredilmesi |
 | page load time | sayfa yükleme süresi | Bir sayfanın yüklenmesi için geçen süre; performans ölçütü. |
 | pattern | desen | Tasarım desenleri bağlamında; çoğulu: desenler. |
+| perceived technical risk | algılanan teknik risk | Gerçekte var olup olmadığına bakılmaksızın mimarların hissettiği/algıladığı teknik risk; sayfa 30'da gerçek teknik riskle karşılaştırılır. |
 | presentation layer | sunum katmanı | Kullanıcı arayüzü sorumluluğunu taşıyan katman |
 | problem domain | sorun alanı | çözülmek istenen iş sorununun yer aldığı alan |
 | problem space | problem alanı |  |
@@ -183,6 +187,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | software development ecosystem | yazılım geliştirme ekosistemi | Sektörü etkileyen topluluk, araç ve trendler bütünü. |
 | Space-Based Architecture | Alan Tabanlı Mimari | Bölüm 15'te ele alınan, yüksek ölçek için veriyi dağıtan mimari stili. |
 | stakeholders | paydaşlar |  |
+| stale expertise | bayat uzmanlık | Güncelliğini yitirmiş bilginin hâlâ en ileri düzey olduğu yanılgısı; uzmanlığın sürdürülmemesi sonucu oluşur. |
 | Strangler Pattern | Strangler Deseni | Eski sistemi aynı arayüzün arkasında parça parça değiştirerek yeni mimariye geçme deseni |
 | strategy pattern | strateji deseni | GoF tasarım deseni |
 | structural change | yapısal değişiklik | Sistemin yapısını ilgilendiren değişiklik |

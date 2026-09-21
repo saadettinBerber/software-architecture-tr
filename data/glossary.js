@@ -25,6 +25,11 @@ window.GLOSSARY = [
     "note": "finansal terim; örnek olarak verilir"
   },
   {
+    "en": "anti-pattern",
+    "tr": "ters desen",
+    "note": "Kötü veya zararlı bir çözümü tekrarlayan, yaygın yazılım tasarım deseni; 'Frozen Caveman Anti-Pattern' adlandırmasında olduğu gibi."
+  },
+  {
     "en": "application server",
     "tr": "uygulama sunucusu",
     "note": "Uygulamaları çalıştıran ve yöneten sunucu yazılımı"
@@ -138,6 +143,11 @@ window.GLOSSARY = [
     "en": "axiom",
     "tr": "aksiyom",
     "note": "Doğru kabul edilen temel önerme"
+  },
+  {
+    "en": "behavioral anti-pattern",
+    "tr": "davranışsal ters desen",
+    "note": "Kod veya tasarım yerine insan davranışıyla ilgili ters desen; sayfa 30'da Donmuş Mağara Adamı Ters Deseni bunun örneğidir."
   },
   {
     "en": "bidirectional communication",
@@ -465,6 +475,11 @@ window.GLOSSARY = [
     "note": "Kullanıcıya görünen taraf; frontend."
   },
   {
+    "en": "Frozen Caveman Anti-Pattern",
+    "tr": "Donmuş Mağara Adamı Anti-Deseni",
+    "note": "Mimarın her mimaride en sevdiği mantıksız endişeye geri dönmesini anlatan davranış anti-deseni; sayfa 30'da ele alınır."
+  },
+  {
     "en": "functionality",
     "tr": "işlevsellik",
     "note": "Sistemin gerçekleştirdiği işlevler; mimari karakteristiklerden bağımsızdır"
@@ -715,6 +730,11 @@ window.GLOSSARY = [
     "note": "Tasarım desenleri bağlamında; çoğulu: desenler."
   },
   {
+    "en": "perceived technical risk",
+    "tr": "algılanan teknik risk",
+    "note": "Gerçekte var olup olmadığına bakılmaksızın mimarların hissettiği/algıladığı teknik risk; sayfa 30'da gerçek teknik riskle karşılaştırılır."
+  },
+  {
     "en": "presentation layer",
     "tr": "sunum katmanı",
     "note": "Kullanıcı arayüzü sorumluluğunu taşıyan katman"
@@ -868,6 +888,11 @@ window.GLOSSARY = [
     "en": "stakeholders",
     "tr": "paydaşlar",
     "note": ""
+  },
+  {
+    "en": "stale expertise",
+    "tr": "bayat uzmanlık",
+    "note": "Güncelliğini yitirmiş bilginin hâlâ en ileri düzey olduğu yanılgısı; uzmanlığın sürdürülmemesi sonucu oluşur."
   },
   {
     "en": "Strangler Pattern",

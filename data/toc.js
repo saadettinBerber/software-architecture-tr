@@ -9,7 +9,7 @@ window.TOC = {
   },
   "bookTotalPages": 399,
   "pdfOffset": 20,
-  "lastTranslatedPage": 27,
+  "lastTranslatedPage": 30,
   "chapters": [
     {
       "num": 1,
@@ -477,6 +477,39 @@ window.TOC = {
       "title": {
         "en": "Technical Depth and Expertise",
         "tr": "Teknik Derinlik ve Uzmanlık"
+      },
+      "section": {
+        "en": "Technical Breadth",
+        "tr": "Teknik Genişlik"
+      },
+      "chapter": 2
+    },
+    "28": {
+      "title": {
+        "en": "Breadth Over Depth",
+        "tr": "Derinlikten Çok Genişlik"
+      },
+      "section": {
+        "en": "Technical Breadth",
+        "tr": "Teknik Genişlik"
+      },
+      "chapter": 2
+    },
+    "29": {
+      "title": {
+        "en": "A Shift in Perspective",
+        "tr": "Bakış Açısında Bir Değişim"
+      },
+      "section": {
+        "en": "Technical Breadth",
+        "tr": "Teknik Genişlik"
+      },
+      "chapter": 2
+    },
+    "30": {
+      "title": {
+        "en": "Frozen Caveman Anti-Pattern",
+        "tr": "Donmuş Mağara Adamı Ters Deseni"
       },
       "section": {
         "en": "Technical Breadth",
