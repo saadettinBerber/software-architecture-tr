@@ -25,6 +25,11 @@ window.GLOSSARY = [
     "note": "Bir kullanıcının eylemlerinin izlenebilmesi; güvenlik özelliği."
   },
   {
+    "en": "adaptability",
+    "tr": "uyarlanabilirlik",
+    "note": "Yazılımın farklı ya da değişen donanım, yazılım veya operasyonel ortamlara uyarlanabilme derecesi."
+  },
+  {
     "en": "Advanced Message Queuing Protocol (AMQP)",
     "tr": "Gelişmiş Mesaj Kuyruğu Protokolü (AMQP)",
     "note": "Mesaj kuyruğu standartlarından; AMQP kısaltması korunur."
@@ -53,6 +58,11 @@ window.GLOSSARY = [
     "en": "aleatory contracts",
     "tr": "aleatorik sözleşmeler",
     "note": "finansal terim; örnek olarak verilir"
+  },
+  {
+    "en": "analyzability",
+    "tr": "analiz edilebilirlik",
+    "note": "Yazılım hakkında somut ölçütler toplayabilme kolaylığı."
   },
   {
     "en": "anti-pattern",
@@ -695,6 +705,11 @@ window.GLOSSARY = [
     "note": "Sorun alanına (problem domain) ilişkin gereksinimler; mimari özelliklerle birlikte yazılım çözümünü oluşturur."
   },
   {
+    "en": "domain-driven design",
+    "tr": "alan odaklı tasarım (domain-driven design)",
+    "note": "Yazılımı modellemek için alanı (domain) merkeze alan tasarım yaklaşımı; DDD kısaltmasıyla da bilinir."
+  },
+  {
     "en": "don't repeat yourself (DRY)",
     "tr": "kendini tekrar etme (DRY)",
     "note": "Kod tekrarını önleyen tasarım ilkesi"
@@ -830,6 +845,11 @@ window.GLOSSARY = [
     "note": "Sistemin bileşen arızalarına rağmen çalışmaya devam edebilme yeteneği."
   },
   {
+    "en": "feature flag",
+    "tr": "özellik anahtarı (feature flag)",
+    "note": "Davranışı kod değişikliği olmadan açıp kapatan bayrak; feature toggle (özellik anahtarı) ile eş anlamlı."
+  },
+  {
     "en": "feature toggles",
     "tr": "özellik anahtarları",
     "note": "Davranışı kod değişikliği olmadan açıp kapatmayı sağlayan bayraklar"
@@ -880,9 +900,24 @@ window.GLOSSARY = [
     "note": "Bir öğeyi benzersiz biçimde tanımlayan, paket/alan adı zincirini içeren tam ad."
   },
   {
+    "en": "functional appropriateness",
+    "tr": "işlevsel yerindelik",
+    "note": "İşlevlerin belirtilen görev ve hedeflerin gerçekleştirilmesini kolaylaştırma derecesi; functional suitability (işlevsel uygunluk) ile karıştırılmamalıdır."
+  },
+  {
     "en": "functional cohesion",
     "tr": "işlevsel bütünlük",
     "note": "En yüksek bütünlük düzeyi; modülün tüm parçaları birbiriyle ilişkilidir."
+  },
+  {
+    "en": "functional completeness",
+    "tr": "işlevsel tamlık",
+    "note": "İşlevler kümesinin belirtilen tüm görevleri ve kullanıcı hedeflerini kapsama derecesi."
+  },
+  {
+    "en": "functional correctness",
+    "tr": "işlevsel doğruluk",
+    "note": "Ürünün sonuçları gereken kesinlik derecesiyle doğru biçimde sağlama derecesi."
   },
   {
     "en": "functional language",
@@ -893,6 +928,11 @@ window.GLOSSARY = [
     "en": "functional requirements",
     "tr": "işlevsel gereksinimler",
     "note": "Sistemin gerçekleştirdiği alan işlevlerini tanımlayan gereksinimler; mimari özelliklerin karşıtı."
+  },
+  {
+    "en": "functional suitability",
+    "tr": "işlevsel uygunluk",
+    "note": "ISO 25010 kalite özelliği; ürünün işlevlerinin belirtilen ve ima edilen ihtiyaçları karşılama derecesi."
   },
   {
     "en": "functionality",
@@ -990,6 +1030,11 @@ window.GLOSSARY = [
     "note": "Küçük adımlarla, düşük maliyetle yapılan değişiklik"
   },
   {
+    "en": "indirection",
+    "tr": "dolaylı erişim (indirection)",
+    "note": "Zararlı verileri gizlemek için erişimi bir aracı üzerinden dolaylı yapma tekniği."
+  },
+  {
     "en": "infrastructure",
     "tr": "altyapı",
     "note": "Sistemin üzerinde çalıştığı donanım ve ağ hizmetleri."
@@ -998,6 +1043,11 @@ window.GLOSSARY = [
     "en": "instability",
     "tr": "kararsızlık",
     "note": "Robert Martin'in I ölçütü; çıkan bağlılığın toplam bağlılığa oranı."
+  },
+  {
+    "en": "installability",
+    "tr": "kurulabilirlik",
+    "note": "Yazılımın belirtilen bir ortama kurulup kaldırılabilmesi."
   },
   {
     "en": "integration point",
@@ -1013,6 +1063,11 @@ window.GLOSSARY = [
     "en": "integrity assessment",
     "tr": "bütünlük değerlendirmesi",
     "note": "Bir özelliğin veya parçanın durumunun nesnel olarak ölçülüp değerlendirilmesi."
+  },
+  {
+    "en": "interconnectivity",
+    "tr": "karşılıklı bağlantılılık (interconnectivity)",
+    "note": "Mimari özelliklerin birbirini etkileme durumu; helikopter kumandaları benzetmesinde geçer."
   },
   {
     "en": "interoperability",
@@ -1105,6 +1160,11 @@ window.GLOSSARY = [
     "note": "Kullanıcının yazılımı kullanmayı öğrenme kolaylığı; kullanışlılığın alt ölçütü."
   },
   {
+    "en": "least worst architecture",
+    "tr": "en az kötü mimari (least worst architecture)",
+    "note": "Tüm mimari özellikler en üst düzeye çıkarılamayacağı için, en az acı veren yan etkilere sahip mimari seçiminin yapılması."
+  },
+  {
     "en": "legal",
     "tr": "yasal",
     "note": "Sistemin çalıştığı yasal bağlam; veri koruma, Sarbanes Oxley, GDPR gibi yasal kısıtlamalarla ilgili yapısal mimari özellik."
@@ -1153,6 +1213,11 @@ window.GLOSSARY = [
     "en": "main sequence",
     "tr": "ana dizi",
     "note": "Soyutluk–kararsızlık grafiğinde A+I=1 doğrusu; bu doğrudan uzaklık (distance from the main sequence) ile ölçülür."
+  },
+  {
+    "en": "maintainability",
+    "tr": "bakım yapılabilirlik",
+    "note": "ISO 25010 kalite özelliği; yazılımın iyileştirilebilme, düzeltilebilme ve uyarlanabilme kolaylığı."
   },
   {
     "en": "maturity",
@@ -1225,6 +1290,11 @@ window.GLOSSARY = [
     "note": "Bilgiyi hatırlamaya yardımcı olan sözcük ya da ipucu; burada afferent/efferent ayrımı için geliştirilen ipuçları."
   },
   {
+    "en": "modifiability",
+    "tr": "değiştirilebilirlik",
+    "note": "Hata oluşturmadan ya da mevcut ürün kalitesini düşürmeden yazılımı değiştirebilme derecesi."
+  },
+  {
     "en": "modular programming",
     "tr": "modüler programlama",
     "note": "Kodu modül adı verilen bağımsız birimlerde gruplayan programlama yaklaşımı; Modula ve Ada gibi dillerde görülür."
@@ -1258,6 +1328,11 @@ window.GLOSSARY = [
     "en": "monolithic architecture",
     "tr": "monolitik mimari",
     "note": "Tüm bileşenlerin tek bir dağıtılabilir birimde toplandığı mimari"
+  },
+  {
+    "en": "motivational requirements",
+    "tr": "motivasyon gereksinimleri",
+    "note": "Kitaba göre işlevsel gereksinimler; yazılımı inşa etmeyi motive eden ancak mimari özellik olmayan gereksinimler."
   },
   {
     "en": "moving target",
@@ -1405,6 +1480,11 @@ window.GLOSSARY = [
     "note": "Her mesajın tam olarak bir tüketici tarafından işlendiği mesajlaşma modeli."
   },
   {
+    "en": "portability",
+    "tr": "taşınabilirlik",
+    "note": "Bir sistemin, ürünün ya da bileşenin bir ortamdan diğerine taşınabilme derecesi."
+  },
+  {
     "en": "presentation layer",
     "tr": "sunum katmanı",
     "note": "Kullanıcı arayüzü sorumluluğunu taşıyan katman"
@@ -1530,6 +1610,11 @@ window.GLOSSARY = [
     "note": "REST, SOAP gibi uzak servis çağrılarında kullanılan protokol"
   },
   {
+    "en": "replaceability",
+    "tr": "değiştirilebilirlik (replaceability)",
+    "note": "İşlevselliğin başka bir yazılımla değiştirilebilme kolaylığı; modifiability (değiştirilebilirlik) ile karıştırılmamalıdır."
+  },
+  {
     "en": "requirements",
     "tr": "gereksinimler",
     "note": "Sistemin karşılaması gereken işlevsel ihtiyaçlar."
@@ -1558,6 +1643,11 @@ window.GLOSSARY = [
     "en": "restructuring",
     "tr": "yeniden yapılandırma",
     "note": "Mimarinin bir desenden diğerine taşınması/değiştirilmesi"
+  },
+  {
+    "en": "reusability",
+    "tr": "yeniden kullanılabilirlik",
+    "note": "Bir yazılım varlığının birden fazla sistemde ya da başka varlıkların üretiminde kullanılabilme derecesi."
   },
   {
     "en": "reuse mechanism",
@@ -1608,6 +1698,11 @@ window.GLOSSARY = [
     "en": "scoping rules",
     "tr": "kapsam kuralları",
     "note": "Bir adın hangi bağlamlarda görünür ve erişilebilir olduğunu belirleyen kurallar."
+  },
+  {
+    "en": "seam",
+    "tr": "eklem (seam)",
+    "note": "Kodu değiştirmeden davranışı değiştirebilmek için tasarıma bilinçli olarak yerleştirilen genişletme noktası."
   },
   {
     "en": "Second Law of Software Architecture",
@@ -1720,6 +1815,11 @@ window.GLOSSARY = [
     "note": "Bölüm 15'te ele alınan, yüksek ölçek için veriyi dağıtan mimari stili."
   },
   {
+    "en": "spike",
+    "tr": "deneme (spike)",
+    "note": "Zaman kutusuna alınmış, riskli bir varsayımı hızlıca doğrulamak için yapılan küçük deney/prototip; Extreme Programming kökenli."
+  },
+  {
     "en": "stakeholders",
     "tr": "paydaşlar",
     "note": ""
@@ -1810,6 +1910,11 @@ window.GLOSSARY = [
     "note": "Varlığından haberdar olunan ama uzmanlık gerektiren bilgi düzeyi; known unknowns (bilinen bilinmeyenler) ile ilişkilidir."
   },
   {
+    "en": "subcharacteristic",
+    "tr": "alt özellik",
+    "note": "ISO 25010'da bir kalite özelliğini oluşturan alt kategoriler."
+  },
+  {
     "en": "success criteria",
     "tr": "başarı kriterleri",
     "note": "Sistemin başarılı sayılması için karşılanması gereken ölçütler"
@@ -1865,6 +1970,11 @@ window.GLOSSARY = [
     "note": "Kod yazılmadan önce testin yazıldığı geliştirme yaklaşımı."
   },
   {
+    "en": "testability",
+    "tr": "test edilebilirlik",
+    "note": "Geliştiricilerin ve diğer kişilerin yazılımı test edebilme kolaylığı."
+  },
+  {
     "en": "testing environment",
     "tr": "test ortamı",
     "note": "Değişikliklerin test edildiği ortam."
@@ -1913,6 +2023,11 @@ window.GLOSSARY = [
     "en": "traveling salesperson problem",
     "tr": "gezgin satıcı problemi",
     "note": "Çeşitli şehirler arasındaki en kısa rotayı bulmayı amaçlayan klasik optimizasyon problemi."
+  },
+  {
+    "en": "ubiquitous language",
+    "tr": "ortak dil (ubiquitous language)",
+    "note": "Alan odaklı tasarımdan gelen; tüm ekip üyelerinin aynı terimleri aynı anlamda kullandığı ortak dil."
   },
   {
     "en": "unit tests",

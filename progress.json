@@ -27,7 +27,7 @@
     "chapter_label_pattern": "^CHAPTER (\\d+)$",
     "math_geometry": true
   },
-  "last_translated_page": 61,
+  "last_translated_page": 64,
   "chapters": [
     {
       "num": 1,
@@ -666,6 +666,30 @@
       "title_tr": "Çapraz Kesimli Mimari Özellikler (Cross-Cutting Architecture Characteristics)",
       "section_en": "Architecture Characteristics Defined",
       "section_tr": "Mimari Özelliklerin Tanımı"
+    },
+    "62": {
+      "pdf_page": 82,
+      "chapter": 4,
+      "title_en": "Maintainability, Portability, and Functional Suitability",
+      "title_tr": "Bakım Yapılabilirlik, Taşınabilirlik ve İşlevsel Uygunluk",
+      "section_en": "Architectural Characteristics (Partially) Listed",
+      "section_tr": "Mimari Özellikler (Kısmen) Listelenmiştir"
+    },
+    "63": {
+      "pdf_page": 83,
+      "chapter": 4,
+      "title_en": "Least Worst Architecture",
+      "title_tr": "En Az Kötü Mimari (Least Worst Architecture)",
+      "section_en": "Trade-Offs and Least Worst Architecture",
+      "section_tr": "Ödünleşimler ve En Az Kötü Mimari"
+    },
+    "64": {
+      "pdf_page": 84,
+      "chapter": 4,
+      "title_en": "The Value of Iteration",
+      "title_tr": "Yinelemenin Değeri",
+      "section_en": "Trade-Offs and Least Worst Architecture",
+      "section_tr": "Ödünleşimler ve En Az Kötü Mimari"
     }
   }
 }

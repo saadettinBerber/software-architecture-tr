@@ -9,7 +9,7 @@ window.TOC = {
   },
   "bookTotalPages": 399,
   "pdfOffset": 20,
-  "lastTranslatedPage": 61,
+  "lastTranslatedPage": 64,
   "chapters": [
     {
       "num": 1,
@@ -847,6 +847,39 @@ window.TOC = {
       "section": {
         "en": "Architecture Characteristics Defined",
         "tr": "Mimari Özelliklerin Tanımı"
+      },
+      "chapter": 4
+    },
+    "62": {
+      "title": {
+        "en": "Maintainability, Portability, and Functional Suitability",
+        "tr": "Bakım Yapılabilirlik, Taşınabilirlik ve İşlevsel Uygunluk"
+      },
+      "section": {
+        "en": "Architectural Characteristics (Partially) Listed",
+        "tr": "Mimari Özellikler (Kısmen) Listelenmiştir"
+      },
+      "chapter": 4
+    },
+    "63": {
+      "title": {
+        "en": "Least Worst Architecture",
+        "tr": "En Az Kötü Mimari (Least Worst Architecture)"
+      },
+      "section": {
+        "en": "Trade-Offs and Least Worst Architecture",
+        "tr": "Ödünleşimler ve En Az Kötü Mimari"
+      },
+      "chapter": 4
+    },
+    "64": {
+      "title": {
+        "en": "The Value of Iteration",
+        "tr": "Yinelemenin Değeri"
+      },
+      "section": {
+        "en": "Trade-Offs and Least Worst Architecture",
+        "tr": "Ödünleşimler ve En Az Kötü Mimari"
       },
       "chapter": 4
     }
