@@ -27,7 +27,7 @@
     "chapter_label_pattern": "^CHAPTER (\\d+)$",
     "math_geometry": true
   },
-  "last_translated_page": 85,
+  "last_translated_page": 89,
   "chapters": [
     {
       "num": 1,
@@ -852,6 +852,34 @@
       "chapter": 6,
       "title_en": "Governing Component Cycles with Fitness Functions",
       "title_tr": "Bileşen Döngülerinin Uygunluk Fonksiyonlarıyla Yönetişimi",
+      "section_en": "Governance and Fitness Functions",
+      "section_tr": "Yönetişim ve Uygunluk Fonksiyonları"
+    },
+    "90": {
+      "blank": true,
+      "pdf_page": 110
+    },
+    "86": {
+      "pdf_page": 106,
+      "chapter": 6,
+      "title_en": "Distance from the main sequence fitness function",
+      "title_tr": "Ana diziden uzaklık uygunluk fonksiyonu",
+      "section_en": "Governance and Fitness Functions",
+      "section_tr": "Yönetişim ve Uygunluk Fonksiyonları"
+    },
+    "87": {
+      "pdf_page": 107,
+      "chapter": 6,
+      "title_en": "Governing Layers with Fitness Functions",
+      "title_tr": "Katmanları Uygunluk Fonksiyonlarıyla Yönetmek",
+      "section_en": "Governance and Fitness Functions",
+      "section_tr": "Yönetişim ve Uygunluk Fonksiyonları"
+    },
+    "89": {
+      "pdf_page": 109,
+      "chapter": 6,
+      "title_en": "The Checklist Perspective on Fitness Functions",
+      "title_tr": "Uygunluk Fonksiyonlarına Kontrol Listesi Bakış Açısı",
       "section_en": "Governance and Fitness Functions",
       "section_tr": "Yönetişim ve Uygunluk Fonksiyonları"
     }

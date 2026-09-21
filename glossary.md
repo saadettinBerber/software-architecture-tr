@@ -33,6 +33,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | architectural characteristics | mimari özellikler | Mimariyle belirlenen ölçeklenebilirlik, dayanıklılık gibi özellikler. |
 | architectural concerns | mimari kaygılar | İş etkenlerinin sistemin mimarisine yansıyan karşılıkları. |
 | architectural governance | mimari yönetişim | Mimari özelliklerin yönetilmesi ve denetlenmesi. |
+| architectural principle | mimari ilke | Mimariye yön veren, uygunluk fonksiyonlarıyla ifade edilip otomatik doğrulanabilen temel ilke; sayfada önemli mimari ilkelerin uygunluk fonksiyonu olarak kodlanması bağlamında geçer. |
 | architectural quantum | mimari kuantum | Bağımsız dağıtılabilir ve ölçeklenebilir en küçük mimari birim; sayfa 92'de ele alınır. |
 | architectural style | mimari stil | Çoğulu: mimari stiller. |
 | architectural thinking | mimari düşünme | Şeyleri mimari bir gözle ya da mimari bir bakış açısıyla görme; Bölüm 2'nin adı ve ana kavramı. |
@@ -102,6 +103,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | code review | kod incelemesi | Bir geliştiricinin yazdığı kodun başka bir kişi tarafından gözden geçirilmesi; çoğulu kod incelemeleri. |
 | code smell | kod kokusu | Kodda belirli bir sorunu ya da tasarım kusurunu işaret eden kalıntı. |
 | code-level metrics | kod düzeyi ölçütler | Kaynak kodun yapısından türetilen, kod tabanına ilişkin ölçütler (döngüsel karmaşıklık gibi); neredeyse tamamı yorum gerektirir. |
+| codify | kodlamak (kurala dökmek) | Bir kuralı ya da ilkeyi kod biçiminde ifade ederek otomatik denetlenir hâle getirmek; yönetişim kontrollerinin uygunluk fonksiyonu olarak kodlanması bağlamında. |
 | coexistence | birlikte var olma | Uyumluluğun alt ölçütü; ortak ortam ve kaynakları paylaşırken işlev görme. |
 | cohesion | bütünlük | Modülün parçalarının aynı modülde tutulma derecesi; coupling (bağlılık) ile birlikte kullanılır. |
 | cohesiveness | bütünlük | Bir modülün uyum (cohesion) derecesi; cohesive (uyumlu) sıfatı da bu sayfada geçer. |
@@ -135,6 +137,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | constraint | kısıt | Sistemi ve geliştirme ekiplerini sınırlayan mimari karar ya da kural |
 | consumer | tüketici | Mesajlaşmada mesajı alan taraf. |
 | continuity | süreklilik | İş sürekliliği (business continuity) bağlamında; kesinti sonrası sistemin hızla yeniden çevrimiçi olması gereği. |
+| continuous build | sürekli derleme | Her değişiklikte otomatik derleme ve testleri çalıştırma uygulaması; continuous integration (sürekli entegrasyon) ile ilişkilidir. |
 | continuous delivery | sürekli teslim | Yazılımın her an yayınlanabilir durumda tutulduğu uygulama. |
 | continuous integration | sürekli entegrasyon | Her değişikliğin push edildiği anda derlenip test edildiği uygulama. |
 | contract | sözleşme | Mesajlaşmada üzerinde anlaşılan mesaj yapısı/biçimi. |
@@ -148,6 +151,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | cross-cutting architecture characteristics | çapraz kesimli mimari özellikler | Tablo 4-3'te listelenen, kolayca kategorize edilemeyen mimari özellikler; sayfa 60'ta geçer. |
 | customer relationship management | müşteri ilişkileri yönetimi | CRM olarak da bilinir |
 | customizability | özelleştirilebilirlik | Bir mimari özellik (-ility); sayfa 75'te en az önemli özellik olarak elenebileceği ve davranışın uygulama tasarımına taşınabileceği tartışılır. |
+| cycle | döngü | Paket/sınıf bağımlılık çizgesinde kendine dönen bağımlılık; cyclic dependency (döngüsel bağımlılık) ile ilişkilidir. |
 | cyclic dependencies | döngüsel bağımlılıklar | Bileşenlerin birbirine dairesel biçimde bağımlı olduğu durum; modülerliğe zarar verir. |
 | cyclic dependency | döngüsel bağımlılık | İki veya daha fazla bileşenin birbirine başvurduğu, modülerliği bozan bağımlılık durumu. |
 | cyclomatic complexity | döngüsel karmaşıklık | kod karmaşıklığını ölçen metrik |
@@ -205,6 +209,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | enterprise architect | kurumsal mimar | Kuruluş genelindeki sistem ve çözümlerin mimarisini yönlendiren, kurumsal ölçekte kararlardan sorumlu mimar rolü. |
 | enterprise service bus (ESB) | kurumsal servis veri yolu (ESB) | Servisler arası entegrasyonu ve mesajlaşmayı sağlayan merkezi bileşen. |
 | entropy | entropi | Fizikten ödünç alınan, sistemlerin düzensizliğe yönelme eğilimi. |
+| esoteric | az bilinen (esoteric) | Herkesçe bilinmeyen, yalnızca uzmanlara özgü; bu sayfada ölçüt ve uygunluk fonksiyonunu niteleyen sıfat. |
 | estimation | tahmin | Proje tahmini bağlamında. |
 | evolutionary architecture | evrimsel mimari | Zamanla değişime uyum sağlayan mimari. |
 | evolutionary computing | evrimsel hesaplama | Doğal evrim süreçlerinden esinlenen hesaplama alanı. |
@@ -249,6 +254,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | functionality | işlevsellik | Sistemin gerçekleştirdiği işlevler; mimari karakteristiklerden bağımsızdır |
 | genetic algorithm | genetik algoritma | Çözümü mutasyon ve seçimle evrimleştirerek optimize eden algoritma. |
 | governance | yönetişim | Yunanca kubernan (yönlendirmek) sözcüğünden türeyen; mimari karar, süreç ve kalitenin yönetilip denetlenmesi. architectural governance (mimari yönetişim) ve governance mechanism (yönetişim mekanizması) ile ilişkilidir. |
+| governance check | yönetişim kontrolü | Mimari ilkelere uyumu otomatik olarak denetleyen kontrol; uygunluk fonksiyonları aracılığıyla mimarinin dokusuna (substrate) kodlanır. |
 | governance mechanism | yönetişim mekanizması | Mimari özelliklerin tanımlanması ve denetlenmesi için kurulan yapı/araç; architectural governance (mimari yönetişim) ile ilişkilidir. |
 | granularity | parçalılık | Bir sistemin parçalara ayrılma incelik derecesi; 'Architectural Quanta and Granularity' kesit başlığında geçer. |
 | graph theory | çizge kuramı | Çizge (graf) yapılarını inceleyen matematik dalı. |
@@ -273,6 +279,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | incremental change | artımlı değişiklik | Küçük adımlarla, düşük maliyetle yapılan değişiklik |
 | indirection | dolaylı erişim (indirection) | Zararlı verileri gizlemek için erişimi bir aracı üzerinden dolaylı yapma tekniği. |
 | infrastructure | altyapı | Sistemin üzerinde çalıştığı donanım ve ağ hizmetleri. |
+| insecure code | güvenli olmayan kod | Güvenlik açığı içerebilecek, üretime sürülmemesi gereken kod; geliştiricilerde diğer önceliklerle rekabet eden güvenlik sorumluluğu bağlamında. |
 | instability | kararsızlık | Robert Martin'in I ölçütü; çıkan bağlılığın toplam bağlılığa oranı. |
 | installability | kurulabilirlik | Yazılımın belirtilen bir ortama kurulup kaldırılabilmesi. |
 | integration point | entegrasyon noktası | Sistemin başka bir sistemle veya servisle iletişim kurduğu, üzerinde anlaşılmış arayüz/bağlantı noktası; üçüncü taraf ödeme işlemcisiyle kurulan bağlantı bağlamında. |
@@ -297,8 +304,10 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | latency | gecikme süresi | Bir isteğin gönderilmesi ile yanıtın alınması arasında geçen süre; düşük gecikme (low latency), yüksek frekanslı alım satım bağlamında kritik önem taşır. |
 | latest trends | güncel trendler | teknoloji ve sektör trendlerini takip etme; 'keep current with latest trends' beklentisi |
 | Laws of Software Architecture | Yazılım Mimarisi Yasaları | Bölüm 1'in kesit başlığı ve sayfa 19'un koşu başlığı. |
+| layer | katman | Katmanlı mimaride (layered architecture) bağımsız bir sorumluluk düzeyi; sayfada Controller, Service, Persistence katmanları bağlamında geçer. |
 | layered | katmanlı | Katmanlı mimari stili |
 | layered architecture | katmanlı mimari | Katmanlar halinde düzenlenmiş mimari stili |
+| layered monolith | katmanlı monolit | Katmanları olan ancak tek bir dağıtılabilir birim olarak paketlenen monolitik uygulama; Şekil 6-4 bağlamında geçer. |
 | LCOM metric | LCOM ölçütü | yöntemlerde bütünlük eksikliği (lack of cohesion in methods) ölçütü. |
 | learnability | öğrenilebilirlik | Kullanıcının yazılımı kullanmayı öğrenme kolaylığı; kullanışlılığın alt ölçütü. |
 | least worst architecture | en az kötü mimari (least worst architecture) | Tüm mimari özellikler en üst düzeye çıkarılamayacağı için, en az acı veren yan etkilere sahip mimari seçiminin yapılması. |
@@ -353,6 +362,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | object-oriented language | nesne yönelimli dil | Kodun sınıflar ve nesneler etrafında düzenlendiği programlama dili. |
 | objective definition | nesnel tanım | Mimari özelliklerin, öznelliğe yer bırakmayan somut tanımı; sayfada 'objective definitions' biçiminde geçer. |
 | objective function | amaç fonksiyonu | Uygunluk fonksiyonu tanımında 'çıktının amaca ne kadar yaklaştığını değerlendiren fonksiyon' anlamında geçer; metinde 'object function' olarak yazılmıştır. |
+| objective measure | nesnel ölçüm | Bir mimari özelliğin öznelliğe yer bırakmadan otomatik olarak ölçülmesi; objective definition (nesnel tanım) ile ilişkilidir. |
 | office politics | ofis politikaları | kurum içi güç ve çıkar dinamikleri |
 | open source | açık kaynak | Kaynak kodu serbestçe kullanılabilen ve değiştirilebilen yazılım modeli |
 | operating system | işletim sistemi | Donanım ile uygulamalar arasında arayüz sağlayan temel yazılım |
@@ -470,6 +480,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | structured programming | yapısal programlama | Pascal ve C ile örneklenen, GOTO gibi kontrolsüz sıçramaları reddeden programlama anlayışı. |
 | stuff you know you don’t know | bildiğini bilmediğin şeyler | Varlığından haberdar olunan ama uzmanlık gerektiren bilgi düzeyi; known unknowns (bilinen bilinmeyenler) ile ilişkilidir. |
 | subcharacteristic | alt özellik | ISO 25010'da bir kalite özelliğini oluşturan alt kategoriler. |
+| substrate | doku (substrate) | Mimarinin üzerine inşa edildiği temel katman/yapı; yönetişim kontrollerinin mimarinin bünyesine kodlanması bağlamında. |
 | success criteria | başarı kriterleri | Sistemin başarılı sayılması için karşılanması gereken ölçütler |
 | symbiotic relationship | simbiyotik ilişki | Birbirini tamamlayan ve destekleyen karşılıklı ilişki. |
 | synchronous communication | eşzamanlı iletişim | Gönderenin yanıt beklediği, çağrının engelleyici (bloklayıcı) olduğu iletişim biçimi; asenkron mesajlaşmanın (asynchronous messaging) karşıtı. |

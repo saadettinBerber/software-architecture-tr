@@ -120,6 +120,11 @@ window.GLOSSARY = [
     "note": "Mimari özelliklerin yönetilmesi ve denetlenmesi."
   },
   {
+    "en": "architectural principle",
+    "tr": "mimari ilke",
+    "note": "Mimariye yön veren, uygunluk fonksiyonlarıyla ifade edilip otomatik doğrulanabilen temel ilke; sayfada önemli mimari ilkelerin uygunluk fonksiyonu olarak kodlanması bağlamında geçer."
+  },
+  {
     "en": "architectural quantum",
     "tr": "mimari kuantum",
     "note": "Bağımsız dağıtılabilir ve ölçeklenebilir en küçük mimari birim; sayfa 92'de ele alınır."
@@ -465,6 +470,11 @@ window.GLOSSARY = [
     "note": "Kaynak kodun yapısından türetilen, kod tabanına ilişkin ölçütler (döngüsel karmaşıklık gibi); neredeyse tamamı yorum gerektirir."
   },
   {
+    "en": "codify",
+    "tr": "kodlamak (kurala dökmek)",
+    "note": "Bir kuralı ya da ilkeyi kod biçiminde ifade ederek otomatik denetlenir hâle getirmek; yönetişim kontrollerinin uygunluk fonksiyonu olarak kodlanması bağlamında."
+  },
+  {
     "en": "coexistence",
     "tr": "birlikte var olma",
     "note": "Uyumluluğun alt ölçütü; ortak ortam ve kaynakları paylaşırken işlev görme."
@@ -630,6 +640,11 @@ window.GLOSSARY = [
     "note": "İş sürekliliği (business continuity) bağlamında; kesinti sonrası sistemin hızla yeniden çevrimiçi olması gereği."
   },
   {
+    "en": "continuous build",
+    "tr": "sürekli derleme",
+    "note": "Her değişiklikte otomatik derleme ve testleri çalıştırma uygulaması; continuous integration (sürekli entegrasyon) ile ilişkilidir."
+  },
+  {
     "en": "continuous delivery",
     "tr": "sürekli teslim",
     "note": "Yazılımın her an yayınlanabilir durumda tutulduğu uygulama."
@@ -693,6 +708,11 @@ window.GLOSSARY = [
     "en": "customizability",
     "tr": "özelleştirilebilirlik",
     "note": "Bir mimari özellik (-ility); sayfa 75'te en az önemli özellik olarak elenebileceği ve davranışın uygulama tasarımına taşınabileceği tartışılır."
+  },
+  {
+    "en": "cycle",
+    "tr": "döngü",
+    "note": "Paket/sınıf bağımlılık çizgesinde kendine dönen bağımlılık; cyclic dependency (döngüsel bağımlılık) ile ilişkilidir."
   },
   {
     "en": "cyclic dependencies",
@@ -980,6 +1000,11 @@ window.GLOSSARY = [
     "note": "Fizikten ödünç alınan, sistemlerin düzensizliğe yönelme eğilimi."
   },
   {
+    "en": "esoteric",
+    "tr": "az bilinen (esoteric)",
+    "note": "Herkesçe bilinmeyen, yalnızca uzmanlara özgü; bu sayfada ölçüt ve uygunluk fonksiyonunu niteleyen sıfat."
+  },
+  {
     "en": "estimation",
     "tr": "tahmin",
     "note": "Proje tahmini bağlamında."
@@ -1200,6 +1225,11 @@ window.GLOSSARY = [
     "note": "Yunanca kubernan (yönlendirmek) sözcüğünden türeyen; mimari karar, süreç ve kalitenin yönetilip denetlenmesi. architectural governance (mimari yönetişim) ve governance mechanism (yönetişim mekanizması) ile ilişkilidir."
   },
   {
+    "en": "governance check",
+    "tr": "yönetişim kontrolü",
+    "note": "Mimari ilkelere uyumu otomatik olarak denetleyen kontrol; uygunluk fonksiyonları aracılığıyla mimarinin dokusuna (substrate) kodlanır."
+  },
+  {
     "en": "governance mechanism",
     "tr": "yönetişim mekanizması",
     "note": "Mimari özelliklerin tanımlanması ve denetlenmesi için kurulan yapı/araç; architectural governance (mimari yönetişim) ile ilişkilidir."
@@ -1318,6 +1348,11 @@ window.GLOSSARY = [
     "en": "infrastructure",
     "tr": "altyapı",
     "note": "Sistemin üzerinde çalıştığı donanım ve ağ hizmetleri."
+  },
+  {
+    "en": "insecure code",
+    "tr": "güvenli olmayan kod",
+    "note": "Güvenlik açığı içerebilecek, üretime sürülmemesi gereken kod; geliştiricilerde diğer önceliklerle rekabet eden güvenlik sorumluluğu bağlamında."
   },
   {
     "en": "instability",
@@ -1440,6 +1475,11 @@ window.GLOSSARY = [
     "note": "Bölüm 1'in kesit başlığı ve sayfa 19'un koşu başlığı."
   },
   {
+    "en": "layer",
+    "tr": "katman",
+    "note": "Katmanlı mimaride (layered architecture) bağımsız bir sorumluluk düzeyi; sayfada Controller, Service, Persistence katmanları bağlamında geçer."
+  },
+  {
     "en": "layered",
     "tr": "katmanlı",
     "note": "Katmanlı mimari stili"
@@ -1448,6 +1488,11 @@ window.GLOSSARY = [
     "en": "layered architecture",
     "tr": "katmanlı mimari",
     "note": "Katmanlar halinde düzenlenmiş mimari stili"
+  },
+  {
+    "en": "layered monolith",
+    "tr": "katmanlı monolit",
+    "note": "Katmanları olan ancak tek bir dağıtılabilir birim olarak paketlenen monolitik uygulama; Şekil 6-4 bağlamında geçer."
   },
   {
     "en": "LCOM metric",
@@ -1718,6 +1763,11 @@ window.GLOSSARY = [
     "en": "objective function",
     "tr": "amaç fonksiyonu",
     "note": "Uygunluk fonksiyonu tanımında 'çıktının amaca ne kadar yaklaştığını değerlendiren fonksiyon' anlamında geçer; metinde 'object function' olarak yazılmıştır."
+  },
+  {
+    "en": "objective measure",
+    "tr": "nesnel ölçüm",
+    "note": "Bir mimari özelliğin öznelliğe yer bırakmadan otomatik olarak ölçülmesi; objective definition (nesnel tanım) ile ilişkilidir."
   },
   {
     "en": "office politics",
@@ -2303,6 +2353,11 @@ window.GLOSSARY = [
     "en": "subcharacteristic",
     "tr": "alt özellik",
     "note": "ISO 25010'da bir kalite özelliğini oluşturan alt kategoriler."
+  },
+  {
+    "en": "substrate",
+    "tr": "doku (substrate)",
+    "note": "Mimarinin üzerine inşa edildiği temel katman/yapı; yönetişim kontrollerinin mimarinin bünyesine kodlanması bağlamında."
   },
   {
     "en": "success criteria",
