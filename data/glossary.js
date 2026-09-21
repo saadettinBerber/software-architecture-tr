@@ -130,6 +130,11 @@ window.GLOSSARY = [
     "note": "İş etkenlerinin sistemin mimarisine yansıyan karşılıkları."
   },
   {
+    "en": "architectural coupling",
+    "tr": "mimari bağlılık",
+    "note": "Sınıflar arası bağlantıları gösteren bağlılık düzeyi; Şekil 9-1'deki görselleştirmede çizgilerle temsil edilir; coupling (bağlılık) ile ilişkilidir."
+  },
+  {
     "en": "architectural governance",
     "tr": "mimari yönetişim",
     "note": "Mimari özelliklerin yönetilmesi ve denetlenmesi."
@@ -190,6 +195,11 @@ window.GLOSSARY = [
     "note": "Mimarinin bileşenlere ayrılma biçimi; sayfada 'top-level partitioning' (üst düzey bölümleme) kavramıyla birlikte geçer."
   },
   {
+    "en": "architecture pattern",
+    "tr": "mimari desen",
+    "note": "Mimari stil (architecture style) içinde belirli çözümler oluşturan alt düzey tasarım yapısı; çoğulu architecture patterns (mimari desenler) sözlükte mevcuttur."
+  },
+  {
     "en": "architecture patterns",
     "tr": "mimari desenler",
     "note": "sorun alanına uygun mimari desen ve stillerin seçilmesi bağlamında; design patterns (tasarım desenleri) ile ilişkili."
@@ -198,6 +208,11 @@ window.GLOSSARY = [
     "en": "architecture review board (ARB)",
     "tr": "mimari inceleme kurulu",
     "note": "mimari kararlara sapma taleplerini inceleyip onaylayan veya reddeden kurul"
+  },
+  {
+    "en": "architecture structure",
+    "tr": "mimari yapı",
+    "note": "Sistemin ayırt edilebilir mimari düzeni; Büyük Çamur Topu (Big Ball of Mud) tanımında yokluğundan söz edilir."
   },
   {
     "en": "architecture style",
@@ -323,6 +338,11 @@ window.GLOSSARY = [
     "en": "behavioral anti-pattern",
     "tr": "davranışsal ters desen",
     "note": "Kod veya tasarım yerine insan davranışıyla ilgili ters desen; sayfa 30'da Donmuş Mağara Adamı Ters Deseni bunun örneğidir."
+  },
+  {
+    "en": "bid stream",
+    "tr": "teklif akışı (bid stream)",
+    "note": "Canlı teklif akışı (live bid stream) bağlamında; Going, Going, Gone katasında tekliflerin izleyicilere yayınlandığı akış."
   },
   {
     "en": "bidder",
@@ -545,6 +565,11 @@ window.GLOSSARY = [
     "note": "Testlerin kodu ne ölçüde çalıştırdığını gösteren ölçüt; Crap4J ile ilişkili."
   },
   {
+    "en": "code quality",
+    "tr": "kod kalitesi",
+    "note": "Kodun sürdürülebilirlik ve okunabilirlik düzeyi; yönetişim (governance) eksikliği bağlamında geçer."
+  },
+  {
     "en": "code quality metrics",
     "tr": "kod kalitesi ölçütleri",
     "note": "Kaynak kodun kalitesini ölçen ölçütler; Bölüm 6'da ele alınan ve kod tabanlarını bütüncül olarak etkileyen ölçütler bağlamında geçer."
@@ -650,9 +675,19 @@ window.GLOSSARY = [
     "note": "Çoğulu: bileşenler."
   },
   {
+    "en": "component decomposition",
+    "tr": "bileşen ayrıştırması",
+    "note": "Sistemin bileşenlere ayrılma/bölümlenme eylemi; component design bağlamında geçer."
+  },
+  {
     "en": "component discovery",
     "tr": "bileşen keşfi",
     "note": "Bileşenlerin varlığının ve kullanımının belirlenmesi; sayfada kapsam (scope) ile birlikte ele alınan bileşen etrafındaki mimari değerlendirme konusu."
+  },
+  {
+    "en": "component granularity",
+    "tr": "bileşen parçalılığı (component granularity)",
+    "note": "Bileşenlerin ne kadar ince ya da kaba taneli olacağı; doğru parçalılığı bulmak mimarın en zor görevlerinden biridir."
   },
   {
     "en": "component identification",
@@ -935,6 +970,11 @@ window.GLOSSARY = [
     "note": "Veritabanı yönetimini barındıran sunucu"
   },
   {
+    "en": "datastore",
+    "tr": "veri deposu",
+    "note": "Mimari stiller bağlamında, kaynak kodun etkileştiği veri saklama birimi; sayfa 117'de geçer."
+  },
+  {
     "en": "DBA",
     "tr": "DBA",
     "note": "database administrator (veritabanı yöneticisi) kısaltması; kısaltma olduğu gibi korunur."
@@ -978,6 +1018,11 @@ window.GLOSSARY = [
     "en": "deployment",
     "tr": "dağıtım",
     "note": "Yazılımın çalıştırma ortamına yüklenmesi."
+  },
+  {
+    "en": "deployment model",
+    "tr": "dağıtım modeli",
+    "note": "Bir mimari stil ya da desenin ima ettiği tipik dağıtım biçimi; tek bir dağıtılabilir birim ya da bağımsız servisler gibi."
   },
   {
     "en": "deployment unit",
@@ -1225,9 +1270,19 @@ window.GLOSSARY = [
     "note": "Proje tahmini bağlamında."
   },
   {
+    "en": "event handler",
+    "tr": "olay işleyicisi",
+    "note": "Olay fırtınasında bir olay türünü işleyen bileşen; message handler (mesaj işleyicisi) ile ilişkilidir."
+  },
+  {
     "en": "event processor",
     "tr": "olay işleyicisi",
     "note": "Olay güdümlü mimarilerde olayları işleyen bileşen; birçok olay işleyicisi için dağıtılabilir iş birimi bağlamında geçer."
+  },
+  {
+    "en": "event storming",
+    "tr": "olay fırtınası (event storming)",
+    "note": "Alan odaklı tasarımdan (DDD) gelen, bileşenleri sistemde gerçekleşen olayların çevresinde keşfetme tekniği."
   },
   {
     "en": "event-driven architecture",
@@ -1345,6 +1400,11 @@ window.GLOSSARY = [
     "note": "Sınıf düzeyinde tanımlanan değişken; örnek alanı (instance field)."
   },
   {
+    "en": "fine-grained",
+    "tr": "ince taneli (fine-grained)",
+    "note": "Küçük parçalara ayrılmış, çok geniş kapsamlı olmayan bileşen; parçalılık (granularity) tartışmasında geçer."
+  },
+  {
     "en": "fire-and-forget",
     "tr": "ateşle ve unut (fire-and-forget)",
     "note": "Gönderenin yanıt beklemediği, mesajı gönderip işine devam ettiği asenkron iletişim biçimi."
@@ -1453,6 +1513,11 @@ window.GLOSSARY = [
     "en": "functionality",
     "tr": "işlevsellik",
     "note": "Sistemin gerçekleştirdiği işlevler; mimari karakteristiklerden bağımsızdır"
+  },
+  {
+    "en": "fundamental patterns",
+    "tr": "temel desenler",
+    "note": "Mimari stillerin içinde gömülü olarak yeniden görünen temel desenler; Bölüm 9'daki 'Fundamental Patterns' kesit başlığı."
   },
   {
     "en": "genetic algorithm",
@@ -1655,6 +1720,11 @@ window.GLOSSARY = [
     "note": "Mimari özelliklerin birbirini etkileme durumu; helikopter kumandaları benzetmesinde geçer."
   },
   {
+    "en": "internal coupling",
+    "tr": "iç bağlılık (internal coupling)",
+    "note": "Bir bileşenin içindeki parçaların birbirine bağımlılığı; aşırı kaba taneli bileşenlerde yüksek olur ve dağıtılabilirlik ile test edilebilirliği zorlaştırır."
+  },
+  {
     "en": "interoperability",
     "tr": "birlikte çalışabilirlik",
     "note": "Uyumluluğun alt ölçütü; iki veya daha fazla sistemin bilgi alışverişi ve kullanım derecesi."
@@ -1780,6 +1850,11 @@ window.GLOSSARY = [
     "note": "Katmanları olan ancak tek bir dağıtılabilir birim olarak paketlenen monolitik uygulama; Şekil 6-4 bağlamında geçer."
   },
   {
+    "en": "layered pattern",
+    "tr": "katmanlı desen",
+    "note": "Katmanların (layers) farklı kaygıları işlevselliğe göre ayırmasına dayanan temel mimari desen; katmanlı mimari (layered architecture) ile ilişkilidir."
+  },
+  {
     "en": "LCOM metric",
     "tr": "LCOM ölçütü",
     "note": "yöntemlerde bütünlük eksikliği (lack of cohesion in methods) ölçütü."
@@ -1895,9 +1970,19 @@ window.GLOSSARY = [
     "note": "Şirket evlilikleri ve devralmaları; M&A kısaltması da yaygındır."
   },
   {
+    "en": "message handler",
+    "tr": "mesaj işleyicisi",
+    "note": "Olay fırtınasında bileşenlerin çevresinde inşa edildiği, gelen mesajları işleyen bileşen; event handler (olay işleyicisi) ile ilişkilidir."
+  },
+  {
     "en": "message ordering",
     "tr": "mesaj sıralaması",
     "note": "Mesajların verildikleri sırayla işlenmesi gereği; güvenilirlik (reliability) kaygısı olarak açık artırma örneğinde geçer."
+  },
+  {
+    "en": "message-based system",
+    "tr": "mesaj tabanlı sistem",
+    "note": "Bileşenler arası iletişimin mesajlarla sağlandığı sistem; olay fırtınasının varsaydığı tasarım."
   },
   {
     "en": "messaging model",
@@ -2180,6 +2265,11 @@ window.GLOSSARY = [
     "note": "Mimari özellikleri gerekenden fazla tanımlamak; sistem tasarımını gereğinden fazla karmaşıklaştırdığı için eksik belirlemek kadar zararlıdır."
   },
   {
+    "en": "overengineered",
+    "tr": "aşırı mühendislik uygulanmış (overengineered)",
+    "note": "Gereksinimlerin ötesinde, gereksiz karmaşıklık eklenmiş tasarım; overengineering (aşırı mühendislik) ile ilişkilidir."
+  },
+  {
     "en": "package",
     "tr": "paket",
     "note": "Java gibi dillerde ilgili sınıfların gruplandığı modülerlik mekanizması; dil anahtar sözcüğü olarak package korunur."
@@ -2343,6 +2433,11 @@ window.GLOSSARY = [
     "en": "reactive-based framework",
     "tr": "tepkisel tabanlı çerçeve",
     "note": "Angular, Elm, React.js, Vue gibi ön uç web çerçeveleri."
+  },
+  {
+    "en": "read-only view",
+    "tr": "salt okunur görünüm",
+    "note": "VideoStreamer ve BidStreamer bileşenlerinin teklif verene sunduğu salt okunur görünüm bağlamında."
   },
   {
     "en": "readability",
@@ -2515,6 +2610,11 @@ window.GLOSSARY = [
     "note": "Bir adın hangi bağlamlarda görünür ve erişilebilir olduğunu belirleyen kurallar."
   },
   {
+    "en": "scripting application",
+    "tr": "betik uygulaması",
+    "note": "Olay işleyicileri doğrudan veritabanı çağrılarına bağlanmış, gerçek bir iç yapısı olmayan basit uygulama."
+  },
+  {
     "en": "seam",
     "tr": "eklem (seam)",
     "note": "Kodu değiştirmeden davranışı değiştirebilmek için tasarıma bilinçli olarak yerleştirilen genişletme noktası."
@@ -2655,6 +2755,11 @@ window.GLOSSARY = [
     "note": "Bölüm 15'te ele alınan, yüksek ölçek için veriyi dağıtan mimari stili."
   },
   {
+    "en": "spaghetti code",
+    "tr": "spagetti kod",
+    "note": "Kontrol akışının karışık ve iç içe geçtiği, yapılandırılmamış kod; 'spaghetti-code jungle' ifadesinde geçer."
+  },
+  {
     "en": "spike",
     "tr": "deneme (spike)",
     "note": "Zaman kutusuna alınmış, riskli bir varsayımı hızlıca doğrulamak için yapılan küçük deney/prototip; Extreme Programming kökenli."
@@ -2668,6 +2773,11 @@ window.GLOSSARY = [
     "en": "stale expertise",
     "tr": "bayat uzmanlık",
     "note": "Güncelliğini yitirmiş bilginin hâlâ en ileri düzey olduğu yanılgısı; uzmanlığın sürdürülmemesi sonucu oluşur."
+  },
+  {
+    "en": "starter components",
+    "tr": "başlangıç bileşenleri (starter components)",
+    "note": "Rollerden ve eylemlerden yinelemeli olarak türetilen ilk bileşen kümesi; GGG katası bağlamında."
   },
   {
     "en": "static code analysis",
@@ -2820,6 +2930,11 @@ window.GLOSSARY = [
     "note": "Dinamik eşdoğuşun (dynamic connascence) türü; uygulama bağlamı içindeki veya dağıtık servisler arasındaki eşzamanlı çağrıları ifade eder."
   },
   {
+    "en": "system of record",
+    "tr": "resmî kayıt sistemi (system of record)",
+    "note": "Belirli bir verinin yetkili (canonical) kaynağı olarak işlev gören bileşen/depo; BidTracker'ın teklif akışlarını birleştirip tek doğruluk kaynağı olarak hizmet etmesi bağlamında geçer."
+  },
+  {
     "en": "teamwork",
     "tr": "takım çalışması",
     "note": ""
@@ -2863,6 +2978,11 @@ window.GLOSSARY = [
     "en": "technical top-level partitioning",
     "tr": "teknik üst düzey bölümleme",
     "note": "Mimariyi sunum, iş kuralları, servisler, kalıcılık gibi teknik yeteneklere göre en üst düzeyde bölümleme; alan bölümlemesinin (domain partitioning) karşıtı."
+  },
+  {
+    "en": "technical visualization",
+    "tr": "teknik görselleştirme",
+    "note": "Kod tabanının bağlılık yapısını somut olarak gösteren görselleştirme; Şekil 9-1'deki çember diyagramı örneği."
   },
   {
     "en": "technologist",
@@ -3015,6 +3135,11 @@ window.GLOSSARY = [
     "note": ""
   },
   {
+    "en": "upfront design",
+    "tr": "ön tasarım (upfront design)",
+    "note": "Geliştirmeye başlamadan önce yapılan ön tasarım çalışması; resmî süreçlerin desteklediği yaklaşım."
+  },
+  {
     "en": "uptime",
     "tr": "çalışma süresi",
     "note": "Sistemin kullanılabilir olduğu süre oranı"
@@ -3028,6 +3153,11 @@ window.GLOSSARY = [
     "en": "user error protection",
     "tr": "kullanıcı hatası koruması",
     "note": "Kullanıcıların hata yapmasına karşı koruma; kullanışlılığın alt ölçütü."
+  },
+  {
+    "en": "user interface",
+    "tr": "kullanıcı arayüzü",
+    "note": "Kullanıcıya görünen taraf; arka uç (backend) kaynak kodunun karşıtı olarak mimari stil tanımında geçer."
   },
   {
     "en": "user satisfaction",
@@ -3083,6 +3213,11 @@ window.GLOSSARY = [
     "en": "workflow",
     "tr": "iş akışı",
     "note": "İşlerin yapılandırılmış akışı."
+  },
+  {
+    "en": "workflow approach",
+    "tr": "iş akışı yaklaşımı",
+    "note": "Bileşenleri rollere ve bu rollerin yürüttüğü iş akışlarına göre modelleyen bileşen keşfi tekniği."
   },
   {
     "en": "working knowledge",

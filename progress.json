@@ -27,7 +27,7 @@
     "chapter_label_pattern": "^CHAPTER (\\d+)$",
     "math_geometry": true
   },
-  "last_translated_page": 111,
+  "last_translated_page": 120,
   "chapters": [
     {
       "num": 1,
@@ -1050,6 +1050,74 @@
       "title_tr": "Varlık Tuzağı ve Bileşen Keşfi",
       "section_en": "Component Design",
       "section_tr": "Bileşen Tasarımı"
+    },
+    "118": {
+      "blank": true,
+      "pdf_page": 138
+    },
+    "110": {
+      "pdf_page": 130,
+      "chapter": 8,
+      "title_en": "Component Granularity and Component Design",
+      "title_tr": "Bileşen Parçalılığı ve Bileşen Tasarımı (Component Granularity and Component Design)",
+      "section_en": "Component Granularity",
+      "section_tr": "Bileşen Parçalılığı"
+    },
+    "112": {
+      "pdf_page": 132,
+      "chapter": 8,
+      "title_en": "Discovering Components",
+      "title_tr": "Bileşenleri Keşfetmek",
+      "section_en": "Component Design",
+      "section_tr": "Bileşen Tasarımı"
+    },
+    "113": {
+      "pdf_page": 133,
+      "chapter": 8,
+      "title_en": "Initial Components for Going, Going, Gone",
+      "title_tr": "Going, Going, Gone için Başlangıç Bileşenleri",
+      "section_en": "Case Study: Going, Going, Gone: Discovering Components",
+      "section_tr": "Vaka Çalışması: Going, Going, Gone: Bileşenlerin Keşfi"
+    },
+    "114": {
+      "pdf_page": 134,
+      "chapter": 8,
+      "title_en": "Analyzing Architecture Characteristics in Component Design",
+      "title_tr": "Bileşen Tasarımında Mimari Özellikleri Analiz Etmek",
+      "section_en": "Case Study: Going, Going, Gone: Discovering Components",
+      "section_tr": "Vaka Çalışması: Going, Going, Gone: Bileşen Keşfi"
+    },
+    "115": {
+      "pdf_page": 135,
+      "chapter": 8,
+      "title_en": "Choosing Between Monolithic Versus Distributed Architectures",
+      "title_tr": "Monolitik ve Dağıtık Mimari Arasında Seçim",
+      "section_en": "Architecture Quantum Redux: Choosing Between Monolithic Versus Distributed Architectures",
+      "section_tr": "Mimari Kuantum Yeniden: Monolitik ve Dağıtık Mimari Arasında Seçim"
+    },
+    "117": {
+      "pdf_page": 137,
+      "chapter": 8,
+      "title_en": "Architecture Styles",
+      "title_tr": "Mimari Stiller (Architecture Styles)",
+      "section_en": "Architecture Styles",
+      "section_tr": "Mimari Stiller"
+    },
+    "119": {
+      "pdf_page": 139,
+      "chapter": 9,
+      "title_en": "Fundamental Patterns",
+      "title_tr": "Temel Desenler",
+      "section_en": "Foundations",
+      "section_tr": "Temeller"
+    },
+    "120": {
+      "pdf_page": 140,
+      "chapter": 9,
+      "title_en": "Big Ball of Mud",
+      "title_tr": "Büyük Çamur Topu (Big Ball of Mud)",
+      "section_en": "Fundamental Patterns",
+      "section_tr": "Temel Desenler"
     }
   }
 }

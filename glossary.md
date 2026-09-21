@@ -35,6 +35,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | architectural characteristic | mimari özellik | Performans, kullanılabilirlik, ölçeklenebilirlik gibi sistem başarı ölçütleri. |
 | architectural characteristics | mimari özellikler | Mimariyle belirlenen ölçeklenebilirlik, dayanıklılık gibi özellikler. |
 | architectural concerns | mimari kaygılar | İş etkenlerinin sistemin mimarisine yansıyan karşılıkları. |
+| architectural coupling | mimari bağlılık | Sınıflar arası bağlantıları gösteren bağlılık düzeyi; Şekil 9-1'deki görselleştirmede çizgilerle temsil edilir; coupling (bağlılık) ile ilişkilidir. |
 | architectural governance | mimari yönetişim | Mimari özelliklerin yönetilmesi ve denetlenmesi. |
 | architectural principle | mimari ilke | Mimariye yön veren, uygunluk fonksiyonlarıyla ifade edilip otomatik doğrulanabilen temel ilke; sayfada önemli mimari ilkelerin uygunluk fonksiyonu olarak kodlanması bağlamında geçer. |
 | architectural quantum | mimari kuantum | Bağımsız dağıtılabilir ve ölçeklenebilir en küçük mimari birim; sayfa 92'de ele alınır. |
@@ -47,8 +48,10 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | architecture exposition cycle | mimari sunum döngüsü (architecture exposition cycle) | Bileşenlerin belirlenmesi ve iyileştirilmesinden oluşan genel döngü; sayfadaki 'generic architecture exposition cycle' ifadesinde geçer. |
 | architecture kata | mimari kata | Ted Neward'ın, mimarların alan odaklı açıklamalardan mimari özellikler türetme pratiği yapması için tasarladığı alıştırma; çoğulu architecture katas (mimari katalar). |
 | architecture partitioning | mimari bölümleme (architecture partitioning) | Mimarinin bileşenlere ayrılma biçimi; sayfada 'top-level partitioning' (üst düzey bölümleme) kavramıyla birlikte geçer. |
+| architecture pattern | mimari desen | Mimari stil (architecture style) içinde belirli çözümler oluşturan alt düzey tasarım yapısı; çoğulu architecture patterns (mimari desenler) sözlükte mevcuttur. |
 | architecture patterns | mimari desenler | sorun alanına uygun mimari desen ve stillerin seçilmesi bağlamında; design patterns (tasarım desenleri) ile ilişkili. |
 | architecture review board (ARB) | mimari inceleme kurulu | mimari kararlara sapma taleplerini inceleyip onaylayan veya reddeden kurul |
+| architecture structure | mimari yapı | Sistemin ayırt edilebilir mimari düzeni; Büyük Çamur Topu (Big Ball of Mud) tanımında yokluğundan söz edilir. |
 | architecture style | mimari stil | Mikro hizmetler, katmanlı, mikro çekirdek gibi sistemin uygulandığı stil |
 | architecture vitality | mimari canlılığı | Yıllar önce tanımlanan bir mimarinin bugün ne kadar uygulanabilir olduğunun değerlendirmesi. |
 | archivability | arşivlenebilirlik | Verinin belirli bir süre sonra arşivlenme veya silinme gereksinimi; yapısal mimari özellik. |
@@ -74,6 +77,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | backward compatibility | geriye dönük uyumluluk | Yeni bir özelliğin ya da dilin, eski kod ve alışkanlıklarla uyumlu kalma gereği. |
 | baseline | taban çizgisi | Karşılaştırma ve sapma değerlendirmesi için zaman içinde ölçülerek oluşturulan referans değer (built-in ile karıştırılmamalıdır). |
 | behavioral anti-pattern | davranışsal ters desen | Kod veya tasarım yerine insan davranışıyla ilgili ters desen; sayfa 30'da Donmuş Mağara Adamı Ters Deseni bunun örneğidir. |
+| bid stream | teklif akışı (bid stream) | Canlı teklif akışı (live bid stream) bağlamında; Going, Going, Gone katasında tekliflerin izleyicilere yayınlandığı akış. |
 | bidder | teklif veren | açık artırma (auction) örneği bağlamında; teklif sahibi |
 | bidding data | teklif verileri | Açık artırma sistemindeki tekliflere ilişkin veriler. |
 | bidirectional communication | çift yönlü iletişim | mimar ile geliştirme ekipleri arasında kararların iki yönde aktığı iletişim biçimi. |
@@ -118,6 +122,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | coarse-grained | kaba taneli (coarse-grained) | Bileşen parçalılığı bağlamında; ince taneli (fine-grained) tasarımın karşıtı, üst düzey yapı taşları ölçeğinde bir başlangıç noktası. |
 | code base | kod tabanı |  |
 | code coverage | kod kapsamı (code coverage) | Testlerin kodu ne ölçüde çalıştırdığını gösteren ölçüt; Crap4J ile ilişkili. |
+| code quality | kod kalitesi | Kodun sürdürülebilirlik ve okunabilirlik düzeyi; yönetişim (governance) eksikliği bağlamında geçer. |
 | code quality metrics | kod kalitesi ölçütleri | Kaynak kodun kalitesini ölçen ölçütler; Bölüm 6'da ele alınan ve kod tabanlarını bütüncül olarak etkileyen ölçütler bağlamında geçer. |
 | code review | kod incelemesi | Bir geliştiricinin yazdığı kodun başka bir kişi tarafından gözden geçirilmesi; çoğulu kod incelemeleri. |
 | code smell | kod kokusu | Kodda belirli bir sorunu ya da tasarım kusurunu işaret eden kalıntı. |
@@ -139,7 +144,9 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | compile-time dependency | derleme zamanı bağımlılığı | Derleme sırasında çözümlenen bağımlılık; dinamik bağlantı kütüphaneleri (dynamic link libraries) gibi çalışma zamanında yüklenen bağımlılıkların karşıtı. |
 | compliance | uyum | mimari kararlara uygun davranma; 'ensure compliance with decisions' beklentisi |
 | component | bileşen | Çoğulu: bileşenler. |
+| component decomposition | bileşen ayrıştırması | Sistemin bileşenlere ayrılma/bölümlenme eylemi; component design bağlamında geçer. |
 | component discovery | bileşen keşfi | Bileşenlerin varlığının ve kullanımının belirlenmesi; sayfada kapsam (scope) ile birlikte ele alınan bileşen etrafındaki mimari değerlendirme konusu. |
+| component granularity | bileşen parçalılığı (component granularity) | Bileşenlerin ne kadar ince ya da kaba taneli olacağı; doğru parçalılığı bulmak mimarın en zor görevlerinden biridir. |
 | component identification | bileşen belirleme (component identification) | Bileşenlerin ilk kez belirlenmesi ve geri bildirimle yinelemeli olarak iyileştirilmesi süreci; component discovery (bileşen keşfi) ile ilişkilidir. |
 | composite characteristics | bileşik özellikler | Daha küçük ölçekte birçok başka mimari özelliği barındıran özellikler; örn. çeviklik modülerlik, dağıtılabilirlik ve test edilebilirliği kapsar. |
 | concert ticket booking system | konser bileti rezervasyon sistemi | Yeni biletler satışa çıktığında trafik patlamaları yaşayan, esneklik gerektiren örnek sistem. |
@@ -196,6 +203,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | data structure | veri yapısı | Verinin düzenlenip saklanma biçimi; bütünlüğü (integrity) korumak için öğelerin birlikte değişmesi gerekebilir. |
 | database schema | veri tabanı şeması |  |
 | database server | veritabanı sunucusu | Veritabanı yönetimini barındıran sunucu |
+| datastore | veri deposu | Mimari stiller bağlamında, kaynak kodun etkileştiği veri saklama birimi; sayfa 117'de geçer. |
 | DBA | DBA | database administrator (veritabanı yöneticisi) kısaltması; kısaltma olduğu gibi korunur. |
 | decision point | karar noktası | Kodda farklı yürütme yollarına yol açan karar deyimi (if gibi); döngüsel karmaşıklık hesabının temelini oluşturur. |
 | decode domain language | alan dilini çözmek | Alan terimlerini (ör. kullanıcı sayısı) mühendislik karşılıklarına (ör. ölçeklenebilirlik) dönüştürmek. |
@@ -205,6 +213,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | dependent components | bağımlı bileşenler | Kod tabanı dışındaki, mimari özellikleri (özellikle operasyonel olanları) etkileyen veritabanı, kuyruk, harici servis gibi bileşenler. |
 | deployability | dağıtılabilirlik | Yazılımın üretim ortamına kolayca ve güvenilir biçimde yayınlanabilme özelliği; çeviklik (agility) bileşeni. Deployment (dağıtım) ile karıştırılmamalıdır. |
 | deployment | dağıtım | Yazılımın çalıştırma ortamına yüklenmesi. |
+| deployment model | dağıtım modeli | Bir mimari stil ya da desenin ima ettiği tipik dağıtım biçimi; tek bir dağıtılabilir birim ya da bağımsız servisler gibi. |
 | deployment unit | dağıtım birimi | Birlikte dağıtılabilir tek bir birim; modüler monolit tanımında 'tek dağıtım birimi' bağlamında geçer. |
 | derived metric | türetilmiş ölçüt | Ham bağlılık değerinden türetilen ölçüt; soyutluk, kararsızlık ve ana diziden uzaklık gibi. |
 | design decision | tasarım kararı | Tasarım sırasında verilen ve sistemin yapısını/davranışını etkileyen karar; architecture decision (mimari karar) ile ilişkilidir. |
@@ -254,7 +263,9 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | entropy | entropi | Fizikten ödünç alınan, sistemlerin düzensizliğe yönelme eğilimi. |
 | esoteric | az bilinen (esoteric) | Herkesçe bilinmeyen, yalnızca uzmanlara özgü; bu sayfada ölçüt ve uygunluk fonksiyonunu niteleyen sıfat. |
 | estimation | tahmin | Proje tahmini bağlamında. |
+| event handler | olay işleyicisi | Olay fırtınasında bir olay türünü işleyen bileşen; message handler (mesaj işleyicisi) ile ilişkilidir. |
 | event processor | olay işleyicisi | Olay güdümlü mimarilerde olayları işleyen bileşen; birçok olay işleyicisi için dağıtılabilir iş birimi bağlamında geçer. |
+| event storming | olay fırtınası (event storming) | Alan odaklı tasarımdan (DDD) gelen, bileşenleri sistemde gerçekleşen olayların çevresinde keşfetme tekniği. |
 | event-driven architecture | olay güdümlü mimari | Bileşenlerin olaylar aracılığıyla iletişim kurduğu mimari stil; asenkron çağrıların yaygın olduğu ortam. |
 | evolutionary architecture | evrimsel mimari | Zamanla değişime uyum sağlayan mimari. |
 | evolutionary computing | evrimsel hesaplama | Doğal evrim süreçlerinden esinlenen hesaplama alanı. |
@@ -278,6 +289,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | feedback loop | geri bildirim döngüsü | Kararların sonucunun hızla değerlendirilmesini sağlayan döngü; Çevik yaklaşımın temel avantajı |
 | fervent fans | ateşli hayranlar | Konser bileti satışlarında siteye hücum eden, hevesli taraftarlar; esneklik örneğinde geçer. |
 | field | alan | Sınıf düzeyinde tanımlanan değişken; örnek alanı (instance field). |
+| fine-grained | ince taneli (fine-grained) | Küçük parçalara ayrılmış, çok geniş kapsamlı olmayan bileşen; parçalılık (granularity) tartışmasında geçer. |
 | fire-and-forget | ateşle ve unut (fire-and-forget) | Gönderenin yanıt beklemediği, mesajı gönderip işine devam ettiği asenkron iletişim biçimi. |
 | first contentful paint | ilk içerikli boyama (first contentful paint) | Tarayıcının ilk görünür içeriği (metin, görsel vb.) çizdiği anı ölçen web performans ölçütü. |
 | first CPU idle | ilk CPU boşta kalması (first CPU idle) | Sayfanın kullanıcı etkileşimlerini işleyebilmek için CPU'nun ilk kez boşta kaldığı anı ölçen web performans ölçütü. |
@@ -300,6 +312,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | functional requirements | işlevsel gereksinimler | Sistemin gerçekleştirdiği alan işlevlerini tanımlayan gereksinimler; mimari özelliklerin karşıtı. |
 | functional suitability | işlevsel uygunluk | ISO 25010 kalite özelliği; ürünün işlevlerinin belirtilen ve ima edilen ihtiyaçları karşılama derecesi. |
 | functionality | işlevsellik | Sistemin gerçekleştirdiği işlevler; mimari karakteristiklerden bağımsızdır |
+| fundamental patterns | temel desenler | Mimari stillerin içinde gömülü olarak yeniden görünen temel desenler; Bölüm 9'daki 'Fundamental Patterns' kesit başlığı. |
 | genetic algorithm | genetik algoritma | Çözümü mutasyon ve seçimle evrimleştirerek optimize eden algoritma. |
 | global coupling | küresel bağlılık (global coupling) | Paylaşılan üst düzey bileşenlerdeki (Common, Local gibi) bir değişikliğin diğer tüm bileşenleri etkilemesi durumu; teknik bölümlemenin dezavantajı. |
 | governance | yönetişim | Yunanca kubernan (yönlendirmek) sözcüğünden türeyen; mimari karar, süreç ve kalitenin yönetilip denetlenmesi. architectural governance (mimari yönetişim) ve governance mechanism (yönetişim mekanizması) ile ilişkilidir. |
@@ -340,6 +353,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | integrity | bütünlük | Yazılımın, yazılıma veya verilere yetkisiz erişimi ya da değişikliği önlemesi; güvenlik özelliği (integrity assessment ile karıştırılmamalıdır). |
 | integrity assessment | bütünlük değerlendirmesi | Bir özelliğin veya parçanın durumunun nesnel olarak ölçülüp değerlendirilmesi. |
 | interconnectivity | karşılıklı bağlantılılık (interconnectivity) | Mimari özelliklerin birbirini etkileme durumu; helikopter kumandaları benzetmesinde geçer. |
+| internal coupling | iç bağlılık (internal coupling) | Bir bileşenin içindeki parçaların birbirine bağımlılığı; aşırı kaba taneli bileşenlerde yüksek olur ve dağıtılabilirlik ile test edilebilirliği zorlaştırır. |
 | interoperability | birlikte çalışabilirlik | Uyumluluğun alt ölçütü; iki veya daha fazla sistemin bilgi alışverişi ve kullanım derecesi. |
 | interpersonal skills | kişilerarası beceriler | mimarlardan beklenen iletişim ve iş birliği becerileri; 'possess interpersonal skills' beklentisi |
 | Inverse Conway Maneuver | Ters Conway Manevrası (Inverse Conway Maneuver) | Jonny Leroy'un ortaya attığı gözlem; istenen mimariyi teşvik etmek için ekip ve kuruluş yapısının birlikte evrilmesi. |
@@ -365,6 +379,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | layered | katmanlı | Katmanlı mimari stili |
 | layered architecture | katmanlı mimari | Katmanlar halinde düzenlenmiş mimari stili |
 | layered monolith | katmanlı monolit | Katmanları olan ancak tek bir dağıtılabilir birim olarak paketlenen monolitik uygulama; Şekil 6-4 bağlamında geçer. |
+| layered pattern | katmanlı desen | Katmanların (layers) farklı kaygıları işlevselliğe göre ayırmasına dayanan temel mimari desen; katmanlı mimari (layered architecture) ile ilişkilidir. |
 | LCOM metric | LCOM ölçütü | yöntemlerde bütünlük eksikliği (lack of cohesion in methods) ölçütü. |
 | learnability | öğrenilebilirlik | Kullanıcının yazılımı kullanmayı öğrenme kolaylığı; kullanışlılığın alt ölçütü. |
 | least worst architecture | en az kötü mimari (least worst architecture) | Tüm mimari özellikler en üst düzeye çıkarılamayacağı için, en az acı veren yan etkilere sahip mimari seçiminin yapılması. |
@@ -388,7 +403,9 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | memory address | bellek adresi | Kütüphanelerin çağıran kodla aynı bellek adresinde çalışma ve işlev çağrısı mekanizmalarıyla iletişim kurma bağlamında geçer. |
 | mentoring | rehberlik | mimarın geliştiricilere yol göstermesi; coaching (koçluk) ile birlikte anılır. |
 | mergers and acquisitions | birleşme ve satın almalar | Şirket evlilikleri ve devralmaları; M&A kısaltması da yaygındır. |
+| message handler | mesaj işleyicisi | Olay fırtınasında bileşenlerin çevresinde inşa edildiği, gelen mesajları işleyen bileşen; event handler (olay işleyicisi) ile ilişkilidir. |
 | message ordering | mesaj sıralaması | Mesajların verildikleri sırayla işlenmesi gereği; güvenilirlik (reliability) kaygısı olarak açık artırma örneğinde geçer. |
+| message-based system | mesaj tabanlı sistem | Bileşenler arası iletişimin mesajlarla sağlandığı sistem; olay fırtınasının varsaydığı tasarım. |
 | messaging model | mesajlaşma modeli | yayınla-abone ol ve noktadan noktaya dahil mesajlaşma biçimleri |
 | metaobject protocol | meta nesne protokolü (metaobject protocol) | Geliştiricilere ek genişletme mekanizmaları sağlayan programlama yapısı. |
 | metrics | ölçütler | Ölçülebilir performans ve değer göstergeleri. |
@@ -445,6 +462,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | outlier | aykırı değer | Ortalamadan belirgin biçimde sapan ölçüm; örn. diğerlerinden 10 kat daha uzun süren istekler. |
 | outsourcing | dış kaynak kullanımı | Operasyon gibi işlevlerin maliyet tasarrufu amacıyla başka bir şirkete/ekibe devredilmesi |
 | over-specify | aşırı belirlemek | Mimari özellikleri gerekenden fazla tanımlamak; sistem tasarımını gereğinden fazla karmaşıklaştırdığı için eksik belirlemek kadar zararlıdır. |
+| overengineered | aşırı mühendislik uygulanmış (overengineered) | Gereksinimlerin ötesinde, gereksiz karmaşıklık eklenmiş tasarım; overengineering (aşırı mühendislik) ile ilişkilidir. |
 | package | paket | Java gibi dillerde ilgili sınıfların gruplandığı modülerlik mekanizması; dil anahtar sözcüğü olarak package korunur. |
 | page load time | sayfa yükleme süresi | Bir sayfanın yüklenmesi için geçen süre; performans ölçütü. |
 | paradigm | paradigma | Programlamada benimsenen model ya da yaklaşım; programlama paradigması bağlamında. |
@@ -478,6 +496,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | race condition | yarış durumu | İki iş parçacığının aynı anda çalışıp ortak işlemin sonucunu etkilemesiyle ortaya çıkan durum. |
 | rates rally | oran rallisi | finansal terim; faiz oranlarındaki yükseliş |
 | reactive-based framework | tepkisel tabanlı çerçeve | Angular, Elm, React.js, Vue gibi ön uç web çerçeveleri. |
+| read-only view | salt okunur görünüm | VideoStreamer ve BidStreamer bileşenlerinin teklif verene sunduğu salt okunur görünüm bağlamında. |
 | readability | okunabilirlik | Kodun okunma ve anlaşılma kolaylığı. |
 | real-time | gerçek zamanlı | Olayın gerçekleştiği anda işlenmesi; performans özelliğiyle ilişkilidir. |
 | recoverability | kurtarılabilirlik | Arıza sonrası sistemin yeniden çalışır duruma gelebilme yeteneği; operasyonel mimari özellik. |
@@ -512,6 +531,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | scalability | ölçeklenebilirlik | Bir mimari özellik (“-ility”) |
 | scope (scoping) | kapsam (scoping) | Bir tanımlayıcının görülebildiği ve erişilebildiği bölge; kapsam kuralları. |
 | scoping rules | kapsam kuralları | Bir adın hangi bağlamlarda görünür ve erişilebilir olduğunu belirleyen kurallar. |
+| scripting application | betik uygulaması | Olay işleyicileri doğrudan veritabanı çağrılarına bağlanmış, gerçek bir iç yapısı olmayan basit uygulama. |
 | seam | eklem (seam) | Kodu değiştirmeden davranışı değiştirebilmek için tasarıma bilinçli olarak yerleştirilen genişletme noktası. |
 | Second Law of Software Architecture | Yazılım Mimarisi İkinci Yasası | “Neden, nasıl’dan daha önemlidir.” |
 | security | güvenlik | Bir mimari özellik; sistem ve verilerin yetkisiz erişime karşı korunması. Sayfada availability (kullanılabilirlik) ve reliability (güvenilirlik) ile birlikte, neredeyse tüm uygulamaların altında yatan örtük (implicit) özelliklerden biri olarak geçer. |
@@ -540,9 +560,11 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | source code-level | kaynak kod düzeyi | Kaynak kod seviyesindeki bağlılığı ifade eder; çalışma zamanı (execution-time) bağlılığının karşıtı. |
 | source validator | kaynak doğrulayıcı | Kaynak kodu belirli kodlama kurallarına göre otomatik denetleyen araç. |
 | Space-Based Architecture | Alan Tabanlı Mimari | Bölüm 15'te ele alınan, yüksek ölçek için veriyi dağıtan mimari stili. |
+| spaghetti code | spagetti kod | Kontrol akışının karışık ve iç içe geçtiği, yapılandırılmamış kod; 'spaghetti-code jungle' ifadesinde geçer. |
 | spike | deneme (spike) | Zaman kutusuna alınmış, riskli bir varsayımı hızlıca doğrulamak için yapılan küçük deney/prototip; Extreme Programming kökenli. |
 | stakeholders | paydaşlar |  |
 | stale expertise | bayat uzmanlık | Güncelliğini yitirmiş bilginin hâlâ en ileri düzey olduğu yanılgısı; uzmanlığın sürdürülmemesi sonucu oluşur. |
+| starter components | başlangıç bileşenleri (starter components) | Rollerden ve eylemlerden yinelemeli olarak türetilen ilk bileşen kümesi; GGG katası bağlamında. |
 | static code analysis | statik kod analizi | Kodu çalıştırmadan kaynak düzeyinde inceleyen analiz; statik eşdoğuşun keşfedilme yöntemi. |
 | static connascence | statik eşdoğuş | Kaynak kod düzeyindeki eşdoğuş; Structured Design'daki afferent ve efferent bağlılık ölçütlerinin nesne yönelimli dillere uyarlanmış hâli. |
 | static initializer | statik başlatıcı | Java'da sınıf yüklenirken bir kez çalışan, statik alanları başlatan kod bloğu. |
@@ -573,6 +595,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | synchronous call | eşzamanlı çağrı | Çağıranın yanıt için beklediği, bloklayıcı çağrı biçimi; synchronous communication (eşzamanlı iletişim) ile ilişkilidir. |
 | synchronous communication | eşzamanlı iletişim | Gönderenin yanıt beklediği, çağrının engelleyici (bloklayıcı) olduğu iletişim biçimi; asenkron mesajlaşmanın (asynchronous messaging) karşıtı. |
 | synchronous connascence | eşzamanlı eşdoğuş | Dinamik eşdoğuşun (dynamic connascence) türü; uygulama bağlamı içindeki veya dağıtık servisler arasındaki eşzamanlı çağrıları ifade eder. |
+| system of record | resmî kayıt sistemi (system of record) | Belirli bir verinin yetkili (canonical) kaynağı olarak işlev gören bileşen/depo; BidTracker'ın teklif akışlarını birleştirip tek doğruluk kaynağı olarak hizmet etmesi bağlamında geçer. |
 | teamwork | takım çalışması |  |
 | tech lead | teknik lider | Ekibin mühendislik kararlarını yönlendiren kişi; technical leader (teknik lider) ile aynı anlamda kullanılır. |
 | technical breadth | teknik genişlik |  |
@@ -582,6 +605,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | technical leader | teknik lider | Ekibin mühendislik kararlarını yönlendiren kişi. |
 | technical partitioning | teknik bölümleme (technical partitioning) | Mimarinin sunum, iş kuralları, kalıcılık gibi teknik yeteneklere göre bölümlenmesi. |
 | technical top-level partitioning | teknik üst düzey bölümleme | Mimariyi sunum, iş kuralları, servisler, kalıcılık gibi teknik yeteneklere göre en üst düzeyde bölümleme; alan bölümlemesinin (domain partitioning) karşıtı. |
+| technical visualization | teknik görselleştirme | Kod tabanının bağlılık yapısını somut olarak gösteren görselleştirme; Şekil 9-1'deki çember diyagramı örneği. |
 | technologist | teknoloji uzmanı | teknolojik bilgiyi kullanan, geliştirici veya mimar gibi teknik profesyonel |
 | Template Method design pattern | Şablon Yöntemi (Template Method) tasarım deseni | Üst sınıfın bir iş akışının iskeletini tanımlayıp adımlarını alt sınıfların geçersiz kılmasına olanak tanıyan davranışsal tasarım deseni; üst sınıfların tanımladığı iş akışının alt sınıflarda geçersiz kılınabildiği bağlamda geçer. |
 | temporal cohesion | zamansal bütünlük | Modüllerin zamanlama bağımlılıklarına göre ilişkili olduğu uyum türü; örn. sistem başlangıcında başlatılan görünüşte alakasız görevler. |
@@ -612,9 +636,11 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | unit testing library | birim testi kütüphanesi | Uygunluk fonksiyonlarının örtüştüğü mevcut doğrulama mekanizmalarından biri; unit tests (birim testleri) ve library (kütüphane) ile ilişkilidir. |
 | unit tests | birim testleri | Tek bir kod birimini izole biçimde doğrulayan testler. |
 | unknown unknowns | bilinmeyen bilinmeyenler |  |
+| upfront design | ön tasarım (upfront design) | Geliştirmeye başlamadan önce yapılan ön tasarım çalışması; resmî süreçlerin desteklediği yaklaşım. |
 | uptime | çalışma süresi | Sistemin kullanılabilir olduğu süre oranı |
 | usability | kullanışlılık | ISO 25010 özelliği; availability (kullanılabilirlik) ile karışmaması için kullanışlılık olarak çevrilir. |
 | user error protection | kullanıcı hatası koruması | Kullanıcıların hata yapmasına karşı koruma; kullanışlılığın alt ölçütü. |
+| user interface | kullanıcı arayüzü | Kullanıcıya görünen taraf; arka uç (backend) kaynak kodunun karşıtı olarak mimari stil tanımında geçer. |
 | user satisfaction | kullanıcı memnuniyeti |  |
 | user story | kullanıcı hikâyesi | Çevik geliştirmede, kullanıcı ihtiyacını kısa ve iş dilinde anlatan iş öğesi. |
 | variance | sapma | bir standarda veya mimari karara incelenip onaylanan istisna/muafiyet |
@@ -626,6 +652,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | whitepaper | teknik rapor | Beyaz rapor; teknik belge türü. |
 | wiretap | izinsiz dinleme | Gizlice dinleme; mesaj akışını izinsiz gözlemleme. |
 | workflow | iş akışı | İşlerin yapılandırılmış akışı. |
+| workflow approach | iş akışı yaklaşımı | Bileşenleri rollere ve bu rollerin yürüttüğü iş akışlarına göre modelleyen bileşen keşfi tekniği. |
 | working knowledge | çalışma bilgisi | Bir konuyu pratikte kullanabilecek düzeyde bilme. |
 | zone of pain | acı bölgesi | Ana diziden sol alt köşeye çok sapan, aşırı somut ve kırılgan kodun bulunduğu bölge. |
 | zone of uselessness | işe yaramazlık bölgesi | Ana diziden sağ üst köşeye çok sapan, fazla soyut ve kullanımı zor kodun bulunduğu bölge. |

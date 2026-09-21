@@ -9,7 +9,7 @@ window.TOC = {
   },
   "bookTotalPages": 399,
   "pdfOffset": 20,
-  "lastTranslatedPage": 111,
+  "lastTranslatedPage": 120,
   "chapters": [
     {
       "num": 1,
@@ -1372,6 +1372,97 @@ window.TOC = {
         "tr": "Bileşen Tasarımı"
       },
       "chapter": 8
+    },
+    "118": {
+      "blank": true
+    },
+    "110": {
+      "title": {
+        "en": "Component Granularity and Component Design",
+        "tr": "Bileşen Parçalılığı ve Bileşen Tasarımı (Component Granularity and Component Design)"
+      },
+      "section": {
+        "en": "Component Granularity",
+        "tr": "Bileşen Parçalılığı"
+      },
+      "chapter": 8
+    },
+    "112": {
+      "title": {
+        "en": "Discovering Components",
+        "tr": "Bileşenleri Keşfetmek"
+      },
+      "section": {
+        "en": "Component Design",
+        "tr": "Bileşen Tasarımı"
+      },
+      "chapter": 8
+    },
+    "113": {
+      "title": {
+        "en": "Initial Components for Going, Going, Gone",
+        "tr": "Going, Going, Gone için Başlangıç Bileşenleri"
+      },
+      "section": {
+        "en": "Case Study: Going, Going, Gone: Discovering Components",
+        "tr": "Vaka Çalışması: Going, Going, Gone: Bileşenlerin Keşfi"
+      },
+      "chapter": 8
+    },
+    "114": {
+      "title": {
+        "en": "Analyzing Architecture Characteristics in Component Design",
+        "tr": "Bileşen Tasarımında Mimari Özellikleri Analiz Etmek"
+      },
+      "section": {
+        "en": "Case Study: Going, Going, Gone: Discovering Components",
+        "tr": "Vaka Çalışması: Going, Going, Gone: Bileşen Keşfi"
+      },
+      "chapter": 8
+    },
+    "115": {
+      "title": {
+        "en": "Choosing Between Monolithic Versus Distributed Architectures",
+        "tr": "Monolitik ve Dağıtık Mimari Arasında Seçim"
+      },
+      "section": {
+        "en": "Architecture Quantum Redux: Choosing Between Monolithic Versus Distributed Architectures",
+        "tr": "Mimari Kuantum Yeniden: Monolitik ve Dağıtık Mimari Arasında Seçim"
+      },
+      "chapter": 8
+    },
+    "117": {
+      "title": {
+        "en": "Architecture Styles",
+        "tr": "Mimari Stiller (Architecture Styles)"
+      },
+      "section": {
+        "en": "Architecture Styles",
+        "tr": "Mimari Stiller"
+      },
+      "chapter": 8
+    },
+    "119": {
+      "title": {
+        "en": "Fundamental Patterns",
+        "tr": "Temel Desenler"
+      },
+      "section": {
+        "en": "Foundations",
+        "tr": "Temeller"
+      },
+      "chapter": 9
+    },
+    "120": {
+      "title": {
+        "en": "Big Ball of Mud",
+        "tr": "Büyük Çamur Topu (Big Ball of Mud)"
+      },
+      "section": {
+        "en": "Fundamental Patterns",
+        "tr": "Temel Desenler"
+      },
+      "chapter": 9
     }
   }
 };
