@@ -53,6 +53,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | Big Design Up Front | Önden Büyük Tasarım | BDUF kısaltmasıyla da bilinir. |
 | blueprint | mavi baskı (blueprint) | Sistemin yapısını gösteren plan şeması |
 | bottleneck trap | darboğaz tuzağı | Mimarın projenin kritik yolundaki kodun sahipliğini alması ve ekibin ilerlemesini bloklaması durumu. |
+| boundary conditions | sınır koşulları | Sistemin uç durumlarda (bağlantı kesilmesi, donanım arızası vb.) doğru davranmasını gerektiren koşullar; Tablo 4-1'deki sağlamlık tanımında geçer. |
 | business domain | iş alanı | business domain expertise bağlamında |
 | business domain knowledge | iş alanı bilgisi | mimarların iş alanını anlaması; 'have business domain knowledge' beklentisi |
 | business drivers | iş etkenleri | Mimari kaygılara dönüşen iş tarafındaki itici güçler (kayıp sipariş istememe, hız, maliyet gibi). |
@@ -99,6 +100,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | Connascence of Values (CoV) | değer eşdoğuşu (CoV) | Birbiriyle ilişkili birden çok değerin birlikte değişmesi gerektiği dinamik eşdoğuş türü. |
 | constraint | kısıt | Sistemi ve geliştirme ekiplerini sınırlayan mimari karar ya da kural |
 | consumer | tüketici | Mesajlaşmada mesajı alan taraf. |
+| continuity | süreklilik | İş sürekliliği (business continuity) bağlamında; kesinti sonrası sistemin hızla yeniden çevrimiçi olması gereği. |
 | continuous delivery | sürekli teslim | Yazılımın her an yayınlanabilir durumda tutulduğu uygulama. |
 | continuous integration | sürekli entegrasyon | Her değişikliğin push edildiği anda derlenip test edildiği uygulama. |
 | contract | sözleşme | Mesajlaşmada üzerinde anlaşılan mesaj yapısı/biçimi. |
@@ -125,6 +127,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | design principles | tasarım ilkeleri | Günlük kodlama ve geliştirme kararlarını yönlendiren rehber ilkeler (ör. Tek Sorumluluk İlkesi). |
 | DevOps | DevOps | Yerleşmiş terim; bu hâliyle kullanılır. |
 | directory | dizin | Dosya sisteminde dosyaları gruplayan yapı; klasör. |
+| disaster recovery | olağanüstü durum kurtarma | Felaket sonrası sistem ve verinin kurtarılması yeteneği; operasyonel mimari özellik. |
 | distance from the main sequence | ana diziden uzaklık | Soyutluk–kararsızlık grafiğinde bir bileşenin ana diziden (A+I=1 doğrusu) uzaklığı; D = A + I − 1 ile hesaplanır, normalleştirilmiş biçimi |A + I − 1|'dir. |
 | distributed architecture | dağıtık mimari | Mikroservisler gibi, bileşenlerin farklı süreçlerde/makinelerde çalıştığı mimari; distributed systems (dağıtık sistemler) ile ilişkilidir. |
 | distributed queue | dağıtık kuyruk | Birden çok bileşenin paylaşıp güncellediği, dağıtık ortamda yaşayan kuyruk. |
@@ -139,6 +142,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | elastic scale | esnek ölçekleme | İhtiyaca göre kaynak örneklerini artırıp azaltma yeteneği |
 | elasticity | esneklik | Kaynakların talebe göre otomatik artırılıp azaltılabilmesi yeteneği (elastic scale) |
 | encapsulation | kapsülleme | Veriyi ve davranışı bir birim içinde saklayıp dışarıya kontrollü erişim sunma; kapsüllemek (encapsulate) eylemi de bu sayfada geçer. |
+| encryption | şifreleme | Verinin yetkisiz kişilerce okunamayacak biçime dönüştürülmesi; standart güvenlik hijyeninin parçası. |
 | engineering discipline | mühendislik disiplini |  |
 | engineering practices | mühendislik uygulamaları | Süreçten bağımsız, kanıtlanmış ve tekrarlanabilir fayda sağlayan uygulamalar. |
 | enterprise | kuruluş | işletme/şirket bağlamında |
@@ -153,6 +157,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | external data storage | harici veri depolama | Uygulama dışında barındırılan veri deposu (veritabanı vb.). |
 | Extreme Programming (XP) | Extreme Programming (XP) | Yerleşmiş terim; Türkçe karşılığı yaygın değildir, İngilizce hâliyle kullanılır. |
 | facilitation | kolaylaştırıcılık | toplantı/çalışma yürütme becerisi |
+| fail-safe | güvenli arıza (fail-safe) | Arıza durumunda sistemin güvenli biçimde davranması; çökme yerine yumuşak bozunma. |
 | fan-in | fan-in (gelen bağlantı sayısı) | Bir modüle giren bağlantıların sayısı; afferent coupling ile ilişkilidir. |
 | fan-out | fan-out (giden bağlantı sayısı) | Bir modülden çıkan bağlantıların sayısı; efferent coupling ile ilişkilidir. |
 | fault tolerance | hata toleransı | Sistemin bileşen arızalarına rağmen çalışmaya devam edebilme yeteneği. |
@@ -178,9 +183,11 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | handshake | el sıkışma | İki tarafın protokol üzerinde anlaştığını doğrulayan karşılıklı el sıkışma adımı; ağ/doğrulama bağlamında. |
 | hard-and-fast rule | katı ve kesin kural | istisnası olmayan, koşulsuz uygulanan kural |
 | hard-coded | sabit kodlanmış | Değerlerin, adlandırılmış sabitler yerine doğrudan koda yazılması; genellikle bakımı zorlaştırır. |
+| hashing | karma | Verinin geri döndürülemez biçimde sabit uzunlukta bir özete dönüştürülmesi; hashing algorithm (karma algoritması) ile ilişkilidir. |
 | hashing algorithm | karma algoritması | İki tarafın (sunucu/istemci) aynı sonucu üretmesi gereken özet/karma üretim algoritması. |
 | heterogeneous | heterojen | farklı teknolojilerden oluşan ortam |
 | heterogeneous contracts | heterojen sözleşmeler | Birbirinden farklı yapıdaki mesaj sözleşmeleri. |
+| high-frequency trading | yüksek frekanslı alım satım | Algoritmalarla çok hızlı ve çok sayıda finansal işlem yapan ticaret türü; düşük gecikme süresinin kritik olduğu ve örtük mimari özellik örneği olarak verildiği alan. |
 | historical relevance | tarihsel önem | Yalnızca geçmiş bağlamında anlamlı olma durumu |
 | holistic metric | bütüncül ölçüt | Bir sistemin bütününü tek bir değerle değerlendiren ölçüt; ana diziden uzaklık bunun örneğidir. |
 | incidental coupling | tesadüfi bağlılık | Birbirinden bağımsız yöntemlerin hiçbir ortak alanı paylaşmadan aynı sınıfta toplanması durumu; LCOM ölçütünün sınıflar içinde ortaya çıkardığı bağlılık. |
@@ -188,6 +195,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | incremental change | artımlı değişiklik | Küçük adımlarla, düşük maliyetle yapılan değişiklik |
 | infrastructure | altyapı | Sistemin üzerinde çalıştığı donanım ve ağ hizmetleri. |
 | instability | kararsızlık | Robert Martin'in I ölçütü; çıkan bağlılığın toplam bağlılığa oranı. |
+| integration point | entegrasyon noktası | Sistemin başka bir sistemle veya servisle iletişim kurduğu, üzerinde anlaşılmış arayüz/bağlantı noktası; üçüncü taraf ödeme işlemcisiyle kurulan bağlantı bağlamında. |
 | integrity assessment | bütünlük değerlendirmesi | Bir özelliğin veya parçanın durumunun nesnel olarak ölçülüp değerlendirilmesi. |
 | interpersonal skills | kişilerarası beceriler | mimarlardan beklenen iletişim ve iş birliği becerileri; 'possess interpersonal skills' beklentisi |
 | iteration | yineleme | bir projenin tekrarlanan geliştirme çevrimi |
@@ -199,6 +207,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | known knowns | bilinen bilinenler | Rumsfeld'ın bilgi modelindeki terim. |
 | known unknowns | bilinen bilinmeyenler |  |
 | lack of cohesion in methods | yöntemlerde bütünlük eksikliği | LCOM metriklerinin ölçtüğü durum. |
+| latency | gecikme süresi | Bir isteğin gönderilmesi ile yanıtın alınması arasında geçen süre; düşük gecikme (low latency), yüksek frekanslı alım satım bağlamında kritik önem taşır. |
 | latest trends | güncel trendler | teknoloji ve sektör trendlerini takip etme; 'keep current with latest trends' beklentisi |
 | Laws of Software Architecture | Yazılım Mimarisi Yasaları | Bölüm 1'in kesit başlığı ve sayfa 19'un koşu başlığı. |
 | layered | katmanlı | Katmanlı mimari stili |
@@ -223,6 +232,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | microservices | mikroservisler | Küçük, bağımsız dağıtılabilir servislerden oluşan mimari stil |
 | microservices architecture | mikroservis mimarisi | mimari stil türü; servisler arası asenkron mesajlaşma örneği verilir |
 | mindmap | zihin haritası |  |
+| mission critical | görev açısından kritik | Arızası yaşamı veya büyük maddi sonuçları etkileyen sistem. |
 | mixed cohesion | karma bütünlük | Bir sınıfın yöntem kümelerinin bazı alan gruplarını paylaşıp bazılarını paylaşmadığı ara bütünlük durumu; Şekil 3-1'deki Class Z örneği. |
 | mnemonic | anımsatıcı | Bilgiyi hatırlamaya yardımcı olan sözcük ya da ipucu; burada afferent/efferent ayrımı için geliştirilen ipuçları. |
 | modular programming | modüler programlama | Kodu modül adı verilen bağımsız birimlerde gruplayan programlama yaklaşımı; Modula ve Ada gibi dillerde görülür. |
@@ -255,7 +265,9 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | page load time | sayfa yükleme süresi | Bir sayfanın yüklenmesi için geçen süre; performans ölçütü. |
 | paradigm | paradigma | Programlamada benimsenen model ya da yaklaşım; programlama paradigması bağlamında. |
 | pattern | desen | Tasarım desenleri bağlamında; çoğulu: desenler. |
+| payment processor | ödeme işlemcisi | Ödeme işlemlerini üçüncü taraf olarak yürüten hizmet; sayfada 'third-party payment processor' ifadesinde geçer. |
 | perceived technical risk | algılanan teknik risk | Gerçekte var olup olmadığına bakılmaksızın mimarların hissettiği/algıladığı teknik risk; sayfa 30'da gerçek teknik riskle karşılaştırılır. |
+| performance | performans | Sistemin iş yükü altındaki hız ve yanıt verebilirlik düzeyi; Tablo 4-1'de listelenen operasyonel mimari özellik. |
 | point-to-point messaging | noktadan noktaya mesajlaşma | Her mesajın tam olarak bir tüketici tarafından işlendiği mesajlaşma modeli. |
 | presentation layer | sunum katmanı | Kullanıcı arayüzü sorumluluğunu taşıyan katman |
 | problem domain | sorun alanı | çözülmek istenen iş sorununun yer aldığı alan |
@@ -275,10 +287,12 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | rates rally | oran rallisi | finansal terim; faiz oranlarındaki yükseliş |
 | reactive-based framework | tepkisel tabanlı çerçeve | Angular, Elm, React.js, Vue gibi ön uç web çerçeveleri. |
 | readability | okunabilirlik | Kodun okunma ve anlaşılma kolaylığı. |
+| recoverability | kurtarılabilirlik | Arıza sonrası sistemin yeniden çalışır duruma gelebilme yeteneği; operasyonel mimari özellik. |
 | refactoring | refaktoring (yeniden düzenleme) | Davranışı değiştirmeden kodun iç yapısını iyileştirme. |
 | reference architecture | referans mimari | Başkalarının izleyebileceği, örnek alınan mimari. |
 | release | sürüm | Yazılımın kullanıcılara yayınlanması. |
 | release environment | sürüm ortamı | Sürümün hazırlandığı, doğrulandığı ve yayınlandığı ortam. |
+| reliability | güvenilirlik | Sistemin belirli koşullarda hatasız çalışma olasılığı; operasyonel mimari özellik. |
 | remote access protocol | uzaktan erişim protokolü | REST, SOAP gibi uzak servis çağrılarında kullanılan protokol |
 | requirements | gereksinimler | Sistemin karşılaması gereken işlevsel ihtiyaçlar. |
 | requirements gathering | gereksinim toplama | Sistemin gereksinimlerinin toplanması çalışması; uygulanan yazılım geliştirme sürecine göre değişen tekniklerle yürütülür. |
@@ -287,6 +301,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | restructuring | yeniden yapılandırma | Mimarinin bir desenden diğerine taşınması/değiştirilmesi |
 | reuse mechanism | yeniden kullanım mekanizması | Kodun farklı yerlerde tekrar kullanılmasını sağlayan platform yeteneği. |
 | roadmap | yol haritası | Bir sistemi geliştirme sürecini gösteren plan |
+| robustness | sağlamlık | Hata ve sınır koşullarında bile çalışmaya devam edebilme yeteneği; operasyonel mimari özellik. |
 | rogue service | başıboş servis | Kurallar dışına çıkan, izinsiz davranan servis. |
 | Rule of Degree | Derece Kuralı | Jim Weirich'in önerisi: güçlü eşdoğuş biçimlerini daha zayıf biçimlere dönüştürün. |
 | Rule of Locality | Yerellik Kuralı | Jim Weirich'in önerisi: öğeler arası uzaklık arttıkça daha zayıf eşdoğuş biçimleri kullanın. |
@@ -295,7 +310,9 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | scope (scoping) | kapsam (scoping) | Bir tanımlayıcının görülebildiği ve erişilebildiği bölge; kapsam kuralları. |
 | scoping rules | kapsam kuralları | Bir adın hangi bağlamlarda görünür ve erişilebilir olduğunu belirleyen kurallar. |
 | Second Law of Software Architecture | Yazılım Mimarisi İkinci Yasası | “Neden, nasıl’dan daha önemlidir.” |
+| security | güvenlik | Bir mimari özellik; sistem ve verilerin yetkisiz erişime karşı korunması. Sayfada availability (kullanılabilirlik) ve reliability (güvenilirlik) ile birlikte, neredeyse tüm uygulamaların altında yatan örtük (implicit) özelliklerden biri olarak geçer. |
 | security breach | güvenlik ihlali | Güvenliğin ihlal edildiği olay/olay örüntüsü. |
+| security hygiene | güvenlik hijyeni | Şifreleme, karma, yamalama gibi her sistemin uygulaması gereken standart, temel güvenlik önlemleri; sayfada 'standard security hygiene' bağlamında kullanılır. |
 | selective typing | seçici tipleme | Bazı dinamik tipli dillerin (Clojure, Clojure Spec) değişkenleri belirli türlerle sınırlama yeteneği. |
 | sequential cohesion | sıralı bütünlük | Bir modülün çıktısının diğerinin girdisi olduğu bütünlük düzeyi. |
 | service-level agreement (SLA) | hizmet düzeyi anlaşması (SLA) | Çalışma süresi, ölçek, yanıt verebilirlik gibi hizmet ölçütlerini tanımlayan sözleşme |
@@ -322,6 +339,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | statically typed language | statik tipli dil | Değişken ve parametrelerin belirli türlerle sınırlandığı programlama dili. |
 | Strangler Pattern | Strangler Deseni | Eski sistemi aynı arayüzün arkasında parça parça değiştirerek yeni mimariye geçme deseni |
 | strategy pattern | strateji deseni | GoF tasarım deseni |
+| stress testing | stres testi | Sistemin sınırlarını zorlayarak davranışını ölçen performans testi; tepe noktası (zirve) analiziyle ilişkilidir. |
 | structural change | yapısal değişiklik | Sistemin yapısını ilgilendiren değişiklik |
 | structural cohesion | yapısal bütünlük | Bir modülün yapısının (ör. alan erişimi) ölçülebilen bütünlüğü; LCOM gibi yapısal ölçütlerle belirlenir. |
 | structural decay | yapısal çürüme | Geliştiricilerin kodlama/tasarım değişiklikleri sonucu mimari özelliklerin bozulması. |

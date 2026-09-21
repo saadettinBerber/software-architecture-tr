@@ -220,6 +220,11 @@ window.GLOSSARY = [
     "note": "Mimarın projenin kritik yolundaki kodun sahipliğini alması ve ekibin ilerlemesini bloklaması durumu."
   },
   {
+    "en": "boundary conditions",
+    "tr": "sınır koşulları",
+    "note": "Sistemin uç durumlarda (bağlantı kesilmesi, donanım arızası vb.) doğru davranmasını gerektiren koşullar; Tablo 4-1'deki sağlamlık tanımında geçer."
+  },
+  {
     "en": "business domain",
     "tr": "iş alanı",
     "note": "business domain expertise bağlamında"
@@ -450,6 +455,11 @@ window.GLOSSARY = [
     "note": "Mesajlaşmada mesajı alan taraf."
   },
   {
+    "en": "continuity",
+    "tr": "süreklilik",
+    "note": "İş sürekliliği (business continuity) bağlamında; kesinti sonrası sistemin hızla yeniden çevrimiçi olması gereği."
+  },
+  {
     "en": "continuous delivery",
     "tr": "sürekli teslim",
     "note": "Yazılımın her an yayınlanabilir durumda tutulduğu uygulama."
@@ -580,6 +590,11 @@ window.GLOSSARY = [
     "note": "Dosya sisteminde dosyaları gruplayan yapı; klasör."
   },
   {
+    "en": "disaster recovery",
+    "tr": "olağanüstü durum kurtarma",
+    "note": "Felaket sonrası sistem ve verinin kurtarılması yeteneği; operasyonel mimari özellik."
+  },
+  {
     "en": "distance from the main sequence",
     "tr": "ana diziden uzaklık",
     "note": "Soyutluk–kararsızlık grafiğinde bir bileşenin ana diziden (A+I=1 doğrusu) uzaklığı; D = A + I − 1 ile hesaplanır, normalleştirilmiş biçimi |A + I − 1|'dir."
@@ -650,6 +665,11 @@ window.GLOSSARY = [
     "note": "Veriyi ve davranışı bir birim içinde saklayıp dışarıya kontrollü erişim sunma; kapsüllemek (encapsulate) eylemi de bu sayfada geçer."
   },
   {
+    "en": "encryption",
+    "tr": "şifreleme",
+    "note": "Verinin yetkisiz kişilerce okunamayacak biçime dönüştürülmesi; standart güvenlik hijyeninin parçası."
+  },
+  {
     "en": "engineering discipline",
     "tr": "mühendislik disiplini",
     "note": ""
@@ -718,6 +738,11 @@ window.GLOSSARY = [
     "en": "facilitation",
     "tr": "kolaylaştırıcılık",
     "note": "toplantı/çalışma yürütme becerisi"
+  },
+  {
+    "en": "fail-safe",
+    "tr": "güvenli arıza (fail-safe)",
+    "note": "Arıza durumunda sistemin güvenli biçimde davranması; çökme yerine yumuşak bozunma."
   },
   {
     "en": "fan-in",
@@ -845,6 +870,11 @@ window.GLOSSARY = [
     "note": "Değerlerin, adlandırılmış sabitler yerine doğrudan koda yazılması; genellikle bakımı zorlaştırır."
   },
   {
+    "en": "hashing",
+    "tr": "karma",
+    "note": "Verinin geri döndürülemez biçimde sabit uzunlukta bir özete dönüştürülmesi; hashing algorithm (karma algoritması) ile ilişkilidir."
+  },
+  {
     "en": "hashing algorithm",
     "tr": "karma algoritması",
     "note": "İki tarafın (sunucu/istemci) aynı sonucu üretmesi gereken özet/karma üretim algoritması."
@@ -858,6 +888,11 @@ window.GLOSSARY = [
     "en": "heterogeneous contracts",
     "tr": "heterojen sözleşmeler",
     "note": "Birbirinden farklı yapıdaki mesaj sözleşmeleri."
+  },
+  {
+    "en": "high-frequency trading",
+    "tr": "yüksek frekanslı alım satım",
+    "note": "Algoritmalarla çok hızlı ve çok sayıda finansal işlem yapan ticaret türü; düşük gecikme süresinin kritik olduğu ve örtük mimari özellik örneği olarak verildiği alan."
   },
   {
     "en": "historical relevance",
@@ -893,6 +928,11 @@ window.GLOSSARY = [
     "en": "instability",
     "tr": "kararsızlık",
     "note": "Robert Martin'in I ölçütü; çıkan bağlılığın toplam bağlılığa oranı."
+  },
+  {
+    "en": "integration point",
+    "tr": "entegrasyon noktası",
+    "note": "Sistemin başka bir sistemle veya servisle iletişim kurduğu, üzerinde anlaşılmış arayüz/bağlantı noktası; üçüncü taraf ödeme işlemcisiyle kurulan bağlantı bağlamında."
   },
   {
     "en": "integrity assessment",
@@ -948,6 +988,11 @@ window.GLOSSARY = [
     "en": "lack of cohesion in methods",
     "tr": "yöntemlerde bütünlük eksikliği",
     "note": "LCOM metriklerinin ölçtüğü durum."
+  },
+  {
+    "en": "latency",
+    "tr": "gecikme süresi",
+    "note": "Bir isteğin gönderilmesi ile yanıtın alınması arasında geçen süre; düşük gecikme (low latency), yüksek frekanslı alım satım bağlamında kritik önem taşır."
   },
   {
     "en": "latest trends",
@@ -1068,6 +1113,11 @@ window.GLOSSARY = [
     "en": "mindmap",
     "tr": "zihin haritası",
     "note": ""
+  },
+  {
+    "en": "mission critical",
+    "tr": "görev açısından kritik",
+    "note": "Arızası yaşamı veya büyük maddi sonuçları etkileyen sistem."
   },
   {
     "en": "mixed cohesion",
@@ -1230,9 +1280,19 @@ window.GLOSSARY = [
     "note": "Tasarım desenleri bağlamında; çoğulu: desenler."
   },
   {
+    "en": "payment processor",
+    "tr": "ödeme işlemcisi",
+    "note": "Ödeme işlemlerini üçüncü taraf olarak yürüten hizmet; sayfada 'third-party payment processor' ifadesinde geçer."
+  },
+  {
     "en": "perceived technical risk",
     "tr": "algılanan teknik risk",
     "note": "Gerçekte var olup olmadığına bakılmaksızın mimarların hissettiği/algıladığı teknik risk; sayfa 30'da gerçek teknik riskle karşılaştırılır."
+  },
+  {
+    "en": "performance",
+    "tr": "performans",
+    "note": "Sistemin iş yükü altındaki hız ve yanıt verebilirlik düzeyi; Tablo 4-1'de listelenen operasyonel mimari özellik."
   },
   {
     "en": "point-to-point messaging",
@@ -1330,6 +1390,11 @@ window.GLOSSARY = [
     "note": "Kodun okunma ve anlaşılma kolaylığı."
   },
   {
+    "en": "recoverability",
+    "tr": "kurtarılabilirlik",
+    "note": "Arıza sonrası sistemin yeniden çalışır duruma gelebilme yeteneği; operasyonel mimari özellik."
+  },
+  {
     "en": "refactoring",
     "tr": "refaktoring (yeniden düzenleme)",
     "note": "Davranışı değiştirmeden kodun iç yapısını iyileştirme."
@@ -1348,6 +1413,11 @@ window.GLOSSARY = [
     "en": "release environment",
     "tr": "sürüm ortamı",
     "note": "Sürümün hazırlandığı, doğrulandığı ve yayınlandığı ortam."
+  },
+  {
+    "en": "reliability",
+    "tr": "güvenilirlik",
+    "note": "Sistemin belirli koşullarda hatasız çalışma olasılığı; operasyonel mimari özellik."
   },
   {
     "en": "remote access protocol",
@@ -1390,6 +1460,11 @@ window.GLOSSARY = [
     "note": "Bir sistemi geliştirme sürecini gösteren plan"
   },
   {
+    "en": "robustness",
+    "tr": "sağlamlık",
+    "note": "Hata ve sınır koşullarında bile çalışmaya devam edebilme yeteneği; operasyonel mimari özellik."
+  },
+  {
     "en": "rogue service",
     "tr": "başıboş servis",
     "note": "Kurallar dışına çıkan, izinsiz davranan servis."
@@ -1430,9 +1505,19 @@ window.GLOSSARY = [
     "note": "“Neden, nasıl’dan daha önemlidir.”"
   },
   {
+    "en": "security",
+    "tr": "güvenlik",
+    "note": "Bir mimari özellik; sistem ve verilerin yetkisiz erişime karşı korunması. Sayfada availability (kullanılabilirlik) ve reliability (güvenilirlik) ile birlikte, neredeyse tüm uygulamaların altında yatan örtük (implicit) özelliklerden biri olarak geçer."
+  },
+  {
     "en": "security breach",
     "tr": "güvenlik ihlali",
     "note": "Güvenliğin ihlal edildiği olay/olay örüntüsü."
+  },
+  {
+    "en": "security hygiene",
+    "tr": "güvenlik hijyeni",
+    "note": "Şifreleme, karma, yamalama gibi her sistemin uygulaması gereken standart, temel güvenlik önlemleri; sayfada 'standard security hygiene' bağlamında kullanılır."
   },
   {
     "en": "selective typing",
@@ -1563,6 +1648,11 @@ window.GLOSSARY = [
     "en": "strategy pattern",
     "tr": "strateji deseni",
     "note": "GoF tasarım deseni"
+  },
+  {
+    "en": "stress testing",
+    "tr": "stres testi",
+    "note": "Sistemin sınırlarını zorlayarak davranışını ölçen performans testi; tepe noktası (zirve) analiziyle ilişkilidir."
   },
   {
     "en": "structural change",

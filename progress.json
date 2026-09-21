@@ -26,7 +26,7 @@
     "header_at_bottom": true,
     "chapter_label_pattern": "^CHAPTER (\\d+)$"
   },
-  "last_translated_page": 55,
+  "last_translated_page": 58,
   "chapters": [
     {
       "num": 1,
@@ -615,6 +615,22 @@
       "chapter": 4,
       "title_en": "Defining Architecture Characteristics",
       "title_tr": "Mimari Özellikleri Tanımlamak",
+      "section_en": "Architecture Characteristics Defined",
+      "section_tr": "Mimari Özelliklerin Tanımı"
+    },
+    "57": {
+      "pdf_page": 77,
+      "chapter": 4,
+      "title_en": "Implicit vs. Explicit Characteristics",
+      "title_tr": "Örtük ve Açık Özellikler",
+      "section_en": "Architecture Characteristics Defined",
+      "section_tr": "Mimari Özelliklerin Tanımı"
+    },
+    "58": {
+      "pdf_page": 78,
+      "chapter": 4,
+      "title_en": "Operational Architecture Characteristics",
+      "title_tr": "Operasyonel Mimari Özellikler",
       "section_en": "Architecture Characteristics Defined",
       "section_tr": "Mimari Özelliklerin Tanımı"
     }

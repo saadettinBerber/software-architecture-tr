@@ -9,7 +9,7 @@ window.TOC = {
   },
   "bookTotalPages": 399,
   "pdfOffset": 20,
-  "lastTranslatedPage": 55,
+  "lastTranslatedPage": 58,
   "chapters": [
     {
       "num": 1,
@@ -777,6 +777,28 @@ window.TOC = {
       "title": {
         "en": "Defining Architecture Characteristics",
         "tr": "Mimari Özellikleri Tanımlamak"
+      },
+      "section": {
+        "en": "Architecture Characteristics Defined",
+        "tr": "Mimari Özelliklerin Tanımı"
+      },
+      "chapter": 4
+    },
+    "57": {
+      "title": {
+        "en": "Implicit vs. Explicit Characteristics",
+        "tr": "Örtük ve Açık Özellikler"
+      },
+      "section": {
+        "en": "Architecture Characteristics Defined",
+        "tr": "Mimari Özelliklerin Tanımı"
+      },
+      "chapter": 4
+    },
+    "58": {
+      "title": {
+        "en": "Operational Architecture Characteristics",
+        "tr": "Operasyonel Mimari Özellikler"
       },
       "section": {
         "en": "Architecture Characteristics Defined",
