@@ -25,6 +25,11 @@ window.GLOSSARY = [
     "note": "Bir kullanıcının eylemlerinin izlenebilmesi; güvenlik özelliği."
   },
   {
+    "en": "achievability",
+    "tr": "başarılabilirlik",
+    "note": "Tablo 4-3'te Usability/achievability satırında; kullanıcıların uygulama ile hedeflerine ulaşabilme düzeyi."
+  },
+  {
     "en": "actor/actions approach",
     "tr": "aktör/eylemler yaklaşımı",
     "note": "Mimarların aktörleri ve gerçekleştirebilecekleri eylemleri belirleyerek gereksinimleri bileşenlere eşlediği yöntem; Rational Unified Process kökenlidir."
@@ -325,6 +330,11 @@ window.GLOSSARY = [
     "note": "Sunucu tarafı, servis ve veri katmanı üzerinde çalışan geliştirici; katmanlı mimaride aynı departmana yerleştirilen rol örneği."
   },
   {
+    "en": "backup strategy",
+    "tr": "yedekleme stratejisi",
+    "note": "Kurtarılabilirlik (recoverability) tanımında; yedek donanım gereksinimleriyle birlikte işletme planının parçası."
+  },
+  {
     "en": "backward compatibility",
     "tr": "geriye dönük uyumluluk",
     "note": "Yeni bir özelliğin ya da dilin, eski kod ve alışkanlıklarla uyumlu kalma gereği."
@@ -490,6 +500,11 @@ window.GLOSSARY = [
     "note": "Cyclomatic complexity (döngüsel karmaşıklık) kısaltması; kısaltma olduğu gibi korunur."
   },
   {
+    "en": "centralized architecture",
+    "tr": "merkezi mimari",
+    "note": "Italy-ility hikâyesinde müşterinin mandatasında; dağıtık mimarinin karşıtı."
+  },
+  {
     "en": "change control",
     "tr": "değişiklik kontrolü",
     "note": "değişikliklerin izlenmesi ve onaylanması süreci"
@@ -533,6 +548,11 @@ window.GLOSSARY = [
     "en": "class loader",
     "tr": "sınıf yükleyici",
     "note": "Java'da sınıfları classpath üzerinden belleğe yükleyen mekanizma."
+  },
+  {
+    "en": "class registration",
+    "tr": "ders kaydı (class registration)",
+    "note": "Üniversite öğrencilerinin ders/dönem kaydını yöneten uygulama örneği."
   },
   {
     "en": "classpath",
@@ -715,6 +735,11 @@ window.GLOSSARY = [
     "note": "Verilere yalnızca erişim yetkisi olanların erişebilmesi; güvenlik özelliği."
   },
   {
+    "en": "configurability",
+    "tr": "yapılandırılabilirlik",
+    "note": "Son kullanıcıların yazılımın yapılandırmasını kullanışlı arayüzlerle kolayca değiştirebilme yeteneği; Tablo 4-2'de geçer."
+  },
+  {
     "en": "Conformity Monkey",
     "tr": "Uygunluk Maymunu",
     "note": "Netflix mimarlarının yönetişim kurallarını üretim ortamında uygulatan aracı; Simian Ordusu üyesi."
@@ -833,6 +858,11 @@ window.GLOSSARY = [
     "en": "contract",
     "tr": "sözleşme",
     "note": "Mesajlaşmada üzerinde anlaşılan mesaj yapısı/biçimi."
+  },
+  {
+    "en": "conundrum",
+    "tr": "ikilem (conundrum)",
+    "note": "Eklenti mimarisi ile tasarım deseni (Template Method) arasındaki seçim ikilemi; mimarların ödünleşimleri sürekli tartmasını gerektirir."
   },
   {
     "en": "Conway's law",
@@ -1520,6 +1550,11 @@ window.GLOSSARY = [
     "note": "Sistemin gerçekleştirdiği işlevler; mimari karakteristiklerden bağımsızdır"
   },
   {
+    "en": "fund",
+    "tr": "fon (fund)",
+    "note": "Finansal anlamda yatırım fonu; gün sonu fon fiyatlaması bağlamında geçer."
+  },
+  {
     "en": "fundamental patterns",
     "tr": "temel desenler",
     "note": "Mimari stillerin içinde gömülü olarak yeniden görünen temel desenler; Bölüm 9'daki 'Fundamental Patterns' kesit başlığı."
@@ -1618,6 +1653,11 @@ window.GLOSSARY = [
     "en": "holistic metric",
     "tr": "bütüncül ölçüt",
     "note": "Bir sistemin bütününü tek bir değerle değerlendiren ölçüt; ana diziden uzaklık bunun örneğidir."
+  },
+  {
+    "en": "homogeneous contracts",
+    "tr": "homojen sözleşmeler",
+    "note": "Topic'teki tüm tüketicilerin aynı mesaj yapısını kabul etmesi; heterojen sözleşmelerin (heterogeneous contracts) karşıtı."
   },
   {
     "en": "hotel reservation system",
@@ -1730,6 +1770,11 @@ window.GLOSSARY = [
     "note": "Bir bileşenin içindeki parçaların birbirine bağımlılığı; aşırı kaba taneli bileşenlerde yüksek olur ve dağıtılabilirlik ile test edilebilirliği zorlaştırır."
   },
   {
+    "en": "International Organization for Standards (ISO)",
+    "tr": "Uluslararası Standartlar Örgütü (ISO)",
+    "note": "Yazılım kalitesi standartlarını (örn. ISO 25010) yayımlayan uluslararası kuruluş."
+  },
+  {
     "en": "interoperability",
     "tr": "birlikte çalışabilirlik",
     "note": "Uyumluluğun alt ölçütü; iki veya daha fazla sistemin bilgi alışverişi ve kullanım derecesi."
@@ -1748,6 +1793,11 @@ window.GLOSSARY = [
     "en": "isolation",
     "tr": "yalıtım",
     "note": "Mimari düzeyde, bileşenlerin/katmanların birbirinden bağımsız tutulması; iyi modülerlikle birlikte test edilebilirlik ve dağıtım kolaylığına katkı sağlar."
+  },
+  {
+    "en": "Italy-ility",
+    "tr": "İtalyanlık (Italy-ility)",
+    "note": "Kitabın ünlü uydurma '-ility' örneği; kullanılabilirlik, kurtarılabilirlik ve dayanıklılığın benzersiz bileşimi anlamına gelir."
   },
   {
     "en": "iteration",
@@ -1885,6 +1935,11 @@ window.GLOSSARY = [
     "note": "Sistemin çalıştığı yasal bağlam; veri koruma, Sarbanes Oxley, GDPR gibi yasal kısıtlamalarla ilgili yapısal mimari özellik."
   },
   {
+    "en": "leverageability",
+    "tr": "faydalanabilirlik (leverageability)",
+    "note": "Ortak bileşenlerin birden çok üründe kullanıma sunulabilme yeteneği; Tablo 4-2'de 'Leverageability/reuse' satırında geçer."
+  },
+  {
     "en": "library",
     "tr": "kütüphane",
     "note": "Yeniden kullanılabilir kod koleksiyonu; framework'ten (çerçeve) daha az yapılandırılmıştır."
@@ -1915,6 +1970,11 @@ window.GLOSSARY = [
     "note": "Eşdoğuşlu öğelerin kod tabanındaki birbirine yakınlığı; Rule of Locality (Yerellik Kuralı) bağlamında."
   },
   {
+    "en": "localization",
+    "tr": "yerelleştirme",
+    "note": "Giriş/sorgulama ekranlarında çoklu dil; raporlarda çok baytlı karakter, ölçü birimi ve para desteği; Tablo 4-2'de geçer."
+  },
+  {
     "en": "loggability",
     "tr": "günlüklenebilirlik (loggability)",
     "note": "Olay ve işlemlerin kayıt altına alınabilme özelliği; denetlenebilirlik (auditability) ile birlikte katılımcı izleme bağlamında geçer."
@@ -1928,6 +1988,11 @@ window.GLOSSARY = [
     "en": "loose coupling",
     "tr": "gevşek bağlılık",
     "note": "Bileşenler arası bağımlılığın az olması"
+  },
+  {
+    "en": "lost in translation",
+    "tr": "çeviride kaybolma (lost in translation)",
+    "note": "Mimarinin ve alan paydaşının birbirini anlamaması sorununu anlatan deyim; alan kaygısı → mimari özellik çevirisinde geçer."
   },
   {
     "en": "machine learning",
@@ -2115,6 +2180,11 @@ window.GLOSSARY = [
     "note": "Sürekli değişen, sabitlenemeyen konu ya da durum"
   },
   {
+    "en": "multibyte character",
+    "tr": "çok baytlı karakter",
+    "note": "Yerelleştirme tanımında; tek baytla temsil edilemeyen (örn. bazı Asya dillerine özgü) karakterler."
+  },
+  {
     "en": "name conflict",
     "tr": "ad çakışması",
     "note": "Aynı kapsamda aynı ada sahip iki öğenin çakışması; Java 1.0 tasarımının önlemeye çalıştığı sorun."
@@ -2285,6 +2355,11 @@ window.GLOSSARY = [
     "note": "Gereksinimlerin ötesinde, gereksiz karmaşıklık eklenmiş tasarım; overengineering (aşırı mühendislik) ile ilişkilidir."
   },
   {
+    "en": "overkill",
+    "tr": "gereğinden fazla (overkill)",
+    "note": "Bütçe ve basitlik bağlamında, birden fazla uygulama inşa etmenin abartılı bulunması; Vaka Çalışması'nda geçer."
+  },
+  {
     "en": "package",
     "tr": "paket",
     "note": "Java gibi dillerde ilgili sınıfların gruplandığı modülerlik mekanizması; dil anahtar sözcüğü olarak package korunur."
@@ -2308,6 +2383,11 @@ window.GLOSSARY = [
     "en": "payment processor",
     "tr": "ödeme işlemcisi",
     "note": "Ödeme işlemlerini üçüncü taraf olarak yürüten hizmet; sayfada 'third-party payment processor' ifadesinde geçer."
+  },
+  {
+    "en": "peak analysis",
+    "tr": "tepe analizi",
+    "note": "Performans tanımında; sistemin yoğun saatlerdeki (peak times) davranışının incelenmesi."
   },
   {
     "en": "peak times",
@@ -2345,6 +2425,16 @@ window.GLOSSARY = [
     "note": "Şifrelenmemiş, açık biçimde iletilen veri; kredi kartı numaraları bağlamında güvenlik hijyeni ihlali."
   },
   {
+    "en": "plug-in",
+    "tr": "eklenti (plug-in)",
+    "note": "Mikro çekirdek mimarisinde varsayılan davranışa konuma özgü davranış ekleyen modül; çoğulu plug-ins (eklentiler)."
+  },
+  {
+    "en": "plug-in architecture",
+    "tr": "eklenti mimarisi",
+    "note": "Mikro çekirdek (microkernel) mimarisinin özelleştirilmiş davranışı destekleme biçimi; çekirdekte varsayılan, eklentilerde opsiyonel."
+  },
+  {
     "en": "point-to-point messaging",
     "tr": "noktadan noktaya mesajlaşma",
     "note": "Her mesajın tam olarak bir tüketici tarafından işlendiği mesajlaşma modeli."
@@ -2358,6 +2448,11 @@ window.GLOSSARY = [
     "en": "presentation layer",
     "tr": "sunum katmanı",
     "note": "Kullanıcı arayüzü sorumluluğunu taşıyan katman"
+  },
+  {
+    "en": "privacy",
+    "tr": "mahremiyet",
+    "note": "İşlemleri şirketin dahili çalışanlarından gizleme yeteneği; Tablo 4-3'te geçer. Confidentiality (gizlilik) ile yakın ama ayrı tutulur."
   },
   {
     "en": "problem domain",
@@ -2380,6 +2475,11 @@ window.GLOSSARY = [
     "note": "Belirli bir sürece bağlı olmayan."
   },
   {
+    "en": "procrastinate",
+    "tr": "erteleme (procrastinate)",
+    "note": "Öğrencilerin kaydı son ana bırakması davranışı; dolaylı alan bilgisinin tasarıma yönelttiği nokta."
+  },
+  {
     "en": "producer",
     "tr": "üretici",
     "note": "Mesajlaşmada mesajı gönderen taraf."
@@ -2398,6 +2498,11 @@ window.GLOSSARY = [
     "en": "programmatic load balancing",
     "tr": "programatik yük dengeleme",
     "note": "Kod aracılığıyla yapılan yük dengeleme."
+  },
+  {
+    "en": "programmatic scalability",
+    "tr": "programatik ölçeklenebilirlik",
+    "note": "Kuyruk derinliği gibi ölçülebilir sinyallerin kodla izlenerek tüketicilerin otomatik ölçeklenmesi; Tablo 2-1'de topic'in kuyruğa göre dezavantajı olarak geçer."
   },
   {
     "en": "project manager",
@@ -2535,6 +2640,16 @@ window.GLOSSARY = [
     "note": "Gereksinimlerin yazılı olarak tanımlandığı belge."
   },
   {
+    "en": "reservation rights",
+    "tr": "saklama hakları (reservation rights)",
+    "note": "Tablo 4-3'ün Legal satırında; şirketin verilerin saklanmasına ilişkin gerektirdiği haklar."
+  },
+  {
+    "en": "resilience",
+    "tr": "dayanıklılık (resilience)",
+    "note": "Italy-ility tanımında; arızadan sonra sistemin işlevini sürdürme/geri kazanma yetisi; resilient architecture (dayanıklı mimari) ile ilişkili."
+  },
+  {
     "en": "resilient architecture",
     "tr": "dayanıklı mimari",
     "note": "Değişime ve arızalara karşı dirençli mimari."
@@ -2610,6 +2725,11 @@ window.GLOSSARY = [
     "note": "Maliyet, zaman gibi kısıtlar nedeniyle bilinçli olarak basit tutulan ve ileride değiştirilmesi beklenen mimari."
   },
   {
+    "en": "safety",
+    "tr": "güvenlilik",
+    "note": "Tablo 4-1'de Reliability/safety satırında; sistemin arıza modunun zararsızlığı (hayatları etkilememesi, maddi kayıp yaratmaması)."
+  },
+  {
     "en": "scaffolding",
     "tr": "iskele (scaffolding)",
     "note": "Ruby on Rails'in veritabanı tablo yapısına dayalı varsayılan kullanıcı arayüzü ve eşlemeler üreten özelliği."
@@ -2668,6 +2788,16 @@ window.GLOSSARY = [
     "en": "selective typing",
     "tr": "seçici tipleme",
     "note": "Bazı dinamik tipli dillerin (Clojure, Clojure Spec) değişkenleri belirli türlerle sınırlama yeteneği."
+  },
+  {
+    "en": "self-configuring",
+    "tr": "kendini yapılandırabilen",
+    "note": "Learnability tanımında; sistemin ortamını otomatik öğrenerek kendi yapılandırmasını yapabilmesi."
+  },
+  {
+    "en": "self-optimizing",
+    "tr": "kendini optimize edebilen",
+    "note": "Learnability tanımında; makine öğrenmesi algoritmalarıyla sistemin kendini iyileştirebilmesi."
   },
   {
     "en": "separation of technical concerns",
@@ -2855,6 +2985,11 @@ window.GLOSSARY = [
     "note": "Sistemin sınırlarını zorlayarak davranışını ölçen performans testi; tepe noktası (zirve) analiziyle ilişkilidir."
   },
   {
+    "en": "structural architecture characteristics",
+    "tr": "yapısal mimari özellikler",
+    "note": "Kod yapısıyla ilgili mimari özellikler; Tablo 4-2'de listelenir (yapılandırılabilirlik, yerelleştirme, bakım yapılabilirlik vb.)."
+  },
+  {
     "en": "structural change",
     "tr": "yapısal değişiklik",
     "note": "Sistemin yapısını ilgilendiren değişiklik"
@@ -2930,6 +3065,11 @@ window.GLOSSARY = [
     "note": "Sistemin başarılı sayılması için karşılanması gereken ölçütler"
   },
   {
+    "en": "supportability",
+    "tr": "desteklenebilirlik",
+    "note": "Uygulamanın gerektirdiği teknik destek düzeyi; hataların debug'lenmesi için günlük (logging) ve diğer olanaklar; Tablo 4-2'de geçer."
+  },
+  {
     "en": "symbiotic relationship",
     "tr": "simbiyotik ilişki",
     "note": "Birbirini tamamlayan ve destekleyen karşılıklı ilişki."
@@ -2953,6 +3093,11 @@ window.GLOSSARY = [
     "en": "system of record",
     "tr": "resmî kayıt sistemi (system of record)",
     "note": "Belirli bir verinin yetkili (canonical) kaynağı olarak işlev gören bileşen/depo; BidTracker'ın teklif akışlarını birleştirip tek doğruluk kaynağı olarak hizmet etmesi bağlamında geçer."
+  },
+  {
+    "en": "TCP",
+    "tr": "TCP (Transmission Control Protocol)",
+    "note": "Sıra ve yeniden iletimle güvenilirlik kazandıran protokol; UDP'nin üzerine inşa edilir. Kısaltma korundu."
   },
   {
     "en": "teamwork",
@@ -3135,6 +3280,11 @@ window.GLOSSARY = [
     "note": "Alan odaklı tasarımdan gelen; tüm ekip üyelerinin aynı terimleri aynı anlamda kullandığı ortak dil."
   },
   {
+    "en": "UDP",
+    "tr": "UDP (User Datagram Protocol)",
+    "note": "Kullanılabilir ama güvenilir olmayan internet protokolü; sayfadaki kullanılabilirlik/güvenilirlik ayrımının örneği. Kısaltma korundu."
+  },
+  {
     "en": "under-specify",
     "tr": "eksik belirlemek",
     "note": "Mimari özellikleri gerekenden az tanımlamak; aşırı belirlemenin (over-specify) karşıtı."
@@ -3160,6 +3310,11 @@ window.GLOSSARY = [
     "note": "Geliştirmeye başlamadan önce yapılan ön tasarım çalışması; resmî süreçlerin desteklediği yaklaşım."
   },
   {
+    "en": "upgradeability",
+    "tr": "yükseltilebilirlik",
+    "note": "Önceki sürümden yeni sürüme sunucu ve istemcilerde kolayca/hızlıca geçebilme yeteneği; Tablo 4-2'de geçer."
+  },
+  {
     "en": "uptime",
     "tr": "çalışma süresi",
     "note": "Sistemin kullanılabilir olduğu süre oranı"
@@ -3173,6 +3328,11 @@ window.GLOSSARY = [
     "en": "user error protection",
     "tr": "kullanıcı hatası koruması",
     "note": "Kullanıcıların hata yapmasına karşı koruma; kullanışlılığın alt ölçütü."
+  },
+  {
+    "en": "user experience",
+    "tr": "kullanıcı deneyimi (user experience)",
+    "note": "Mobil cihaz erişilebilirliği kararında mimarın iş birliği yapması gereken rol: kullanıcı deneyimi tasarımcıları."
   },
   {
     "en": "user interface",

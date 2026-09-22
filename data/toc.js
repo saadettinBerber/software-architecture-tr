@@ -541,12 +541,12 @@ window.TOC = {
     },
     "33": {
       "title": {
-        "en": "Trade-Offs for Topics",
+        "en": "Trade-offs for Topics",
         "tr": "Topic'lerin Ödünleşimleri"
       },
       "section": {
         "en": "Analyzing Trade-Offs",
-        "tr": "Ödünleşimleri Analiz Etmek"
+        "tr": "Ödünleşimleri Analiz Etme"
       },
       "chapter": 2
     },
@@ -819,12 +819,12 @@ window.TOC = {
     },
     "59": {
       "title": {
-        "en": "Structural Architecture Characteristics",
-        "tr": "Yapısal Mimari Özellikler"
+        "en": "Structural and Cross-Cutting Architecture Characteristics",
+        "tr": "Yapısal ve Çapraz Kesimli Mimari Özellikler"
       },
       "section": {
         "en": "Architectural Characteristics (Partially) Listed",
-        "tr": "Mimari Özelliklerin (Kısmen) Listesi"
+        "tr": "Mimari Özelliklerin (Kısmi) Listesi"
       },
       "chapter": 4
     },
@@ -841,12 +841,12 @@ window.TOC = {
     },
     "60": {
       "title": {
-        "en": "Cross-Cutting Architecture Characteristics",
-        "tr": "Çapraz Kesimli Mimari Özellikler (Cross-Cutting Architecture Characteristics)"
+        "en": "Italy-ility and Imprecise Definitions",
+        "tr": "Italy-ility ve Belirsiz Tanımlar"
       },
       "section": {
-        "en": "Architecture Characteristics Defined",
-        "tr": "Mimari Özelliklerin Tanımı"
+        "en": "Architectural Characteristics (Partially) Listed",
+        "tr": "Mimari Özelliklerin (Kısmen) Listesi"
       },
       "chapter": 4
     },
@@ -907,12 +907,12 @@ window.TOC = {
     },
     "67": {
       "title": {
-        "en": "Translating Domain Concerns",
-        "tr": "Alan Kaygılarının Çevrilmesi"
+        "en": "From Domain Concerns to Architecture Characteristics",
+        "tr": "Alan Kaygılarından Mimari Özelliklere"
       },
       "section": {
         "en": "Extracting Architecture Characteristics from Requirements",
-        "tr": "Mimari Özelliklerin Gereksinimlerden Çıkarılması"
+        "tr": "Gereksinimlerden Mimari Özellikleri Çıkarma"
       },
       "chapter": 5
     },
@@ -954,8 +954,8 @@ window.TOC = {
     },
     "72": {
       "title": {
-        "en": "Considering Each Business Requirement",
-        "tr": "İş Gereksinimlerinin Tek Tek Değerlendirilmesi"
+        "en": "Requirements 2–7: Delivery, Mobile, Promotions, Payments",
+        "tr": "Gereksinimler 2–7: Teslimat, Mobil, Promosyonlar, Ödemeler"
       },
       "section": {
         "en": "Case Study: Silicon Sandwiches",
