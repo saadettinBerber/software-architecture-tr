@@ -1,0 +1,3 @@
+[submodule "skill/kitap-cevir"]
+	path = skill/kitap-cevir
+	url = https://github.com/saadettinBerber/kitap-cevir.git
