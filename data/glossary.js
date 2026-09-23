@@ -3036,7 +3036,7 @@ window.GLOSSARY = [
   },
   {
     "en": "stuff you know you don’t know",
-    "tr": "bildiğini bilmediğin şeyler",
+    "tr": "bilmediğini bildiğin şeyler",
     "note": "Varlığından haberdar olunan ama uzmanlık gerektiren bilgi düzeyi; known unknowns (bilinen bilinmeyenler) ile ilişkilidir."
   },
   {

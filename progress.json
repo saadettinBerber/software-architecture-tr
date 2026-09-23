@@ -1128,5 +1128,12 @@
       "section_en": "Architecture Quantum Redux: Choosing Between Monolithic Versus Distributed Architectures",
       "section_tr": "Mimari Kuantum Yeniden: Monolitik ve Dağıtık Mimari Arasında Seçim"
     }
+  },
+  "concepts": {
+    "kinds": [
+      "tradeoff",
+      "contrast",
+      "explain"
+    ]
   }
 }

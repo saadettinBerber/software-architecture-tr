@@ -616,7 +616,7 @@ Her yeni sayfa çevrildikten sonra, o sayfada geçen yeni teknik terimler buraya
 | structure | yapı | Sistemin mimari stil türüyle ilgili yapısı |
 | structure of the system | sistemin yapısı | Mimarinin en görünür parçası; mimari stili ve bileşen düzenini kapsar. |
 | structured programming | yapısal programlama | Pascal ve C ile örneklenen, GOTO gibi kontrolsüz sıçramaları reddeden programlama anlayışı. |
-| stuff you know you don’t know | bildiğini bilmediğin şeyler | Varlığından haberdar olunan ama uzmanlık gerektiren bilgi düzeyi; known unknowns (bilinen bilinmeyenler) ile ilişkilidir. |
+| stuff you know you don’t know | bilmediğini bildiğin şeyler | Varlığından haberdar olunan ama uzmanlık gerektiren bilgi düzeyi; known unknowns (bilinen bilinmeyenler) ile ilişkilidir. |
 | subcharacteristic | alt özellik | ISO 25010'da bir kalite özelliğini oluşturan alt kategoriler. |
 | subcomponent | alt bileşen (subcomponent) | Bir üst düzey bileşenin içinde yer alan, katmanlar dahil daha küçük bileşen; üst düzey bölümleme alanlara odaklanırken bileşenlerin içinde alt bileşenler bulunabilir. |
 | subject matter expert | konu uzmanı (subject matter expert) | Belirli bir konuda derin bilgiye sahip kişi; gereksinimi açıklaması için başvurulur, business analyst (iş analisti) ile ilişkilidir. |
